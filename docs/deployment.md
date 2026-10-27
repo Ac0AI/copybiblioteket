@@ -26,3 +26,7 @@ För en manuell första release eller felsökning, välj alltid teamet `ac0` och
 `GET /api/health` ska returnera `status: ok`, `frameworks: 11`, `sourceMode: links` för den första versionen. Vid en dålig release: återställ till en tidigare verifierad produktionsdeployment med Vercels rollback, och kontrollera domänen igen. Efter rollback kan automatisk domäntilldelning behöva återaktiveras genom promotion.
 
 Det finns inga kontinuerliga externa syntetiska kontroller konfigurerade. Vercels byggstatus och driftsloggar används vid release och felsökning.
+
+## DNS vid första publiceringen
+
+Porkbun har en ALIAS-post för `sigge.si` och en CNAME för `www.sigge.si`, båda till `276345049d2bb2c5.vercel-dns-016.com`, TTL 600. Detta var projektets rekommenderade mål vid publiceringen; hämta aktuell konfiguration före framtida ändringar. Övriga poster lämnades kvar. Vercel hanterar TLS och omdirigerar www till huvudadressen.
