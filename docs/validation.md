@@ -26,7 +26,9 @@ Profilen Justin Welsh kunde öppnas, väljas och följas till skrivverkstaden. V
 
 ## Publicering
 
-Release ska kontrolleras separat över HTTPS: /, /library, /people, API med 59 profiler, skrivunderlag, sökning, statiska filer och stängd AI-rutt. Körning av lokala tester är inte bevis för publicerad funktion. Den tidigare versionen av sigge.si är redan verifierad; den nya releasekontrollen dokumenteras när publiceringen är klar.
+Commit 461b63270a06f979fdea06d76738457099043669 publicerades på sigge.si och verifierades över HTTPS 27 oktober 2026 kl. 22:02 UTC. [GitHub-kontrollen](https://github.com/Ac0AI/copybiblioteket/actions/runs/40591542705) passerade. 25 HTTP-kontroller verifierade startsidan, båda biblioteken, 59 profiler, skrivunderlaget, sökning, rätt JavaScript-bundle, statiska filer, interna filers otillgänglighet och de avstängda skriv-/kontorutterna. www omdirigerade till huvudadressen. Inga error/fatal-loggar hittades för deploymenten i det kontrollerade tiominutersfönstret. Detta är en releasekontroll, inte kontinuerlig övervakning.
+
+Förhandskontrollen fångade att det genererade JavaScript-paketet saknades i drift. Filen inkluderas och serveras nu uttryckligen, och livefilens SHA-256 matchade det lokala bygget. Webbläsaren visade 59 av 59 profiler. Kontroll av snabb användning efter navigation ledde också till att perspektivval och skrivknapp väntar tills biblioteket är inläst. Ingen brief skickas till servern.
 
 ## Begränsningar
 

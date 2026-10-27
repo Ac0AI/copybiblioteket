@@ -20,7 +20,8 @@ function fill(data) { for (const id of fields) if (typeof data[id] === 'string')
 function showDocument() { $('empty-state').hidden=true; $('document').hidden=false; }
 function updateDocument() {
   const text=$('document').value.trim(); $('word-count').textContent=(text?text.split(/\s+/u).length:0)+' ord';
-  for (const id of ['copy-text','download-text','revise-button']) $(id).disabled=!text;
+  for (const id of ['copy-text','download-text']) $(id).disabled=!text;
+  $('revise-button').disabled=!text||!kit;
   if (text) showDocument();
   if (result && result.text !== $('document').value) $('editor-intro').textContent='Du har ändrat texten efter granskningen. Anteckningarna gäller den tidigare versionen.';
   save();
@@ -60,7 +61,7 @@ async function json(url,options) {const r=await fetch(url,options);const data=aw
 async function run(mode) {
   if(!$('brief').reportValidity())return;
   if(mode==='revise'&&!$('document').value.trim())return;
-  if(!kit){notify('Biblioteket kunde inte läsas. Ladda om sidan och försök igen.',true);return;}
+  if(!kit){notify('Biblioteket läses in. Försök igen om ett ögonblick.');return;}
   const data=buildWritingPrompt({...brief(),sourceText:mode==='revise'?$('document').value:'',instruction:mode==='revise'?$('instruction').value:''},kit);
   $('prompt-text').value=data.prompt;
   $('prompt-context').textContent=[...data.frameworks.map(f=>f.title),...data.people.map(p=>p.name)].join(' · ');
@@ -90,4 +91,7 @@ try{
   const selected=new URLSearchParams(location.search).get('perspective');
   if(selected&&kit.people.some(p=>p.id===selected))$('perspective').value=selected;
   else{try{const stored=JSON.parse(localStorage.getItem(storageKey)||'null');if(stored?.brief?.perspective)$('perspective').value=stored.brief.perspective;}catch{}}
-}catch{notify('Biblioteket kunde inte läsas. Du kan fortfarande redigera och ladda ned din text.',true);}
+  $('perspective').disabled=false;$('write-button').disabled=false;
+  $('quota-note').textContent='Kopiera underlaget till din AI-chatt. Inget konto behövs.';
+  updateDocument();
+}catch{$('quota-note').textContent='Biblioteket kunde inte läsas. Ladda om sidan.';notify('Biblioteket kunde inte läsas. Du kan fortfarande redigera och ladda ned din text.',true);}

@@ -38,9 +38,9 @@
           <label for="voice">Text som låter som oss <span>Valfritt</span></label><textarea id="voice" name="voice" rows="3" maxlength="3000" placeholder="Klistra in ett eller två egna stilprov. Fakta om erbjudandet skriver du ovan."></textarea>
         </details>
         <details class="brief-details"><summary>Formuleringar som måste vara med</summary><label for="mustKeep">Behåll exakt <span>En per rad</span></label><textarea id="mustKeep" name="mustKeep" rows="3" maxlength="1500" placeholder="Till exempel: Priset gäller vid årsbetalning."></textarea></details>
-        <label for="perspective">Välj ett perspektiv</label><select id="perspective" name="perspective"><option value="">Låt uppdraget styra</option></select><p class="field-help">Egna svenska tillämpningar från 59 personer. <a href="/people">Utforska alla →</a></p>
-        <button id="write-button" class="button primary full" type="submit">Skapa skrivunderlag <span aria-hidden="true">↗</span></button>
-        <p id="quota-note" class="small-note">Kopiera underlaget till din AI-chatt. Inget konto behövs.</p>
+        <label for="perspective">Välj ett perspektiv</label><select id="perspective" name="perspective" disabled><option value="">Låt uppdraget styra</option></select><p class="field-help">Egna svenska tillämpningar från 59 personer. <a href="/people">Utforska alla →</a></p>
+        <button id="write-button" class="button primary full" type="submit" disabled>Skapa skrivunderlag <span aria-hidden="true">↗</span></button>
+        <p id="quota-note" class="small-note" role="status">Läser in biblioteket …</p>
         <p class="privacy-hint">Ditt underlag stannar i webbläsaren tills du själv kopierar eller laddar ned det. <button type="button" id="privacy-button" class="inline-button">Så hanteras det</button></p>
       </form>
     </aside>
