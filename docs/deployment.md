@@ -17,7 +17,7 @@ För en manuell första release eller felsökning, välj alltid teamet `ac0` och
 
 ## Innehåll och data
 
-`public/` serveras som statiska filer. Express ger läsande API:er och POST `/api/search`. Sökningen använder ett litet BM25-index i minnet. Det finns inga inloggningar, uppladdningar, skriv-API:er, databaser eller externa modellanrop. Sökfrågor placeras inte i URL:en och sparas inte av applikationen.
+`public/` serveras som statiska filer. En explicit rewrite från `/` till `/index.html` låter Vercels CDN leverera startsidan även när Express tar emot övriga rutter. Express ger läsande API:er och POST `/api/search`. Sökningen använder ett litet BM25-index i minnet. Det finns inga inloggningar, uppladdningar, skriv-API:er, databaser eller externa modellanrop. Sökfrågor placeras inte i URL:en och sparas inte av applikationen.
 
 `app.ts` stänger uttryckligen av den valfria lokala, ärvda textsamlingen. Bara egna ramverk och source-länkar publiceras. Installerad skill och MCP kan använda en separat lokal samling. Lokal konfiguration, miljöfiler och maskinsökvägar ska inte checkas in.
 
