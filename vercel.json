@@ -5,7 +5,7 @@
   "installCommand": "npm ci --ignore-scripts",
   "functions": {
     "app.ts": {
-      "includeFiles": "{data/copy-frameworks/**,skills/copy-operator/references/swedish.md}",
+      "includeFiles": "{data/copy-frameworks/**,skills/copy-operator/references/swedish.md,public/index.html}",
       "maxDuration": 10
     }
   },
@@ -30,12 +30,6 @@
           "value": "camera=(), microphone=(), geolocation=()"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.html"
     }
   ]
 }

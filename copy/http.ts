@@ -32,6 +32,8 @@ export function createApp(library: CopyLibrary) {
     const { query, limit, scope, person } = input.data;
     res.json(scope === "sources" ? library.searchSources(query, limit, person) : library.search(query, limit));
   });
+  // Vercel's Express adapter does not serve directory indexes via express.static.
+  app.get("/", (_req, res) => res.sendFile(join(ROOT, "public", "index.html")));
   app.use(express.static(join(ROOT, "public")));
   app.use("/api", (_req, res) => { res.status(404).json({ error: "Sidan finns inte." }); });
   app.use((err: unknown, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
