@@ -1,0 +1,42 @@
+{
+  "id": "jack-friks",
+  "name": "Jack Friks",
+  "category": "Distribution",
+  "summary": "Gör kort innehåll användbart innan det säljer",
+  "topics": [
+    "TikTok",
+    "Instagram",
+    "kortvideo",
+    "organiskt",
+    "innehåll"
+  ],
+  "principles": [
+    "Lär av hur fungerande format bygger upp intresse och skapa ett eget exempel.",
+    "Låt innehållet ge en poäng även till den som inte klickar vidare."
+  ],
+  "questions": [
+    "Vad lär sig tittaren på några sekunder?",
+    "Hur knyter uppmaningen an till det som just visades?"
+  ],
+  "sources": [
+    {
+      "title": "How Jack Friks grows apps with organic Instagram/TikTok posts and zero ad spend",
+      "url": "https://www.youtube.com/watch?v=9tOmppsiO2w"
+    },
+    {
+      "title": "How Jack Friks built four apps by scrolling TikTok daily and copying proven viral formats",
+      "url": "https://www.youtube.com/watch?v=CtqEbgutSb4"
+    },
+    {
+      "title": "How Jack Friks got 100k+ app downloads with zero ads using organic short-form media",
+      "url": "https://www.youtube.com/watch?v=nkL65jikHhY"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/jack-friks",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

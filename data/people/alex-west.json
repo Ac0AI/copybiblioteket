@@ -1,0 +1,42 @@
+{
+  "id": "alex-west",
+  "name": "Alex West",
+  "category": "Distribution",
+  "summary": "Börja där kunderna redan går att nå",
+  "topics": [
+    "kanal",
+    "nisch",
+    "B2B",
+    "lansering",
+    "efterfrågan"
+  ],
+  "principles": [
+    "Välj en nåbar kundgrupp och skriv erbjudandet för den situation där ni möter den.",
+    "Gör nästa steg till ett tydligt test av efterfrågan, med ärlig information om vad som finns att köpa."
+  ],
+  "questions": [
+    "Var söker kunden efter hjälp i dag?",
+    "Vad skulle ett köp faktiskt ge kunden nu?"
+  ],
+  "sources": [
+    {
+      "title": "How Alex West found his $500K/year business idea: go Channel → Market → Idea, B2B, no uniqueness",
+      "url": "https://www.youtube.com/watch?v=WAigd4b9jsA"
+    },
+    {
+      "title": "All you need is one good product and one good distribution channel. That's it. Then you ju",
+      "url": "https://x.com/alexwestco/status/1295040229263446023"
+    },
+    {
+      "title": "How Alex West launches solo products fast: launch to learn, strip the fat, validate with money",
+      "url": "https://www.youtube.com/watch?v=jtE5BERNGQY"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/alex-west",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

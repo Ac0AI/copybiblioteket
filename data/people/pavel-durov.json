@@ -1,0 +1,42 @@
+{
+  "id": "pavel-durov",
+  "name": "Pavel Durov",
+  "category": "Produkt",
+  "summary": "Gör produktens fördelar värda att rekommendera",
+  "topics": [
+    "rekommendationer",
+    "integritet",
+    "produkt",
+    "premium",
+    "oberoende"
+  ],
+  "principles": [
+    "Förklara nyttan som en användare själv skulle kunna återberätta.",
+    "Beskriv integritet och betalnivåer med verifierbara funktioner och villkor."
+  ],
+  "questions": [
+    "Vad skulle någon säga till en vän om produkten?",
+    "Vilket påstående om integritet kan ni belägga?"
+  ],
+  "sources": [
+    {
+      "title": "How Pavel Durov grew Telegram to ~900M users with zero ad spend, 30 engineers and no outside equity",
+      "url": "https://www.youtube.com/watch?v=1Ut6RouSs0w"
+    },
+    {
+      "title": "How Pavel Durov built Telegram: tiny team, automation, speed and values-first monetization",
+      "url": "https://www.youtube.com/watch?v=qjPH9njnaVU"
+    },
+    {
+      "title": "Telegram's monetization plan: staying independent, free for users, ads only in public channels",
+      "url": "https://t.me/durov/142"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/pavel-durov",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "shaan-puri",
+  "name": "Shaan Puri",
+  "category": "Budskap",
+  "summary": "En berättelse med en tydlig mänsklig förändring",
+  "topics": [
+    "berättande",
+    "positionering",
+    "öppning",
+    "uppmärksamhet",
+    "vinkel"
+  ],
+  "principles": [
+    "Bygg berättelsen kring en konkret situation, ett hinder och en förändring som underlaget stöder.",
+    "Välj en tydlig kontrast mot kundens nuvarande alternativ, utan att hitta på ett hjälteresultat."
+  ],
+  "questions": [
+    "Vad vill huvudpersonen få gjort?",
+    "Vilken detalj gör berättelsen värd att fortsätta läsa?"
+  ],
+  "sources": [
+    {
+      "title": "Shaan Puri's contrarian rules: hard work is overrated, enthusiasm and storytelling are underrated",
+      "url": "https://www.youtube.com/watch?v=3d4AkAaF_Mw"
+    },
+    {
+      "title": "Big Mario marketing: sell the customer's transformation, not your product",
+      "url": "https://www.shaanpuri.com/essays/big-mario-marketing"
+    },
+    {
+      "title": "Underdo the competition: counter-position by being simpler, not better",
+      "url": "https://www.shaanpuri.com/essays/underdo-the-competition"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/shaan-puri",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

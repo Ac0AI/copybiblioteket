@@ -1,0 +1,42 @@
+{
+  "id": "bryan-johnson",
+  "name": "Bryan Johnson",
+  "category": "Fördjupning",
+  "summary": "Gör mätningar och personliga experiment begripliga",
+  "topics": [
+    "experiment",
+    "mätning",
+    "transparens",
+    "metod",
+    "livslängd"
+  ],
+  "principles": [
+    "Beskriv vad som mättes, hos vem och under vilka förhållanden.",
+    "Håll personliga erfarenheter åtskilda från allmänna effekter; en persons resultat är inget produktbevis."
+  ],
+  "questions": [
+    "Gäller påståendet en person eller en undersökt grupp?",
+    "Vad kan mätningen faktiskt visa?"
+  ],
+  "sources": [
+    {
+      "title": "Bryan Johnson's Don't Die master protocol: sleep, RHR, exercise, diet, therapies and measurement",
+      "url": "https://protocol.bryanjohnson.com/"
+    },
+    {
+      "title": "How I fixed my terrible sleep: Bryan's 10 habits for perfect sleep",
+      "url": "https://blueprint.bryanjohnson.com/blogs/news/how-i-fixed-my-terrible-sleep"
+    },
+    {
+      "title": "Bryan Johnson's five pillars of exercise for longevity",
+      "url": "https://www.youtube.com/watch?v=JNuORofHhrk"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/bryan-johnson",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

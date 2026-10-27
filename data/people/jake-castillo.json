@@ -1,0 +1,42 @@
+{
+  "id": "jake-castillo",
+  "name": "Jake Castillo",
+  "category": "Distribution",
+  "summary": "Låt annons, introduktion och betalning hänga ihop",
+  "topics": [
+    "influencer",
+    "appar",
+    "onboarding",
+    "betalning",
+    "konvertering"
+  ],
+  "principles": [
+    "Samma konkreta nytta ska vara igenkännbar genom hela vägen till köp.",
+    "Gör provperiod, pris och förnyelse tydliga när användaren fattar beslutet."
+  ],
+  "questions": [
+    "Vilken förväntan skapar annonsen?",
+    "Var blir nästa steg otydligt eller överraskande?"
+  ],
+  "sources": [
+    {
+      "title": "How Cal AI scaled with influencer and UGC marketing: Jake Castillo's playbook",
+      "url": "https://www.youtube.com/watch?v=_uEoWEQV5O0"
+    },
+    {
+      "title": "Jake Castillo on scaling Cal AI to $40M ARR: UGC, influencers, paid ads, pricing and hiring",
+      "url": "https://www.youtube.com/watch?v=OxE79rpGioI"
+    },
+    {
+      "title": "How Jake Castillo diagnoses app growth with 4 metrics, learned scaling Cal AI to $50M ARR",
+      "url": "https://operatorsnotebook.beehiiv.com/p/the-only-4-app-metrics-you-should-care-about"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/jake-castillo",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

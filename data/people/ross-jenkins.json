@@ -1,0 +1,34 @@
+{
+  "id": "ross-jenkins",
+  "name": "Ross Jenkins",
+  "category": "Budskap",
+  "summary": "Personliga mejl med ett tydligt ärende",
+  "topics": [
+    "mejl",
+    "e-post",
+    "personlighet",
+    "byrå",
+    "återaktivering"
+  ],
+  "principles": [
+    "Skriv ett konkret ärende med en avsändare som känns mänsklig.",
+    "Anpassa innehållet till relationen och be om en sak åt gången."
+  ],
+  "questions": [
+    "Vad behöver mottagaren veta för att svara?",
+    "Kan mejlet läsas högt utan att låta som en mall?"
+  ],
+  "sources": [
+    {
+      "title": "How Ross Jenkins built a $2M freelance email agency: personality, niching, and pricing by demand",
+      "url": "https://www.youtube.com/watch?v=dPIDI74_w5w"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/ross-jenkins",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

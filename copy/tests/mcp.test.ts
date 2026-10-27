@@ -31,6 +31,12 @@ test("a real stdio MCP client can discover and use the Swedish copy tools", { ti
     assert.equal((guide.structuredContent as { language: string }).language, "sv");
     const unknown = await client.callTool({ name: "get_copy_framework", arguments: { id: "does-not-exist" } });
     assert.equal(unknown.isError, true);
+    const people=await client.callTool({name:'list_copy_people',arguments:{}});
+    assert.equal((people.structuredContent as {people:unknown[]}).people.length,59);
+    const selected=await client.callTool({name:'get_copy_person',arguments:{id:'justin-welsh'}});
+    assert.equal((selected.structuredContent as {person:{name:string}}).person.name,'Justin Welsh');
+    const personSources=await client.callTool({name:'search_copy_sources',arguments:{query:'innehåll',person:'justin-welsh'}});
+    assert.ok((personSources.structuredContent as {results:unknown[]}).results.length);
     const sources = await client.callTool({
       name: "search_copy_sources", arguments: { query: "väntetid ansträngning", person: "alex-hormozi", limit: 2 },
     });

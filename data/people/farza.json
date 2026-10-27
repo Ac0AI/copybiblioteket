@@ -1,0 +1,38 @@
+{
+  "id": "farza",
+  "name": "Farza",
+  "category": "Budskap",
+  "summary": "Hitta en mening som gör produkten begriplig",
+  "topics": [
+    "berättelse",
+    "produktdemo",
+    "öppning",
+    "lansering",
+    "kortvideo"
+  ],
+  "principles": [
+    "Skriv en enkel förklaring av vad produkten låter någon göra.",
+    "Testa förklaringen med en konkret demonstration och lär av vad människor faktiskt förstår."
+  ],
+  "questions": [
+    "Vad skulle få rätt person att stanna upp?",
+    "Kan nyttan visas utan en lång introduktion?"
+  ],
+  "sources": [
+    {
+      "title": "Farza on taking software to market: find the one-liner first, charge day one, post consistently",
+      "url": "https://www.youtube.com/watch?v=0Pd9cL_p1E8"
+    },
+    {
+      "title": "Farza on launch videos: ship mini demos daily, track downloads not views",
+      "url": "https://www.youtube.com/watch?v=v12aSIZIXUs"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/farza",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

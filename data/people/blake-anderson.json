@@ -1,0 +1,38 @@
+{
+  "id": "blake-anderson",
+  "name": "Blake Anderson",
+  "category": "Distribution",
+  "summary": "Testa olika motiv bakom samma produkt",
+  "topics": [
+    "appar",
+    "kreatörer",
+    "annonsvinkel",
+    "öppning",
+    "efterfrågan"
+  ],
+  "principles": [
+    "Ta fram vinklar som svarar mot olika konkreta användarsituationer.",
+    "Bedöm om intresset leder till relevant användning, inte bara till visningar."
+  ],
+  "questions": [
+    "Vilket problem syns i en kort demonstration?",
+    "Vilken vinkel lockar rätt person att prova?"
+  ],
+  "sources": [
+    {
+      "title": "How Blake Anderson built viral AI apps: organic content, creator comment sections, and co-founders",
+      "url": "https://www.youtube.com/watch?v=0E0geWowtTg"
+    },
+    {
+      "title": "How Blake Anderson markets viral apps: 3 principles and 3 methods (UGC, influencers, ads)",
+      "url": "https://www.youtube.com/watch?v=jrNIZqL22Ag"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/blake-anderson",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

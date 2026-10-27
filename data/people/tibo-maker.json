@@ -1,0 +1,42 @@
+{
+  "id": "tibo-maker",
+  "name": "Tibo Louis-Lucas",
+  "category": "Erbjudande",
+  "summary": "Koppla produkt, pris och återkommande nytta",
+  "topics": [
+    "SaaS",
+    "pris",
+    "återkomst",
+    "små verktyg",
+    "distribution"
+  ],
+  "principles": [
+    "Beskriv vilket återkommande jobb som motiverar ett abonnemang.",
+    "Låt ett litet verktyg eller exempel visa nyttan och ge ett begripligt steg till den större tjänsten."
+  ],
+  "questions": [
+    "Varför skulle kunden använda detta nästa månad?",
+    "Vad blir tydligt när man provar den lilla versionen?"
+  ],
+  "sources": [
+    {
+      "title": "How Tibo shipped 10 failed products, then built Tweet Hunter and a $1M/month SaaS portfolio",
+      "url": "https://www.youtube.com/watch?v=ZpE58EsCnyQ"
+    },
+    {
+      "title": "How Tibo shipped 11 products in 4 months, found Tweet Hunter, and grew it 7x to a multi-million exit",
+      "url": "https://www.youtube.com/watch?v=CMzsqmiwcEk"
+    },
+    {
+      "title": "Tibo's rule for scaling SaaS: decide foundations once, optimize execution daily",
+      "url": "https://www.tmaker.io/blog/why-you-can-t-scale-your-software-business"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/tibo-maker",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

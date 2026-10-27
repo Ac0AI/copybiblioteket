@@ -1,0 +1,42 @@
+{
+  "id": "sam-altman",
+  "name": "Sam Altman",
+  "category": "Produkt",
+  "summary": "Fokus på en produkt som en bestämd grupp vill ha",
+  "topics": [
+    "produkt",
+    "fokus",
+    "iteration",
+    "tidiga användare",
+    "prioritering"
+  ],
+  "principles": [
+    "Skriv för användarna med starkast behov i stället för att försöka få alla att känna igen sig.",
+    "Gör nästa test tydligt och samla lärdomar från faktisk användning."
+  ],
+  "questions": [
+    "Vem skulle bli mest besviken om produkten försvann?",
+    "Vilket budskap bör få mer utrymme och vilket kan strykas?"
+  ],
+  "sources": [
+    {
+      "title": "Sam Altman's Startup Playbook: idea, team, product, growth, hiring, money",
+      "url": "https://playbook.samaltman.com/"
+    },
+    {
+      "title": "What I Wish Someone Had Told Me: Sam Altman's 17 lessons on starting and finishing things",
+      "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me"
+    },
+    {
+      "title": "The number one predictor of success for a very young startup: rate of iteration.",
+      "url": "https://x.com/sama/status/1046933639726956544"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/sam-altman",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

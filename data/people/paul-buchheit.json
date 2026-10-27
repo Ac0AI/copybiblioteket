@@ -1,0 +1,42 @@
+{
+  "id": "paul-buchheit",
+  "name": "Paul Buchheit",
+  "category": "Produkt",
+  "summary": "Förenkla runt det viktigaste användarbehovet",
+  "topics": [
+    "enkelhet",
+    "återkoppling",
+    "produkt",
+    "behov",
+    "första version"
+  ],
+  "principles": [
+    "Leta efter problemet bakom en funktionsönskan och formulera nyttan på den nivån.",
+    "Prioritera den lilla grupp som behöver produkten mest när du förklarar erbjudandet."
+  ],
+  "questions": [
+    "Vilken önskan döljer ett annat problem?",
+    "Vad skulle den mest berörda användaren sakna?"
+  ],
+  "sources": [
+    {
+      "title": "How Paul Buchheit built Gmail: ship day one, 100 happy users, and YC startup advice",
+      "url": "https://www.youtube.com/watch?v=YHc6dAPXOgM"
+    },
+    {
+      "title": "Paul Buchheit: The path to a $100B company, from Gmail and Google to YC",
+      "url": "https://www.youtube.com/watch?v=Ir3hGtg0Wog"
+    },
+    {
+      "title": "Paul Buchheit: Listening means decoding feedback, not obeying it (Startup School 08)",
+      "url": "https://www.youtube.com/watch?v=EZxP0i9ah8E"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/paul-buchheit",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

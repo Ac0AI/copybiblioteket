@@ -1,0 +1,38 @@
+{
+  "id": "vic-giurgiu",
+  "name": "Vic Giurgiu",
+  "category": "Kundinsikt",
+  "summary": "Pröva erbjudandet innan du bygger ut det",
+  "topics": [
+    "validering",
+    "B2B",
+    "prototyp",
+    "affiliate",
+    "kundintervju"
+  ],
+  "principles": [
+    "Visa en enkel skiss och prata med personer som redan gör arbetet.",
+    "Formulera erbjudandet runt ett återkommande problem och be om konkreta reaktioner på omfattning och pris."
+  ],
+  "questions": [
+    "Vad betalar kunden redan för att få gjort?",
+    "Vilket antagande kan skissen hjälpa oss pröva?"
+  ],
+  "sources": [
+    {
+      "title": "How Vic Giurgiu went from teen dev agency owner to AI affiliate SaaS founder",
+      "url": "https://www.youtube.com/watch?v=IkRual8VE3o"
+    },
+    {
+      "title": "update on removing the free plan for my SaaS📌 it's been 6 weeks and everything is looking",
+      "url": "https://x.com/PiticVic/status/1784665624494456861"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/vic-giurgiu",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

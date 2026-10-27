@@ -1,0 +1,42 @@
+{
+  "id": "guillermo-rauch",
+  "name": "Guillermo Rauch",
+  "category": "Produkt",
+  "summary": "Gör det lätt att förstå, prova och dela",
+  "topics": [
+    "utvecklare",
+    "produkt",
+    "förenkling",
+    "öppen källkod",
+    "demo"
+  ],
+  "principles": [
+    "Beskriv en tydlig startpunkt och låt användaren nå ett synligt resultat snabbt.",
+    "Behandla varje extra budskap som ett val som måste motiveras."
+  ],
+  "questions": [
+    "Vad kan personen prova direkt?",
+    "Vilken detalj skymmer det viktigaste?"
+  ],
+  "sources": [
+    {
+      "title": "How Guillermo Rauch built Vercel: ship fast, find asymmetries, and AI platform ideas",
+      "url": "https://www.youtube.com/watch?v=2YAyEXrkJzg"
+    },
+    {
+      "title": "Guillermo Rauch on building Vercel: niche focus, brand permission, and designing for LLMs",
+      "url": "https://www.youtube.com/watch?v=faaRYgijQ-w"
+    },
+    {
+      "title": "How v0 aims to create 100 million builders: Rauch on AI, taste and exposure hours",
+      "url": "https://www.youtube.com/watch?v=-QsTmu2CqhA"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/guillermo-rauch",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

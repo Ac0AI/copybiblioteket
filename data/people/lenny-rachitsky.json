@@ -1,0 +1,42 @@
+{
+  "id": "lenny-rachitsky",
+  "name": "Lenny Rachitsky",
+  "category": "Kundinsikt",
+  "summary": "Koppla tillväxtbudskapet till verklig användning",
+  "topics": [
+    "produkt",
+    "tillväxt",
+    "återkomst",
+    "kundinsikt",
+    "kanaler"
+  ],
+  "principles": [
+    "Beskriv hur produkten hjälper en bestämd grupp att göra ett återkommande jobb.",
+    "Skilj den första rekryteringen av användare från skälet att de kommer tillbaka."
+  ],
+  "questions": [
+    "Varför återkommer användaren?",
+    "Vilket nästa steg passar den här fasen?"
+  ],
+  "sources": [
+    {
+      "title": "Lenny Rachitsky: the race car growth framework (engines, boosts, lubricants, fuel) and early users",
+      "url": "https://www.youtube.com/watch?v=aogsYWWnq60"
+    },
+    {
+      "title": "Lenny Rachitsky: How to know you have product-market fit, benchmark retention, and plan growth for a Series A",
+      "url": "https://www.youtube.com/watch?v=nYL-FeYyDe0"
+    },
+    {
+      "title": "How to find and win your first 10 B2B customers: a seven-step sequence from trust outward",
+      "url": "https://www.lennysnewsletter.com/p/how-to-win-your-first-10-b2b-customers"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/lenny-rachitsky",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

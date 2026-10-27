@@ -1,0 +1,42 @@
+{
+  "id": "david-goggins",
+  "name": "David Goggins",
+  "category": "Fördjupning",
+  "summary": "Ansvar och handling i motiverande text",
+  "topics": [
+    "motivation",
+    "ansvar",
+    "disciplin",
+    "berättande",
+    "handling"
+  ],
+  "principles": [
+    "Knyt en stark uppmaning till en handling som läsaren själv kan välja.",
+    "Beskriv motgångar konkret utan att skambelägga läsaren eller göra prestation till människovärde."
+  ],
+  "questions": [
+    "Vilken liten handling går att ta i dag?",
+    "Är energin hjälpsam för just den här mottagaren?"
+  ],
+  "sources": [
+    {
+      "title": "How David Goggins callouses his mind: suffering, repetition, and no finish line (JRE #1212)",
+      "url": "https://www.youtube.com/watch?v=BvWB7B8tXK8"
+    },
+    {
+      "title": "How David Goggins rebuilt himself from 297 lb to ultra-endurance by callousing his mind",
+      "url": "https://www.youtube.com/watch?v=5tSTk1083VY"
+    },
+    {
+      "title": "How David Goggins callused his mind: accountability mirror, cookie jar, no excuses (Rich Roll)",
+      "url": "https://www.youtube.com/watch?v=bIacYjZHcs4"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/david-goggins",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

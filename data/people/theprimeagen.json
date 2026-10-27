@@ -1,0 +1,42 @@
+{
+  "id": "theprimeagen",
+  "name": "ThePrimeagen",
+  "category": "Fördjupning",
+  "summary": "Gör tekniska resonemang tydliga och prövbara",
+  "topics": [
+    "utvecklare",
+    "kod",
+    "lärande",
+    "teknik",
+    "granskning"
+  ],
+  "principles": [
+    "Förklara ett tekniskt val med ett konkret exempel och dess avvägning.",
+    "Låt ett AI-genererat påstående granskas mot hur verktyget faktiskt beter sig."
+  ],
+  "questions": [
+    "Vilken observation stöder rekommendationen?",
+    "Vad lär sig läsaren av exemplet?"
+  ],
+  "sources": [
+    {
+      "title": "How ThePrimeagen learned to program, built a career at Netflix, and went full-time on streaming",
+      "url": "https://lexfridman.com/theprimeagen-transcript/"
+    },
+    {
+      "title": "ThePrimeagen on why he ripped out Copilot and why AI is overrated for learning to code",
+      "url": "https://www.youtube.com/watch?v=SuWKCv3ewXw"
+    },
+    {
+      "title": "How ThePrimeagen got past \"do I still have value?\": good engineering decisions compound",
+      "url": "https://www.youtube.com/watch?v=V-ZvAw_VNk4"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/theprimeagen",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

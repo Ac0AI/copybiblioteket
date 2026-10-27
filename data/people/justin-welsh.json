@@ -1,0 +1,38 @@
+{
+  "id": "justin-welsh",
+  "name": "Justin Welsh",
+  "category": "Publik",
+  "summary": "Ett innehållssystem med en tydlig läsare",
+  "topics": [
+    "LinkedIn",
+    "innehåll",
+    "nyhetsbrev",
+    "soloföretagare",
+    "publik"
+  ],
+  "principles": [
+    "Bygg flera användbara texter från en egen erfarenhet utan att upprepa samma poäng ordagrant.",
+    "Låt varje text lösa ett avgränsat problem och ge en rimlig väg vidare."
+  ],
+  "questions": [
+    "Vilken konkret fråga besvarar inlägget?",
+    "Vilken del förtjänar en egen text?"
+  ],
+  "sources": [
+    {
+      "title": "How Justin Welsh built a $10M solo business in 23 steps",
+      "url": "https://justinwelsh.me/essays/my-10m-journey"
+    },
+    {
+      "title": "How Justin Welsh built a LinkedIn, Twitter and email audience: the creator funnel and one-platform-first approach",
+      "url": "https://www.youtube.com/watch?v=XAyQMUSjs2w"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/justin-welsh",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

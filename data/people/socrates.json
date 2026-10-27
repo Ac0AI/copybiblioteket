@@ -1,0 +1,38 @@
+{
+  "id": "socrates",
+  "name": "Sokrates",
+  "category": "Fördjupning",
+  "summary": "Pröva vad ett påstående egentligen betyder",
+  "topics": [
+    "frågor",
+    "antaganden",
+    "definitioner",
+    "resonemang",
+    "kritik"
+  ],
+  "principles": [
+    "Be om en precis förklaring när texten lutar sig mot ord som bäst, enkelt eller effektivt.",
+    "Pröva påståendet med ett motexempel och låt kvarvarande osäkerhet synas."
+  ],
+  "questions": [
+    "Vad menar vi exakt med detta ord?",
+    "När skulle påståendet inte stämma?"
+  ],
+  "sources": [
+    {
+      "title": "Plato's Apology: Socrates defends the examined life, his god-given mission, and his view of death at trial",
+      "url": "https://classics.mit.edu/Plato/apology.html"
+    },
+    {
+      "title": "Gorgias (part 1): Socrates on rhetoric as flattery and why doing wrong is worse than suffering it",
+      "url": "https://classics.mit.edu/Plato/gorgias.html"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/socrates",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "scott-wu",
+  "name": "Scott Wu",
+  "category": "Produkt",
+  "summary": "Gör AI-erbjudandet konkret och granskningsbart",
+  "topics": [
+    "AI",
+    "agenter",
+    "uppgifter",
+    "resultat",
+    "verifiering"
+  ],
+  "principles": [
+    "Beskriv vilka avgränsade uppgifter agenten kan utföra och vad användaren behöver ange.",
+    "Förklara hur resultatet kontrolleras och när en människa behöver ta över."
+  ],
+  "questions": [
+    "Vad räknas som ett färdigt jobb?",
+    "Hur kan kunden avgöra om resultatet blev rätt?"
+  ],
+  "sources": [
+    {
+      "title": "How Devin's team built an autonomous AI engineer: stickiness, speed and fighting for talent",
+      "url": "https://www.youtube.com/watch?v=gI0ZNhA0rvE"
+    },
+    {
+      "title": "Cognition's AI Productivity Guarantee: pricing AI on measured outcomes, not usage",
+      "url": "https://cognition.com/blog/ai-guarantee"
+    },
+    {
+      "title": "How Scott Wu built Cognition (Devin): focus, enterprise-first wedge, and the AI agent future",
+      "url": "https://www.youtube.com/watch?v=PYobZzjW_ic"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/scott-wu",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

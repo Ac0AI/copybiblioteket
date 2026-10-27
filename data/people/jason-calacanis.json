@@ -1,0 +1,42 @@
+{
+  "id": "jason-calacanis",
+  "name": "Jason Calacanis",
+  "category": "Erbjudande",
+  "summary": "En pitch med problem, tecken på efterfrågan och nästa steg",
+  "topics": [
+    "pitch",
+    "investerare",
+    "grundare",
+    "bevis",
+    "affär"
+  ],
+  "principles": [
+    "Förklara kundproblemet och verksamhetens lösning innan du beskriver ambitionen.",
+    "Skilj uppnådda resultat från planer, uppskattningar och kapitalbehov."
+  ],
+  "questions": [
+    "Vilka uppgifter stödjer att kunderna vill ha detta?",
+    "Vad är det konkreta nästa steget för mottagaren?"
+  ],
+  "sources": [
+    {
+      "title": "Angel: How Jason Calacanis invests in startups and bets on founders over ideas",
+      "url": "https://www.youtube.com/watch?v=2zhqpzzS3Bc"
+    },
+    {
+      "title": "Jason Calacanis on angel investing, startup intensity, loyalty and capitalism",
+      "url": "https://www.youtube.com/watch?v=d2bYwYxqJCM"
+    },
+    {
+      "title": "How to raise a seed round in 2026: investor funnel, qualifying VCs, moats vs AI labs",
+      "url": "https://www.youtube.com/watch?v=W4QD84DAugk"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/jason-calacanis",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

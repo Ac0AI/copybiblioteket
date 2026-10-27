@@ -1,0 +1,42 @@
+{
+  "id": "steve-jobs",
+  "name": "Steve Jobs",
+  "category": "Budskap",
+  "summary": "Låt produkten få en begriplig huvudidé",
+  "topics": [
+    "berättande",
+    "fokus",
+    "produkt",
+    "presentation",
+    "enkelhet"
+  ],
+  "principles": [
+    "Välj den viktigaste användarupplevelsen och bygg presentationen kring den.",
+    "Visa detaljer som gör upplevelsen begriplig i stället för att stapla funktioner."
+  ],
+  "questions": [
+    "Vad ska publiken minnas efteråt?",
+    "Vilken demonstration förklarar idén bäst?"
+  ],
+  "sources": [
+    {
+      "title": "Steve Jobs on Apple's focus, hiring, and fixing what isn't great (Fortune, 2008)",
+      "url": "https://allaboutstevejobs.com/verbatim/interviews/fortune_2008"
+    },
+    {
+      "title": "Steve Jobs on Design, Objects and the Web: Wired's \"The Next Insanely Great Thing\" (1996)",
+      "url": "https://www.wired.com/1996/02/jobs-2/"
+    },
+    {
+      "title": "Steve Jobs on A players, amplification, education and perseverance (Smithsonian, 1995)",
+      "url": "https://allaboutstevejobs.com/verbatim/interviews/smithsonian_interview_1995"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/steve-jobs",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

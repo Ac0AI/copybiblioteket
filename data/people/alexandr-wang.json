@@ -1,0 +1,42 @@
+{
+  "id": "alexandr-wang",
+  "name": "Alexandr Wang",
+  "category": "Produkt",
+  "summary": "Förklara flaskhalsen som produkten löser",
+  "topics": [
+    "AI",
+    "data",
+    "flaskhals",
+    "produkt",
+    "teknik"
+  ],
+  "principles": [
+    "Visa det konkreta hinder som produkten tar bort innan du beskriver tekniken.",
+    "Förklara hur användaren kan bedöma resultat och begränsningar, särskilt för AI-funktioner."
+  ],
+  "questions": [
+    "Vilket steg fungerar dåligt i dag?",
+    "Vad behöver användaren kunna kontrollera själv?"
+  ],
+  "sources": [
+    {
+      "title": "Hire people who give a shit: Alexandr Wang's hiring screen at Scale",
+      "url": "https://alexw.substack.com/p/hire"
+    },
+    {
+      "title": "How Alexandr Wang built Scale AI: focus, overdoing it, and finding the neglected bottleneck",
+      "url": "https://www.youtube.com/watch?v=QvfCHPCeoPw"
+    },
+    {
+      "title": "Unintuitive fact of engineering: Big teams (>8 people) ship less than small teams. Not ",
+      "url": "https://x.com/alexandr_wang/status/1594062781673721856"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/alexandr-wang",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

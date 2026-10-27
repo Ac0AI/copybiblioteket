@@ -1,0 +1,42 @@
+{
+  "id": "hunter-isaacson",
+  "name": "Hunter J. Isaacson",
+  "category": "Produkt",
+  "summary": "Förklara nyttan redan i första användningen",
+  "topics": [
+    "delning",
+    "onboarding",
+    "appar",
+    "första upplevelsen",
+    "produkt"
+  ],
+  "principles": [
+    "Håll första steget begripligt och låt värdet synas innan du ber om mer arbete.",
+    "Gör delning meningsfull för både avsändaren och mottagaren, med tydliga integritetsval."
+  ],
+  "questions": [
+    "Vad får användaren ut av första besöket?",
+    "Varför skulle mottagaren uppskatta en delning?"
+  ],
+  "sources": [
+    {
+      "title": "How Hunter Isaacson built NGL to 250M downloads: the consumer app playbook",
+      "url": "https://www.youtube.com/watch?v=hyosynoNbSU"
+    },
+    {
+      "title": "How Hunter Isaacson built NGL to 100M+ downloads: ship fast, build tools, talk like your users",
+      "url": "https://www.youtube.com/watch?v=jJq6UomQppc"
+    },
+    {
+      "title": "If I lost everything: Pick a category with demand A name users can say out loud One proble",
+      "url": "https://x.com/hunterjisaacson/status/2008236831335129104"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/hunter-isaacson",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

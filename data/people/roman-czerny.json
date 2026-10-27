@@ -1,0 +1,38 @@
+{
+  "id": "roman-czerny",
+  "name": "Romàn Czerny",
+  "category": "Distribution",
+  "summary": "Relevant kontakt utifrån ett aktuellt behov",
+  "topics": [
+    "B2B",
+    "kontaktmejl",
+    "Reddit",
+    "köpsignal",
+    "vägledning"
+  ],
+  "principles": [
+    "Knyt kontaktmejlet till en konkret och relevant situation, utan att låtsas veta mer än ni gör.",
+    "Erbjud ett litet användbart nästa steg och gör det enkelt att tacka nej."
+  ],
+  "questions": [
+    "Varför är kontakten relevant just nu?",
+    "Vad kan mottagaren få nytta av utan ett säljmöte?"
+  ],
+  "sources": [
+    {
+      "title": "How Gojiberry AI hit $2M ARR: validate by hand, then scale warm-intent outreach",
+      "url": "https://www.youtube.com/watch?v=jHsd4voiRZQ"
+    },
+    {
+      "title": "How Roman sold before building and took Goji Berry to $33K+ MRR through relentless outreach",
+      "url": "https://www.youtube.com/watch?v=IDVDLvnfn4k"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/roman-czerny",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

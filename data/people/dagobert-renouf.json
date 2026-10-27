@@ -1,0 +1,42 @@
+{
+  "id": "dagobert-renouf",
+  "name": "Dagobert Renouf",
+  "category": "Publik",
+  "summary": "Bygg en röst genom riktiga samtal",
+  "topics": [
+    "sociala medier",
+    "humor",
+    "grundare",
+    "distribution",
+    "publik"
+  ],
+  "principles": [
+    "Utgå från igenkännbara problem och svara på andra människors frågor.",
+    "Använd humor där den passar avsändaren. Förväxla inte uppskattade inlägg med efterfrågan på produkten."
+  ],
+  "questions": [
+    "Vilken vardagsfrustration känner publiken igen?",
+    "Vad vill vi lära oss av svaren?"
+  ],
+  "sources": [
+    {
+      "title": "How Dagobert grew Logology from 200 to 4,000 Twitter followers while bootstrapping",
+      "url": "https://www.youtube.com/watch?v=zvLkMbqJ1VI"
+    },
+    {
+      "title": "How Dagobert Renouf took Logology from a failed launch to $3k/month by going all-in on Twitter",
+      "url": "https://www.youtube.com/watch?v=3Sw3ztIl7wQ"
+    },
+    {
+      "title": "Why Dago shut down Logology after 5 years: business fundamentals, burnout and going back to a job",
+      "url": "https://www.youtube.com/watch?v=Vb-zCMqT2Bo"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/dagobert-renouf",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

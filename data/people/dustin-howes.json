@@ -1,0 +1,42 @@
+{
+  "id": "dustin-howes",
+  "name": "Dustin Howes",
+  "category": "Distribution",
+  "summary": "Tydliga erbjudanden till samarbetspartner",
+  "topics": [
+    "affiliate",
+    "partnerskap",
+    "provision",
+    "aktivering",
+    "samarbete"
+  ],
+  "principles": [
+    "Förklara vem samarbetet passar, vilken nytta partnerns publik får och hur ersättningen fungerar.",
+    "Ge partnern material som gör ett korrekt erbjudande lätt att presentera."
+  ],
+  "questions": [
+    "Varför passar produkten partnerns publik?",
+    "Vilka villkor måste finnas nära erbjudandet?"
+  ],
+  "sources": [
+    {
+      "title": "Dustin Howes's affiliate marketing blueprint: how to audit, scrub, and scale a new affiliate program",
+      "url": "https://dustinhowes.com/affiliate-marketing-blueprint-for-affiliate-managers/"
+    },
+    {
+      "title": "Affiliate recruitment masterclass: automate discovery and outreach, spend time on relationships",
+      "url": "https://www.youtube.com/watch?v=tC4NLc0Lh7U"
+    },
+    {
+      "title": "Why ecommerce affiliate tools fail SaaS: the $200 CPA mistake at WP Engine",
+      "url": "https://dustinhowes.com/saas-affiliate-trap-firstpromoter-review/"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/dustin-howes",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

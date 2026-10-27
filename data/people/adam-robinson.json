@@ -1,0 +1,41 @@
+{
+  "id": "adam-robinson",
+  "name": "Adam Robinson",
+  "category": "Publik",
+  "summary": "Grundarens röst, samtal och efterfrågan",
+  "topics": [
+    "LinkedIn",
+    "personligt varumärke",
+    "kundintervjuer",
+    "försäljning"
+  ],
+  "principles": [
+    "Utgå från frågor som riktiga köpare ställer och skriv som personen bakom företaget.",
+    "Låt nästa steg vara ett konkret samtal om problemet; skilj intresse från betalningsvilja."
+  ],
+  "questions": [
+    "Vad säger kunderna innan de förstår erbjudandet?",
+    "Vilken erfarenhet kan avsändaren själv stå för?"
+  ],
+  "sources": [
+    {
+      "title": "How Adam Robinson would take a SaaS from 0 to 1,000+ customers: discovery, manual MVP, then the magic triangle",
+      "url": "https://www.youtube.com/watch?v=r47Q4Cfit5s"
+    },
+    {
+      "title": "How Adam Robinson bootstrapped Retention.com to $22M ARR and pivoted to B2B via LinkedIn co-creation",
+      "url": "https://www.youtube.com/watch?v=8KobZxJcq4A"
+    },
+    {
+      "title": "LinkedIn course: how Adam Robinson grew from 4K to 100K+ followers and built RB2B to $3M ARR",
+      "url": "https://www.youtube.com/watch?v=bMm9bYTTeJs"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/adam-robinson",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

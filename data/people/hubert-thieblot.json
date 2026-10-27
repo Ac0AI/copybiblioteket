@@ -1,0 +1,38 @@
+{
+  "id": "hubert-thieblot",
+  "name": "Hubert Thieblot",
+  "category": "Kundinsikt",
+  "summary": "Visa problemet bakom grundarens övertygelse",
+  "topics": [
+    "grundare",
+    "problem",
+    "nisch",
+    "pitch",
+    "produkt"
+  ],
+  "principles": [
+    "Använd en egen erfarenhet som ingång och undersök sedan om andra delar problemet.",
+    "Gör engagemanget trovärdigt genom konkreta val och arbete, inte genom stora löften."
+  ],
+  "questions": [
+    "Vilken erfarenhet gjorde problemet tydligt?",
+    "Vem mer har samma behov?"
+  ],
+  "sources": [
+    {
+      "title": "How Hubert Thieblot picks founders: ambition, speed and technical depth over the idea",
+      "url": "https://www.youtube.com/watch?v=KbzKiIvN7Yk"
+    },
+    {
+      "title": "How Hubert Thieblot grew Curse from a WoW add-on site into an MMOG portal (2007 interview)",
+      "url": "https://www.escapistmagazine.com/the-blessings-of-curse-an-interview-with-hubert-thieblot/"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/hubert-thieblot",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

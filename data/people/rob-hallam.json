@@ -1,0 +1,38 @@
+{
+  "id": "rob-hallam",
+  "name": "Rob Hallam",
+  "category": "Publik",
+  "summary": "Visa arbetet och lär av betalande kunder",
+  "topics": [
+    "bygga öppet",
+    "grundare",
+    "efterfrågan",
+    "SEO",
+    "produkt"
+  ],
+  "principles": [
+    "Berätta vad ni prövar, vad ni vet och vad som återstår att lära.",
+    "Använd konkreta kundreaktioner som underlag och skilj uppskattning från betalningsvilja."
+  ],
+  "questions": [
+    "Vad har ni faktiskt lärt er sedan sist?",
+    "Vilken förbättring kan en kund märka?"
+  ],
+  "sources": [
+    {
+      "title": "Validation playbook: how Rob Hallam reached $10K+ a month by copying proven ideas",
+      "url": "https://www.youtube.com/watch?v=wtRUP0nUeB8"
+    },
+    {
+      "title": "How Rob Hallam went from $0 for a year to SuperX: agency for runway, try every channel",
+      "url": "https://www.youtube.com/watch?v=yvnfaAwRzgI"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/rob-hallam",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

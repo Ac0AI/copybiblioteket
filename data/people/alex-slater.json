@@ -1,0 +1,42 @@
+{
+  "id": "alex-slater",
+  "name": "Alex Slater",
+  "category": "Distribution",
+  "summary": "Annonser, kreatörer och vägen till köp",
+  "topics": [
+    "annonser",
+    "video",
+    "kreatörer",
+    "onboarding",
+    "betalning"
+  ],
+  "principles": [
+    "Jämför skilda idéer i annonsmaterialet, inte bara små ordbyten.",
+    "Låt annonsens löfte gå att känna igen i produkten och före betalningen."
+  ],
+  "questions": [
+    "Vad får tittaren att stanna i de första sekunderna?",
+    "Vilket villkor behöver synas innan köpet?"
+  ],
+  "sources": [
+    {
+      "title": "How QUITTR scaled a mobile app: copy onboarding, pay creators a revenue cut, and put volume first",
+      "url": "https://www.youtube.com/watch?v=qDEvxnmJ2so"
+    },
+    {
+      "title": "How Alex Slater scaled Quitter to $500K/month: first-mover ads, influencer CPMs, copying winners",
+      "url": "https://www.youtube.com/watch?v=5WpeTi6fmOs"
+    },
+    {
+      "title": "Day in the life of an app founder: creative-led Meta ads, CEO focus and building for the exit",
+      "url": "https://www.youtube.com/watch?v=6h3SS9MV0T4"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/alex-slater",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

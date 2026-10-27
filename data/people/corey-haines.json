@@ -1,0 +1,42 @@
+{
+  "id": "corey-haines",
+  "name": "Corey Haines",
+  "category": "Budskap",
+  "summary": "Koppla budskapet till kund, produkt och kanal",
+  "topics": [
+    "marknadsföring",
+    "konvertering",
+    "positionering",
+    "AI",
+    "nyhetsbrev"
+  ],
+  "principles": [
+    "Pröva om kundgrupp, erbjudande och budskap hänger ihop innan du optimerar en kanal.",
+    "Ge innehållet ett naturligt nästa steg till en relation ni själva kan vårda."
+  ],
+  "questions": [
+    "Är det budskapet eller erbjudandet som är otydligt?",
+    "Vad ska läsaren kunna göra efter texten?"
+  ],
+  "sources": [
+    {
+      "title": "How to grow a SaaS from $0 to $1M+ ARR: layered launches, five growth factors, focused experiments",
+      "url": "https://www.youtube.com/watch?v=2faZaYO-ous"
+    },
+    {
+      "title": "Corey Haines on building a SaaS acquisition engine: positioning, programmatic SEO and conversion pages",
+      "url": "https://www.youtube.com/watch?v=8ww6cjVsMrA"
+    },
+    {
+      "title": "The ORB Framework: Owned, Rented, and Borrowed audiences as a marketing strategy",
+      "url": "https://www.swipefiles.com/articles/orb"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/corey-haines",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

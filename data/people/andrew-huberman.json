@@ -1,0 +1,38 @@
+{
+  "id": "andrew-huberman",
+  "name": "Andrew Huberman",
+  "category": "Fördjupning",
+  "summary": "Förklara kunskap utan att överdriva beläggen",
+  "topics": [
+    "förklaring",
+    "kunskap",
+    "fokus",
+    "vetenskap",
+    "evidens"
+  ],
+  "principles": [
+    "Skilj mellan mekanism, hypotes och påvisad effekt när du skriver om forskning.",
+    "Översätt fackord till en begriplig förklaring utan att göra ett hälsolöfte starkare än underlaget."
+  ],
+  "questions": [
+    "Vad vet vi, och hur vet vi det?",
+    "Vilka villkor eller osäkerheter behöver läsaren känna till?"
+  ],
+  "sources": [
+    {
+      "title": "Tim Ferriss Show #660: Huberman's five daily foundations, weekly training split, supplements, and fertility",
+      "url": "https://tim.blog/2023/03/10/dr-andrew-huberman-transcript/"
+    },
+    {
+      "title": "Sleep Toolkit: light, temperature, caffeine, supplements and timing tools to optimize sleep",
+      "url": "https://www.youtube.com/watch?v=h2aWYjSA1Jc"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/andrew-huberman",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

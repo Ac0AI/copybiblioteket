@@ -20,8 +20,8 @@ test("web app serves the library and validates search requests", async () => {
     assert.equal(health.sourceMode, "links");
     assert.equal(health.frameworks, 11);
     assert.equal((await fetch(base + "/api/no-such-route")).status, 404);
-    assert.equal((await fetch(base + "/style.css")).status, 200);
-    assert.equal((await fetch(base + "/app.js")).status, 200);
+    assert.equal((await fetch(base + "/studio.css")).status, 200);
+    assert.equal((await fetch(base + "/library.js")).status, 200);
     assert.equal((await fetch(base + "/package.json")).status, 404);
     const post = (body: unknown) => fetch(base + "/api/search", {
       method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
@@ -44,7 +44,7 @@ test("web app serves the library and validates search requests", async () => {
     const malformed = await fetch(base + "/api/search", {
       method: "POST", headers: { "Content-Type": "application/json" }, body: "{bad",
     });
-    assert.equal((await post({ query: "a".repeat(20000) })).status, 413);
+    assert.equal((await post({ query: "a".repeat(70000) })).status, 413);
     assert.equal(malformed.status, 400);
     assert.ok((await malformed.json()).error);
   } finally {

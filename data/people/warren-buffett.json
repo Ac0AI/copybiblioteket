@@ -1,0 +1,42 @@
+{
+  "id": "warren-buffett",
+  "name": "Warren Buffett",
+  "category": "Erbjudande",
+  "summary": "Förklara varaktigt värde inom det ni vet",
+  "topics": [
+    "långsiktighet",
+    "värde",
+    "kompetens",
+    "trovärdighet",
+    "affär"
+  ],
+  "principles": [
+    "Beskriv varför erbjudandets nytta består och vilka egenskaper som stödjer den.",
+    "Håll argumentationen inom det ni kan förklara och belägga. Låna inte en investerares auktoritet som produktbevis."
+  ],
+  "questions": [
+    "Vad gör nyttan hållbar för kunden?",
+    "Vilken del av påståendet ligger utanför vårt underlag?"
+  ],
+  "sources": [
+    {
+      "title": "Berkshire 1989 letter: Cigar butts vs wonderful businesses, float-backed risk taking, and a no-leverage temperament",
+      "url": "https://www.berkshirehathaway.com/letters/1989.html"
+    },
+    {
+      "title": "Berkshire 1996 letter: inevitables, float, incentives, and investing simply",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html"
+    },
+    {
+      "title": "Buffett 1986 letter: owner earnings, managing by not getting in the way, and commodity insurance",
+      "url": "https://www.berkshirehathaway.com/letters/1986.html"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/warren-buffett",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}
