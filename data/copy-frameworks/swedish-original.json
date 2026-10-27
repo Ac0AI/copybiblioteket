@@ -1,0 +1,57 @@
+{
+  "id": "swedish-original",
+  "title": "Skriv som om idén föddes på svenska",
+  "author": "Isof / vår svenska skrivguide",
+  "category": "Svenska",
+  "summary": "Utgå från mottagarens situation och varumärkets röst. Skriv självständig svenska med konkreta ord, naturlig ordföljd och tydliga handlingar.",
+  "useWhen": "När texten låter översatt, opersonlig eller full av anglicismer och svepande säljlöften.",
+  "avoidWhen": "När en uttrycksfull röst avsiktligt är rätt för varumärket. Svensk copy behöver inte vara försiktig, stel eller likadan för alla.",
+  "keywords": [
+    "svenska",
+    "svensk",
+    "svenskt",
+    "svengelska",
+    "översatt",
+    "översättning",
+    "anglicism",
+    "anglicismer",
+    "tonalitet",
+    "ton",
+    "röst",
+    "klarspråk",
+    "idiomatisk",
+    "naturlig",
+    "swedish",
+    "native",
+    "transcreation",
+    "voice"
+  ],
+  "principles": [
+    "Skriv från fakta och syfte direkt på svenska. Behåll budskapet, men bygg om meningen när engelskan styr rytmen.",
+    "Välj tilltal och fackord efter mottagaren. Anta inte att alla svenska målgrupper vill ha samma ton.",
+    "Beskriv handling och nytta konkret. Behåll humor, känsla och energi när de hjälper texten.",
+    "Kontrollera sammansatta ord, rubriker, valuta, mått och datum. Ändra inte erbjudandets fakta eller villkor för att passa språket."
+  ],
+  "questions": [
+    "Skulle någon i målgruppen säga så här?",
+    "Vad betyder formuleringen konkret?",
+    "Låter det som detta varumärke snarare än en översatt mall?"
+  ],
+  "example": {
+    "context": "Påhittat: ett abonnemangsverktyg visar löpande kostnader. Ingen besparing är garanterad.",
+    "before": "Lås upp besparingar och ta kontroll över din finansiella resa.",
+    "after": "Se vad dina abonnemang kostar varje månad.",
+    "explanation": "Det konkreta exemplet är vår egen tillämpning. Isofs klarspråksråd används för begriplighet, inte som bevis för försäljningseffekt."
+  },
+  "sources": [
+    {
+      "title": "Isof: Skriv klarspråk",
+      "url": "https://www.isof.se/svenska-spraket/klarsprak/klarsprakshjalpen/skriv-klarsprak",
+      "kind": "institution",
+      "language": "sv",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

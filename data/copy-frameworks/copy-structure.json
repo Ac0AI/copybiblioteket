@@ -1,0 +1,47 @@
+{
+  "id": "copy-structure",
+  "title": "Ge argumentet en tydlig ordning",
+  "author": "Copyhackers / etablerade skrivmodeller",
+  "category": "Budskap",
+  "summary": "Använd AIDA, PAS eller före–efter–vägen dit som stöd för ordningen när fakta och huvudargument redan är kända.",
+  "useWhen": "När materialet är bra men läsaren får informationen i fel ordning.",
+  "avoidWhen": "När strukturen lockar fram överdrifter, upprepat problemskapande eller utfyllnad. Välj en form som passar textens längd.",
+  "keywords": [
+    "aida",
+    "pas",
+    "bab",
+    "struktur",
+    "strukturera",
+    "ordning",
+    "problem agitate solution",
+    "before after bridge",
+    "attention interest desire action",
+    "argument"
+  ],
+  "principles": [
+    "AIDA: fånga relevant uppmärksamhet, utveckla intresset, visa önskvärd nytta och gör nästa steg tydligt.",
+    "PAS: beskriv ett känt problem, förklara dess faktiska följd och visa lösningen. Förstärk inte oro utan grund.",
+    "Före–efter–vägen dit: visa en möjlig förändring och hur tjänsten hjälper till. Framtidsbilden måste vara rimlig."
+  ],
+  "questions": [
+    "Vad behöver läsaren förstå först?",
+    "Finns en tydlig koppling mellan problem, erbjudande och handling?"
+  ],
+  "example": {
+    "context": "Påhittat: en tjänst visar arbetsgruppens uppgifter i en delad lista.",
+    "before": "Full kontroll. Maximal potential. Obegränsade möjligheter.",
+    "after": "Svårt att se vad som återstår? Samla uppgifterna i en gemensam lista. Se hur det fungerar.",
+    "explanation": "En enkel följd räcker. Exemplet bevisar ingen konverteringseffekt."
+  },
+  "sources": [
+    {
+      "title": "Joanna Wiebe: Copywriting Formulas",
+      "url": "https://copyhackers.com/2015/10/copywriting-formula/",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

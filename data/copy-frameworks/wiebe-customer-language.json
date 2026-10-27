@@ -1,0 +1,56 @@
+{
+  "id": "wiebe-customer-language",
+  "title": "Hitta orden i kundens vardag",
+  "author": "Joanna Wiebe / Copyhackers",
+  "category": "Kundinsikt",
+  "summary": "Samla kundernas frågor, invändningar och sätt att beskriva problemet innan du väljer budskap.",
+  "useWhen": "När texten består av interna produktord eller när du behöver förstå vad köparen vill veta.",
+  "avoidWhen": "När inga kundkällor finns: hitta inte på citat och kalla inte egna antaganden kundinsikt.",
+  "keywords": [
+    "wiebe",
+    "kundspråk",
+    "kundintervjuer",
+    "intervjuer",
+    "recensioner",
+    "research",
+    "voice of customer",
+    "voc",
+    "customer language",
+    "customer research",
+    "invändning"
+  ],
+  "principles": [
+    "Läs tillåtna intervjuer, supportfrågor och recensioner med sammanhanget kvar.",
+    "Skilj citat, parafras och egen tolkning. Notera källa och hur begränsat urvalet är.",
+    "Pröva om budskapet förstås. Låt kundens ord informera texten utan att sudda ut varumärkets röst."
+  ],
+  "questions": [
+    "Vilka frågor återkommer?",
+    "Hur beskriver kunden problemet innan hen känner produkten?",
+    "Vad behöver verifieras med fler personer?"
+  ],
+  "example": {
+    "context": "Påhittat: tjänsten samlar kvitton. I ett fiktivt kundsamtal säger en företagare att hen letar efter dem inför bokföringen.",
+    "before": "Effektivisera din kvittohanteringsprocess.",
+    "after": "Samla kvittona på ett ställe, så att du hittar dem när det är dags för bokföringen.",
+    "explanation": "Välj konkreta ord och en begriplig situation."
+  },
+  "sources": [
+    {
+      "title": "Copyhackers: Conversion Copywriting Defined",
+      "url": "https://copyhackers.com/conversion-copywriting-defined/",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    },
+    {
+      "title": "Copyhackers: Copywriting Research",
+      "url": "https://copyhackers.com/2022/06/copywriting-research/",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

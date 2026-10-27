@@ -1,0 +1,58 @@
+{
+  "id": "cialdini-persuasion",
+  "title": "Ge läsaren skäl att känna förtroende",
+  "author": "Robert Cialdini",
+  "category": "Budskap",
+  "summary": "Använd relevant socialt bevis, sakkunskap och verkliga villkor för att hjälpa läsaren att bedöma erbjudandet.",
+  "useWhen": "När kunden är osäker på vem ni är, om lösningen passar eller om andra har haft nytta av den.",
+  "avoidWhen": "När underlag saknas för kundomdömen, meriter, begränsningar eller påstådd gemenskap.",
+  "keywords": [
+    "cialdini",
+    "förtroende",
+    "trovärdighet",
+    "omdömen",
+    "kundomdömen",
+    "recensioner",
+    "bevis",
+    "auktoritet",
+    "knapphet",
+    "återgäldande",
+    "samhörighet",
+    "social proof",
+    "reciprocity",
+    "scarcity",
+    "authority",
+    "consistency",
+    "liking",
+    "unity",
+    "trust"
+  ],
+  "principles": [
+    "Återgäldande: ge något användbart utan dold motprestation. Knapphet: beskriv bara verkliga begränsningar.",
+    "Auktoritet: visa relevant sakkunskap. Konsekvens: underlätta ett frivilligt nästa steg.",
+    "Sympati: skriv mänskligt och lyhört. Socialt bevis: använd relevanta, tillåtna kundexempel.",
+    "Samhörighet: anknyt till en faktisk gemenskap. Välj det som hjälper beslutet; pressa inte in alla principer."
+  ],
+  "questions": [
+    "Vilket tvivel ska underlaget besvara?",
+    "Är exemplet relevant för just denna kund?",
+    "Har vi källa, tillstånd och rätt sammanhang?"
+  ],
+  "example": {
+    "context": "Påhittat: tre mindre redovisningsbyråer har godkänt publicering av intervjuer om hur de använder tjänsten.",
+    "before": "Det självklara valet för alla framgångsrika byråer.",
+    "after": "Läs hur tre mindre redovisningsbyråer använder tjänsten i sitt dagliga arbete.",
+    "explanation": "Visa underlaget så att läsaren kan bedöma det."
+  },
+  "sources": [
+    {
+      "title": "Influence at Work: Seven Principles of Persuasion",
+      "url": "https://www.influenceatwork.com/7-principles-of-persuasion/",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

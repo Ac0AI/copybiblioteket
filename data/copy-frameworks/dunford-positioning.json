@@ -1,0 +1,53 @@
+{
+  "id": "dunford-positioning",
+  "title": "Gör skillnaden relevant",
+  "author": "April Dunford",
+  "category": "Erbjudande",
+  "summary": "Utgå från kundens verkliga alternativ och förklara vilka skillnader som spelar roll för rätt köpare.",
+  "useWhen": "När läsaren inte förstår vad produkten är, vem den passar eller varför den ska väljas.",
+  "avoidWhen": "När skillnader bara består av allmänna ord som innovativ, smidig eller ledande.",
+  "keywords": [
+    "dunford",
+    "positionering",
+    "positionera",
+    "alternativ",
+    "konkurrent",
+    "konkurrenter",
+    "differentiering",
+    "skillnad",
+    "skiljer",
+    "välja",
+    "positioning",
+    "differentiation",
+    "alternatives",
+    "unique attributes",
+    "market category"
+  ],
+  "principles": [
+    "Ta reda på vad kunden skulle göra utan produkten, även manuellt arbete eller att avstå.",
+    "Knyt faktiska egenskaper till konkret nytta och de kunder som värderar den.",
+    "Välj en kategori som hjälper kunden att förstå erbjudandet. Påstå inte unikhet utan jämförelseunderlag."
+  ],
+  "questions": [
+    "Vad ersätter tjänsten i dag?",
+    "Vilken skillnad kan vi visa?",
+    "Vem har mest nytta av den skillnaden?"
+  ],
+  "example": {
+    "context": "Påhittat: ett planeringsverktyg samlar arbetspass och låter medarbetarna ansöka om passbyten. Kundens alternativ är en kalkylfil och mejl.",
+    "before": "En innovativ plattform som tar din verksamhet till nästa nivå.",
+    "after": "Samla schemat och önskemålen om passbyten på samma ställe.",
+    "explanation": "Beskriv den relevanta förändringen i arbetet."
+  },
+  "sources": [
+    {
+      "title": "April Dunford: A Quickstart Guide to Positioning",
+      "url": "https://www.aprildunford.com/post/a-quickstart-guide-to-positioning",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

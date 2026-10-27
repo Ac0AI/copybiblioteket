@@ -1,0 +1,51 @@
+{
+  "id": "hopkins-testing",
+  "title": "Pröva budskapet i verkligheten",
+  "author": "Claude Hopkins / vår tillämpning för utvärdering",
+  "category": "Utvärdering",
+  "summary": "Formulera en tydlig hypotes och skilj vad du tror ska fungera från vad en relevant mätning faktiskt visar.",
+  "useWhen": "När ni väljer mellan budskap eller behöver veta om en ändring hjälper läsaren och affären.",
+  "avoidWhen": "När underlaget är för litet eller mätningen blandar ihop trafik, målgrupper och andra förändringar.",
+  "keywords": [
+    "hopkins",
+    "test",
+    "testa",
+    "abtest",
+    "a/b",
+    "experiment",
+    "mäta",
+    "mätning",
+    "utvärdering",
+    "vinnare",
+    "testing",
+    "validation",
+    "evidence"
+  ],
+  "principles": [
+    "Skriv ned vad ni ändrar, varför, för vem och vilket utfall ni vill se.",
+    "Kontrollera begriplighet och saklighet innan ni mäter effekt.",
+    "En egen bedömning eller ett litet stickprov är inte en uppmätt konverteringsvinst. Rapportera osäkra resultat som osäkra."
+  ],
+  "questions": [
+    "Vad är hypotesen?",
+    "Vad räknas som ett relevant utfall?",
+    "Kan mätningen skilja textens effekt från andra förändringar?"
+  ],
+  "example": {
+    "context": "Påhittat: två rubriker ska prövas. Ingen av dem har testats ännu.",
+    "before": "Den nya rubriken kommer att öka konverteringen.",
+    "after": "Hypotes: rubriken som förklarar vad som ingår gör erbjudandet lättare att förstå.",
+    "explanation": "Formulera vad som ska undersökas. Moderna mätregler här är vår tillämpning, inte citat ur Hopkins."
+  },
+  "sources": [
+    {
+      "title": "Library of Congress: Scientific Advertising (1923)",
+      "url": "https://www.loc.gov/item/23009362/",
+      "kind": "institution",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

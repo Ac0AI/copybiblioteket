@@ -1,0 +1,62 @@
+{
+  "id": "hormozi-offer",
+  "title": "Gör erbjudandet lätt att värdera",
+  "author": "Alex Hormozi",
+  "category": "Erbjudande",
+  "summary": "Förtydliga nyttan, varför kunden kan tro på den, hur lång tid den tar och vad kunden själv behöver göra.",
+  "useWhen": "När priset känns högt, nyttan är oklar eller erbjudandet kräver för mycket av köparen.",
+  "avoidWhen": "När du bara ska rätta en mening. En värdeekvation ger inga säkra priser eller försäljningsprognoser.",
+  "keywords": [
+    "hormozi",
+    "erbjudande",
+    "erbjudandet",
+    "pris",
+    "priset",
+    "prissättning",
+    "dyrt",
+    "paketering",
+    "nytta",
+    "värde",
+    "value equation",
+    "dream outcome",
+    "perceived likelihood",
+    "time delay",
+    "effort sacrifice",
+    "offer"
+  ],
+  "principles": [
+    "Börja med det resultat kunden vill ha och den del ni faktiskt kan leverera.",
+    "Visa relevant belägg och arbetssätt. Starkare ord ersätter inte bevis.",
+    "Skilj på start, första nytta och slutresultat. Var tydlig med kundens egen insats.",
+    "Bonusar ska lösa ett verkligt hinder. Garantier, rabatter och tidsgränser kräver faktiska villkor."
+  ],
+  "questions": [
+    "Vad får kunden konkret för priset?",
+    "Vad gör köparen osäker?",
+    "Vilket arbete och vilken väntan kan ni faktiskt minska?"
+  ],
+  "example": {
+    "context": "Påhittat: en redovisningsbyrå sköter löpande bokföring, erbjuder ett introduktionssamtal och svarar på mejl på vardagar.",
+    "before": "Lås upp din ekonomiska potential med vår oemotståndliga lösning.",
+    "after": "Vi sköter din löpande bokföring. Du får ett introduktionssamtal och kan mejla oss när du behöver hjälp.",
+    "explanation": "Specificera leveransen och stödet utan att lova ett ekonomiskt resultat."
+  },
+  "sources": [
+    {
+      "title": "Acquisition.com: The Value Equation",
+      "url": "https://www.acquisition.com/hubfs/Offer%20Checklists%20-%20PDF%20Downloads/Pricing-Value-Checklist.pdf?hsLang=en",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    },
+    {
+      "title": "Acquisition.com: Offers",
+      "url": "https://www.acquisition.com/training/offers",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

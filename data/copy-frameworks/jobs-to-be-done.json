@@ -1,0 +1,52 @@
+{
+  "id": "jobs-to-be-done",
+  "title": "Förstå varför kunden vill byta",
+  "author": "Christensen Institute / Jobs to Be Done",
+  "category": "Kundinsikt",
+  "summary": "Undersök situationen som får kunden att söka en lösning, den förändring hen vill uppnå och det som håller hen tillbaka.",
+  "useWhen": "När målgruppen bara beskrivs med ålder, bransch eller bolagsstorlek, eller när köparen tvekar inför ett byte.",
+  "avoidWhen": "När intervjuer saknas: formulera frågor och hypoteser, inte påståenden om vad kunderna egentligen känner.",
+  "keywords": [
+    "jtbd",
+    "jobs to be done",
+    "kundinsikt",
+    "situation",
+    "byta",
+    "byter",
+    "byte",
+    "tvekar",
+    "förändring",
+    "invändningar",
+    "progress",
+    "circumstances",
+    "anxiety",
+    "jobb"
+  ],
+  "principles": [
+    "Fråga om ett konkret tillfälle: vad hände, vad provade kunden och varför blev det viktigt just då?",
+    "Skilj på praktisk nytta, socialt sammanhang och känslomässiga behov.",
+    "Beskriv både skälet att byta och hindret. Gör inte en kunds berättelse till ett faktum om hela målgruppen."
+  ],
+  "questions": [
+    "Vad utlöste sökandet?",
+    "Vad fungerar dåligt med det nuvarande alternativet?",
+    "Vad skulle göra bytet besvärligt eller osäkert?"
+  ],
+  "example": {
+    "context": "Påhittat: en tjänst hjälper småföretag att flytta bokföringsunderlag från ett annat system. Exemplet bygger inte på en verklig intervju.",
+    "before": "Vår lösning passar företag med 1–10 anställda.",
+    "after": "Vill du byta bokföringssystem? Vi hjälper dig att flytta underlaget från det du använder i dag.",
+    "explanation": "En relevant situation kan säga mer än en demografisk beskrivning."
+  },
+  "sources": [
+    {
+      "title": "Christensen Institute: Jobs to Be Done Theory",
+      "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+      "kind": "institution",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

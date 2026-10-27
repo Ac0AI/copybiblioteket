@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ramverk, svenska exempel och källor för att skriva tydligare copy.">
+  <title>Copybiblioteket</title>
+  <link rel="canonical" href="https://sigge.si/">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Copybiblioteket – copy med egna svenska ord">
+  <meta property="og:description" content="Hormozi, Cialdini och fler ramverk med svenska tillämpningar, exempel och källor.">
+  <meta property="og:url" content="https://sigge.si/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">Till ramverken</a>
+  <header class="site-header">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">cb</span> Copybiblioteket</a>
+    <button class="quiet-button" id="show-guide" type="button">Skriv på svenska</button>
+  </header>
+  <main>
+    <section class="search-area" aria-labelledby="main-heading">
+      <div class="intro">
+        <h1 id="main-heading">Vad behöver<br>texten göra?</h1>
+        <p>Hitta ett användbart ramverk.<br>Skriv med egna ord.</p>
+      </div>
+      <div class="search-tools">
+        <form id="search-form" role="search">
+          <label class="sr-only" for="query">Sök efter ett problem eller ramverk</label>
+          <div class="search-field">
+            <input id="query" name="query" type="search" maxlength="500" placeholder="Till exempel: kunden tycker att det är för dyrt" autocomplete="off">
+            <button class="primary-button" type="submit">Sök</button>
+          </div>
+          <fieldset class="scope">
+            <legend class="sr-only">Vad vill du söka i?</legend>
+            <label><input type="radio" name="scope" value="frameworks" checked> Svenska ramverk</label>
+            <label><input type="radio" name="scope" value="sources"> Fördjupning i källor</label>
+            <label id="person-label" hidden>Författare
+              <select id="person"><option value="">Båda</option><option value="alex-hormozi">Alex Hormozi</option><option value="corey-haines">Corey Haines</option></select>
+            </label>
+          </fieldset>
+        </form>
+        <div class="suggestions" aria-label="Förslag på sökningar">
+          <button type="button" data-query="pris och erbjudande">Förklara värdet</button>
+          <button type="button" data-query="förtroende och kundomdömen">Bygga förtroende</button>
+          <button type="button" data-query="naturlig svenska utan översättningsprägel">Hitta rätt ton</button>
+        </div>
+      </div>
+    </section>
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+    <section class="workspace" id="workspace" aria-label="Ramverk och exempel">
+      <aside class="library-nav" aria-label="Välj ramverk">
+        <div class="library-heading"><h2 id="list-heading">Alla ramverk</h2><button type="button" class="text-button" id="reset">Visa alla</button></div>
+        <div id="framework-list"></div>
+      </aside>
+      <article id="detail" class="detail" aria-label="Valt ramverk" tabindex="-1">
+        <p>Läser in biblioteket …</p>
+      </article>
+    </section>
+  </main>
+  <footer>Ett fristående bibliotek med egna svenska tillämpningar och länkar till originalkällorna. Välj ett ramverk och kopiera skrivunderlaget till din AI-chatt. <a href="https://github.com/Ac0AI/copybiblioteket">Kod och copy-skill</a>.</footer>
+</body>
+</html>

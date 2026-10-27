@@ -1,0 +1,50 @@
+{
+  "id": "schwartz-awareness",
+  "title": "Börja där läsaren befinner sig",
+  "author": "Eugene Schwartz",
+  "category": "Budskap",
+  "summary": "Anpassa öppningen efter vad läsaren redan vet om problemet, lösningarna och produkten.",
+  "useWhen": "När en text förklarar självklarheter eller ber om köp innan läsaren förstår erbjudandet.",
+  "avoidWhen": "När kundens kännedom bara gissas: behandla då nivån som en hypotes och pröva alternativ.",
+  "keywords": [
+    "schwartz",
+    "medvetenhet",
+    "kännedom",
+    "problemmedveten",
+    "känner",
+    "nybörjare",
+    "öppning",
+    "inledning",
+    "awareness",
+    "problem aware",
+    "solution aware",
+    "product aware",
+    "most aware"
+  ],
+  "principles": [
+    "Skilj mellan läsare som inte uppmärksammat problemet, känner problemet, jämför lösningar, känner produkten eller redan överväger erbjudandet.",
+    "En ny besökare kan behöva sammanhang. En jämförande köpare behöver skillnader, villkor och belägg.",
+    "Utgå från kanal och situation. En person kan veta olika mycket i olika sammanhang."
+  ],
+  "questions": [
+    "Vad vet läsaren redan?",
+    "Vilken fråga behöver besvaras innan nästa steg känns rimligt?"
+  ],
+  "example": {
+    "context": "Påhittat: läsaren jämför flyttfirmor och sidan låter hen skicka samma förfrågan till tre företag.",
+    "before": "En flytt innebär att du byter bostad.",
+    "after": "Be tre flyttfirmor om offert med samma förfrågan.",
+    "explanation": "För en jämförande läsare kan tjänstens funktion vara en bättre öppning än en förklaring av ett redan känt problem."
+  },
+  "sources": [
+    {
+      "title": "Breakthrough Advertising: Five States of Awareness",
+      "url": "https://breakthroughadvertisingbook.com/the-five-states-of-awareness-the-key-to-marketing-that-actually-works/",
+      "kind": "publisher",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

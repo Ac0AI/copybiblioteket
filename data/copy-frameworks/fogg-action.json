@@ -1,0 +1,53 @@
+{
+  "id": "fogg-action",
+  "title": "Gör nästa steg möjligt",
+  "author": "BJ Fogg",
+  "category": "Budskap",
+  "summary": "Bedöm om läsaren vill agera, kan göra det utan onödig friktion och får en tydlig uppmaning vid rätt tillfälle.",
+  "useWhen": "När läsare verkar intresserade men fastnar vid formulär, bokning eller nästa steg.",
+  "avoidWhen": "När problemet kräver en produktändring: formulera den separat och lova inte att en ny knapptext löser den.",
+  "keywords": [
+    "fogg",
+    "nästa steg",
+    "boka",
+    "bokning",
+    "knapp",
+    "knappen",
+    "klick",
+    "klickar",
+    "friktion",
+    "formulär",
+    "motivation",
+    "ability",
+    "prompt",
+    "cta",
+    "call to action"
+  ],
+  "principles": [
+    "Undersök motivation, förmåga och uppmaning tillsammans.",
+    "Förklara vad handlingen innebär och vad som händer efteråt.",
+    "Skilj det som går att lösa med text från onödiga steg som behöver ändras i tjänsten."
+  ],
+  "questions": [
+    "Förstår läsaren vad knappen gör?",
+    "Vilken information behövs faktiskt nu?",
+    "Är nästa steg rimligt för den här situationen?"
+  ],
+  "example": {
+    "context": "Påhittat: formuläret skickar en offertförfrågan. Det innebär ingen beställning.",
+    "before": "Starta din resa.",
+    "after": "Be om offert",
+    "explanation": "Knapptexten säger vad som händer. Villkor om bindning får bara läggas till när de är kända."
+  },
+  "sources": [
+    {
+      "title": "BJ Fogg: Fogg Behavior Model",
+      "url": "https://www.behaviormodel.org/",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

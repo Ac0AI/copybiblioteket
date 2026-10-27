@@ -1,0 +1,47 @@
+{
+  "id": "ogilvy-headline",
+  "title": "Låt rubriken bära en tydlig idé",
+  "author": "David Ogilvy / vår tillämpning",
+  "category": "Budskap",
+  "summary": "Lär känna produkten och mottagaren. Välj sedan en rubrik som säger något meningsfullt och som resten av texten kan leva upp till.",
+  "useWhen": "När rubriken är utbytbar, överlastad eller lovar mer än sidan visar.",
+  "avoidWhen": "När en generell rubrikregel behandlas som en garanti för resultat.",
+  "keywords": [
+    "ogilvy",
+    "rubrik",
+    "rubriker",
+    "headline",
+    "hook",
+    "löfte",
+    "produktkunskap",
+    "brand",
+    "research",
+    "promise"
+  ],
+  "principles": [
+    "Låt rubrikens idé komma ur verklig produkt- och kundkunskap.",
+    "Visa det konkreta stödet i brödtexten.",
+    "Pröva om formuleringen känns igen som varumärkets och om den fungerar i den aktuella kanalen."
+  ],
+  "questions": [
+    "Vad får läsaren veta redan i rubriken?",
+    "Var på sidan visar vi stöd för löftet?"
+  ],
+  "example": {
+    "context": "Påhittat: kunden kan välja ett intervall för hemleverans, men någon exakt leveranstid garanteras inte.",
+    "before": "Leverans exakt när du vill. Varje gång.",
+    "after": "Välj ett leveransintervall som passar dig.",
+    "explanation": "Behåll det faktiska valet utan att göra det till en starkare garanti."
+  },
+  "sources": [
+    {
+      "title": "Ogilvy: Quotations of David Ogilvy",
+      "url": "https://www.ogilvy.com/sites/g/files/dhpsjz106/files/pdfdocuments/O23_OGILVY75_Quotations%20of%20David%20Ogilvy_WEB.pdf",
+      "kind": "publisher",
+      "language": "en",
+      "checked": "2026-10-27"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}
