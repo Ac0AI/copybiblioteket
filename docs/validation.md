@@ -1,32 +1,35 @@
 # Validering
 
-27 oktober 2026, fristående version 1.0.
+27 oktober 2026, skrivverkstad och 59 profiler.
 
-- `npm run build`: TypeScript-kontroll och 20 automatiska tester godkända lokalt.
-- Svenska och engelska sökfrågor, källhänvisningar, svenska tecken, tomma träffar, indata och HTTP testas.
-- En riktig MCP-klient startar stdio-servern från en annan arbetskatalog och läser verktyg och resultat.
-- Produktionsstarten testas med en ogiltig lokal källkatalog i miljön: den använder ändå endast egna tillämpningar och källänkar.
-- `npm install --ignore-scripts` rapporterade noll kända sårbarheter. Detta är inte en fullständig säkerhetsrevision.
-- Skrivproven i examples/ kommer från det tidigare lokala experimentet och är märkta som samma assistents bedömning.
+## Automatiska kontroller
 
-## Verifierad publicering
+- `npm run build`: TypeScript-kontroll, 28 tester och paketering av webbläsarkoden.
+- Alla 59 profilidentiteter är unika och matchar det importerade originalets katalog. Profilerna har HTTPS-källänkar och uttrycklig proveniens. Sökning på varje exakt namn ger rätt person först.
+- Svenska och engelska sökfrågor, källhänvisningar, svenska tecken, tomma träffar, indatagränser och HTTP testas.
+- Skrivunderlag bevarar fakta, villkor, röstprov och ändringsinstruktioner. Ett uttryckligt personval gäller före automatiskt urval, som begränsas till tre profiler och utesluter kategorin Fördjupning.
+- En riktig MCP-klient startar stdio-servern från en annan arbetskatalog, upptäcker åtta verktyg och läser ramverk, profiler och källor.
+- Produktionsstarten använder endast egna tillämpningar och källänkar även om en lokal textsamling anges i miljön. HTTP kan inte anropa AI, skapa konton eller prenumerera medan åtkomst väntar.
+- Lokala AI-tester använder simulerad gateway för skrivar-/redaktörsordning, felhantering, faktareferenser och obligatoriska formuleringar. Strängkontroller kan inte avgöra om varje påstående faktiskt följer av sitt underlag.
+- Den lokala källsamlingen innehåller 58 läsbara fördjupningsindex för katalogens 59 profiler. Profiler utan index använder egna svenska tillämpningar och ärvda källänkar.
+- Installerad Copy Operator är strukturellt validerad och dess CLI-hjälpare har kontrollerats mot personbiblioteket. Detta bevisar inte språklig kvalitet.
 
-Kontrollerat 27 oktober 2026 på https://sigge.si, produktionskod `6322c45ff6e73bb3fe14e8c0fa8f58d1bc64f19f`:
+## Lokala skrivprov
 
-- GitHub-repot är fristående (`fork: false`). [CI-körningen](https://github.com/Ac0AI/copybiblioteket/actions/runs/40582566993) lyckades.
-- Vercel-projektet `ac0/copybiblioteket` byggde och publicerade från `main`. Git-push till produktion har verifierats.
-- HTTPS-startsidan svarar 200. `www.sigge.si` omdirigerar med 308 till huvudadressen.
-- Hälsokontrollen visar 11 ramverk och `sourceMode: links`.
-- En svensk fråga om kundomdömen och förtroende ger Cialdini först. Källsökning ger originalkällor med våra egna svenska beskrivningar.
-- JavaScript, CSS, ikon, robots.txt och sitemap svarar 200. Ogiltig sökning ger 400 och interna filer kan inte läsas via webbvägar.
-- Webbläsarkontroll av den publika startsidan, svensk sökning och lyckad kopiering av skrivunderlag.
-- Lokal installerad skill är strukturellt validerad. En faktisk MCP-klient upptäcker fem verktyg och kan läsa den separat konfigurerade lokala fördjupningssamlingen.
-- Vercels runtime-felvy visade inga fel i det kontrollerade 30-minutersfönstret. Detta är en kontroll vid release, ingen kontinuerlig övervakning.
+Sex fiktiva briefar finns i evaluations/briefs.json: varm bokföringscopy, teknisk B2B, lekfull konsumenttext, saknade belägg, bearbetning med exakta villkor och ett röstprov som innehåller ogrundade resultatpåståenden. GPT-5.2 kördes med skrivar- och redaktörssteg. Resultaten sparas lokalt i den ignorerade evaluations/results-katalogen.
 
-Livekontrollen hittade och rättade Vercels hantering av startsidans katalogindex. Startsidan serveras nu via en explicit `sendFile`-rutt; övriga statiska resurser levereras av Vercels CDN.
+Första omgången tog 17–29 sekunder per brief. Den behöll obligatoriska formuleringar och undvek att överföra röstprovets kundresultat till det nya erbjudandet. Granskningen hittade också svagheter: kopierade stilprov, påhittade detaljer om ett första samtal och fler följdfrågor än uppgiften krävde. Instruktionerna har därför skärpts. Två nya körningar (17 respektive 25 sekunder) visade fortfarande ordagrann återanvändning av ett stilprov och för långtgående tolkning av ett tekniskt röstprov. Den lokala AI-skrivaren är därför fortsatt en utvärderingsdel, inte en verifierad publik skrivfunktion. Noll automatiska varningar är inte bevis för korrekt eller bra copy. Exemplen kräver mänsklig redigering.
+
+## Webbläsarkontroll lokalt
+
+Profilen Justin Welsh kunde öppnas, väljas och följas till skrivverkstaden. Valet, briefen, prisvillkoren och skrivguiden finns i det skapade underlaget. Kopieringsknappen visar lyckat besked; kopiering till ett annat program är inte verifierad. Frivillig lagring återställde brief och text efter omladdning. Börja om, versionsåterställning och radering av lokalt sparat testarbete fungerade. Separat fysisk mobilkontroll är inte utförd.
+
+## Publicering
+
+Release ska kontrolleras separat över HTTPS: /, /library, /people, API med 59 profiler, skrivunderlag, sökning, statiska filer och stängd AI-rutt. Körning av lokala tester är inte bevis för publicerad funktion. Den tidigare versionen av sigge.si är redan verifierad; den nya releasekontrollen dokumenteras när publiceringen är klar.
 
 ## Begränsningar
 
-Ingen jämförelse med Hormozis egen AI eller mätning av konverteringseffekt har gjorts. Begreppssökning är inte generell semantisk förståelse. Missade träffar behöver omformulering eller ramverkslistan. En valfri lokal ärvd samling har inte verifierats i sin helhet mot originalen och ingår inte i publik drift.
+Ingen jämförelse med Hormozis egen AI eller mätning av konverteringseffekt har gjorts. Begreppssökning är inte generell semantisk förståelse. Personprofilerna är våra svenska tillämpningar; alla ärvda källor har inte granskats mot originalen. Den valfria lokala textsamlingen ingår inte i publik drift.
 
-Sajten skriver inte färdig copy med en inbyggd modell. Den ger underlag till din AI-klient och Copy Operator-skillen. Skillens strukturella validering bevisar inte språklig kvalitet.
+Sajten skapar skrivunderlag och erbjuder en redigeringsyta. Den skriver inte färdig copy med en inbyggd modell. Konton, automatisk Field Notes-prenumeration och offentlig modellåtkomst är uppskjutna enligt ägarens beslut.

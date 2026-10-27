@@ -1,0 +1,42 @@
+{
+  "id": "damon-chen",
+  "name": "Damon Chen",
+  "category": "Produkt",
+  "summary": "Gör kundernas erfarenheter användbara",
+  "topics": [
+    "kundomdömen",
+    "sociala bevis",
+    "delning",
+    "produkt",
+    "trovärdighet"
+  ],
+  "principles": [
+    "Hjälp kunden beskriva sin situation, användning och erfarenhet med egna ord.",
+    "Placera relevanta omdömen där en verklig tvekan uppstår; behåll sammanhang och tillstånd."
+  ],
+  "questions": [
+    "Vilken invändning kan ett äkta omdöme belysa?",
+    "Går erfarenheten att förstå utan överdrivna slutsatser?"
+  ],
+  "sources": [
+    {
+      "title": "How Damon Chen went from a lonely-dev side project to Testimonial and full time",
+      "url": "https://softwaresocial.dev/episodes/from-side-project-to-full-time-with-damon-chen-and-michael-rouveure/transcript"
+    },
+    {
+      "title": "How Damon Chen acquired PDF.ai and grew it past $50K MRR",
+      "url": "https://saasstarterstack.com/interviews/pdfai"
+    },
+    {
+      "title": "Damon Chen: From Cisco engineer to $1.3M ARR across Testimonial and PDF.ai",
+      "url": "https://creatoreconomy.so/p/damon-chen-engineer-to-one-million"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/damon-chen",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

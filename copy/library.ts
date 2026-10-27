@@ -3,21 +3,23 @@ import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 import { Bm25 } from "../server/search.js";
 import { loadBrains, type Brain } from "../server/brains.js";
-import { frameworkSchema, type Framework, type Person } from "./schema.js";
+import { frameworkSchema, profileSchema, type Profile, type Framework, type Person } from "./schema.js";
 import { expandQuery } from "./query.js";
 
 export const ROOT = fileURLToPath(new URL("../", import.meta.url));
-export const SOURCE_PEOPLE = ["alex-hormozi", "corey-haines"] as const;
+export const PROFILE_NOTICE = 'Egna svenska tillämpningar. Källhänvisningarna kommer från The Brains och har inte verifierats självständigt mot hela originalen. Profilerna är inte officiella eller godkända av personerna.';
 export const NATIVE_NOTICE = "Egen svensk tillämpning med källhänvisningar. Exemplen är påhittade och visar skrivsätt, inte uppmätta resultat.";
 export const SOURCE_NOTICE = "Ärvt material från The Brains. Längre källor är sammanfattade av projektet; innehållet är inte verifierat här mot hela originalet. Kontrollera viktiga påståenden i den länkade källan.";
 export const LINK_NOTICE = "Här hittar du originalkällor till ramverken. Beskrivningarna är våra egna svenska tillämpningar; öppna länken för att läsa författarens material.";
 
 export class CopyLibrary {
   private index: Bm25;
+  private peopleIndex: Bm25;
   constructor(
     readonly frameworks: Framework[],
     readonly references: Map<string, Brain>,
     readonly writingGuide: string,
+    readonly people: Profile[] = [],
   ) {
     if (new Set(frameworks.map((f) => f.id)).size !== frameworks.length) throw new Error("Duplicate framework id");
     this.index = new Bm25(frameworks.map((f, id) => ({
@@ -27,6 +29,16 @@ export class CopyLibrary {
         boosted: [f.title, f.author, f.category, ...f.keywords].join(" "),
       },
     })));
+    if (new Set(people.map(p=>p.id)).size !== people.length) throw new Error('Duplicate profile id');
+    this.peopleIndex = new Bm25(people.map((p,id)=>({id,fields:{text:[p.summary,...p.principles,...p.questions].join(' '),boosted:[p.id,p.name,p.category,...p.topics].join(' ')}})));
+  }
+
+  getPerson(id: string) { return this.people.find(p=>p.id===id) ?? null; }
+  searchPeople(query: string, limit=6) {
+    const normalize=(s:string)=>s.normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().trim();
+    const exact=this.people.filter(p=>normalize(p.name)===normalize(query)||p.id===query.trim().toLowerCase());
+    const matches=this.peopleIndex.search(expandQuery(query).expanded).map(hit=>this.people[hit.doc]);
+    return { query, notice: PROFILE_NOTICE, results: [...exact,...matches.filter(p=>!exact.includes(p))].slice(0,limit) };
   }
 
   list() {
@@ -63,17 +75,18 @@ export class CopyLibrary {
   }
 
   searchSources(query: string, limit = 4, person?: Person) {
-    if (!this.references.size) {
-      const authors = { "alex-hormozi": "Alex Hormozi", "corey-haines": "Corey Haines" };
+    if (!this.references.size || (person && !this.references.has(person))) {
       const seen = new Set<string>();
-      const results = this.search(query, this.frameworks.length).results
-        .filter((f) => !person || f.author.includes(authors[person]))
+      const native = this.search(query, this.frameworks.length).results
+        .filter((f) => !person || f.author.includes(this.getPerson(person)?.name || person))
         .flatMap((f) => f.sources.map((source) => ({
           person: f.author, title: source.title, url: source.url, date: null,
           heading: source.title, text: f.summary, language: "sv",
           kind: "original-application", sourceLanguage: source.language,
-        })))
-        .filter((source) => {
+        })));
+      const profiles = (person ? [this.getPerson(person)].filter((p):p is Profile=>Boolean(p)) : this.searchPeople(query,limit).results)
+        .flatMap(p=>p.sources.map(s=>({person:p.name,title:s.title,url:s.url,date:null,heading:s.title,text:p.summary,language:'sv',kind:'original-application',sourceLanguage:'en',sourceStatus:p.provenance.sourceStatus})));
+      const results = [...native, ...profiles].filter((source) => {
           if (seen.has(source.url)) return false;
           seen.add(source.url);
           return true;
@@ -114,10 +127,10 @@ export async function loadCopyLibrary(root = ROOT, sourceDir: string | false = p
   const files = (await readdir(dir)).filter((f) => f.endsWith(".json")).sort();
   const frameworks = await Promise.all(files.map(async (file) =>
     frameworkSchema.parse(JSON.parse(await readFile(join(dir, file), "utf8")))));
-  const references = sourceDir ? await loadBrains(sourceDir, SOURCE_PEOPLE) : new Map<string, Brain>();
-  if (sourceDir) for (const slug of SOURCE_PEOPLE) {
-    if (!references.has(slug)) throw new Error("Missing reference library: " + slug);
-  }
+  const peopleDir = join(root, 'data', 'people');
+  const people = await Promise.all((await readdir(peopleDir)).filter(f=>f.endsWith('.json')).sort().map(async file=>profileSchema.parse(JSON.parse(await readFile(join(peopleDir,file),'utf8')))));
+  const references = sourceDir ? await loadBrains(sourceDir, people.map(p=>p.id)) : new Map<string, Brain>();
+  if (sourceDir && !references.size) throw new Error('No local reference libraries found');
   const guide = await readFile(join(root, "skills", "copy-operator", "references", "swedish.md"), "utf8");
-  return new CopyLibrary(frameworks, references, guide);
+  return new CopyLibrary(frameworks, references, guide, people);
 }

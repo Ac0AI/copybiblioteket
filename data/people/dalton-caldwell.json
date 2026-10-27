@@ -1,0 +1,42 @@
+{
+  "id": "dalton-caldwell",
+  "name": "Dalton Caldwell",
+  "category": "Kundinsikt",
+  "summary": "Sök konkreta tecken på att produkten behövs",
+  "topics": [
+    "kundsamtal",
+    "behov",
+    "produktmarknad",
+    "tidiga kunder",
+    "validering"
+  ],
+  "principles": [
+    "Fråga vad personen gjorde senast problemet uppstod, inte bara vad den tycker om idén.",
+    "Skriv för en avgränsad grupp som behöver lösningen tydligt."
+  ],
+  "questions": [
+    "Vad har kunden redan försökt?",
+    "Vilket beteende skulle visa att erbjudandet hjälper?"
+  ],
+  "sources": [
+    {
+      "title": "Dalton Caldwell on how YC startup advice holds up in the age of AI",
+      "url": "https://www.youtube.com/watch?v=Rm9UxxVwGsQ"
+    },
+    {
+      "title": "Setting goals before product-market fit: get users who love it, skip the graphs",
+      "url": "https://www.youtube.com/watch?v=OHiKsF0JXPk"
+    },
+    {
+      "title": "Dalton Caldwell (YC): don't die, pivot toward what you know, avoid tarpit ideas",
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/dalton-caldwell",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

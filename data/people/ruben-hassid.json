@@ -1,0 +1,42 @@
+{
+  "id": "ruben-hassid",
+  "name": "Ruben Hassid",
+  "category": "Budskap",
+  "summary": "Användbar AI-copy kräver mänskligt urval",
+  "topics": [
+    "AI",
+    "LinkedIn",
+    "redigering",
+    "omdöme",
+    "prompt"
+  ],
+  "principles": [
+    "Ge AI:n konkret sammanhang och välj sedan mellan tydligt olika angreppssätt.",
+    "Behåll de delar som hjälper läsaren och redigera bort allmänna utfyllnader."
+  ],
+  "questions": [
+    "Vilket problem löser texten för läsaren?",
+    "Vad måste en människa bedöma innan publicering?"
+  ],
+  "sources": [
+    {
+      "title": "How Ruben Hassid built a viral LinkedIn system: be useful, not personal",
+      "url": "https://www.youtube.com/watch?v=kdI6i7aORHU"
+    },
+    {
+      "title": "Master AI before it masters you: Ruben Hassid on taste, free content and being the IKEA manual",
+      "url": "https://www.youtube.com/watch?v=p2gHCDTM-3g"
+    },
+    {
+      "title": "Ruben Hassid on growing on LinkedIn with AI: taste, volume, and one mission",
+      "url": "https://www.youtube.com/watch?v=9nvAEj5PaAI"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/ruben-hassid",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

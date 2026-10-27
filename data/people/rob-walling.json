@@ -1,0 +1,42 @@
+{
+  "id": "rob-walling",
+  "name": "Rob Walling",
+  "category": "Erbjudande",
+  "summary": "SaaS-erbjudanden som passar rätt sorts kund",
+  "topics": [
+    "SaaS",
+    "pris",
+    "provperiod",
+    "kanaler",
+    "kundbortfall"
+  ],
+  "principles": [
+    "Förklara paket och begränsningar utifrån kundens användning.",
+    "Anpassa budskapet efter hur väl läsaren känner problemet och vilka alternativ den överväger."
+  ],
+  "questions": [
+    "Vem passar tjänsten bäst för?",
+    "Vilken tvekan finns före en provperiod eller uppgradering?"
+  ],
+  "sources": [
+    {
+      "title": "Why SaaS customers really cancel: four churn patterns and how to measure churn correctly",
+      "url": "https://www.youtube.com/watch?v=LlJSh38COPo"
+    },
+    {
+      "title": "Rob Walling: The brutal truths of starting a SaaS in 2026",
+      "url": "https://www.youtube.com/watch?v=K448XtAsGJg"
+    },
+    {
+      "title": "Rob Walling's Big Five B2B SaaS marketing strategies and how to choose between them in 2026",
+      "url": "https://www.youtube.com/watch?v=Hy4eBvxvVfk"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/rob-walling",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

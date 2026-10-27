@@ -1,0 +1,42 @@
+{
+  "id": "alex-hormozi",
+  "name": "Alex Hormozi",
+  "category": "Erbjudande",
+  "summary": "Ett erbjudande som går att förstå och värdera",
+  "topics": [
+    "pris",
+    "paketering",
+    "nytta",
+    "erbjudande",
+    "fokus"
+  ],
+  "principles": [
+    "Beskriv vad kunden får, vad det kräver och vilka belägg som finns.",
+    "Låt varje bonus lösa ett faktiskt hinder. Sätt inga tidsgränser som verksamheten inte har."
+  ],
+  "questions": [
+    "Vad ingår och vad ingår inte?",
+    "Vilken osäkerhet måste köparen få svar på?"
+  ],
+  "sources": [
+    {
+      "title": "Alex Hormozi on Diary of a CEO: Offers, leverage and skill stacking from $1,000 to $100M",
+      "url": "https://www.youtube.com/watch?v=x3e73Qn6NOo"
+    },
+    {
+      "title": "Alex Hormozi's millionaire blueprint: own equity, focus on one thing, build offers, compound patiently",
+      "url": "https://www.youtube.com/watch?v=VBoRLJimVzc"
+    },
+    {
+      "title": "13 Years of Brutal Business Truths: Priorities, Talent, Brand and Getting Better",
+      "url": "https://www.youtube.com/watch?v=KhFlD54nQrY"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/alex-hormozi",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

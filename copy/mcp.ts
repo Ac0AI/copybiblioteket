@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
-import { loadCopyLibrary, type CopyLibrary } from "./library.js";
+import { loadCopyLibrary, PROFILE_NOTICE, type CopyLibrary } from "./library.js";
 import { personSchema } from "./schema.js";
 
 const annotations = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
@@ -48,6 +48,9 @@ export function createCopyServer(library: CopyLibrary) {
     description: "Hämta skrivguiden för naturlig svenska: mottagare, varumärkesröst, konkretion, exempel och kontroll av översättningsprägel.",
     inputSchema: {}, annotations,
   }, async () => result({ language: "sv", guide: library.writingGuide }));
+  server.registerTool('list_copy_people', {description:'Lista samtliga personprofiler med svenska användningsområden. Profilerna är inte officiella.',inputSchema:{},annotations}, async()=>result({notice:PROFILE_NOTICE,people:library.people.map(({id,name,summary,category,topics})=>({id,name,summary,category,topics}))}));
+  server.registerTool('get_copy_person', {description:'Hämta en personprofil med egna svenska tillämpningar, arbetsfrågor och ärvda källhänvisningar. Använd id från listan.',inputSchema:{id:personSchema},annotations},async({id})=>{const person=library.getPerson(id);return person?result({person,notice:PROFILE_NOTICE}):{...result({error:'Okänd person. Använd list_copy_people.'}),isError:true};});
+  server.registerTool('search_copy_people', {description:'Sök bland alla personprofiler efter namn, ämne eller problem. Välj relevanta perspektiv och behåll kundens egen röst.',inputSchema:{query:z.string().trim().min(2).max(500),limit:z.number().int().min(1).max(10).default(6)},annotations},async({query,limit})=>result(library.searchPeople(query,limit)));
   return server;
 }
 

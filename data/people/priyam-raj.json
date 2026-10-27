@@ -1,0 +1,38 @@
+{
+  "id": "priyam-raj",
+  "name": "Priyam Raj",
+  "category": "Distribution",
+  "summary": "Ett avgränsat problem för en nåbar kundgrupp",
+  "topics": [
+    "kreatörer",
+    "nisch",
+    "distribution",
+    "partnerskap",
+    "validering"
+  ],
+  "principles": [
+    "Välj ett konkret jobb och en publik som redan söker hjälp med det.",
+    "Utforma ett samarbetserbjudande kring publikens nytta och tydliga villkor."
+  ],
+  "questions": [
+    "Vilken funktion är viktigast för denna grupp?",
+    "Vilken partner når gruppen på ett trovärdigt sätt?"
+  ],
+  "sources": [
+    {
+      "title": "How Priyam Raj built micro-SaaS products from India and sold them via creator distribution",
+      "url": "https://www.youtube.com/watch?v=EZrMDpFz40w"
+    },
+    {
+      "title": "How Priyam Raj built and sold micro SaaS products: validate first, partner with creators, exit",
+      "url": "https://www.youtube.com/watch?v=CyHaIc30ovM"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/priyam-raj",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

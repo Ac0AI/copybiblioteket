@@ -1,0 +1,38 @@
+{
+  "id": "cris-pop",
+  "name": "Cris Pop",
+  "category": "Ledarskap",
+  "summary": "Gör kultur och värderingar synliga i beteenden",
+  "topics": [
+    "kultur",
+    "rekrytering",
+    "tillit",
+    "team",
+    "värderingar"
+  ],
+  "principles": [
+    "Byt ut abstrakta värdeord mot situationer där människor kan se hur ni arbetar.",
+    "Låt ett rekryteringsbudskap också förklara ansvar, stöd och förväntningar."
+  ],
+  "questions": [
+    "Hur märker en medarbetare denna värdering?",
+    "Vad får man själv bestämma och vilket stöd finns?"
+  ],
+  "sources": [
+    {
+      "title": "Cris Pop on building a people-first culture at Thunder and defining success on your own terms",
+      "url": "https://www.youtube.com/watch?v=TGvJgmFaGNo"
+    },
+    {
+      "title": "Employees vs partners: how Thunder builds a value-first team culture",
+      "url": "https://www.youtube.com/watch?v=J6C_-IMu3lU"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/cris-pop",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

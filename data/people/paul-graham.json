@@ -1,0 +1,42 @@
+{
+  "id": "paul-graham",
+  "name": "Paul Graham",
+  "category": "Kundinsikt",
+  "summary": "Förklara ett problem som människor faktiskt har",
+  "topics": [
+    "kundbehov",
+    "grundare",
+    "tidiga kunder",
+    "manuellt",
+    "idéer"
+  ],
+  "principles": [
+    "Börja i en observerad situation och visa hur ni hjälper kunden där.",
+    "Använd tidiga kundsamtal och konkret manuellt arbete som lärande, utan att framställa enskilda fall som allmänna bevis."
+  ],
+  "questions": [
+    "När uppstod problemet senast?",
+    "Vilken konkret hjälp skulle kunden tacka ja till?"
+  ],
+  "sources": [
+    {
+      "title": "The 18 Mistakes That Kill Startups: why startups fail to make something users want",
+      "url": "https://paulgraham.com/startupmistakes.html"
+    },
+    {
+      "title": "How to Get Startup Ideas: live in the future, notice what's missing, build what's interesting",
+      "url": "https://paulgraham.com/startupideas.html"
+    },
+    {
+      "title": "Startup = Growth: why growth rate is the compass for every startup decision",
+      "url": "https://paulgraham.com/growth.html"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/paul-graham",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "casey-adams",
+  "name": "Casey Adams",
+  "category": "Publik",
+  "summary": "Nyfikenhet och relevans i intervjuer och kontaktmejl",
+  "topics": [
+    "podd",
+    "intervju",
+    "relationer",
+    "mejl",
+    "samarbete"
+  ],
+  "principles": [
+    "Gör inbjudan konkret: varför just personen, vilket ämne och för vilken publik.",
+    "Ställ frågor som ger en berättelse eller en användbar lärdom i stället för ett allmänt framgångsrecept."
+  ],
+  "questions": [
+    "Vad gör samtalet värt mottagarens tid?",
+    "Vilken följdfråga kommer bortom standardsvaret?"
+  ],
+  "sources": [
+    {
+      "title": "How Casey Adams turned a teen podcast into a network that funded a startup and launched Listener",
+      "url": "https://www.youtube.com/watch?v=o0BFz3tFHnE"
+    },
+    {
+      "title": "How Casey Adams built credibility, pivoted, and launched MediaKits from a neck injury",
+      "url": "https://www.youtube.com/watch?v=ZLCkNK01UY4"
+    },
+    {
+      "title": "Casey Adams on happiness, relationships, listening and how he landed the Larry King interview",
+      "url": "https://www.youtube.com/watch?v=uNA0MBb5CQE"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/casey-adams",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

@@ -5,8 +5,8 @@
   "installCommand": "npm ci --ignore-scripts",
   "functions": {
     "app.ts": {
-      "includeFiles": "{data/copy-frameworks/**,skills/copy-operator/references/swedish.md,public/index.html}",
-      "maxDuration": 10
+      "includeFiles": "{data/copy-frameworks/**,data/people/**,skills/copy-operator/references/**,public/*.html}",
+      "maxDuration": 180
     }
   },
   "headers": [

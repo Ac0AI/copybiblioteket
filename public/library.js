@@ -132,7 +132,8 @@ function reset() {
   $("#person-label").hidden = true;
   renderList(all, "Alla ramverk");
   status.textContent = all.length + " ramverk med egna svenska tillämpningar.";
-  return selectFramework("hormozi-offer");
+  const wanted = decodeURIComponent(location.hash.slice(1));
+  return selectFramework(all.some((f) => f.id === wanted) ? wanted : "hormozi-offer");
 }
 $("#search-form").addEventListener("submit", (event) => { event.preventDefault(); search(); });
 $("#reset").addEventListener("click", reset);
@@ -145,3 +146,7 @@ for (const button of document.querySelectorAll("[data-query]")) {
 $("#show-guide").addEventListener("click", () => selectFramework("swedish-original", true));
 request("/api/frameworks").then((data) => { all = data.frameworks; sourceMode = data.sourceMode; return reset(); })
   .catch((error) => { status.textContent = error.message; detail.replaceChildren(element("p", "Biblioteket kunde inte laddas. Ladda om sidan för att försöka igen.")); });
+
+fetch("/api/people").then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(({people}) => {
+  for (const person of people) { const option = element("option", person.name); option.value = person.id; $("#person").append(option); }
+}).catch(() => {});

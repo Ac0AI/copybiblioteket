@@ -1,0 +1,42 @@
+{
+  "id": "jason-cohen",
+  "name": "Jason Cohen",
+  "category": "Erbjudande",
+  "summary": "Prissättning som hör ihop med kundens prioriteringar",
+  "topics": [
+    "pris",
+    "positionering",
+    "B2B",
+    "värde",
+    "differentiering"
+  ],
+  "principles": [
+    "Undersök vilken nytta kunden prioriterar och visa hur erbjudandet bidrar till den.",
+    "Beskriv era medvetna avgränsningar så att skillnaden mot alternativen blir begriplig."
+  ],
+  "questions": [
+    "Vad värderar kunden utöver en låg kostnad?",
+    "Vilket val gör er bättre för just denna kund?"
+  ],
+  "sources": [
+    {
+      "title": "Max MRR: Why churn sets your growth ceiling and how to track it",
+      "url": "https://longform.asmartbear.com/max-mrr/"
+    },
+    {
+      "title": "How repositioning from \"save money\" to \"create growth\" lets you charge 8x for the same product",
+      "url": "https://longform.asmartbear.com/more-value-not-save-money/"
+    },
+    {
+      "title": "Intentional Weakness: How Craigslist and Southwest built uncopyable strategies",
+      "url": "https://www.youtube.com/watch?v=dVSXNkWUq88"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/jason-cohen",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

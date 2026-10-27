@@ -1,0 +1,42 @@
+{
+  "id": "nevo-david",
+  "name": "Nevo David",
+  "category": "Erbjudande",
+  "summary": "Beskriv jobbet som blir gjort",
+  "topics": [
+    "AI",
+    "öppen källkod",
+    "distribution",
+    "resultat",
+    "prispaket"
+  ],
+  "principles": [
+    "Börja med användarens uppgift och visa vad produkten hjälper till med.",
+    "Skilj funktioner, användningsgränser och ansvar mellan paket utan att lova obelagda resultat."
+  ],
+  "questions": [
+    "Vad kan kunden faktiskt göra efter köpet?",
+    "Vilken användning motiverar ett större paket?"
+  ],
+  "sources": [
+    {
+      "title": "Distribution Playbook for Growing Postiz from $2M to $3M ARR: Authority, X Articles, AEO, Lead Magnets, and UGC",
+      "url": "https://x.com/wickedguro/status/2086788813301661865"
+    },
+    {
+      "title": "How to Choose a Startup Idea in 2026: Validation, Company Type, Funding, Churn, Moats, Niching, and Pricing",
+      "url": "https://x.com/wickedguro/status/2090778859352563921"
+    },
+    {
+      "title": "Open-Source SaaS Pricing: Pre-Revenue Pricing Pages, Package Structure and LTV",
+      "url": "https://gitroom.com/blog/opensource-pricing"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/nevo-david",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

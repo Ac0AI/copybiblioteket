@@ -1,0 +1,42 @@
+{
+  "id": "garry-tan",
+  "name": "Garry Tan",
+  "category": "Produkt",
+  "summary": "En startsida som gör nästa steg självklart",
+  "topics": [
+    "startsida",
+    "design",
+    "behov",
+    "produktmarknad",
+    "användare"
+  ],
+  "principles": [
+    "Gör det tydligt vem produkten är till för och vad personen kan göra med den.",
+    "Sök beteenden och användning som stöd för budskapet, inte bara artiga reaktioner."
+  ],
+  "questions": [
+    "Vad ska besökaren förstå på första skärmen?",
+    "Vad händer när personen provar?"
+  ],
+  "sources": [
+    {
+      "title": "Garry Tan on YC: make something people want, founder mode, and founder psychology",
+      "url": "https://www.youtube.com/watch?v=rEwK7MIQ-QA"
+    },
+    {
+      "title": "Garry Tan on how YC evaluates startups: product-market fit, co-founders, fundraising, culture",
+      "url": "https://www.youtube.com/watch?v=-Zx8382YLXc"
+    },
+    {
+      "title": "Timebox your way to product market fit: limit tries per hypothesis",
+      "url": "https://blog.garrytan.com/timebox-your-way-to-startup-product-market-fit"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/garry-tan",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

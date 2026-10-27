@@ -1,0 +1,38 @@
+{
+  "id": "alexxgrowth",
+  "name": "Alex (alexxgrowth)",
+  "category": "Distribution",
+  "summary": "En tydlig poäng som går att visa i kort video",
+  "topics": [
+    "kortvideo",
+    "öppning",
+    "klipp",
+    "kreatörer",
+    "uppmärksamhet"
+  ],
+  "principles": [
+    "Bygg öppningen runt en situation eller demonstration som tittaren förstår direkt.",
+    "Låt produkten följa naturligt av innehållets poäng. Stor räckvidd är inte bevis på försäljning."
+  ],
+  "questions": [
+    "Vilket ögonblick gör nyttan synlig?",
+    "Varför skulle någon vilja dela just detta?"
+  ],
+  "sources": [
+    {
+      "title": "How apps hit 300M+ views a month: Content Rewards clipper playbook",
+      "url": "https://x.com/alexxgrowth/status/2068352338268750162"
+    },
+    {
+      "title": "How an app scaled to $300k MRR with 596M views via a clipper/creator network",
+      "url": "https://x.com/alexxgrowth/status/2057956944359661620"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/alexxgrowth",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

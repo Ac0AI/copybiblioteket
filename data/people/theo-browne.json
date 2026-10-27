@@ -1,0 +1,42 @@
+{
+  "id": "theo-browne",
+  "name": "Theo Browne",
+  "category": "Produkt",
+  "summary": "Förklara tekniska val genom verklig användning",
+  "topics": [
+    "utvecklare",
+    "verktyg",
+    "AI",
+    "produkt",
+    "tekniska val"
+  ],
+  "principles": [
+    "Utgå från ett problem som användaren känner igen och visa hur verktyget löser det.",
+    "Var konkret om begränsningar och kostnader när målgruppen behöver dem för sitt val."
+  ],
+  "questions": [
+    "Vilket arbetsmoment blir annorlunda?",
+    "Vilken teknisk detalj hjälper faktiskt köparen att välja?"
+  ],
+  "sources": [
+    {
+      "title": "How Theo went from Twitch engineer to YC founder, creator, and T3 Chat CEO",
+      "url": "https://www.youtube.com/watch?v=lWsZT-2pQL4"
+    },
+    {
+      "title": "Theo Browne: why a big audience, funding or copycat habits don't build a business",
+      "url": "https://www.youtube.com/watch?v=vNVKktoSbK8"
+    },
+    {
+      "title": "Theo on founder mode: stay close to users, hire for what you love, ignore investor advice",
+      "url": "https://www.youtube.com/watch?v=tDWs3XU3ESo"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/theo-browne",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

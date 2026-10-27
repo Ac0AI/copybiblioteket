@@ -1,0 +1,42 @@
+{
+  "id": "iman-gadzhi",
+  "name": "Iman Gadzhi",
+  "category": "Erbjudande",
+  "summary": "Avgränsa tjänsten och visa vilket jobb den gör",
+  "topics": [
+    "byrå",
+    "tjänst",
+    "nisch",
+    "sälj",
+    "samarbete"
+  ],
+  "principles": [
+    "Beskriv en tydlig kundgrupp, ett konkret uppdrag och vad som ingår.",
+    "Förklara ansvar, betalning och uppföljning utan att pressa fram ett beslut."
+  ],
+  "questions": [
+    "Vilken del av arbetet tar ni ansvar för?",
+    "Vad behöver kunden bedöma före ett ja?"
+  ],
+  "sources": [
+    {
+      "title": "How Iman Gadzhi went from broke teen to $100M: five years running a social media agency",
+      "url": "https://www.youtube.com/watch?v=uHd6efkGYXE"
+    },
+    {
+      "title": "Iman Gadzhi's step-by-step SMMA sales call framework: from setup to closing and collecting cash",
+      "url": "https://www.youtube.com/watch?v=QF6shn-8oCI"
+    },
+    {
+      "title": "How to start an SMMA from scratch: Iman Gadzhi's 9-step blueprint to $10k/month",
+      "url": "https://www.youtube.com/watch?v=UvMlRU88SV0"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/iman-gadzhi",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

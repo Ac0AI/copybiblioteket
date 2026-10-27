@@ -1,65 +1,69 @@
 <!doctype html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ramverk, svenska exempel och källor för att skriva tydligare copy.">
-  <title>Copybiblioteket</title>
-  <link rel="canonical" href="https://sigge.si/">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <meta property="og:title" content="Copybiblioteket – copy med egna svenska ord">
-  <meta property="og:description" content="Hormozi, Cialdini och fler ramverk med svenska tillämpningar, exempel och källor.">
-  <meta property="og:url" content="https://sigge.si/">
-  <meta property="og:type" content="website">
-  <link rel="stylesheet" href="/style.css">
-  <script src="/app.js" defer></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sigge — skriv med egna ord</title>
+  <meta name="description" content="En svensk skrivverkstad för copy med ett tydligt argument, din egen röst och koll på faktaunderlaget.">
+  <link rel="canonical" href="https://sigge.si/"><link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Sigge — skriv med egna ord"><meta property="og:description" content="Från brief till bearbetad copy. Med din röst, på svenska.">
+  <meta property="og:url" content="https://sigge.si/"><meta property="og:type" content="website">
+  <link rel="stylesheet" href="/studio.css"><script src="/studio-app.js" type="module"></script>
 </head>
 <body>
-  <a class="skip" href="#workspace">Till ramverken</a>
-  <header class="site-header">
-    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">cb</span> Copybiblioteket</a>
-    <button class="quiet-button" id="show-guide" type="button">Skriv på svenska</button>
-  </header>
-  <main>
-    <section class="search-area" aria-labelledby="main-heading">
-      <div class="intro">
-        <h1 id="main-heading">Vad behöver<br>texten göra?</h1>
-        <p>Hitta ett användbart ramverk.<br>Skriv med egna ord.</p>
+<a class="skip" href="#brief">Till skrivverkstaden</a>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Sigge, startsida">sigge<span class="brand-dot">.</span></a>
+  <nav aria-label="Huvudmeny"><a href="/" aria-current="page">Skrivverkstad</a><a href="/library">Ramverk</a><a href="/people">59 personer</a></nav>
+  <button id="about-button" class="button subtle" type="button">Om Sigge</button>
+</header>
+<main>
+  <section class="intro">
+    <div><p class="eyebrow">En svensk skrivpartner</p><h1>Vad vill du få sagt?</h1><p>Hitta argumentet och behåll din röst.<br>Ta med ett genomtänkt skrivunderlag till din AI-chatt.</p></div>
+    <button id="load-example" class="example-button" type="button"><span class="example-mark" aria-hidden="true">↗</span><span>Prova med ett exempel<small>En påhittad bokföringsbyrå</small></span></button>
+  </section>
+  <div id="notice" role="status" aria-live="polite" class="notice" hidden></div>
+  <div class="studio-grid">
+    <aside class="brief-panel">
+      <div class="section-heading"><h2>Uppdraget</h2><button id="new-document" class="text-button" type="button">Börja om</button></div>
+      <form id="brief">
+        <div class="field-row"><label>Format<select id="channel" name="channel"><option value="webb">Webbsida</option><option value="mejl">Mejl</option><option value="annons">Annons</option><option value="linkedin">LinkedIn</option><option value="produkt">Produkttext</option></select></label><label>Längd<select id="length" name="length"><option value="kort">Kort</option><option value="normal" selected>Lagom</option><option value="lång">Längre</option></select></label></div>
+        <label for="task">Vad ska texten göra? <span>Obligatoriskt</span></label>
+        <textarea id="task" name="task" rows="3" required minlength="8" maxlength="4000" placeholder="Vad erbjuder du, och vad vill du att läsaren gör härnäst?"></textarea>
+        <label for="audience">Vem läser? <span>Obligatoriskt</span></label>
+        <textarea id="audience" name="audience" rows="2" required minlength="3" maxlength="1000" placeholder="Beskriv personen och situationen, inte bara en målgrupp."></textarea>
+        <label for="facts">Det här vet vi</label><p class="field-help" id="facts-help">Fakta, pris, belägg och villkor. En uppgift per rad.</p>
+        <textarea id="facts" name="facts" rows="4" maxlength="5000" aria-describedby="facts-help" placeholder="Till exempel: 995 kr/mån exkl. moms. Personlig kontakt ingår."></textarea>
+        <details class="brief-details" open><summary>Röst och personlighet</summary>
+          <label for="tone">Så vill vi låta</label><input id="tone" name="tone" maxlength="600" value="Tydligt, varmt och rakt" placeholder="Till exempel: torr humor, korta meningar, inget säljsnack">
+          <label for="voice">Text som låter som oss <span>Valfritt</span></label><textarea id="voice" name="voice" rows="3" maxlength="3000" placeholder="Klistra in ett eller två egna stilprov. Fakta om erbjudandet skriver du ovan."></textarea>
+        </details>
+        <details class="brief-details"><summary>Formuleringar som måste vara med</summary><label for="mustKeep">Behåll exakt <span>En per rad</span></label><textarea id="mustKeep" name="mustKeep" rows="3" maxlength="1500" placeholder="Till exempel: Priset gäller vid årsbetalning."></textarea></details>
+        <label for="perspective">Välj ett perspektiv</label><select id="perspective" name="perspective"><option value="">Låt uppdraget styra</option></select><p class="field-help">Egna svenska tillämpningar från 59 personer. <a href="/people">Utforska alla →</a></p>
+        <button id="write-button" class="button primary full" type="submit">Skapa skrivunderlag <span aria-hidden="true">↗</span></button>
+        <p id="quota-note" class="small-note">Kopiera underlaget till din AI-chatt. Inget konto behövs.</p>
+        <p class="privacy-hint">Ditt underlag stannar i webbläsaren tills du själv kopierar eller laddar ned det. <button type="button" id="privacy-button" class="inline-button">Så hanteras det</button></p>
+      </form>
+    </aside>
+    <section class="document-panel" aria-label="Din text">
+      <div class="document-toolbar"><div><span class="document-indicator" aria-hidden="true"></span><h2>Din text</h2><span id="word-count">0 ord</span></div><div class="document-actions"><button id="copy-text" class="button subtle" type="button" disabled>Kopiera</button><button id="download-text" class="button subtle" type="button" disabled>Ladda ned</button></div></div>
+      <div class="paper">
+        <div id="empty-state" class="empty-state"><span class="editorial-mark" aria-hidden="true">Aa</span><h3>Det börjar med något<br>du vill säga.</h3><p>Fyll i uppdraget till vänster. Eller klistra in en befintlig text här och förbered en bearbetning.</p><button id="start-pasting" class="button outlined" type="button">Jag har redan en text</button></div>
+        <label for="document" class="sr-only">Redigera din text</label><textarea id="document" spellcheck="true" lang="sv" maxlength="10000" placeholder="Skriv eller klistra in din text …" hidden></textarea>
       </div>
-      <div class="search-tools">
-        <form id="search-form" role="search">
-          <label class="sr-only" for="query">Sök efter ett problem eller ramverk</label>
-          <div class="search-field">
-            <input id="query" name="query" type="search" maxlength="500" placeholder="Till exempel: kunden tycker att det är för dyrt" autocomplete="off">
-            <button class="primary-button" type="submit">Sök</button>
-          </div>
-          <fieldset class="scope">
-            <legend class="sr-only">Vad vill du söka i?</legend>
-            <label><input type="radio" name="scope" value="frameworks" checked> Svenska ramverk</label>
-            <label><input type="radio" name="scope" value="sources"> Fördjupning i källor</label>
-            <label id="person-label" hidden>Författare
-              <select id="person"><option value="">Båda</option><option value="alex-hormozi">Alex Hormozi</option><option value="corey-haines">Corey Haines</option></select>
-            </label>
-          </fieldset>
-        </form>
-        <div class="suggestions" aria-label="Förslag på sökningar">
-          <button type="button" data-query="pris och erbjudande">Förklara värdet</button>
-          <button type="button" data-query="förtroende och kundomdömen">Bygga förtroende</button>
-          <button type="button" data-query="naturlig svenska utan översättningsprägel">Hitta rätt ton</button>
-        </div>
-      </div>
+      <form id="revise-form" class="revision-bar"><label for="instruction">Vad vill du ändra?</label><div class="revision-controls"><input id="instruction" maxlength="1200" placeholder="Till exempel: skarpare öppning, behåll humorn" required><button id="revise-button" class="button primary" type="submit" disabled>Förbered ändring</button></div><div class="revision-shortcuts"><button type="button" data-revise="Korta texten. Behåll argumentet, rösten och alla viktiga villkor.">Korta</button><button type="button" data-revise="Gör öppningen mer specifik och intressant för mottagaren. Behåll faktastöd och röst.">Vässa öppningen</button><button type="button" data-revise="Gör svenskan naturligare för den här mottagaren. Behåll textens energi, särdrag och sakuppgifter.">Naturligare svenska</button></div></form>
+      <div class="save-bar"><label><input id="remember" type="checkbox"> Spara arbetet i den här webbläsaren</label><button id="clear-saved" type="button" class="text-button">Radera sparat</button></div>
     </section>
-    <div id="status" class="status" role="status" aria-live="polite"></div>
-    <section class="workspace" id="workspace" aria-label="Ramverk och exempel">
-      <aside class="library-nav" aria-label="Välj ramverk">
-        <div class="library-heading"><h2 id="list-heading">Alla ramverk</h2><button type="button" class="text-button" id="reset">Visa alla</button></div>
-        <div id="framework-list"></div>
-      </aside>
-      <article id="detail" class="detail" aria-label="Valt ramverk" tabindex="-1">
-        <p>Läser in biblioteket …</p>
-      </article>
-    </section>
-  </main>
-  <footer>Ett fristående bibliotek med egna svenska tillämpningar och länkar till originalkällorna. Välj ett ramverk och kopiera skrivunderlaget till din AI-chatt. <a href="https://github.com/Ac0AI/copybiblioteket">Kod och copy-skill</a>.</footer>
+    <aside class="editor-panel" aria-labelledby="editor-heading">
+      <div class="section-heading"><h2 id="editor-heading">Redaktörens anteckningar</h2><span class="pencil" aria-hidden="true">↙</span></div>
+      <p class="editor-intro" id="editor-intro">Här ser du hur exemplet är uppbyggt. Skrivunderlaget väljer ramverk och perspektiv för ditt eget uppdrag.</p>
+      <div id="editor-notes"></div>
+      <details id="version-panel" class="versions" hidden><summary>Versioner <span id="version-count"></span></summary><div id="versions"></div></details>
+      <p class="editor-footer">Sigge använder Copy Operator och egna svenska tillämpningar av bland andra Hormozi och Cialdini. <a href="/library">Utforska ramverken →</a></p>
+    </aside>
+  </div>
+</main>
+<footer class="site-footer"><span>sigge. <span class="footer-caption">Ord med avsikt.</span></span><div><button id="about-privacy" class="text-button" type="button">Om dina uppgifter</button><a href="https://github.com/Ac0AI/copybiblioteket">Kod & copy-skill ↗</a></div></footer>
+<dialog id="prompt-dialog" aria-labelledby="prompt-title"><button class="close-dialog" type="button" aria-label="Stäng">×</button><p class="eyebrow">Redo för din AI-chatt</p><h2 id="prompt-title">Ett bättre underlag.<br>En tydligare text.</h2><p>Klistra in underlaget i din AI-chatt. Det innehåller din brief, relevanta ramverk, valda perspektiv och Sigges svenska skrivguide.</p><p id="prompt-context" class="small-note"></p><label for="prompt-text">Ditt skrivunderlag</label><textarea id="prompt-text" readonly rows="12"></textarea><button id="copy-prompt" class="button primary full" type="button">Kopiera skrivunderlaget</button><p id="prompt-copy-status" class="small-note" role="status" aria-live="polite"></p><p class="small-note">Det här är ett skrivunderlag, inte ett AI-genererat utkast. Läs igenom fakta och villkor i texten du sedan får tillbaka.</p></dialog>
+<dialog id="privacy-dialog" aria-labelledby="privacy-title"><button class="close-dialog" type="button" aria-label="Stäng">×</button><h2 id="privacy-title">Ditt underlag, ditt arbete.</h2><p>Sigge hjälper dig välja perspektiv och skapa ett skrivunderlag. Brief, röstexempel och text bearbetas i din webbläsare. Ingen AI-tjänst anropas från den publika skrivverkstaden.</p><p>När du själv klistrar in underlaget i en AI-chatt gäller den tjänstens villkor. Klistra inte in lösenord eller känsliga personuppgifter.</p><p>Kryssar du i lokal lagring sparas arbetet i den här webbläsaren tills du raderar det. På en delad dator kan nästa användare se det. Sigge har ännu inga konton och använder ingen egen analys- eller annonsspårning.</p><p>De 59 personprofilerna innehåller egna svenska tillämpningar och ärvda källhänvisningar från The Brains. De är inte officiella eller godkända av personerna. Kontrollera originalet innan du tillskriver någon ett råd.</p><p>Vill du hitta fler AI-verktyg? <a href="https://www.ac0.ai/en/field-notes" target="_blank" rel="noopener noreferrer">Läs AC0 Field Notes</a>. Brevet är på engelska och prenumeration väljer du på AC0:s webbplats.</p><p id="privacy-contact"></p><button class="button primary close-privacy" type="button">Tillbaka till texten</button></dialog>
 </body>
 </html>

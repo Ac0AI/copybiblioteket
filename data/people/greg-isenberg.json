@@ -1,0 +1,42 @@
+{
+  "id": "greg-isenberg",
+  "name": "Greg Isenberg",
+  "category": "Publik",
+  "summary": "Lyssna på en nisch innan du erbjuder en lösning",
+  "topics": [
+    "community",
+    "nisch",
+    "Reddit",
+    "publik",
+    "kundinsikt"
+  ],
+  "principles": [
+    "Läs återkommande frågor och frustrationer i en relevant grupp som hypoteser att undersöka.",
+    "Skriv med gruppens konkreta situation i åtanke och ge ett bidrag som är användbart i sig."
+  ],
+  "questions": [
+    "Vilket problem återkommer i samtalen?",
+    "Vad skiljer gruppens behov från en bred målgrupp?"
+  ],
+  "sources": [
+    {
+      "title": "Stop vibe coding: seven distribution tactics to get customers for AI-built products",
+      "url": "https://www.youtube.com/watch?v=YeoGehNsrLc"
+    },
+    {
+      "title": "The ACP Framework: Build the audience first, then community, then product",
+      "url": "https://www.youtube.com/watch?v=tNY2UVpHHEY"
+    },
+    {
+      "title": "How Greg Isenberg mines Reddit and AI for validated startup ideas",
+      "url": "https://www.youtube.com/watch?v=8vXoI7lUroQ"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/greg-isenberg",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

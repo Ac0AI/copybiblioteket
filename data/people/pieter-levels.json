@@ -1,0 +1,38 @@
+{
+  "id": "pieter-levels",
+  "name": "Pieter Levels",
+  "category": "Produkt",
+  "summary": "En rak förklaring av en fungerande liten produkt",
+  "topics": [
+    "soloföretagare",
+    "lansering",
+    "enkelhet",
+    "betalning",
+    "automation"
+  ],
+  "principles": [
+    "Visa ett verkligt användningsfall och gör omfattningen lätt att förstå.",
+    "Låt demonstrationen och det tydliga köpet bära mer än stora visioner."
+  ],
+  "questions": [
+    "Vad kan kunden använda redan nu?",
+    "Vilka extra ord behövs inte för att förstå erbjudandet?"
+  ],
+  "sources": [
+    {
+      "title": "How Pieter Levels ships 40+ solo startups: fast validation, simple PHP stack, automation",
+      "url": "https://www.youtube.com/watch?v=oFtjKbXKqbg"
+    },
+    {
+      "title": "How to build a bootstrapped startup without funding: Levels' 10-step list",
+      "url": "https://levels.io/how-to-build-bootstrapped-startup-without-funding"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/pieter-levels",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

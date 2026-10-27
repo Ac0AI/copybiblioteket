@@ -1,0 +1,42 @@
+{
+  "id": "elon-musk",
+  "name": "Elon Musk",
+  "category": "Produkt",
+  "summary": "Pröva antagandena innan du vässar formuleringen",
+  "topics": [
+    "förenkling",
+    "första principer",
+    "flaskhals",
+    "produkt",
+    "teknik"
+  ],
+  "principles": [
+    "Bryt ner ett svepande problem till de delar som faktiskt hindrar kunden.",
+    "Ta bort onödiga steg och budskap innan du försöker formulera dem snyggare."
+  ],
+  "questions": [
+    "Vilket antagande bygger texten på?",
+    "Behöver läsaren verkligen detta steg?"
+  ],
+  "sources": [
+    {
+      "title": "Elon Musk's five-step algorithm: why manufacturing beats design (Starbase tour, Part 1)",
+      "url": "https://www.youtube.com/watch?v=t705r8ICkRw"
+    },
+    {
+      "title": "Elon Musk at YC AI Startup School: be useful, reason from first principles, close the loop on reality",
+      "url": "https://www.youtube.com/watch?v=cFIlta1GkiE"
+    },
+    {
+      "title": "Elon Musk on Dwarkesh: Limiting factors, urgency, and hiring for hard-tech companies",
+      "url": "https://www.youtube.com/watch?v=BYXbuik3dgA"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/elon-musk",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

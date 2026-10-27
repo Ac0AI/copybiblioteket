@@ -1,0 +1,42 @@
+{
+  "id": "ryan-hoover",
+  "name": "Ryan Hoover",
+  "category": "Publik",
+  "summary": "En tydlig nytta att samlas kring",
+  "topics": [
+    "community",
+    "lansering",
+    "publik",
+    "produktjakt",
+    "tidiga användare"
+  ],
+  "principles": [
+    "Beskriv vad deltagaren får göra eller upptäcka innan du bjuder in till en gemenskap.",
+    "Pröva det viktigaste antagandet med ett litet konkret erbjudande."
+  ],
+  "questions": [
+    "Vad får personen ut av att delta första gången?",
+    "Vilket beteende visar att nyttan finns?"
+  ],
+  "sources": [
+    {
+      "title": "Build an audience first: Ryan Hoover on how writing seeded Product Hunt",
+      "url": "https://www.ryanhoover.me/post/building-a-startup-build-an-audience-first"
+    },
+    {
+      "title": "How Ryan Hoover validated Product Hunt in 20 minutes with a Linkydink email group",
+      "url": "https://www.ryanhoover.me/post/the-20-minute-mvp"
+    },
+    {
+      "title": "The community trap: utility must come before community",
+      "url": "https://www.ryanhoover.me/post/the-community-trap"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/ryan-hoover",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

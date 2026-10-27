@@ -1,0 +1,42 @@
+{
+  "id": "peter-thiel",
+  "name": "Peter Thiel",
+  "category": "Budskap",
+  "summary": "Visa en verklig skillnad för en avgränsad marknad",
+  "topics": [
+    "differentiering",
+    "nisch",
+    "strategi",
+    "alternativ",
+    "positionering"
+  ],
+  "principles": [
+    "Jämför produkten med kundens faktiska alternativ och identifiera en konkret skillnad.",
+    "Pröva ett eget perspektiv mot motargument innan det blir huvudbudskap."
+  ],
+  "questions": [
+    "Vad gör erbjudandet särskilt relevant i denna nisch?",
+    "Vilket viktigt antagande skulle en kritisk läsare ifrågasätta?"
+  ],
+  "sources": [
+    {
+      "title": "The Last Mover Advantage: why monopoly beats competition and how to build one (CS183 Class 4)",
+      "url": "https://blakemasters.tumblr.com/post/21169325300/peter-thiels-cs183-startup-class-4-notes-essay"
+    },
+    {
+      "title": "Competition is for Losers: why startups should aim for monopoly and avoid competition",
+      "url": "https://www.youtube.com/watch?v=3Fx5Q8xGU8k"
+    },
+    {
+      "title": "Secrets: why important secrets still exist and how to find them (CS183 Class 11)",
+      "url": "https://blakemasters.tumblr.com/post/22866240816/peter-thiels-cs183-startup-class-11-notes-essay"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/peter-thiel",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

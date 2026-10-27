@@ -1,0 +1,42 @@
+{
+  "id": "danny-postma",
+  "name": "Danny Postma",
+  "category": "Distribution",
+  "summary": "Utgå från det kunden redan söker efter",
+  "topics": [
+    "SEO",
+    "sökintention",
+    "AI",
+    "produkt",
+    "engångsköp"
+  ],
+  "principles": [
+    "Låt sökfrågan styra vilket svar och vilken produktförklaring sidan behöver.",
+    "Visa resultatets användning och begränsningar före tekniska detaljer."
+  ],
+  "questions": [
+    "Vad hoppas besökaren hitta efter sökningen?",
+    "Vilket konkret användningsfall motiverar köpet?"
+  ],
+  "sources": [
+    {
+      "title": "Danny Postma: Demand-first SEO product picking, one-off B2C payments, and moving from solo to team",
+      "url": "https://www.youtube.com/watch?v=X36_7wRC_WI"
+    },
+    {
+      "title": "The difference between a successful and unsuccessfully indie hacker is marketing.",
+      "url": "https://x.com/dannypostma/status/1818618744018813417"
+    },
+    {
+      "title": "How Danny Postma launched, cloned-proofed and monetized AI products (Headlime, Profile Picture AI)",
+      "url": "https://www.yo.fm/danny"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/danny-postma",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

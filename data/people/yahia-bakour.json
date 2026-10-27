@@ -1,0 +1,38 @@
+{
+  "id": "yahia-bakour",
+  "name": "Yahia Bakour",
+  "category": "Kundinsikt",
+  "summary": "Läs kundernas detaljerade reaktioner som underlag",
+  "topics": [
+    "kundfeedback",
+    "B2B",
+    "utvecklare",
+    "produkt",
+    "användning"
+  ],
+  "principles": [
+    "Ta specifika klagomål på allvar och skilj problemet från kundens föreslagna lösning.",
+    "Förklara förbättringar i de ord användarna använder om sitt arbete."
+  ],
+  "questions": [
+    "Vilket problem återkommer hos betalande kunder?",
+    "Vad vill kunden kunna göra som den inte kan i dag?"
+  ],
+  "sources": [
+    {
+      "title": "Context.dev: how angry emails and free credits grew an API startup to 400 customers",
+      "url": "https://www.youtube.com/watch?v=nenVmIbX0kM"
+    },
+    {
+      "title": "How Yahia Bakour grew context.dev: listen on calls, build what customers ask, bootstrap first",
+      "url": "https://www.youtube.com/watch?v=oJE1A9uCcvw"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/yahia-bakour",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

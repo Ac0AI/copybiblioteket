@@ -1,0 +1,42 @@
+{
+  "id": "marc-lou",
+  "name": "Marc Lou",
+  "category": "Erbjudande",
+  "summary": "Gör ett litet erbjudande lätt att prova",
+  "topics": [
+    "lansering",
+    "rubrik",
+    "små produkter",
+    "köpknapp",
+    "demo"
+  ],
+  "principles": [
+    "Skriv en tydlig rubrik runt ett enda problem och den leverans som faktiskt finns.",
+    "Testa intresse för ett avgränsat erbjudande innan du fyller sidan med fler funktioner."
+  ],
+  "questions": [
+    "Vad gör den minsta användbara versionen?",
+    "Förstår köparen vad den betalar för?"
+  ],
+  "sources": [
+    {
+      "title": "How Marc Lou ships 35 startups solo: deep work, a 5% hit rate and constant launching",
+      "url": "https://www.youtube.com/watch?v=D4fkiQfzw_I"
+    },
+    {
+      "title": "Build a startup in 24 hours: the Minimum MVP (headline, buy button, 1 feature)",
+      "url": "https://newsletter.marclou.com/p/how-to-build-a-startup-in-24-hours"
+    },
+    {
+      "title": "How Marc Lou made his first $1 online after 2 years of failures",
+      "url": "https://newsletter.marclou.com/p/my-first-dollar-online"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/marc-lou",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}

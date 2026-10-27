@@ -1,0 +1,42 @@
+{
+  "id": "naval-ravikant",
+  "name": "Naval Ravikant",
+  "category": "Budskap",
+  "summary": "Gör den egna kunskapen och bedömningen synlig",
+  "topics": [
+    "egen röst",
+    "specialistkunskap",
+    "medier",
+    "omdöme",
+    "långsiktighet"
+  ],
+  "principles": [
+    "Utgå från insikter som avsändaren kan utveckla med egen erfarenhet.",
+    "Förklara ett resonemang så att textens värde finns kvar även när ämnet slutar vara trendigt."
+  ],
+  "questions": [
+    "Vad vet avsändaren som hjälper just denna läsare?",
+    "Vad kan bara ni förklara på det här sättet?"
+  ],
+  "sources": [
+    {
+      "title": "How to Get Rich: Naval's framework on equity, specific knowledge, accountability, leverage and judgment",
+      "url": "https://www.youtube.com/watch?v=1-TZqOsVCNM"
+    },
+    {
+      "title": "Specific Knowledge: why it can't be trained and how to find yours",
+      "url": "https://nav.al/specific-knowledge"
+    },
+    {
+      "title": "How to Get Rich: Naval on specific knowledge, accountability, leverage and judgment",
+      "url": "https://nav.al/rich"
+    }
+  ],
+  "provenance": {
+    "catalog": "https://github.com/VicPitic/the-brains",
+    "profile": "https://brains.ceo/naval-ravikant",
+    "importedAt": "2026-10-27",
+    "sourceStatus": "inherited-unverified",
+    "application": "original-swedish"
+  }
+}
