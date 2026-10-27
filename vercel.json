@@ -5,7 +5,7 @@
   "installCommand": "npm ci --ignore-scripts",
   "functions": {
     "app.ts": {
-      "includeFiles": "{data/copy-frameworks/**,data/people/**,skills/copy-operator/references/**,public/*.html}",
+      "includeFiles": "{data/copy-frameworks/**,data/people/**,skills/copy-operator/references/**,public/*.html,public/studio-app.js}",
       "maxDuration": 180
     }
   },

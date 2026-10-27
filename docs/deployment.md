@@ -17,7 +17,7 @@ För en manuell första release eller felsökning, välj alltid teamet `ac0` och
 
 ## Innehåll och data
 
-`public/` serveras som statiska filer. Startsidan har en explicit Express-rutt med `sendFile`, eftersom Vercels Express-adapter inte serverar katalogindex genom `express.static`. Express ger läsande API:er och POST `/api/search`. Sökningen använder ett litet BM25-index i minnet. Det finns inga inloggningar, uppladdningar, skriv-API:er, databaser eller externa modellanrop. Sökfrågor placeras inte i URL:en och sparas inte av applikationen.
+`public/` serveras som statiska filer. Startsidan har en explicit Express-rutt med `sendFile`, eftersom Vercels Express-adapter inte serverar katalogindex genom `express.static`. [Vercels Express-dokumentation](https://vercel.com/docs/frameworks/backend/express#serving-static-assets) anger att express.static ignoreras i drift. Express ger läsande API:er och POST `/api/search`. Sökningen använder ett litet BM25-index i minnet. Det finns inga inloggningar, uppladdningar, skriv-API:er, databaser eller externa modellanrop. Sökfrågor placeras inte i URL:en och sparas inte av applikationen.
 
 `app.ts` stänger uttryckligen av den valfria lokala, ärvda textsamlingen. Bara egna ramverk, de 59 svenska personprofilerna och källänkar publiceras. Installerad skill och MCP kan använda en separat lokal samling. Lokal konfiguration, miljöfiler och maskinsökvägar ska inte checkas in.
 
@@ -33,6 +33,6 @@ Porkbun har en ALIAS-post för `sigge.si` och en CNAME för `www.sigge.si`, båd
 
 ## Skrivverkstad och åtkomst
 
-`npm run build` bygger `client/studio.js` till `public/studio-app.js`. Den genererade filen är ignorerad och måste byggas vid release. Brief och skrivunderlag behandlas i webbläsaren. Konton väntar på beslut; appen behöver inga autentiserings-, databas-, modell- eller e-posthemligheter. Den lokala AI-utvärderingen ingår inte i HTTP-rutterna.
+`npm run build` bygger `client/studio.js` till `public/studio-app.js`. Den genererade filen är ignorerad och måste byggas vid release. Den inkluderas uttryckligen i Vercel-funktionen och har en sendFile-rutt; kontrollera alltid /studio-app.js över HTTPS eftersom lyckat bygge inte bevisar att den genererade filen finns i drift. Brief och skrivunderlag behandlas i webbläsaren. Konton väntar på beslut; appen behöver inga autentiserings-, databas-, modell- eller e-posthemligheter. Den lokala AI-utvärderingen ingår inte i HTTP-rutterna.
 
 Resend-domänen sigge.si verifierades med DKIM och de tre SPF/returvägsposter som leverantören begärde. Den planerade avsändaren är Sigge <hej@sigge.si>. Verifierad domän är inte ett genomfört leveranstest. Ingen publik funktion skickar e-post i denna release.

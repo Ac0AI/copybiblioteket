@@ -41,6 +41,8 @@ export function createApp(library: CopyLibrary) {
   app.get("/", (_req, res) => res.sendFile(join(ROOT, "public", "index.html")));
   app.get("/library", (_req, res) => res.sendFile(join(ROOT, "public", "library.html")));
   app.get('/people', (_req,res)=>res.sendFile(join(ROOT,'public','people.html')));
+  // The generated bundle is explicitly included for Vercel's Express adapter.
+  app.get("/studio-app.js", (_req, res) => res.sendFile(join(ROOT, "public", "studio-app.js")));
   app.use(express.static(join(ROOT, "public")));
   app.use("/api", (_req, res) => { res.status(404).json({ error: "Sidan finns inte." }); });
   app.use((err: unknown, _req: express.Request, res: express.Response, _next: express.NextFunction) => {

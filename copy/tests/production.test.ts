@@ -15,6 +15,10 @@ test("the production entry cannot expose a configured local collection", async (
       const home = await fetch(base + "/");
       assert.equal(home.status, 200);
       assert.match(await home.text(), /<title>Sigge — skriv med egna ord<\/title>/);
+      const bundle = await fetch(base + "/studio-app.js");
+      assert.equal(bundle.status, 200);
+      assert.match(bundle.headers.get("content-type") || "", /javascript/);
+      assert.match(await bundle.text(), /prompt-dialog/);
       const response = await fetch(base + "/api/health");
       assert.equal(response.headers.get("x-powered-by"), null);
       const health = await response.json();
