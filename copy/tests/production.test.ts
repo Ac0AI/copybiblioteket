@@ -12,7 +12,9 @@ test("the production entry cannot expose a configured local collection", async (
     await once(server, "listening");
     try {
       const base = "http://127.0.0.1:" + (server.address() as AddressInfo).port;
-      const health = await (await fetch(base + "/api/health")).json();
+      const response = await fetch(base + "/api/health");
+      assert.equal(response.headers.get("x-powered-by"), null);
+      const health = await response.json();
       assert.equal(health.sourceMode, "links");
       const result = await fetch(base + "/api/search", {
         method: "POST", headers: { "Content-Type": "application/json" },
