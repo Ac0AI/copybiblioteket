@@ -1,8 +1,8 @@
 # Copybiblioteket
 
-[sigge.si](https://sigge.si) – ramverk, svenska exempel och källor för tydligare copy.
+[sigge.si](https://sigge.si) – ramverk, exempel och källor för tydligare copy på svenska och engelska.
 
-En svensk skrivverkstad, 59 personprofiler och elva ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna svenska tillämpningar, frågor och fiktiva exempel. Varumärkets röst styr skrivandet.
+En tvåspråkig skrivverkstad, 59 personprofiler och elva ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna tillämpningar, frågor och fiktiva exempel på båda språken. Varumärkets röst styr skrivandet.
 
 Webben hjälper dig välja ramverk och kopiera ett komplett skrivunderlag till din AI-chatt. Själva skrivandet sker i din AI-klient, gärna med [Copy Operator](skills/copy-operator/SKILL.md). Den publika sajten har inga konton eller någon databas. AI-skrivning direkt på sajten är avstängd medan åtkomst väntar på beslut. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
 
@@ -40,13 +40,16 @@ Kopiera `skills/copy-operator` till din skill-katalog. Bevara egna ändringar om
 | Verktyg | Funktion |
 | --- | --- |
 | `list_copy_frameworks` | Lista ramverken |
-| `search_copy_knowledge` | Hitta svenska tillämpningar |
+| `search_copy_knowledge` | Hitta tillämpningar på valt språk |
 | `get_copy_framework` | Läs ramverk, exempel och källor |
 | `search_copy_sources` | Hitta originalkällor med egna beskrivningar |
-| `get_swedish_writing_guide` | Hämta skrivguiden |
+| `get_swedish_writing_guide` | Hämta den svenska skrivguiden (kompatibilitet) |
+| `get_writing_guide` | Hämta svensk eller engelsk skrivguide |
 | `list_copy_people` | Lista alla 59 profiler |
 | `search_copy_people` | Hitta perspektiv efter namn eller ämne |
-| `get_copy_person` | Läs svenska tillämpningar och källhänvisningar |
+| `get_copy_person` | Läs tillämpningar och källhänvisningar |
+
+Ange `language: "en"` för engelska svar i MCP; svenska är standard. `get_swedish_writing_guide` ger alltid svenska. CLI och skillens hjälpskript kan köras med `COPY_BRAINS_LANGUAGE=en`.
 
 Verktygen är läsande och gör inga externa API-anrop. Biblioteket sparar inte frågorna. Din AI-klients datahantering gäller separat. Webbhotellet behandlar normala trafikuppgifter; det finns ingen egen analys- eller spårningskod i appen.
 
@@ -64,7 +67,7 @@ Samlingen distribueras inte i detta repo och laddas inte ner automatiskt. Urspru
 npm run build
 ```
 
-Det kör TypeScript-kontroll, tester av sökning, profiler, skrivunderlag, HTTP och en riktig MCP-klient samt bygger webbläsarkoden. Webbgränssnittet ligger i `public/`, ramverken i `data/copy-frameworks/` och profilerna i `data/people/`. `app.ts` exporterar Express-appen för Vercel. `vercel.json` anger byggkontroll, inkluderade datafiler och säkerhetsheaders. Inga hemligheter krävs för appen.
+Det kör TypeScript-kontroll, tester av sökning, profiler, skrivunderlag, HTTP och en riktig MCP-klient samt bygger webbläsarkoden. Sidmallarna ligger i `client/pages/`, språktexterna i `client/messages.js` och webbläsarkoden i `client/`. Bygget skapar svenska och engelska HTML-sidor och JS-paket i `public/`; redigera källorna, inte de genererade filerna. Ramverken finns i `data/copy-frameworks/`, profilerna i `data/people/` och fullständiga engelska tillämpningar i `data/translations/en/`. Bygget stoppar om katalogöversättningar saknas. `app.ts` exporterar Express-appen för Vercel. `vercel.json` anger byggkontroll, inkluderade datafiler och säkerhetsheaders. Inga hemligheter krävs för appen.
 
 [Driftinstruktioner](docs/deployment.md), [ramverksurval och research](docs/framework-research.md), [skrivprov](examples/svenska-copyprov.md) och [valideringens gränser](docs/validation.md).
 
@@ -80,9 +83,13 @@ Kod och egna tillämpningar är MIT-licensierade. Licensen omfattar inte de exte
 
 ## Skrivverkstaden utan konto
 
-Fyll i uppgift, mottagare, fakta och röstprov. Välj en person eller låt ämnet styra urvalet. **Skapa skrivunderlag** sammanställer brief, högst tre ramverk, högst tre personperspektiv och den svenska skrivguiden i webbläsaren. Kopiera det till din AI-chatt. Befintlig text kan bearbetas med ett separat ändringsunderlag. Textredigering, nedladdning och frivillig lokal lagring fungerar utan konto.
+Börja med uppgift, mottagare och fakta. Under **Fler inställningar** finns textens språk, format, röstprov och personval. **Skapa skrivunderlag** sammanställer brief, högst tre ramverk, högst tre personperspektiv och skrivguiden för valt språk i webbläsaren. Kopiera det till din AI-chatt. Befintlig text kan bearbetas med ett separat ändringsunderlag. Textredigering, nedladdning och frivillig lokal lagring fungerar utan konto.
 
 **Fakta och villkor i en brief skickas inte till ett API av den publika skrivverkstaden.** Biblioteket laddas via läsande API:er. Kopiering till en annan AI-tjänst är användarens eget steg. Field Notes länkas till AC0:s befintliga engelska brev; ingen prenumeration läggs till automatiskt.
+
+[Svenska](https://sigge.si/) och [English](https://sigge.si/en/) har egna adresser för alla tre sidor. Språkbytet sker på plats och behåller pågående arbete. Textens språk går att välja separat; utan ett uttryckligt val följer det gränssnittet. Lokal lagring är alltid frivillig. Exempelanteckningar är kommentarer till ett färdigskrivet, fiktivt exempel och granskar inte användarens text.
+
+Läsande API:er väljer språk med `?lang=en` eller `?lang=sv`. Kategori- och person-id:n är stabila mellan språken.
 
 ## Lokal AI-utvärdering
 

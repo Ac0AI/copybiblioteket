@@ -41,6 +41,13 @@ test("a real stdio MCP client can discover and use the Swedish copy tools", { ti
       name: "search_copy_sources", arguments: { query: "väntetid ansträngning", person: "alex-hormozi", limit: 2 },
     });
     assert.ok((sources.structuredContent as { results: unknown[] }).results.length > 0);
+    const english = await client.callTool({name:'search_copy_knowledge',arguments:{query:'trust and testimonials',language:'en',limit:1}});
+    const englishData=english.structuredContent as {language:string;results:{id:string;title:string}[]};
+    assert.equal(englishData.language,'en');assert.equal(englishData.results[0].id,'cialdini-persuasion');assert.equal(englishData.results[0].title,'Give the reader reasons to trust');
+    const englishGuide=await client.callTool({name:'get_writing_guide',arguments:{language:'en'}});
+    assert.match((englishGuide.structuredContent as {guide:string}).guide,/Write directly in English/);
+    const englishPerson=await client.callTool({name:'get_copy_person',arguments:{id:'alex-hormozi',language:'en'}});
+    assert.equal((englishPerson.structuredContent as {person:{summary:string}}).person.summary,'An offer people can understand and assess');
     const invalid = await client.callTool({ name: "search_copy_knowledge", arguments: { query: "x" } });
     assert.equal(invalid.isError, true);
   } finally {

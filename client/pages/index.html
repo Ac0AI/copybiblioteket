@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="{{language}}">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="homeTitle"></title><meta name="description" data-i18n-content="homeDescription" content="">
+  <link rel="canonical" href="{{canonical}}"><link rel="alternate" hreflang="sv" href="https://sigge.si/"><link rel="alternate" hreflang="en" href="https://sigge.si/en/"><link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <meta property="og:title" data-i18n-content="homeTitle" content=""><meta property="og:description" data-i18n-content="homeDescription" content=""><meta property="og:url" content="{{canonical}}"><meta property="og:type" content="website">
+  <link rel="stylesheet" href="/studio.css"><link rel="stylesheet" href="/navigation.css"><script src="/studio-app.js" type="module"></script>
+</head>
+<body>
+<a class="skip" href="#brief" data-i18n="skip"></a>
+<header class="topbar">
+  <a class="brand" data-route="/" data-i18n-aria-label="home">sigge<span class="brand-dot">.</span></a>
+  <nav data-i18n-aria-label="nav"><a data-route="/" aria-current="page" data-i18n="studio"></a><a data-route="/library" data-i18n="frameworks"></a><a data-route="/people" data-i18n="people"></a></nav>
+  <div class="header-actions"><button id="about-button" class="button subtle" type="button" data-i18n="about"></button><div class="language-switch" data-i18n-aria-label="languageLabel"><a data-language="sv" lang="sv" hreflang="sv">Svenska</a><a data-language="en" lang="en" hreflang="en">English</a></div></div>
+</header>
+<main>
+  <section class="intro"><div><p class="eyebrow" data-i18n="eyebrow"></p><h1 data-i18n="heading"></h1><p data-i18n="intro"></p></div>
+    <button id="load-example" class="example-button" type="button"><span class="example-mark" aria-hidden="true">↗</span><span><span data-i18n="exampleButton"></span><small data-i18n="exampleCaption"></small></span></button>
+  </section>
+  <ol class="workflow"><li><span aria-hidden="true">1</span><span data-i18n="stepOne"></span></li><li><span aria-hidden="true">2</span><span data-i18n="stepTwo"></span></li><li><span aria-hidden="true">3</span><span data-i18n="stepThree"></span></li></ol>
+  <div id="notice" role="status" aria-live="polite" class="notice" hidden></div>
+  <div class="studio-grid">
+    <aside class="brief-panel">
+      <div class="section-heading"><h2 data-i18n="brief"></h2><button id="new-document" class="text-button" type="button" data-i18n="startOver"></button></div>
+      <form id="brief">
+        <label for="task"><span class="label-text" data-i18n="taskLabel"></span> <span data-i18n="required"></span></label><textarea id="task" name="task" rows="3" required minlength="8" maxlength="4000" data-i18n-placeholder="taskPlaceholder"></textarea>
+        <label for="audience"><span class="label-text" data-i18n="audienceLabel"></span> <span data-i18n="required"></span></label><textarea id="audience" name="audience" rows="2" required minlength="3" maxlength="1000" data-i18n-placeholder="audiencePlaceholder"></textarea>
+        <label for="facts" data-i18n="factsLabel"></label><p class="field-help" id="facts-help" data-i18n="factsHelp"></p><textarea id="facts" name="facts" rows="3" maxlength="5000" aria-describedby="facts-help" data-i18n-placeholder="factsPlaceholder"></textarea>
+        <details id="more-settings" class="brief-details"><summary><span data-i18n="moreSettings"></span><small data-i18n="settingsHint"></small></summary>
+          <label for="language" data-i18n="outputLanguage"></label><select id="language" name="language"><option value="sv" lang="sv">Svenska</option><option value="en" lang="en">English</option></select><p class="field-help" data-i18n="outputHelp"></p>
+          <div class="field-row"><label><span class="label-text" data-i18n="format"></span><select id="channel" name="channel"><option value="webb" data-i18n="web"></option><option value="mejl" data-i18n="email"></option><option value="annons" data-i18n="ad"></option><option value="linkedin">LinkedIn</option><option value="produkt" data-i18n="product"></option></select></label><label><span class="label-text" data-i18n="length"></span><select id="length" name="length"><option value="kort" data-i18n="short"></option><option value="normal" selected data-i18n="normal"></option><option value="lång" data-i18n="long"></option></select></label></div>
+          <label for="tone" data-i18n="tone"></label><input id="tone" name="tone" maxlength="600" data-i18n-placeholder="tonePlaceholder">
+          <label for="voice"><span class="label-text" data-i18n="voice"></span> <span data-i18n="optional"></span></label><textarea id="voice" name="voice" rows="3" maxlength="3000" data-i18n-placeholder="voicePlaceholder"></textarea>
+          <label for="mustKeep"><span class="label-text" data-i18n="mustKeep"></span> <span data-i18n="onePerLine"></span></label><textarea id="mustKeep" name="mustKeep" rows="2" maxlength="1500" data-i18n-placeholder="mustKeepPlaceholder"></textarea>
+          <label for="perspective" data-i18n="perspective"></label><select id="perspective" name="perspective" disabled><option value="" data-i18n="automatic"></option></select><p class="field-help"><span data-i18n="perspectiveHelp"></span> <a data-route="/people" data-i18n="explorePeople"></a></p>
+        </details>
+        <p id="selected-perspective" class="small-note" hidden></p>
+        <button id="write-button" class="button primary full" type="submit" disabled data-i18n="createPrompt"></button>
+        <p id="quota-note" class="small-note" role="status" data-i18n="loading"></p>
+        <p class="privacy-hint"><span data-i18n="privacyHint"></span> <button type="button" id="privacy-button" class="inline-button" data-i18n="privacyLink"></button></p>
+      </form>
+    </aside>
+    <section class="document-panel" data-i18n-aria-label="draft">
+      <div class="document-toolbar"><div><h2 data-i18n="draft"></h2><span id="word-count"></span></div><div class="document-actions"><button id="copy-text" class="button subtle" type="button" disabled data-i18n="copy"></button><button id="download-text" class="button subtle" type="button" disabled data-i18n="download"></button></div></div>
+      <div class="paper"><div id="empty-state" class="empty-state"><span class="editorial-mark" aria-hidden="true">Aa</span><h3 data-i18n="emptyHeading"></h3><p data-i18n="emptyText"></p><button id="start-pasting" class="button outlined" type="button" data-i18n="pasteDraft"></button></div><label for="document" class="sr-only" data-i18n="editLabel"></label><textarea id="document" spellcheck="true" lang="{{language}}" maxlength="10000" data-i18n-placeholder="documentPlaceholder" hidden></textarea></div>
+      <form id="revise-form" class="revision-bar"><label for="instruction" data-i18n="revisionLabel"></label><div class="revision-controls"><input id="instruction" maxlength="1200" data-i18n-placeholder="revisionPlaceholder" required><button id="revise-button" class="button primary" type="submit" disabled data-i18n="revisionButton"></button></div><div class="revision-shortcuts"><button type="button" data-revise="shorten" data-i18n="shorten"></button><button type="button" data-revise="sharpen" data-i18n="sharpen"></button><button type="button" data-revise="natural" data-i18n="natural"></button></div></form>
+      <div class="save-bar"><label><input id="remember" type="checkbox"> <span class="label-text" data-i18n="remember"></span></label><button id="clear-saved" type="button" class="text-button" data-i18n="clearSaved"></button></div>
+    </section>
+  </div>
+  <div class="workshop-support"><details id="example-notes" class="example-notes"><summary data-i18n="exampleNotes"></summary><p class="editor-intro" id="editor-intro" data-i18n="notesEmpty"></p><div id="editor-notes"></div></details><details id="version-panel" class="versions" hidden><summary><span data-i18n="versions"></span> <span id="version-count"></span></summary><div id="versions"></div></details><p class="editor-footer"><span data-i18n="editorFooter"></span> <a data-route="/library" data-i18n="exploreFrameworks"></a></p></div>
+</main>
+<footer class="site-footer"><span>sigge. <span class="footer-caption" data-i18n="tagline"></span></span><div><button id="about-privacy" class="text-button" type="button" data-i18n="privacyButton"></button><a href="https://github.com/Ac0AI/copybiblioteket" data-i18n="code"></a></div></footer>
+<dialog id="prompt-dialog" aria-labelledby="prompt-title"><button class="close-dialog" type="button" data-i18n-aria-label="close">×</button><p class="eyebrow" data-i18n="promptEyebrow"></p><h2 id="prompt-title" data-i18n="promptTitle"></h2><p data-i18n="promptIntro"></p><p id="prompt-context" class="small-note"></p><label for="prompt-text" data-i18n="promptLabel"></label><textarea id="prompt-text" readonly rows="10"></textarea><button id="copy-prompt" class="button primary full" type="button" data-i18n="copyPrompt"></button><p id="prompt-copy-status" class="small-note" role="status" aria-live="polite"></p><p class="small-note" data-i18n="promptNote"></p><button id="return-to-draft" class="button outlined full" type="button" data-i18n="returnToDraft"></button></dialog>
+<dialog id="privacy-dialog" aria-labelledby="privacy-title"><button class="close-dialog" type="button" data-i18n-aria-label="close">×</button><h2 id="privacy-title" data-i18n="privacyTitle"></h2><p data-i18n="privacyOne"></p><p data-i18n="privacyTwo"></p><p data-i18n="privacyThree"></p><p data-i18n="privacyFour"></p><p><span data-i18n="fieldNotesIntro"></span> <a href="https://www.ac0.ai/en/field-notes" target="_blank" rel="noopener noreferrer" data-i18n="fieldNotesLink"></a>. <span data-i18n="fieldNotesNote"></span></p><p><span data-i18n="privacyContact"></span> <a href="mailto:hi@ac0.ai">hi@ac0.ai</a>.</p><button class="button primary close-privacy" type="button" data-i18n="backToDraft"></button></dialog>
+</body>
+</html>

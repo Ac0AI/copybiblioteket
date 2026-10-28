@@ -1,18 +1,27 @@
 # Validering
 
-27 oktober 2026, skrivverkstad och 59 profiler.
+28 oktober 2026, tvåspråkig skrivverkstad och 59 profiler.
 
 ## Automatiska kontroller
 
-- `npm run build`: TypeScript-kontroll, 28 tester och paketering av webbläsarkoden.
+- `npm run build`: TypeScript-kontroll, 31 tester och paketering av webbläsarkoden.
 - Alla 59 profilidentiteter är unika och matchar det importerade originalets katalog. Profilerna har HTTPS-källänkar och uttrycklig proveniens. Sökning på varje exakt namn ger rätt person först.
 - Svenska och engelska sökfrågor, källhänvisningar, svenska tecken, tomma träffar, indatagränser och HTTP testas.
 - Skrivunderlag bevarar fakta, villkor, röstprov och ändringsinstruktioner. Ett uttryckligt personval gäller före automatiskt urval, som begränsas till tre profiler och utesluter kategorin Fördjupning.
-- En riktig MCP-klient startar stdio-servern från en annan arbetskatalog, upptäcker åtta verktyg och läser ramverk, profiler och källor.
+- En riktig MCP-klient startar stdio-servern från en annan arbetskatalog, upptäcker nio verktyg och läser ramverk, profiler och källor.
 - Produktionsstarten använder endast egna tillämpningar och källänkar även om en lokal textsamling anges i miljön. HTTP kan inte anropa AI, skapa konton eller prenumerera medan åtkomst väntar.
 - Lokala AI-tester använder simulerad gateway för skrivar-/redaktörsordning, felhantering, faktareferenser och obligatoriska formuleringar. Strängkontroller kan inte avgöra om varje påstående faktiskt följer av sitt underlag.
 - Den lokala källsamlingen innehåller 58 läsbara fördjupningsindex för katalogens 59 profiler. Profiler utan index använder egna svenska tillämpningar och ärvda källänkar.
 - Installerad Copy Operator är strukturellt validerad och dess CLI-hjälpare har kontrollerats mot personbiblioteket. Detta bevisar inte språklig kvalitet.
+
+## Tvåspråkigt flöde
+
+- Alla 59 profiler och 11 ramverk finns på engelska, med oförändrade id:n, källor och proveniens.
+- Tester kontrollerar engelskt underlag och ändringsunderlag, bevarade valutor och exakta villkor, språkmatchning för skrivguide, HTML för alla sex adresser och fortsatt uppskjutna konto-/AI-rutter.
+- I webbläsaren har språkbyte med ifylld brief, engelskt exempel, faktisk kopiering till webbläsarens urklipp, återförd text, ändringsunderlag och val av svensk text i engelskt gränssnitt kontrollerats. Frivillig lagring återställde text, språk och personval efter omladdning.
+- Engelska ramverk kunde sökas, kopieras och läsas. Justin Welsh kunde väljas i engelska personbiblioteket och följas till rätt språk och personval i skrivverkstaden.
+- Mobilbredd 390 × 844 kontrollerades med webbläsaremulering. Ingen horisontell överströmning; skrivunderlag, dialog, återförd text och nedladdning fungerade. Fysisk mobil är inte testad.
+- Ingen ny modellutvärdering har körts för denna UI- och språkändring.
 
 ## Lokala skrivprov
 

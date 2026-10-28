@@ -1,0 +1,14 @@
+/* Shared navigation keeps language and page changes consistent across the service. */
+.topbar{min-height:83px;background:#fff;display:flex;align-items:center;padding:0 4.4vw;gap:42px;border-bottom:1px solid var(--line)}
+.topbar .brand{display:block;font:700 40px/1 Georgia,serif;letter-spacing:-3px;color:var(--ink);text-decoration:none}
+.brand-dot{color:var(--blue)}
+.topbar nav{display:flex;gap:26px;align-self:stretch;align-items:center}
+.topbar nav a{font-size:14px;font-weight:550;color:var(--muted);text-decoration:none;height:100%;display:flex;align-items:center;border-bottom:2px solid transparent}
+.topbar nav a[aria-current]{color:var(--ink);border-color:var(--blue)}
+.header-actions{margin-left:auto;display:flex;align-items:center;gap:20px}
+.language-switch{display:flex;align-items:center;gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;flex:none}
+.language-switch a{padding:7px 10px;font-size:12px;line-height:1.5;text-decoration:none;color:var(--muted)}
+.language-switch a[aria-current=true]{color:var(--ink);background:#edf2f9;font-weight:650}
+.language-switch a:hover{color:var(--blue)}
+@media(max-width:900px){.topbar{gap:24px}.topbar nav{gap:18px}.header-actions{gap:8px}#about-button{display:none}}
+@media(max-width:620px){.topbar{height:auto;min-height:0;flex-wrap:wrap;padding:16px 20px 0;gap:16px}.topbar .brand{font-size:34px}.header-actions{order:1}.topbar nav{order:2;width:100%;height:40px;gap:26px}.topbar nav a{font-size:13px}.language-switch a{padding:5px 9px}}

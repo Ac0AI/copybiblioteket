@@ -26,7 +26,7 @@ export const frameworkSchema = z.object({
     explanation: z.string().min(1),
   }),
   sources: z.array(source).min(1),
-  language: z.literal("sv"),
+  language: z.enum(["sv", "en"]),
   provenance: z.literal("original-application"),
 }).strict();
 
