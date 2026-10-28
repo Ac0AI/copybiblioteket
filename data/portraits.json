@@ -1,0 +1,484 @@
+{
+  "adam-robinson": {
+    "src": "/portraits/adam-robinson.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://www.linkedin.com/in/retentionadam",
+    "catalogUrl": "https://brains.ceo/adam-robinson",
+    "credit": "The Brains"
+  },
+  "alex-hormozi": {
+    "src": "/portraits/alex-hormozi.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/AlexHormozi",
+    "catalogUrl": "https://brains.ceo/alex-hormozi",
+    "credit": "The Brains"
+  },
+  "alex-slater": {
+    "src": "/portraits/alex-slater.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/aslater",
+    "catalogUrl": "https://brains.ceo/alex-slater",
+    "credit": "The Brains"
+  },
+  "alex-west": {
+    "src": "/portraits/alex-west.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/alexwestco",
+    "catalogUrl": "https://brains.ceo/alex-west",
+    "credit": "The Brains"
+  },
+  "alexandr-wang": {
+    "src": "/portraits/alexandr-wang.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/alexandr_wang",
+    "catalogUrl": "https://brains.ceo/alexandr-wang",
+    "credit": "The Brains"
+  },
+  "alexxgrowth": {
+    "src": "/portraits/alexxgrowth.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/alexxgrowth",
+    "catalogUrl": "https://brains.ceo/alexxgrowth",
+    "credit": "The Brains",
+    "kind": "avatar"
+  },
+  "andrew-huberman": {
+    "src": "/portraits/andrew-huberman.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/hubermanlab",
+    "catalogUrl": "https://brains.ceo/andrew-huberman",
+    "credit": "The Brains"
+  },
+  "blake-anderson": {
+    "src": "/portraits/blake-anderson.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/blakeandersonw",
+    "catalogUrl": "https://brains.ceo/blake-anderson",
+    "credit": "The Brains"
+  },
+  "bryan-johnson": {
+    "src": "/portraits/bryan-johnson.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/bryan_johnson",
+    "catalogUrl": "https://brains.ceo/bryan-johnson",
+    "credit": "The Brains"
+  },
+  "casey-adams": {
+    "src": "/portraits/casey-adams.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/caseyadams",
+    "catalogUrl": "https://brains.ceo/casey-adams",
+    "credit": "The Brains"
+  },
+  "corey-haines": {
+    "src": "/portraits/corey-haines.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/coreyhainesco",
+    "catalogUrl": "https://brains.ceo/corey-haines",
+    "credit": "The Brains"
+  },
+  "cris-pop": {
+    "src": "/portraits/cris-pop.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://www.linkedin.com/in/popcris",
+    "catalogUrl": "https://brains.ceo/cris-pop",
+    "credit": "The Brains"
+  },
+  "dagobert-renouf": {
+    "src": "/portraits/dagobert-renouf.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/dagorenouf",
+    "catalogUrl": "https://brains.ceo/dagobert-renouf",
+    "credit": "The Brains"
+  },
+  "dalton-caldwell": {
+    "src": "/portraits/dalton-caldwell.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/daltonc",
+    "catalogUrl": "https://brains.ceo/dalton-caldwell",
+    "credit": "The Brains"
+  },
+  "damon-chen": {
+    "src": "/portraits/damon-chen.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/damonchen",
+    "catalogUrl": "https://brains.ceo/damon-chen",
+    "credit": "The Brains"
+  },
+  "danny-postma": {
+    "src": "/portraits/danny-postma.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/dannypostma",
+    "catalogUrl": "https://brains.ceo/danny-postma",
+    "credit": "The Brains"
+  },
+  "david-goggins": {
+    "src": "/portraits/david-goggins.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/davidgoggins",
+    "catalogUrl": "https://brains.ceo/david-goggins",
+    "credit": "The Brains"
+  },
+  "dustin-howes": {
+    "src": "/portraits/dustin-howes.jpg",
+    "width": 200,
+    "height": 200,
+    "sourceUrl": "https://www.linkedin.com/in/dustinhowes/",
+    "catalogUrl": "https://brains.ceo/dustin-howes",
+    "credit": "The Brains"
+  },
+  "elon-musk": {
+    "src": "/portraits/elon-musk.jpg",
+    "width": 377,
+    "height": 503,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Royal_Society_(cropped).jpg",
+    "credit": "The Royal Society / Debbie Rowe; uploaded by Duncan Hull",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "farza": {
+    "src": "/portraits/farza.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/FarzaTv",
+    "catalogUrl": "https://brains.ceo/farza",
+    "credit": "The Brains"
+  },
+  "garry-tan": {
+    "src": "/portraits/garry-tan.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/garrytan",
+    "catalogUrl": "https://brains.ceo/garry-tan",
+    "credit": "The Brains"
+  },
+  "greg-isenberg": {
+    "src": "/portraits/greg-isenberg.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/gregisenberg",
+    "catalogUrl": "https://brains.ceo/greg-isenberg",
+    "credit": "The Brains"
+  },
+  "guillermo-rauch": {
+    "src": "/portraits/guillermo-rauch.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/rauchg",
+    "catalogUrl": "https://brains.ceo/guillermo-rauch",
+    "credit": "The Brains"
+  },
+  "hubert-thieblot": {
+    "src": "/portraits/hubert-thieblot.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/hthieblot",
+    "catalogUrl": "https://brains.ceo/hubert-thieblot",
+    "credit": "The Brains"
+  },
+  "hunter-isaacson": {
+    "src": "/portraits/hunter-isaacson.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/hunterjisaacson",
+    "catalogUrl": "https://brains.ceo/hunter-isaacson",
+    "credit": "The Brains"
+  },
+  "iman-gadzhi": {
+    "src": "/portraits/iman-gadzhi.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://brains.ceo/iman-gadzhi",
+    "catalogUrl": "https://brains.ceo/iman-gadzhi",
+    "credit": "The Brains"
+  },
+  "jack-friks": {
+    "src": "/portraits/jack-friks.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/jackfriks",
+    "catalogUrl": "https://brains.ceo/jack-friks",
+    "credit": "The Brains"
+  },
+  "jake-castillo": {
+    "src": "/portraits/jake-castillo.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/jakecastilloooo",
+    "catalogUrl": "https://brains.ceo/jake-castillo",
+    "credit": "The Brains"
+  },
+  "jason-calacanis": {
+    "src": "/portraits/jason-calacanis.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/Jason",
+    "catalogUrl": "https://brains.ceo/jason-calacanis",
+    "credit": "The Brains"
+  },
+  "jason-cohen": {
+    "src": "/portraits/jason-cohen.png",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/asmartbear",
+    "catalogUrl": "https://brains.ceo/jason-cohen",
+    "credit": "The Brains"
+  },
+  "justin-welsh": {
+    "src": "/portraits/justin-welsh.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://www.linkedin.com/in/justinwelsh",
+    "catalogUrl": "https://brains.ceo/justin-welsh",
+    "credit": "The Brains"
+  },
+  "lenny-rachitsky": {
+    "src": "/portraits/lenny-rachitsky.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/lennysan",
+    "catalogUrl": "https://brains.ceo/lenny-rachitsky",
+    "credit": "The Brains"
+  },
+  "marc-lou": {
+    "src": "/portraits/marc-lou.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/marclou",
+    "catalogUrl": "https://brains.ceo/marc-lou",
+    "credit": "The Brains"
+  },
+  "naval-ravikant": {
+    "src": "/portraits/naval-ravikant.jpg",
+    "width": 231,
+    "height": 308,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naval_Ravikant_(cropped).jpg",
+    "credit": "Elias Bizannes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "nevo-david": {
+    "src": "/portraits/nevo-david.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/wickedguro",
+    "catalogUrl": "https://brains.ceo/nevo-david",
+    "credit": "The Brains"
+  },
+  "paul-buchheit": {
+    "src": "/portraits/paul-buchheit.jpg",
+    "width": 585,
+    "height": 818,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_Buchheit.jpg",
+    "credit": "Robert Scoble",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "paul-graham": {
+    "src": "/portraits/paul-graham.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/paulg",
+    "catalogUrl": "https://brains.ceo/paul-graham",
+    "credit": "The Brains"
+  },
+  "pavel-durov": {
+    "src": "/portraits/pavel-durov.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/durov",
+    "catalogUrl": "https://brains.ceo/pavel-durov",
+    "credit": "The Brains"
+  },
+  "peter-thiel": {
+    "src": "/portraits/peter-thiel.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/peterthiel",
+    "catalogUrl": "https://brains.ceo/peter-thiel",
+    "credit": "The Brains"
+  },
+  "pieter-levels": {
+    "src": "/portraits/pieter-levels.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/levelsio",
+    "catalogUrl": "https://brains.ceo/pieter-levels",
+    "credit": "The Brains"
+  },
+  "priyam-raj": {
+    "src": "/portraits/priyam-raj.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/priymrj",
+    "catalogUrl": "https://brains.ceo/priyam-raj",
+    "credit": "The Brains"
+  },
+  "rob-hallam": {
+    "src": "/portraits/rob-hallam.png",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/robj3d3",
+    "catalogUrl": "https://brains.ceo/rob-hallam",
+    "credit": "The Brains"
+  },
+  "rob-walling": {
+    "src": "/portraits/rob-walling.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/robwalling",
+    "catalogUrl": "https://brains.ceo/rob-walling",
+    "credit": "The Brains"
+  },
+  "roman-czerny": {
+    "src": "/portraits/roman-czerny.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/romanbuildsaas",
+    "catalogUrl": "https://brains.ceo/roman-czerny",
+    "credit": "The Brains"
+  },
+  "ross-jenkins": {
+    "src": "/portraits/ross-jenkins.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/rjoensk",
+    "catalogUrl": "https://brains.ceo/ross-jenkins",
+    "credit": "The Brains"
+  },
+  "ruben-hassid": {
+    "src": "/portraits/ruben-hassid.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://www.linkedin.com/in/ruben-hassid",
+    "catalogUrl": "https://brains.ceo/ruben-hassid",
+    "credit": "The Brains"
+  },
+  "ryan-hoover": {
+    "src": "/portraits/ryan-hoover.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/rrhoover",
+    "catalogUrl": "https://brains.ceo/ryan-hoover",
+    "credit": "The Brains"
+  },
+  "sam-altman": {
+    "src": "/portraits/sam-altman.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/sama",
+    "catalogUrl": "https://brains.ceo/sam-altman",
+    "credit": "The Brains"
+  },
+  "scott-wu": {
+    "src": "/portraits/scott-wu.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/ScottWu46",
+    "catalogUrl": "https://brains.ceo/scott-wu",
+    "credit": "The Brains"
+  },
+  "shaan-puri": {
+    "src": "/portraits/shaan-puri.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/ShaanVP",
+    "catalogUrl": "https://brains.ceo/shaan-puri",
+    "credit": "The Brains"
+  },
+  "socrates": {
+    "src": "/portraits/socrates.jpg",
+    "width": 300,
+    "height": 400,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg",
+    "catalogUrl": "https://brains.ceo/socrates",
+    "credit": "Eric Gaba (Wikimedia Commons: Sting)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/"
+  },
+  "steve-jobs": {
+    "src": "/portraits/steve-jobs.jpg",
+    "width": 260,
+    "height": 260,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Macintosh_computer,_January_1984,_by_Bernard_Gotfryd_-_edited.jpg",
+    "catalogUrl": "https://brains.ceo/steve-jobs",
+    "credit": "Bernard Gotfryd / Library of Congress; restoration by Cart",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Macintosh_computer,_January_1984,_by_Bernard_Gotfryd_-_edited.jpg"
+  },
+  "theo-browne": {
+    "src": "/portraits/theo-browne.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/theo",
+    "catalogUrl": "https://brains.ceo/theo-browne",
+    "credit": "The Brains"
+  },
+  "theprimeagen": {
+    "src": "/portraits/theprimeagen.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/ThePrimeagen",
+    "catalogUrl": "https://brains.ceo/theprimeagen",
+    "credit": "The Brains"
+  },
+  "tibo-maker": {
+    "src": "/portraits/tibo-maker.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/tibo_maker",
+    "catalogUrl": "https://brains.ceo/tibo-maker",
+    "credit": "The Brains"
+  },
+  "vic-giurgiu": {
+    "src": "/portraits/vic-giurgiu.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/PiticVic",
+    "catalogUrl": "https://brains.ceo/vic-giurgiu",
+    "credit": "The Brains"
+  },
+  "warren-buffett": {
+    "src": "/portraits/warren-buffett.jpg",
+    "width": 340,
+    "height": 340,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit.jpg",
+    "catalogUrl": "https://brains.ceo/warren-buffett",
+    "credit": "USA International Trade Administration",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "yahia-bakour": {
+    "src": "/portraits/yahia-bakour.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/mynameisyahia",
+    "catalogUrl": "https://brains.ceo/yahia-bakour",
+    "credit": "The Brains"
+  },
+  "zach-yadegari": {
+    "src": "/portraits/zach-yadegari.jpg",
+    "width": 400,
+    "height": 400,
+    "sourceUrl": "https://x.com/zach_yadegari",
+    "catalogUrl": "https://brains.ceo/zach-yadegari",
+    "credit": "The Brains"
+  }
+}
