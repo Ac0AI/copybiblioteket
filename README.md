@@ -6,6 +6,12 @@ En tvåspråkig skrivverkstad, 59 personprofiler och elva ramverk i ett friståe
 
 Webben hjälper dig välja ramverk och kopiera ett komplett skrivunderlag till din AI-chatt. Själva skrivandet sker i din AI-klient, gärna med [Copy Operator](skills/copy-operator/SKILL.md). Konton med e-postkod används för anslutningar till egna AI-klienter. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
 
+## Design och filmer
+
+Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Förklarande filmer på startsidan och anslutningssidan byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/`, till exempel [så funkar Sigge](https://sigge.si/media/sigge-sa-funkar-det.mp4) och [anslut din AI](https://sigge.si/media/sigge-anslut-din-ai.mp4).
+
+Integritetspolicyn finns på [sigge.si/privacy](https://sigge.si/privacy). Konton kan raderas av användaren själv på `/connect`.
+
 ## Kör lokalt
 
 Node.js 24 rekommenderas.
