@@ -1,0 +1,137 @@
+export const connectMessages = {
+  emailPlaceholder: ["du@exempel.se", "you@example.com"],
+  connectionCopied: ["Kopierat.", "Copied."],
+  connectNav: ["Anslut din AI", "Connect your AI"],
+  connectTitle: ["Sigge — anslut din AI", "Sigge — connect your AI"],
+  connectDescription: [
+    "Använd Sigges copykunskap i Claude Code eller ChatGPT. Skapa ditt konto med e-post och en engångskod.",
+    "Use Sigge’s copy knowledge in Claude Code or ChatGPT. Create your account with email and a one-time code.",
+  ],
+  connectEyebrow: ["Sigge i din AI-chatt", "Sigge in your AI chat"],
+  connectHeading: [
+    "Din AI. Mer att skriva med.",
+    "Your AI. More to write with.",
+  ],
+  connectIntro: [
+    "Koppla in 59 perspektiv, 11 ramverk och skrivråd på svenska och engelska. Du skriver i din vanliga AI-chatt.",
+    "Connect 59 perspectives, 11 frameworks and writing guidance in Swedish and English. Keep writing in your usual AI chat.",
+  ],
+  accountHeading: ["Börja med din e-post", "Start with your email"],
+  accountIntro: [
+    "Vi skickar en engångskod. Första gången skapas ditt Sigge-konto automatiskt.",
+    "We’ll send a one-time code. Your first sign-in creates your Sigge account automatically.",
+  ],
+  emailLabel: ["E-postadress", "Email address"],
+  sendCode: ["Skicka kod", "Send code"],
+  sendingCode: ["Skickar kod …", "Sending code…"],
+  codeLabel: ["Engångskod", "One-time code"],
+  codeHelp: [
+    "Koden gäller i 10 minuter. Kontrollera även skräpposten.",
+    "The code expires in 10 minutes. Please check your spam folder too.",
+  ],
+  verifyCode: ["Logga in", "Sign in"],
+  verifyingCode: ["Kontrollerar koden …", "Checking your code…"],
+  changeEmail: [
+    "Ändra e-post / skicka ny kod",
+    "Change email / send a new code",
+  ],
+  newsletterChoice: [
+    "Ja, jag vill också ha AC0 Field Notes om användbara AI-verktyg.",
+    "Yes, I’d also like AC0 Field Notes about useful AI tools.",
+  ],
+  newsletterDetail: [
+    "Frivilligt. Brevet är på engelska. Du kan avregistrera dig i varje utskick.",
+    "Optional. The newsletter is in English. Unsubscribe from any email.",
+  ],
+  accountPrivacy: [
+    "Vi sparar din e-post och dina anslutningar för att driva kontot. Kontodata lagras hos Turso och koden skickas via Resend. Frågor som din AI skickar till MCP:n behandlas av Sigge men sparas inte i biblioteket. Dina texter sparas inte i kontot.",
+    "We store your email and connections to run your account. Turso stores account data and Resend delivers your code. Queries your AI sends to the MCP are processed by Sigge but are not saved in the library. Your drafts are not stored in your account.",
+  ],
+  accountReady: ["Du är inloggad", "You’re signed in"],
+  signOut: ["Logga ut", "Sign out"],
+  chooseClient: ["Koppla till din AI", "Connect to your AI"],
+  claudeInstructions: [
+    "Kopiera kommandot och kör det i terminalen. Öppna sedan /mcp i Claude Code och välj Sigge för att logga in och godkänna anslutningen.",
+    "Copy the command and run it in your terminal. Then open /mcp in Claude Code and select Sigge to sign in and approve the connection.",
+  ],
+  copyCommand: ["Kopiera kommando", "Copy command"],
+  copyAddress: ["Kopiera MCP-adress", "Copy MCP URL"],
+  chatgptInstructions: [
+    "Öppna Plugins i ChatGPT på webben. Välj + och lägg till en egen MCP-server. Klistra in adressen, välj OAuth och följ inloggningen. Tillgängligheten styrs av ditt kontos och din arbetsytas inställningar.",
+    "Open Plugins in ChatGPT on the web. Select + and add a custom MCP server. Paste the URL, choose OAuth and follow the sign-in flow. Availability depends on your account and workspace settings.",
+  ],
+  openPlugins: ["Öppna ChatGPT Plugins ↗", "Open ChatGPT Plugins ↗"],
+  firstPromptTitle: ["Prova i chatten", "Try it in your chat"],
+  firstPrompt: [
+    "Använd Sigge. Hjälp mig skriva en landningssida på naturlig svenska. Fråga efter mottagare, erbjudande och verifierade fakta innan du skriver.",
+    "Use Sigge. Help me write a landing page in natural English. Ask for the audience, offer and verified facts before writing.",
+  ],
+  ownAI: [
+    "Sigge levererar kunskapen. Modellen i din AI-klient skriver texten, enligt villkoren för ditt konto där.",
+    "Sigge provides the knowledge. The model in your AI client writes the draft, under that account’s terms.",
+  ],
+  connectionsTitle: ["Dina anslutningar", "Your connections"],
+  noConnections: [
+    "Ingen AI-klient är ansluten ännu. Följ guiden för Claude Code eller ChatGPT på den här sidan.",
+    "No AI client is connected yet. Follow the Claude Code or ChatGPT guide on this page.",
+  ],
+  revokeConnection: ["Återkalla", "Revoke"],
+  connectionRemoved: ["Anslutningen är återkallad.", "Connection revoked."],
+  notesSubscribed: [
+    "Din anmälan till Field Notes är registrerad. Du hanterar prenumerationen via länken i brevet.",
+    "Your Field Notes signup is registered. Manage your subscription using the link in the newsletter.",
+  ],
+  notesFailed: [
+    "Ditt Sigge-konto är klart, men Field Notes kunde inte aktiveras. Du kan försöka igen på din kontosida.",
+    "Your Sigge account is ready, but Field Notes could not be activated. You can retry on your account page.",
+  ],
+  notesJoin: ["Prenumerera på Field Notes", "Subscribe to Field Notes"],
+  connectUnavailable: [
+    "Inloggningen är inte öppen ännu. Du kan använda skrivverkstaden utan konto under tiden.",
+    "Sign-in is not open yet. You can use the workshop without an account in the meantime.",
+  ],
+  authError: [
+    "Det gick inte att logga in. Kontrollera koden eller skicka en ny.",
+    "Could not sign in. Check the code or request a new one.",
+  ],
+  sendCodeError: [
+    "Koden kunde inte skickas. Kontrollera adressen och försök igen.",
+    "The code could not be sent. Check the address and try again.",
+  ],
+  tooManyRequests: [
+    "För många försök just nu. Försök igen senare.",
+    "Too many attempts right now. Please try again later.",
+  ],
+  signOutError: [
+    "Det gick inte att logga ut. Försök igen.",
+    "Could not sign out. Please try again.",
+  ],
+  connectionError: [
+    "Anslutningen kunde inte läsas. Ladda om sidan och försök igen.",
+    "The connection could not be loaded. Reload the page and try again.",
+  ],
+  consentTitle: ["Sigge — godkänn anslutning", "Sigge — approve connection"],
+  consentHeading: ["Anslut till Sigge", "Connect to Sigge"],
+  consentIntro: [
+    "Den här klienten vill använda ditt Sigge-konto:",
+    "This client wants to use your Sigge account:",
+  ],
+  consentPermission: [
+    "Läsa Sigges ramverk, profiler och skrivråd. Fortsätta använda anslutningen tills du återkallar den.",
+    "Read Sigge’s frameworks, profiles and writing guidance. Keep using the connection until you revoke it.",
+  ],
+  consentIdentity: [
+    "Om klienten ber om det delas även ditt konto-id och din e-postadress. Anslutningen ger inte tillgång till din inkorg.",
+    "If requested, your account ID and email address are also shared. The connection does not grant access to your inbox.",
+  ],
+  consentUntrusted: [
+    "Kontrollera att det är klienten du ville ansluta. Namnet uppges av klienten själv.",
+    "Check that this is the client you intended to connect. Its name is supplied by the client.",
+  ],
+  allowConnection: ["Godkänn anslutning", "Approve connection"],
+  denyConnection: ["Avbryt", "Cancel"],
+  consentInvalid: [
+    "Anslutningsförfrågan saknas eller har gått ut. Starta om anslutningen från din AI-klient.",
+    "The connection request is missing or expired. Start the connection again from your AI client.",
+  ],
+};

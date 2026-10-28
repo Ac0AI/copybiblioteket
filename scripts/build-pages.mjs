@@ -4,7 +4,7 @@ const escape = value => value.replaceAll('&','&amp;').replaceAll('"','&quot;').r
 for (const language of ['sv','en']) {
   const directory = 'public' + (language === 'en' ? '/en' : '');
   await mkdir(directory,{recursive:true});
-  for (const page of ['index','library','people']) {
+  for (const page of ['index','library','people','connect','consent']) {
     const path = page === 'index' ? '/' : '/' + page;
     let html = await readFile(`client/pages/${page}.html`,'utf8');
     html = html.replaceAll('{{language}}',language).replaceAll('{{canonical}}','https://sigge.si'+pagePath(path,language));

@@ -9,8 +9,8 @@ Sigge: a standalone Swedish and English copy workshop and library, deployed to s
 - Write Swedish from the brief and brand voice, without assuming a single Swedish national tone.
 - Public deployment uses only our own framework applications and links to originals. Optional inherited source collections are local references, not part of this repository or deployment.
 - Keep personal briefs, customer data, credentials and machine paths out of the repository. copy-brains.local.json is local and ignored.
-- app.ts is the Vercel entry. npm start binds to localhost. The MCP server uses stdio and makes no outbound calls.
+- app.ts is the Vercel entry. npm start binds to localhost. Local MCP uses stdio. Public /mcp uses Streamable HTTP and OAuth; knowledge tools do not call a model or save query text.
 - Person profiles live in data/people/. Keep all 59 catalogue identities, original Swedish applications and inherited-source provenance. Do not present profiles as endorsements.
-- Public brief generation runs in the browser; no account, database, model or email action is exposed. Accounts are explicitly deferred by the owner.
+- Public brief generation stays in the browser. The owner has authorized email OTP accounts, remote MCP, optional verified-email Field Notes signup, Better Auth and Turso. No Sign in with ChatGPT.
 - Run npm run build (typecheck, tests and browser bundle). Verify deployment and HTTPS on sigge.si after release.
-- copy/studio.ts and copy/evaluate.ts are for local AI evaluation using the project's configured gateway only. Do not expose the model route or enable signup until the owner decides on access. Neon is not used. Do not add another identity provider without a decision.
+- copy/studio.ts and copy/evaluate.ts are for local AI evaluation using the project's configured gateway only. Do not expose the model route. Neon is not used. Use Better Auth + Turso for accounts and Sigge <hej@sigge.si> through the verified Resend domain for login codes. Keep Field Notes opt-in separate and do not subscribe unverified addresses.

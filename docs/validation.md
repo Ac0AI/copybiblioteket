@@ -4,12 +4,12 @@
 
 ## Automatiska kontroller
 
-- `npm run build`: TypeScript-kontroll, 31 tester och paketering av webbläsarkoden.
+- `npm run build`: TypeScript-kontroll, 35 tester och paketering av webbläsarkoden.
 - Alla 59 profilidentiteter är unika och matchar det importerade originalets katalog. Profilerna har HTTPS-källänkar och uttrycklig proveniens. Sökning på varje exakt namn ger rätt person först.
 - Svenska och engelska sökfrågor, källhänvisningar, svenska tecken, tomma träffar, indatagränser och HTTP testas.
 - Skrivunderlag bevarar fakta, villkor, röstprov och ändringsinstruktioner. Ett uttryckligt personval gäller före automatiskt urval, som begränsas till tre profiler och utesluter kategorin Fördjupning.
 - En riktig MCP-klient startar stdio-servern från en annan arbetskatalog, upptäcker nio verktyg och läser ramverk, profiler och källor.
-- Produktionsstarten använder endast egna tillämpningar och källänkar även om en lokal textsamling anges i miljön. HTTP kan inte anropa AI, skapa konton eller prenumerera medan åtkomst väntar.
+- Produktionsstarten använder endast egna tillämpningar och källänkar även om en lokal textsamling anges i miljön. HTTP kan inte anropa AI. Konto- och prenumerationsrutter är avstängda när kontokonfiguration saknas.
 - Lokala AI-tester använder simulerad gateway för skrivar-/redaktörsordning, felhantering, faktareferenser och obligatoriska formuleringar. Strängkontroller kan inte avgöra om varje påstående faktiskt följer av sitt underlag.
 - Den lokala källsamlingen innehåller 58 läsbara fördjupningsindex för katalogens 59 profiler. Profiler utan index använder egna svenska tillämpningar och ärvda källänkar.
 - Installerad Copy Operator är strukturellt validerad och dess CLI-hjälpare har kontrollerats mot personbiblioteket. Detta bevisar inte språklig kvalitet.
@@ -17,7 +17,7 @@
 ## Tvåspråkigt flöde
 
 - Alla 59 profiler och 11 ramverk finns på engelska, med oförändrade id:n, källor och proveniens.
-- Tester kontrollerar engelskt underlag och ändringsunderlag, bevarade valutor och exakta villkor, språkmatchning för skrivguide, HTML för alla sex adresser och fortsatt uppskjutna konto-/AI-rutter.
+- Tester kontrollerar engelskt underlag och ändringsunderlag, bevarade valutor och exakta villkor, språkmatchning för skrivguide, HTML för de sex innehållsadresserna och avstängda AI-rutter. Kontotester kontrollerar även anslutnings- och godkännandesidorna på båda språken.
 - I webbläsaren har språkbyte med ifylld brief, engelskt exempel, faktisk kopiering till webbläsarens urklipp, återförd text, ändringsunderlag och val av svensk text i engelskt gränssnitt kontrollerats. Frivillig lagring återställde text, språk och personval efter omladdning.
 - Engelska ramverk kunde sökas, kopieras och läsas. Justin Welsh kunde väljas i engelska personbiblioteket och följas till rätt språk och personval i skrivverkstaden.
 - Mobilbredd 390 × 844 kontrollerades med webbläsaremulering. Ingen horisontell överströmning; skrivunderlag, dialog, återförd text och nedladdning fungerade. Fysisk mobil är inte testad.
@@ -43,4 +43,12 @@ Förhandskontrollen fångade att det genererade JavaScript-paketet saknades i dr
 
 Ingen jämförelse med Hormozis egen AI eller mätning av konverteringseffekt har gjorts. Begreppssökning är inte generell semantisk förståelse. Personprofilerna är våra svenska tillämpningar; alla ärvda källor har inte granskats mot originalen. Den valfria lokala textsamlingen ingår inte i publik drift.
 
-Sajten skapar skrivunderlag och erbjuder en redigeringsyta. Den skriver inte färdig copy med en inbyggd modell. Konton, automatisk Field Notes-prenumeration och offentlig modellåtkomst är uppskjutna enligt ägarens beslut.
+Sajten skapar skrivunderlag och erbjuder en redigeringsyta. Den skriver inte färdig copy med en inbyggd modell. Konton och frivillig Field Notes-prenumeration är implementerade och lokalt testade. Produktion väntar på Turso-inloggning, databas, miljökonfiguration och livekontroll. Ingen automatisk prenumeration eller offentlig modellåtkomst är aktiverad.
+
+## Konton och publik MCP, 28 oktober 2026
+
+Lokala tester med separata SQLite-filer och simulerade leverantörer kontrollerar e-postägarskap, hashad engångskod, utgången kod, låsning efter felaktiga försök, rate limits, CSRF, samtycke och fel från mejl-/prenumerationsleverantören. Ett faktiskt HTTP/OAuth-flöde testar discovery, DCR, S256 PKCE, manipulerad callback, engångsbyte av kod, tokenförnyelse och omedelbar återkallning. En riktig MCP SDK-klient hämtar nio verktyg och skrivguiden på båda språken.
+
+I webbläsaren testades registrering, språkbyte, faktisk kopiering av MCP-adressen, utloggning och godkännande av en lokal testklient. Koden från webbläsarflödet växlades till en fungerande MCP-token. Återkallning fungerade också i gränssnittet. Mobilbredd 390 × 844 kontrollerades utan horisontell överströmning. Testmejl och prenumerationer simulerades lokalt.
+
+Detta bevisar protokollflödet, inte en anslutning från användarens faktiska Claude Code- eller ChatGPT-konto. Produktionslagring, riktiga inloggningsmejl och en verklig Field Notes-prenumeration återstår att kontrollera när Turso och miljövariabler är klara.

@@ -33,12 +33,18 @@
     "test": "tsx --test copy/tests/*.test.ts",
     "smoke": "tsx --test copy/tests/http.test.ts copy/tests/mcp.test.ts",
     "build": "npm run typecheck && npm run build:client && npm test",
-    "build:client": "node scripts/build-pages.mjs && esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js && esbuild client/library.js client/people.js --bundle --format=esm --target=es2022 --minify --outdir=public"
+    "build:client": "node scripts/build-pages.mjs && esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js && esbuild client/library.js client/people.js client/connect.js --bundle --format=esm --target=es2022 --minify --outdir=public"
   },
   "dependencies": {
+    "@better-auth/cimd": "1.7.14",
+    "@better-auth/mcp": "1.7.14",
+    "@libsql/kysely-libsql": "0.4.1",
     "@modelcontextprotocol/sdk": "^1.29.0",
     "@vercel/oidc": "^4.0.4",
+    "better-auth": "1.7.14",
     "express": "^4.21.2",
+    "kysely": "0.29.7",
+    "resend": "6.35.0",
     "tsx": "^4.19.2",
     "zod": "^4.4.3"
   },

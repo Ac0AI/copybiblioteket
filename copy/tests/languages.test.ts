@@ -24,7 +24,7 @@ test('English writing and revision keep exact user data and never inject a Swedi
   assert.match(prompt,/"channel": "web page"/);assert.match(prompt,/required wording exactly/);
   assert.throws(()=>buildWritingPrompt(brief,{frameworks:sv.frameworks,people:sv.people,guide:sv.writingGuide,language:'sv'}),/does not match/);
 });
-test('both languages have complete HTML, routes and data while public AI and accounts remain deferred',async()=>{
+test('both languages work without account configuration and the public AI route remains disabled',async()=>{
   const server=createApp(sv).listen(0,'127.0.0.1');await once(server,'listening');const base='http://127.0.0.1:'+(server.address() as AddressInfo).port;
   try{
     for(const language of ['sv','en']){
@@ -39,6 +39,8 @@ test('both languages have complete HTML, routes and data while public AI and acc
     }
     assert.equal((await fetch(base+'/api/people?lang=de')).status,400);
     assert.equal((await fetch(base+'/api/people?lang=en&lang=sv')).status,400);
-    for(const asset of ['/studio-app.js','/library.js','/people.js','/navigation.css'])assert.equal((await fetch(base+asset)).status,200);
+    assert.deepEqual(await (await fetch(base+'/api/connection')).json(),{enabled:false,mcpURL:null});
+    assert.equal((await fetch(base+'/mcp',{method:'POST'})).status,503);
+    for(const asset of ['/studio-app.js','/library.js','/people.js','/connect.js','/connect.css','/navigation.css'])assert.equal((await fetch(base+asset)).status,200);
   }finally{await new Promise<void>((resolve,reject)=>server.close(error=>error?reject(error):resolve()));}
 });

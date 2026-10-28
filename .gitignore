@@ -14,3 +14,8 @@ public/people.html
 public/en/
 public/library.js
 public/people.js
+
+.data/
+public/connect.html
+public/consent.html
+public/connect.js

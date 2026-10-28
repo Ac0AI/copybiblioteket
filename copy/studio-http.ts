@@ -2,10 +2,10 @@ import express from 'express';
 import type { CopyLibrary } from './library.js';
 import { languageFrom } from './locale.js';
 
-// Accounts and public model access are deferred. No email, account or model action.
-export function studioRouter(library: CopyLibrary) {
+// Writing remains a browser-only prompt builder. Accounts connect external AI clients.
+export function studioRouter(library: CopyLibrary, accountsEnabled = false) {
   const router = express.Router();
-  router.get('/api/studio', (_req,res) => res.json({ready:false,mode:'writing-brief',accounts:'deferred'}));
+  router.get('/api/studio', (_req,res) => res.json({ready:false,mode:'writing-brief',accounts:accountsEnabled?'email-otp':'deferred'}));
   router.get('/api/writing-kit', (req,res) => {
     const localized = library.forLanguage(languageFrom(req.query.lang));
     res.json({frameworks:localized.frameworks,people:localized.people,guide:localized.writingGuide,language:localized.language});
