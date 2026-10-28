@@ -48,3 +48,9 @@ Do not log email codes, bearer tokens, cookies, or OAuth query strings. Never re
 ## Verification
 
 `npm run build` runs types, bundles, and tests. Auth tests use disposable SQLite databases and simulated mail/contact providers. They exercise actual HTTP OAuth, PKCE token exchange, a real MCP SDK client in both languages, replay, expired codes, explicit opt-in, provider failures and connection revocation. Provider delivery, production Turso state and actual Claude Code/ChatGPT account connections require separate live checks.
+
+## Production activation, 28 October 2026
+
+PR #3 is deployed to `https://sigge.si`. Turso database/group `sigge` uses `aws-eu-central-1` (Frankfurt) in the existing `ac0ai` account. Production variables are encrypted in Vercel and use a database-scoped token and a separate Sigge Resend API key. The mail key needs contact access for the existing Field Notes segment as well as sending access. No production secrets are configured for previews.
+
+Live verification exercised browser signup, real provider delivery to a Resend test sink, OAuth approval, token renewal, all nine MCP tools, both languages, newsletter opt-in and immediate revocation. The disposable test account, OAuth client and newsletter contact were removed. A normal inbox delivery and an actual user's Claude Code/ChatGPT connection remain separate checks. See `validation.md`.
