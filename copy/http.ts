@@ -1,4 +1,6 @@
 import express from 'express';
+import { mountAccounts } from './account-http.js';
+import type { AuthRuntime } from './auth.js';
 import { join } from 'node:path';
 import { z } from 'zod';
 import { ROOT, type CopyLibrary } from './library.js';
@@ -6,7 +8,7 @@ import { languageFrom } from './locale.js';
 import { studioRouter } from './studio-http.js';
 import { personSchema, searchInput } from './schema.js';
 
-export function createApp(library: CopyLibrary) {
+export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
   const app = express();
   const current = (req: express.Request) => library.forLanguage(languageFrom(req.query.lang));
   const message = (req: express.Request, sv: string, en: string) => req.query.lang === 'en' ? en : sv;
@@ -16,6 +18,7 @@ export function createApp(library: CopyLibrary) {
     res.set('Content-Security-Policy', "default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'");
     next();
   });
+  mountAccounts(app,accounts,library);
   app.use(express.json({ limit: '64kb' }));
   app.use('/api', (req, res, next) => {
     res.set('Cache-Control', 'no-store');
@@ -24,7 +27,7 @@ export function createApp(library: CopyLibrary) {
     }
     next();
   });
-  app.use(studioRouter(library));
+  app.use(studioRouter(library,!!accounts));
   app.get('/api/health', (_req, res) => res.json({status:'ok',frameworks:library.frameworks.length,people:library.people.length,sourceMode:library.sourceMode}));
   app.get('/api/people', (req, res) => res.json({people:current(req).people,notice:current(req).notice.profile,language:current(req).language}));
   app.get('/api/people/:id', (req, res) => {
@@ -52,11 +55,11 @@ export function createApp(library: CopyLibrary) {
   for (const language of ['sv','en']) {
     const prefix = language === 'en' ? '/en' : '';
     const dir = language === 'en' ? 'en' : '';
-    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html']]) {
+    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html'],['/connect','connect.html'],['/consent','consent.html']]) {
       app.get(prefix + route, (_req, res) => res.sendFile(join(ROOT,'public',dir,file)));
     }
   }
-  for (const file of ['studio-app.js','library.js','people.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
+  for (const file of ['studio-app.js','library.js','people.js','connect.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
   app.use(express.static(join(ROOT,'public')));
   app.use('/api', (req, res) => {res.status(404).json({error:message(req,'Sidan finns inte.','Page not found.')});});
   app.use((err: unknown, req: express.Request, res: express.Response, _next: express.NextFunction) => {

@@ -1,6 +1,6 @@
 # Sigges skrivverkstad
 
-Beslut 27 oktober 2026: Sigge är en publik tjänst. Konton och val av inloggningslösning väntar på ägarens beslut. Neon används inte i appen. Denna release ger ett komplett skrivunderlag utan konto; modellen körs i användarens egen AI-chatt.
+Beslut 27 oktober 2026: Sigge är en publik tjänst. Uppdaterat beslut 28 oktober: konton använder e-postkod via Better Auth, Turso och Resend, med valfri Field Notes-prenumeration. Se `accounts.md` för implementation och aktivering. Neon används inte i appen. Denna release ger ett komplett skrivunderlag utan konto; modellen körs i användarens egen AI-chatt.
 
 ## Flödet
 
