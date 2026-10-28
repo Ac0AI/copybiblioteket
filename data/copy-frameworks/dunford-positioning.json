@@ -1,11 +1,11 @@
 {
   "id": "dunford-positioning",
-  "title": "Gör skillnaden relevant",
+  "title": "Visa skillnaden som spelar roll",
   "author": "April Dunford",
   "category": "Erbjudande",
-  "summary": "Utgå från kundens verkliga alternativ och förklara vilka skillnader som spelar roll för rätt köpare.",
-  "useWhen": "När läsaren inte förstår vad produkten är, vem den passar eller varför den ska väljas.",
-  "avoidWhen": "När skillnader bara består av allmänna ord som innovativ, smidig eller ledande.",
+  "summary": "Positionering enligt April Dunford: utgå från vad kunden annars skulle välja, ta fram det ni kan som alternativen inte kan, översätt det till värde, ringa in kunderna som bryr sig mest och välj den marknadskategori som gör värdet självklart.",
+  "useWhen": "När läsaren inte förstår vad ni säljer, vem det är till för eller varför hen ska välja er i stället för det hen redan gör – eller när ni ständigt jämförs med fel konkurrenter.",
+  "avoidWhen": "När skillnaden bara går att uttrycka med ord som innovativ, smidig eller ledande, eller när ni inte vet vilka alternativ kunderna faktiskt väljer mellan. Ta reda på det först.",
   "keywords": [
     "dunford",
     "positionering",
@@ -13,31 +13,47 @@
     "alternativ",
     "konkurrent",
     "konkurrenter",
+    "konkurrenterna",
+    "konkurrens",
     "differentiering",
     "skillnad",
+    "skillnaden",
     "skiljer",
+    "sticka ut",
+    "unik",
     "välja",
+    "varför oss",
+    "kategori",
+    "marknadskategori",
+    "idealkund",
+    "säljer",
     "positioning",
     "differentiation",
     "alternatives",
+    "competitive alternatives",
     "unique attributes",
+    "value",
+    "best-fit customers",
     "market category"
   ],
   "principles": [
-    "Ta reda på vad kunden skulle göra utan produkten, även manuellt arbete eller att avstå.",
-    "Knyt faktiska egenskaper till konkret nytta och de kunder som värderar den.",
-    "Välj en kategori som hjälper kunden att förstå erbjudandet. Påstå inte unikhet utan jämförelseunderlag."
+    "Konkurrerande alternativ: lista vad kunden skulle göra om ni inte fanns – välja en konkurrent, fortsätta med ett kalkylark, ta in en praktikant eller låta bli. Det är mot dem läsaren jämför er, inte mot er egen konkurrentlista.",
+    "Unika egenskaper: skriv upp vad ni har eller kan som alternativen saknar – funktioner, arbetssätt, kunskap, leveransmodell. Håll er till sakuppgifter, inte adjektiv.",
+    "Värde: fråga ”och vad betyder det för kunden?” om varje egenskap tills svaret är en konkret nytta, och notera vilket belägg som visar att nyttan är verklig.",
+    "Bästa kunderna: beskriv vad som kännetecknar de kunder som bryr sig mest om värdet – deras situation, behov eller arbetssätt, inte bara bransch och storlek – och skriv till dem.",
+    "Marknadskategori: välj det sammanhang som gör att läsaren direkt förstår vad ni är och varför värdet spelar roll. Påstå inte att ni är unika eller bäst utan jämförelseunderlag."
   ],
   "questions": [
-    "Vad ersätter tjänsten i dag?",
-    "Vilken skillnad kan vi visa?",
-    "Vem har mest nytta av den skillnaden?"
+    "Vad skulle kunden använda om vi inte fanns?",
+    "Vad kan vi som de alternativen inte kan – och hur visar vi det?",
+    "Vilka kunder bryr sig mest om den skillnaden, och vad har de gemensamt?",
+    "I vilket sammanhang blir vårt värde självklart för läsaren?"
   ],
   "example": {
-    "context": "Påhittat: ett planeringsverktyg samlar arbetspass och låter medarbetarna ansöka om passbyten. Kundens alternativ är en kalkylfil och mejl.",
+    "context": "Påhittat: ett schemaverktyg samlar arbetspassen och låter personalen ansöka om passbyten direkt i verktyget. I dag har kunderna schemat i ett kalkylark och sköter byten via mejl och sms.",
     "before": "En innovativ plattform som tar din verksamhet till nästa nivå.",
-    "after": "Samla schemat och önskemålen om passbyten på samma ställe.",
-    "explanation": "Beskriv den relevanta förändringen i arbetet."
+    "after": "Låt personalen ansöka om passbyten direkt i schemat, i stället för via mejl och sms till dig.",
+    "explanation": "Texten ställer verktyget mot det läsaren faktiskt använder i dag och lyfter fram den skillnad som avgör jämförelsen."
   },
   "sources": [
     {

@@ -1,37 +1,56 @@
 {
   "id": "ogilvy-headline",
-  "title": "Låt rubriken bära en tydlig idé",
+  "title": "Låt rubriken bära budskapet",
   "author": "David Ogilvy / vår tillämpning",
   "category": "Budskap",
-  "summary": "Lär känna produkten och mottagaren. Välj sedan en rubrik som säger något meningsfullt och som resten av texten kan leva upp till.",
-  "useWhen": "När rubriken är utbytbar, överlastad eller lovar mer än sidan visar.",
-  "avoidWhen": "När en generell rubrikregel behandlas som en garanti för resultat.",
+  "summary": "David Ogilvy menade att betydligt fler läser rubriken än brödtexten. Lär därför känna produkten och läsaren, och skriv en rubrik som lovar en konkret nytta eller berättar något nytt – och som resten av texten kan leva upp till.",
+  "useWhen": "När rubriken, ämnesraden eller ingressen är utbytbar, överlastad eller lovar mer än texten visar – eller när ingen läser vidare, öppnar nyhetsbrevet eller stannar kvar på sidan.",
+  "avoidWhen": "När en rubrikregel behandlas som en garanti för resultat, eller när rubriken skulle lova något som produkten inte håller.",
   "keywords": [
     "ogilvy",
     "rubrik",
     "rubriker",
-    "headline",
+    "rubriken",
+    "rubrikens",
+    "ämnesrad",
+    "ämnesraden",
+    "nyhetsbrev",
+    "nyhetsbrevet",
+    "utskick",
+    "öppningsgrad",
+    "ingen läser",
+    "läser inte",
+    "ingress",
+    "annonsrubrik",
     "hook",
     "löfte",
+    "löftet",
+    "nyhet",
     "produktkunskap",
-    "brand",
-    "research",
-    "promise"
+    "big idea",
+    "headline",
+    "subject line",
+    "newsletter",
+    "promise",
+    "research"
   ],
   "principles": [
-    "Låt rubrikens idé komma ur verklig produkt- och kundkunskap.",
-    "Visa det konkreta stödet i brödtexten.",
-    "Pröva om formuleringen känns igen som varumärkets och om den fungerar i den aktuella kanalen."
+    "Skriv rubriken som om den vore det enda läsaren ser. Den ska kunna stå på egen hand och ändå säga vad läsaren får ut av att läsa vidare.",
+    "Lova en konkret nytta eller berätta en nyhet, och gör det tydligt vem rubriken är till för. Ogilvy föredrog raka, specifika rubriker framför ordvitsar och gåtor som bara går att förstå om man läser brödtexten.",
+    "Hämta idén ur produktkunskap: läs på, använd produkten och prata med kunderna tills du hittar det som verkligen är intressant. Ogilvy menade att det är där de bästa idéerna finns.",
+    "Låt brödtexten bevisa löftet med fakta, detaljer och villkor. En rubrik som texten inte kan leva upp till kostar mer förtroende än den vinner.",
+    "Pröva rubriken i sin kanal: en ämnesrad i ett nyhetsbrev, en annons och en webbsida läses olika. Kontrollera att den låter som avsändaren och att det framgår vem som talar när rubriken står ensam."
   ],
   "questions": [
-    "Vad får läsaren veta redan i rubriken?",
-    "Var på sidan visar vi stöd för löftet?"
+    "Om läsaren bara ser rubriken – vad har hen då fått veta?",
+    "Vilken nytta eller nyhet lovar rubriken, och till vem?",
+    "Var i texten bevisar vi löftet?"
   ],
   "example": {
-    "context": "Påhittat: kunden kan välja ett intervall för hemleverans, men någon exakt leveranstid garanteras inte.",
+    "context": "Påhittat: en matbutik på nätet låter kunden välja ett leveransfönster på två timmar. Någon exakt leveranstid garanteras inte.",
     "before": "Leverans exakt när du vill. Varje gång.",
-    "after": "Välj ett leveransintervall som passar dig.",
-    "explanation": "Behåll det faktiska valet utan att göra det till en starkare garanti."
+    "after": "Välj själv vilka två timmar matkassen ska komma.",
+    "explanation": "Rubriken lovar en konkret och sann nytta som brödtexten kan backa upp, utan att göra valet till en garanti om exakt tid."
   },
   "sources": [
     {

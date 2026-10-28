@@ -3,43 +3,60 @@
   "title": "Gör erbjudandet lätt att värdera",
   "author": "Alex Hormozi",
   "category": "Erbjudande",
-  "summary": "Förtydliga nyttan, varför kunden kan tro på den, hur lång tid den tar och vad kunden själv behöver göra.",
-  "useWhen": "När priset känns högt, nyttan är oklar eller erbjudandet kräver för mycket av köparen.",
-  "avoidWhen": "När du bara ska rätta en mening. En värdeekvation ger inga säkra priser eller försäljningsprognoser.",
+  "summary": "Alex Hormozis värdeekvation: upplevt värde ökar med det resultat kunden drömmer om och med hur troligt hen tror att det är att nå dit, och minskar med väntetiden och den ansträngning eller uppoffring som krävs. Gör varje del konkret, så att priset går att bedöma mot värdet.",
+  "useWhen": "När kunderna tycker att det är för dyrt, inte ser vad de får för pengarna eller upplever att erbjudandet kräver för mycket av dem.",
+  "avoidWhen": "När du bara ska putsa en mening. Värdeekvationen är ett tankeverktyg – den ger inga säkra priser eller försäljningsprognoser och är inget skäl att lova resultat ni inte kan leverera.",
   "keywords": [
     "hormozi",
     "erbjudande",
     "erbjudandet",
     "pris",
     "priset",
+    "för högt pris",
     "prissättning",
+    "prisinvändning",
     "dyrt",
+    "dyr",
+    "för dyrt",
+    "värt pengarna",
+    "värt priset",
     "paketering",
+    "paket",
     "nytta",
     "värde",
+    "värdeekvation",
+    "drömresultat",
+    "väntetid",
+    "ansträngning",
+    "garanti",
+    "bonus",
+    "grand slam offer",
     "value equation",
     "dream outcome",
     "perceived likelihood",
     "time delay",
-    "effort sacrifice",
-    "offer"
+    "effort and sacrifice",
+    "offer",
+    "too expensive"
   ],
   "principles": [
-    "Börja med det resultat kunden vill ha och den del ni faktiskt kan leverera.",
-    "Visa relevant belägg och arbetssätt. Starkare ord ersätter inte bevis.",
-    "Skilj på start, första nytta och slutresultat. Var tydlig med kundens egen insats.",
-    "Bonusar ska lösa ett verkligt hinder. Garantier, rabatter och tidsgränser kräver faktiska villkor."
+    "Drömresultat: beskriv det kunden faktiskt vill uppnå, med hens ord – inte er leverans. Avgränsa till den del ni verkligen kan påverka.",
+    "Upplevd sannolikhet: visa varför det kommer att fungera för just den här kunden – arbetssätt, erfarenhet, kundexempel och villkor ni står för. Starkare ord ersätter inte belägg.",
+    "Väntetid: skilj på när kunden kommer i gång, när hen märker den första nyttan och när slutresultatet kommer. Lyft fram den första konkreta vinsten tidigt.",
+    "Ansträngning och uppoffring: skriv ut vad ni tar över och vad kunden fortfarande behöver göra själv. Att erbjudandet kräver mindre av kundens tid och engagemang är också värde.",
+    "Bonusar ska lösa ett verkligt hinder, och garantier, rabatter och tidsgränser kräver faktiska villkor. Jämför priset med värdet och med vad problemet kostar i dag, inte bara med konkurrenternas priser."
   ],
   "questions": [
-    "Vad får kunden konkret för priset?",
-    "Vad gör köparen osäker?",
-    "Vilket arbete och vilken väntan kan ni faktiskt minska?"
+    "Vad får kunden konkret för priset – och vad slipper hen?",
+    "Varför skulle kunden tro att det fungerar för just hen?",
+    "Hur snart märker kunden den första nyttan?",
+    "Vilken väntan eller vilket arbete kan vi faktiskt ta bort?"
   ],
   "example": {
-    "context": "Påhittat: en redovisningsbyrå sköter löpande bokföring, erbjuder ett introduktionssamtal och svarar på mejl på vardagar.",
+    "context": "Påhittat: en redovisningsbyrå sköter löpande bokföring, börjar med ett introduktionssamtal och svarar på mejl på vardagar.",
     "before": "Lås upp din ekonomiska potential med vår oemotståndliga lösning.",
-    "after": "Vi sköter din löpande bokföring. Du får ett introduktionssamtal och kan mejla oss när du behöver hjälp.",
-    "explanation": "Specificera leveransen och stödet utan att lova ett ekonomiskt resultat."
+    "after": "Vi sköter den löpande bokföringen, så slipper du kontera själv. Vi börjar med ett introduktionssamtal, och sedan mejlar du oss på vardagar när något dyker upp.",
+    "explanation": "Texten visar vad kunden slipper, hur det börjar och vilket stöd som finns, så värdet går att bedöma utan löften om ekonomiskt resultat."
   },
   "sources": [
     {

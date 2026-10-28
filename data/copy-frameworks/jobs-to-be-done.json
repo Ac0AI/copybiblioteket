@@ -3,40 +3,58 @@
   "title": "Förstå varför kunden vill byta",
   "author": "Christensen Institute / Jobs to Be Done",
   "category": "Kundinsikt",
-  "summary": "Undersök situationen som får kunden att söka en lösning, den förändring hen vill uppnå och det som håller hen tillbaka.",
-  "useWhen": "När målgruppen bara beskrivs med ålder, bransch eller bolagsstorlek, eller när köparen tvekar inför ett byte.",
-  "avoidWhen": "När intervjuer saknas: formulera frågor och hypoteser, inte påståenden om vad kunderna egentligen känner.",
+  "summary": "Kunder ”anlitar” en produkt för att komma framåt i en viss situation. Ta reda på vad som hände när de började leta, vilken förändring de vill uppnå – praktiskt, socialt och känslomässigt – och vad som håller dem kvar i det gamla.",
+  "useWhen": "När målgruppen bara beskrivs med ålder, bransch eller bolagsstorlek, när ni inte vet varför kunderna köper eller när köparen tvekar inför att byta.",
+  "avoidWhen": "När ni inte har pratat med kunder: formulera då frågor och hypoteser, inte påståenden om vad kunderna egentligen känner.",
   "keywords": [
     "jtbd",
     "jobs to be done",
+    "jobb",
     "kundinsikt",
+    "kundintervju",
     "situation",
+    "behov",
+    "varför köper",
+    "köpbeslut",
     "byta",
     "byter",
     "byte",
+    "bytet",
     "tvekar",
     "förändring",
     "invändningar",
+    "invändning",
+    "oro",
+    "vana",
+    "målgrupp",
+    "persona",
     "progress",
     "circumstances",
+    "switching",
     "anxiety",
-    "jobb"
+    "habit",
+    "push",
+    "pull",
+    "hire"
   ],
   "principles": [
-    "Fråga om ett konkret tillfälle: vad hände, vad provade kunden och varför blev det viktigt just då?",
-    "Skilj på praktisk nytta, socialt sammanhang och känslomässiga behov.",
-    "Beskriv både skälet att byta och hindret. Gör inte en kunds berättelse till ett faktum om hela målgruppen."
+    "Fråga om ett konkret tillfälle: när började kunden leta, vad hade just hänt, vad provade hen först och varför blev det viktigt just då? Fråga vad människor gjorde, inte vad de tror att de vill ha.",
+    "Beskriv jobbet som en förändring i en situation – ”när …, vill jag …, så att …” – i stället för som en produktegenskap eller en demografisk grupp.",
+    "Fånga jobbets alla tre sidor: den praktiska (få bokföringen gjord), den sociala (hur kunden vill uppfattas) och den känslomässiga (slippa oron).",
+    "Vår tillämpning: ett byte drivs av missnöje med det gamla och dragningskraften hos det nya, men bromsas av oro för det nya och vanan vid det gamla. Texten ska stärka de två första och minska de två sista, till exempel genom att visa hur flytten går till.",
+    "En kunds berättelse är en hypotes, inte en sanning om hela målgruppen. Leta efter mönster i flera intervjuer innan du bygger budskapet på dem."
   ],
   "questions": [
-    "Vad utlöste sökandet?",
-    "Vad fungerar dåligt med det nuvarande alternativet?",
-    "Vad skulle göra bytet besvärligt eller osäkert?"
+    "Vad hände precis innan kunden började leta efter en lösning?",
+    "Vad fungerar dåligt med det kunden använder i dag?",
+    "Vad vill kunden kunna göra, känna eller visa efteråt?",
+    "Vad gör bytet besvärligt eller osäkert?"
   ],
   "example": {
     "context": "Påhittat: en tjänst hjälper småföretag att flytta bokföringsunderlag från ett annat system. Exemplet bygger inte på en verklig intervju.",
     "before": "Vår lösning passar företag med 1–10 anställda.",
-    "after": "Vill du byta bokföringssystem? Vi hjälper dig att flytta underlaget från det du använder i dag.",
-    "explanation": "En relevant situation kan säga mer än en demografisk beskrivning."
+    "after": "Vill du byta bokföringsprogram men drar dig för flytten? Vi hjälper dig att föra över underlaget från systemet du använder i dag.",
+    "explanation": "Texten möter läsaren i situationen – viljan att byta och oron för flytten – i stället för att sortera hen efter antal anställda."
   },
   "sources": [
     {

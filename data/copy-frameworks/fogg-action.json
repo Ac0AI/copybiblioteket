@@ -1,43 +1,64 @@
 {
   "id": "fogg-action",
-  "title": "Gör nästa steg möjligt",
+  "title": "Gör nästa steg lätt att ta",
   "author": "BJ Fogg",
   "category": "Budskap",
-  "summary": "Bedöm om läsaren vill agera, kan göra det utan onödig friktion och får en tydlig uppmaning vid rätt tillfälle.",
-  "useWhen": "När läsare verkar intresserade men fastnar vid formulär, bokning eller nästa steg.",
-  "avoidWhen": "När problemet kräver en produktändring: formulera den separat och lova inte att en ny knapptext löser den.",
+  "summary": "Enligt BJ Foggs beteendemodell (B=MAP) uppstår ett beteende när motivation, förmåga och en uppmaning sammanfaller i samma ögonblick. Ta reda på vilken del som fattas – oftast är det säkrare att göra steget enklare än att försöka öka lusten.",
+  "useWhen": "När läsarna verkar intresserade men inte klickar, bokar eller fyller i formuläret, eller när konverteringen är låg trots att trafiken är relevant.",
+  "avoidWhen": "När hindret sitter i själva tjänsten, till exempel ett för långt formulär eller ett krångligt betalsteg. Beskriv då ändringen separat och lova inte att en ny knapptext löser det.",
   "keywords": [
     "fogg",
+    "b=map",
+    "beteende",
+    "beteendemodell",
     "nästa steg",
     "boka",
     "bokning",
     "knapp",
     "knappen",
+    "knapptext",
     "klick",
     "klickar",
     "friktion",
+    "krångel",
+    "krångligt",
     "formulär",
+    "formuläret",
+    "avhopp",
+    "hoppar av",
+    "låg konvertering",
+    "konvertering",
+    "konverterar",
+    "uppmaning",
+    "påminnelse",
     "motivation",
+    "förmåga",
+    "cta",
+    "call to action",
+    "behavior model",
     "ability",
     "prompt",
-    "cta",
-    "call to action"
+    "friction",
+    "conversion"
   ],
   "principles": [
-    "Undersök motivation, förmåga och uppmaning tillsammans.",
-    "Förklara vad handlingen innebär och vad som händer efteråt.",
-    "Skilj det som går att lösa med text från onödiga steg som behöver ändras i tjänsten."
+    "Hitta det som saknas: motivation (vill läsaren?), förmåga (kan hen, just nu?) och uppmaning (blir hen ombedd vid rätt tillfälle?). Fattas en av dem blir det ingen handling, hur bra resten än är.",
+    "Gör det lättare innan du försöker övertyga mer. Förmågan påverkas av sådant som tid, pengar, fysisk och mental ansträngning och hur väl steget passar läsarens rutiner: korta ned stegen, ta bort fält som inte behövs och svara på det läsaren annars måste fundera ut själv.",
+    "Säg exakt vad som händer. Knappen ska beskriva handlingen (”Boka tid”, ”Be om offert”), och raden intill ska svara på det som får folk att tveka: vad det kostar, hur lång tid det tar, om det binder och vad som händer sedan.",
+    "Anpassa uppmaningen efter läget. Är motivationen låg behöver den ge ett skäl (spark), är steget svårt behöver den göra det enklare (facilitator), och när både vilja och förmåga finns räcker en tydlig påminnelse (signal).",
+    "Placera uppmaningen där och när läsaren är redo, och skilj det text kan lösa från det som behöver ändras i tjänsten."
   ],
   "questions": [
-    "Förstår läsaren vad knappen gör?",
-    "Vilken information behövs faktiskt nu?",
-    "Är nästa steg rimligt för den här situationen?"
+    "Vad av motivation, förmåga och uppmaning saknas just här?",
+    "Förstår läsaren vad som händer när hen klickar?",
+    "Vilken uppgift eller vilket steg kan vi ta bort?",
+    "Kommer uppmaningen när läsaren faktiskt är redo att agera?"
   ],
   "example": {
-    "context": "Påhittat: formuläret skickar en offertförfrågan. Det innebär ingen beställning.",
-    "before": "Starta din resa.",
-    "after": "Be om offert",
-    "explanation": "Knapptexten säger vad som händer. Villkor om bindning får bara läggas till när de är kända."
+    "context": "Påhittat: formuläret skickar en kostnadsfri offertförfrågan. Ingenting beställs förrän kunden har godkänt offerten.",
+    "before": "[Starta din resa]",
+    "after": "[Be om offert] Kostnadsfritt – du beställer ingenting förrän du har godkänt offerten.",
+    "explanation": "Knappen säger vad som händer och raden under tar bort oron för att binda sig, så steget blir lättare att ta utan att trycket ökar."
   },
   "sources": [
     {

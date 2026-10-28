@@ -1,40 +1,55 @@
 {
   "id": "schwartz-awareness",
-  "title": "Börja där läsaren befinner sig",
+  "title": "Börja där läsaren är",
   "author": "Eugene Schwartz",
   "category": "Budskap",
-  "summary": "Anpassa öppningen efter vad läsaren redan vet om problemet, lösningarna och produkten.",
-  "useWhen": "När en text förklarar självklarheter eller ber om köp innan läsaren förstår erbjudandet.",
-  "avoidWhen": "När kundens kännedom bara gissas: behandla då nivån som en hypotes och pröva alternativ.",
+  "summary": "Eugene Schwartz beskriver fem nivåer av medvetenhet, från att inte se problemet till att vara redo att köpa. Ju mer läsaren redan vet, desto snabbare kan texten gå rakt på produkten och erbjudandet; ju mindre hen vet, desto mer behöver öppningen börja i läsarens situation eller önskan.",
+  "useWhen": "När texten förklarar sådant läsaren redan vet, eller ber om ett köp innan läsaren har förstått varför hen ska bry sig – i annonser, på landningssidor och i nyhetsbrev.",
+  "avoidWhen": "När ni bara gissar hur mycket läsaren vet: behandla då nivån som en hypotes och pröva öppningar för olika nivåer.",
   "keywords": [
     "schwartz",
+    "breakthrough advertising",
     "medvetenhet",
+    "medveten",
     "kännedom",
     "problemmedveten",
+    "lösningsmedveten",
+    "produktmedveten",
+    "omedveten",
     "känner",
+    "känner inte till",
     "nybörjare",
+    "kall trafik",
+    "varm trafik",
     "öppning",
     "inledning",
+    "irrelevant",
     "awareness",
+    "stages of awareness",
+    "unaware",
     "problem aware",
     "solution aware",
     "product aware",
-    "most aware"
+    "most aware",
+    "cold traffic"
   ],
   "principles": [
-    "Skilj mellan läsare som inte uppmärksammat problemet, känner problemet, jämför lösningar, känner produkten eller redan överväger erbjudandet.",
-    "En ny besökare kan behöva sammanhang. En jämförande köpare behöver skillnader, villkor och belägg.",
-    "Utgå från kanal och situation. En person kan veta olika mycket i olika sammanhang."
+    "Bestäm nivån: omedveten (ser inte problemet eller behovet), problemmedveten (känner problemet men inte lösningen), lösningsmedveten (vet vilket resultat hen vill ha men inte att er produkt ger det), produktmedveten (känner till produkten men är inte övertygad) eller mest medveten (vill ha produkten och behöver bara rätt erbjudande).",
+    "Mest medveten och produktmedveten: gå rakt på sak. Nämn produkten, erbjudandet, priset och villkoren, eller visa hur ni skiljer er från alternativen och vad som styrker det.",
+    "Lösningsmedveten och problemmedveten: öppna med resultatet läsaren vill ha eller problemet hen känner, med hens egna ord, och visa sedan att lösningen finns och hur den fungerar.",
+    "Omedveten: börja inte med produkten. Öppna med något läsaren känner igen från sin egen vardag – en situation, en känsla, en identitet – och bygg vägen därifrån. Ju lägre medvetenhet, desto mer arbete måste texten göra innan erbjudandet kommer.",
+    "Text kan inte skapa en önskan som inte finns, bara rikta en befintlig önskan mot erbjudandet – leta därför upp den först. Samma person kan befinna sig på olika nivåer i olika kanaler, så anpassa efter sammanhanget."
   ],
   "questions": [
-    "Vad vet läsaren redan?",
-    "Vilken fråga behöver besvaras innan nästa steg känns rimligt?"
+    "Vad vet läsaren redan om problemet, lösningarna och oss?",
+    "Vilken önskan eller vilket problem har läsaren redan?",
+    "Vilken fråga måste besvaras innan nästa steg känns rimligt?"
   ],
   "example": {
-    "context": "Påhittat: läsaren jämför flyttfirmor och sidan låter hen skicka samma förfrågan till tre företag.",
-    "before": "En flytt innebär att du byter bostad.",
-    "after": "Be tre flyttfirmor om offert med samma förfrågan.",
-    "explanation": "För en jämförande läsare kan tjänstens funktion vara en bättre öppning än en förklaring av ett redan känt problem."
+    "context": "Påhittat: läsaren vet att hen behöver en flyttfirma och jämför alternativ. Sidan låter hen skicka samma förfrågan till tre firmor.",
+    "before": "Att flytta kan vara stressigt. Visste du att det finns flyttfirmor som kan hjälpa till?",
+    "after": "Jämför offerter från tre flyttfirmor – med en enda förfrågan.",
+    "explanation": "Läsaren är redan lösningsmedveten, så öppningen går rakt på vad tjänsten gör för jämförelsen hen redan håller på med."
   },
   "sources": [
     {

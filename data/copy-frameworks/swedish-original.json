@@ -3,9 +3,9 @@
   "title": "Skriv som om idén föddes på svenska",
   "author": "Isof / vår svenska skrivguide",
   "category": "Svenska",
-  "summary": "Utgå från mottagarens situation och varumärkets röst. Skriv självständig svenska med konkreta ord, naturlig ordföljd och tydliga handlingar.",
-  "useWhen": "När texten låter översatt, opersonlig eller full av anglicismer och svepande säljlöften.",
-  "avoidWhen": "När en uttrycksfull röst avsiktligt är rätt för varumärket. Svensk copy behöver inte vara försiktig, stel eller likadan för alla.",
+  "summary": "Skriv direkt på svenska utifrån mottagarens situation och avsändarens röst – inte via engelska. Välj konkreta ord, verb framför substantiv, naturlig ordföljd och det viktigaste först.",
+  "useWhen": "När texten låter översatt, opersonlig eller stel, eller är full av anglicismer och svepande säljlöften som ”lås upp”, ”ta kontroll över” och ”nästa nivå”.",
+  "avoidWhen": "När en uttrycksfull röst medvetet är rätt för varumärket. Svensk copy behöver inte vara försiktig, stel eller låta likadant för alla.",
   "keywords": [
     "svenska",
     "svensk",
@@ -13,35 +13,49 @@
     "svengelska",
     "översatt",
     "översättning",
+    "låter översatt",
+    "engelska",
     "anglicism",
     "anglicismer",
+    "stel",
+    "stelt",
+    "byråkratiskt",
+    "substantivsjuka",
+    "särskrivning",
     "tonalitet",
     "ton",
+    "tilltal",
     "röst",
     "klarspråk",
+    "begriplig",
     "idiomatisk",
     "naturlig",
+    "isof",
     "swedish",
     "native",
     "transcreation",
-    "voice"
+    "plain language",
+    "voice",
+    "tone"
   ],
   "principles": [
-    "Skriv från fakta och syfte direkt på svenska. Behåll budskapet, men bygg om meningen när engelskan styr rytmen.",
-    "Välj tilltal och fackord efter mottagaren. Anta inte att alla svenska målgrupper vill ha samma ton.",
-    "Beskriv handling och nytta konkret. Behåll humor, känsla och energi när de hjälper texten.",
-    "Kontrollera sammansatta ord, rubriker, valuta, mått och datum. Ändra inte erbjudandets fakta eller villkor för att passa språket."
+    "Skriv från fakta och syfte direkt på svenska. Behåll budskapet men bygg om meningen när engelskan styr rytmen, och byt ut översättningsfraser som ”ta kontroll över”, ”på daglig basis”, ”adressera” och ”leverera värde” mot det ni faktiskt menar.",
+    "Använd verb i stället för substantiv och skriv i aktiv form: ”vi skickar fakturan” i stället för ”fakturering sker”. Säg du till läsaren, om inte avsändaren har skäl att låta bli.",
+    "Ta det viktigaste först och gör det konkret: vad läsaren får, vad hen ska göra och vad det kostar. Behåll humor, känsla och energi när de hjälper texten.",
+    "Välj tilltal, ton och fackord efter mottagaren. Anta inte att alla svenska målgrupper vill ha samma ton – en mäklare, en spelstudio och en myndighet låter olika.",
+    "Granska formen: skriv ihop sammansatta ord (”kundtjänst”, inte ”kund tjänst”), använd svenska citattecken (”…”), stor bokstav bara först i rubriker, belopp som ”995 kr” och datum som ”28 oktober 2026”. Ändra aldrig erbjudandets fakta, valuta eller villkor för att det ska låta bättre."
   ],
   "questions": [
     "Skulle någon i målgruppen säga så här?",
     "Vad betyder formuleringen konkret?",
-    "Låter det som detta varumärke snarare än en översatt mall?"
+    "Låter det som den här avsändaren eller som en översatt mall?",
+    "Kan ett substantiv bli ett verb, eller en lång mening bli två?"
   ],
   "example": {
-    "context": "Påhittat: ett abonnemangsverktyg visar löpande kostnader. Ingen besparing är garanterad.",
+    "context": "Påhittat: ett abonnemangsverktyg visar vad användarens abonnemang kostar varje månad. Ingen besparing är garanterad.",
     "before": "Lås upp besparingar och ta kontroll över din finansiella resa.",
-    "after": "Se vad dina abonnemang kostar varje månad.",
-    "explanation": "Det konkreta exemplet är vår egen tillämpning. Isofs klarspråksråd används för begriplighet, inte som bevis för försäljningseffekt."
+    "after": "Se vad dina abonnemang kostar varje månad, samlat på ett ställe.",
+    "explanation": "Översättningsfraserna ersätts med ett vardagligt verb och en konkret nytta. Isofs klarspråksråd gäller begriplighet, inte säljeffekt."
   },
   "sources": [
     {

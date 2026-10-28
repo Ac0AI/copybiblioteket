@@ -2,358 +2,517 @@
   "cialdini-persuasion": {
     "title": "Give the reader reasons to trust",
     "author": "Robert Cialdini",
-    "summary": "Use relevant social proof, expertise and real terms to help the reader assess the offer.",
-    "useWhen": "When customers are unsure who you are, whether the solution fits or whether others have benefited.",
-    "avoidWhen": "When you lack evidence for testimonials, credentials, limitations or a claimed shared identity.",
+    "summary": "Choose the evidence that answers the reader's doubt – other customers, expertise, a generous first step or a genuine condition – and present it so readers can judge it for themselves. Robert Cialdini describes seven principles of influence; use them to make a good decision easier, never to push someone into one.",
+    "useWhen": "When readers wonder who you are, whether the offer fits them or whether anyone like them has benefited – on a homepage, in a case study or next to the price.",
+    "avoidWhen": "When the evidence isn't there: never invent testimonials, customer numbers, credentials, a shared identity or 'only three places left'.",
     "keywords": [
       "trust",
       "credibility",
+      "credible",
       "testimonials",
       "reviews",
+      "case study",
+      "case studies",
+      "references",
+      "customer logos",
+      "social proof",
+      "proof",
       "evidence",
       "authority",
+      "expertise",
       "scarcity",
+      "urgency",
       "reciprocity",
       "consistency",
+      "commitment",
       "liking",
       "unity",
-      "social proof"
+      "persuasion",
+      "influence",
+      "convince"
     ],
     "principles": [
-      "Reciprocity: give something useful without a hidden obligation. Scarcity: describe only real limitations.",
-      "Authority: show relevant expertise. Consistency: make a voluntary next step easier.",
-      "Liking: write with warmth and attention. Social proof: use relevant customer examples with permission.",
-      "Unity: draw on an actual shared identity. Choose what helps the decision; do not force every principle into the copy."
+      "Start with the doubt. Ask what is holding the reader back right now – are they legitimate, is this for me, has it worked for others? – and pick the one or two principles that answer it. Cramming in all seven makes copy pushy, not credible.",
+      "Social proof and unity: show that people like the reader have already chosen you – same industry, size or situation. A named case study outweighs 'happy customers'. Only appeal to a shared identity ('fellow founders') when it is real.",
+      "Authority and liking: establish relevant expertise before you ask for anything – training, track record, who actually does the work. Write like a knowledgeable person who understands the reader, and be honest about what you don't do; it makes everything else more believable.",
+      "Reciprocity and consistency: give something genuinely useful first – a checklist, advice, a calculator – with no strings attached. Then ask for a small, voluntary step that fits what the reader has already said or done, rather than a big commitment straight away.",
+      "Scarcity: point out what the reader stands to miss only when the limit is real, and state the condition precisely – number of places, closing date, what happens afterwards. Fake urgency destroys the trust you are trying to build."
     ],
     "questions": [
-      "Which doubt should the evidence address?",
-      "Is the example relevant to this customer?",
-      "Do we have a source, permission and the right context?"
+      "What does the reader doubt just before deciding?",
+      "What evidence do we actually have – and are we allowed to show it?",
+      "Will the reader recognise themselves in the customers or experts we show?",
+      "Is the limit or offer real, with terms we can stand behind?"
     ],
     "example": {
-      "context": "Fictional: three small accounting firms have approved interviews about how they use the service.",
+      "context": "Fictional: three accounting firms with two to eight staff have agreed to publish their interviews about the service.",
       "before": "The obvious choice for every successful firm.",
-      "after": "Read how three small accounting firms use the service in their daily work.",
-      "explanation": "Show the evidence so readers can assess it for themselves."
+      "after": "How three accounting firms with 2–8 staff use the service day to day. Read their stories.",
+      "explanation": "Real customers who resemble the reader can be checked; 'the obvious choice' is just an assertion."
     }
   },
   "copy-structure": {
-    "title": "Put the argument in a clear order",
+    "title": "Put the argument in the right order",
     "author": "Copyhackers / established writing models",
-    "summary": "Use AIDA, PAS or before–after–bridge to organise copy once the facts and main argument are clear.",
-    "useWhen": "When the material is useful but the reader gets it in the wrong order.",
-    "avoidWhen": "When the structure encourages exaggeration, manufactured problems or filler. Choose a form that fits the length.",
+    "summary": "Use AIDA, PAS or Before–After–Bridge as a checklist for the order in which readers need to learn things, once the facts and main argument are settled. The model arranges the content – it doesn't replace it.",
+    "useWhen": "When the material is good but the copy jumps around, starts at the wrong end or finishes without a clear next step – in emails, on landing pages and in ads.",
+    "avoidWhen": "When the facts or main argument are missing, or when the template tempts you into exaggeration, inflated problems and filler. Short copy rarely needs every step.",
     "keywords": [
       "AIDA",
       "PAS",
-      "before after bridge",
+      "BAB",
       "structure",
+      "order",
+      "outline",
+      "flow",
+      "messy",
+      "rambling",
       "argument",
-      "order"
+      "landing page",
+      "sales letter",
+      "sales email",
+      "template",
+      "copywriting formula",
+      "problem agitate solution",
+      "before after bridge",
+      "attention interest desire action"
     ],
     "principles": [
-      "AIDA: earn relevant attention, develop interest, show a desirable benefit and make the next action clear.",
-      "PAS: describe a known problem, explain its actual consequences and show the solution. Do not amplify worry without evidence.",
-      "Before–after–bridge: show a possible change and how the service helps. The future scenario must be reasonable."
+      "Pick the model that fits the reader: PAS when they already feel the problem, Before–After–Bridge when the change is easy to picture, and AIDA when a longer piece has to take a new reader all the way to action.",
+      "AIDA (Attention, Interest, Desire, Action): catch the right reader with something relevant, not merely loud. Build interest with detail about how it works, make the benefit concrete in the reader's day and end with a single clear step.",
+      "PAS (Problem, Agitate, Solve): name the problem in the reader's words, show what it really costs in time, money or hassle, then present the solution. Sharpen the problem with concrete consequences, not fear or exaggeration.",
+      "Before–After–Bridge: describe where the reader is now, show a realistic 'after' and explain concretely how the offer gets them there. The 'after' must not promise more than you can deliver.",
+      "Treat the model as a checklist, not a fill-in-the-blanks template: cut any step that adds nothing and check that each paragraph leads on to the next."
     ],
     "questions": [
-      "What does the reader need to understand first?",
-      "Is there a clear connection between the problem, offer and action?"
+      "What must the reader understand first to want to keep reading?",
+      "Do the problem, offer and next step connect without a leap in logic?",
+      "Which paragraph could go without the reader missing it?"
     ],
     "example": {
-      "context": "Fictional: a service displays the team's tasks in a shared list.",
+      "context": "Fictional: a service gathers a team's tasks into one shared list that everyone in the team can see.",
       "before": "Total control. Maximum potential. Unlimited possibilities.",
-      "after": "Hard to see what's left to do? Put your tasks in one shared list. See how it works.",
-      "explanation": "A simple sequence is enough. This example does not demonstrate a conversion improvement."
+      "after": "Who's doing what this week? When tasks are scattered across email, chat and sticky notes, things slip through the cracks. Put them in one list the whole team can see. [See how it works]",
+      "explanation": "Problem, consequence and solution in three sentences (PAS): the reader recognises the situation before the offer appears, so the superlatives aren't needed."
     }
   },
   "dunford-positioning": {
-    "title": "Make the difference matter",
+    "title": "Show the difference that matters",
     "author": "April Dunford",
-    "summary": "Start with the customer's real alternatives and explain which differences matter to the right buyer.",
-    "useWhen": "When readers do not understand what the product is, who it suits or why they should choose it.",
-    "avoidWhen": "When the differences are generic words such as innovative, seamless or leading.",
+    "summary": "Positioning as April Dunford describes it: start with what customers would otherwise choose, identify what you can do that those alternatives can't, translate it into value, define the customers who care most and pick the market category that makes that value obvious.",
+    "useWhen": "When readers can't tell what you sell, who it's for or why they should choose you over what they already do – or when you keep being compared with the wrong competitors.",
+    "avoidWhen": "When the only differences you can name are words like innovative, seamless or leading, or when you don't yet know which alternatives customers actually weigh you against. Find out first.",
     "keywords": [
       "positioning",
       "differentiation",
+      "differentiate",
       "alternatives",
-      "category",
+      "competitive alternatives",
+      "competitors",
       "competition",
-      "value"
+      "unique attributes",
+      "value",
+      "best-fit customers",
+      "target customer",
+      "ideal customer",
+      "market category",
+      "category",
+      "stand out",
+      "why us",
+      "Obviously Awesome"
     ],
     "principles": [
-      "Find out what customers would do without the product, including manual work or doing nothing.",
-      "Connect actual features to concrete benefits and the customers who value them.",
-      "Choose a category that helps customers understand the offer. Do not claim uniqueness without a comparison."
+      "Competitive alternatives: list what customers would do if you didn't exist – pick a competitor, carry on with a spreadsheet, hire an intern or do nothing at all. That is what readers compare you with, not your own list of competitors.",
+      "Unique attributes: write down what you have or can do that the alternatives lack – features, ways of working, expertise, delivery model. Stick to facts, not adjectives.",
+      "Value: ask 'so what does that mean for the customer?' of each attribute until the answer is a concrete benefit, and note the evidence that shows the benefit is real.",
+      "Best-fit customers: describe what the customers who care most about that value have in common – their situation, needs or way of working, not just industry and size – and write for them.",
+      "Market category: choose the context that lets readers instantly understand what you are and why your value matters. Don't claim to be unique or the best without a comparison to back it up."
     ],
     "questions": [
-      "What does the service replace today?",
-      "Which difference can we demonstrate?",
-      "Who benefits most from that difference?"
+      "What would customers use if we didn't exist?",
+      "What can we do that those alternatives can't – and how do we show it?",
+      "Who cares most about that difference, and what do they have in common?",
+      "In what context does our value become obvious to the reader?"
     ],
     "example": {
-      "context": "Fictional: a scheduling tool collects shifts and lets staff request swaps. The customer's alternative is a spreadsheet and email.",
+      "context": "Fictional: a scheduling tool holds the rota and lets staff request shift swaps inside the tool. Today, customers keep the rota in a spreadsheet and handle swaps by email and text.",
       "before": "An innovative platform that takes your business to the next level.",
-      "after": "Keep the rota and shift-swap requests in one place.",
-      "explanation": "Describe the relevant change in the work."
+      "after": "Let staff request shift swaps right in the rota, instead of emailing and texting you.",
+      "explanation": "The copy sets the tool against what the reader actually uses today and highlights the difference that decides the comparison."
     }
   },
   "fogg-action": {
-    "title": "Make the next step possible",
+    "title": "Make the next step easy to take",
     "author": "BJ Fogg",
-    "summary": "Assess whether readers want to act, can do so without unnecessary friction and receive a clear prompt at the right time.",
-    "useWhen": "When readers seem interested but get stuck at a form, booking or next step.",
-    "avoidWhen": "When the problem needs a product change: describe it separately rather than promising a new button label will solve it.",
+    "summary": "BJ Fogg's Behavior Model (B=MAP) says a behaviour happens when motivation, ability and a prompt come together at the same moment. Find out which one is missing – making the step easier is usually more reliable than trying to raise motivation.",
+    "useWhen": "When readers seem interested but don't click, book or fill in the form, or when conversion is low even though the traffic is relevant.",
+    "avoidWhen": "When the obstacle lies in the service itself, such as an overlong form or a clunky checkout. Describe that change separately and don't promise that a new button label will fix it.",
     "keywords": [
-      "action",
+      "Fogg",
+      "B=MAP",
+      "behavior model",
+      "behaviour",
+      "next step",
+      "book",
+      "booking",
+      "button",
+      "button text",
+      "click",
+      "clicks",
+      "friction",
+      "form",
+      "drop-off",
+      "abandonment",
+      "low conversion",
+      "conversion",
       "motivation",
       "ability",
       "prompt",
-      "friction",
+      "reminder",
       "CTA",
-      "conversion"
+      "call to action"
     ],
     "principles": [
-      "Consider motivation, ability and the prompt together.",
-      "Explain what the action involves and what happens afterwards.",
-      "Separate problems copy can solve from unnecessary steps that need changing in the service."
+      "Find what's missing: motivation (do they want to?), ability (can they, right now?) and a prompt (are they asked at the right moment?). If one is absent, nothing happens, however good the rest is.",
+      "Make it easier before you push harder. Ability depends on things like time, money, physical and mental effort, and how well the step fits the reader's routine: cut steps, drop fields you don't need and answer the questions the reader would otherwise have to work out alone.",
+      "Say exactly what happens. The button should name the action ('Book a time', 'Request a quote'), and the line beside it should answer what makes people hesitate: what it costs, how long it takes, whether it commits them and what happens next.",
+      "Match the prompt to the situation. When motivation is low, it needs to give a reason (a spark); when the step is hard, it needs to make it easier (a facilitator); when both are in place, a clear reminder is enough (a signal).",
+      "Place the prompt where and when the reader is ready, and separate what copy can solve from what needs to change in the service."
     ],
     "questions": [
-      "Does the reader understand what the button does?",
-      "Which information is actually needed now?",
-      "Is the next step reasonable in this situation?"
+      "Which of motivation, ability and prompt is missing here?",
+      "Does the reader know what happens when they click?",
+      "Which piece of information or which step can we remove?",
+      "Does the prompt appear when the reader is actually ready to act?"
     ],
     "example": {
-      "context": "Fictional: the form sends a request for a quote. It does not place an order.",
-      "before": "Start your journey.",
-      "after": "Request a quote",
-      "explanation": "The button says what happens. Only add terms about commitments when they are known."
+      "context": "Fictional: the form sends a free quote request. Nothing is ordered until the customer accepts the quote.",
+      "before": "[Start your journey]",
+      "after": "[Request a quote] It's free – you're not ordering anything until you accept the quote.",
+      "explanation": "The button says what happens and the line beneath removes the fear of committing, so the step gets easier without adding pressure."
     }
   },
   "hopkins-testing": {
     "title": "Test the message in the real world",
     "author": "Claude Hopkins / our application for evaluation",
-    "summary": "State a clear hypothesis and distinguish what you expect to work from what a relevant measurement actually shows.",
-    "useWhen": "When choosing between messages or finding out whether a change helps the reader and the business.",
-    "avoidWhen": "When the sample is too small or the measurement confounds traffic, audiences and other changes.",
+    "summary": "Claude Hopkins held that advertising exists to sell, so it should be judged by what it gets people to do, not by whether we like it. Be specific, test versions against traceable responses and separate what you believe from what the measurement actually shows.",
+    "useWhen": "When you're choosing between headlines, offers or versions, or want to know whether a change actually helps the reader and the business.",
+    "avoidWhen": "When the sample is too small to say anything, or the measurement mixes the copy up with changes in traffic, audience, season or price. The result is then a hint, not a verdict.",
     "keywords": [
+      "Hopkins",
+      "Scientific Advertising",
       "testing",
+      "test",
+      "A/B test",
+      "split test",
       "experiment",
       "hypothesis",
-      "evidence",
       "measurement",
-      "conversion"
+      "measure",
+      "tracking",
+      "traceable",
+      "which version",
+      "winner",
+      "statistics",
+      "conversion",
+      "specific",
+      "validation",
+      "evidence"
     ],
     "principles": [
-      "Write down what you are changing, why, for whom and which outcome you want to see.",
-      "Check clarity and accuracy before measuring effects.",
-      "Your own assessment or a small sample is not a measured conversion gain. Report uncertain results as uncertain."
+      "Judge copy by what it gets the reader to do. Hopkins argued that advertising's job is to sell; whether copy is polished, witty or popular internally tells you nothing about that.",
+      "Be specific. Hopkins observed that people believe exact statements but skim past generalities and superlatives. State what's included, what it costs and how it works, using facts you can stand behind.",
+      "Make responses traceable. Hopkins used keyed coupons to see which ad brought replies; today that means separate links, codes or test groups for each version. Decide in advance what counts as an outcome.",
+      "Change one thing at a time and write the hypothesis down: what you're changing, why, for whom and which outcome you expect.",
+      "Report honestly. Your own judgement or a small sample is not a measured improvement, and a result from one channel or audience doesn't automatically apply to others. The modern measurement rules here are our application, not quotations from Hopkins."
     ],
     "questions": [
-      "What is the hypothesis?",
-      "What counts as a relevant outcome?",
-      "Can the measurement separate the copy's effect from other changes?"
+      "What is the hypothesis, and what would show it's wrong?",
+      "Which behaviour counts as the outcome – a click, an enquiry or a purchase?",
+      "Can the measurement separate the copy's effect from other changes?",
+      "Is there enough data for a conclusion, or is this only a hint?"
     ],
     "example": {
-      "context": "Fictional: two headlines are candidates for a test. Neither has been tested yet.",
+      "context": "Fictional: a cleaning company wants to test two headlines on its quote page. Neither has been tested yet.",
       "before": "The new headline will increase conversion.",
-      "after": "Hypothesis: a headline that explains what's included makes the offer easier to understand.",
-      "explanation": "State what you want to investigate. The modern measurement advice here is our application, not quotations from Hopkins."
+      "after": "Hypothesis: a headline that says what the price includes will bring in more quote requests. We'll show both versions at random and compare requests once we have enough data.",
+      "explanation": "A promised effect becomes a testable hypothesis with a clear outcome – the results decide, not a hunch."
     }
   },
   "hormozi-offer": {
-    "title": "Make the offer easy to assess",
+    "title": "Make the offer easy to value",
     "author": "Alex Hormozi",
-    "summary": "Clarify the benefit, why customers can believe in it, how long it takes and what they need to do themselves.",
-    "useWhen": "When the price feels high, the value is unclear or the offer asks too much of the buyer.",
-    "avoidWhen": "When you only need to correct a sentence. A value equation cannot guarantee prices or sales forecasts.",
+    "summary": "Alex Hormozi's value equation: perceived value rises with the customer's dream outcome and their belief that they'll achieve it, and falls with the time delay and the effort and sacrifice involved. Make each part concrete so the price can be judged against the value.",
+    "useWhen": "When customers say it's too expensive, can't see what they get for the money or feel the offer asks too much of them.",
+    "avoidWhen": "When you're only polishing a sentence. The value equation is a thinking tool – it can't set prices or forecast sales, and it's no reason to promise results you can't deliver.",
     "keywords": [
       "offer",
       "price",
       "pricing",
+      "too expensive",
+      "price objection",
+      "worth it",
+      "value for money",
       "value",
+      "value equation",
+      "dream outcome",
+      "perceived likelihood",
+      "time delay",
+      "effort and sacrifice",
+      "packaging",
+      "bonus",
+      "guarantee",
+      "Grand Slam Offer",
       "outcome",
-      "time",
-      "delay",
-      "effort",
-      "sacrifice",
-      "proof",
-      "bonus"
+      "proof"
     ],
     "principles": [
-      "Start with the result the customer wants and the part you can actually deliver.",
-      "Show relevant evidence and how you work. Stronger language does not replace proof.",
-      "Distinguish the start, the first benefit and the final result. Be clear about the customer's own effort.",
-      "Bonuses should address a real obstacle. Guarantees, discounts and deadlines need actual terms."
+      "Dream outcome: describe what the customer actually wants to achieve, in their words – not your deliverables. Limit it to the part you can genuinely influence.",
+      "Perceived likelihood: show why it will work for this particular customer – your process, experience, customer examples and terms you stand behind. Stronger words are no substitute for evidence.",
+      "Time delay: separate when the customer gets started, when they notice the first benefit and when the final result arrives. Bring the first tangible win forward.",
+      "Effort and sacrifice: spell out what you take off their plate and what they still need to do themselves. Asking less of the customer's time and attention is value too.",
+      "Bonuses should remove a real obstacle, and guarantees, discounts and deadlines need actual terms. Compare the price with the value and with what the problem costs today, not only with competitors' prices."
     ],
     "questions": [
-      "What exactly does the customer get for the price?",
-      "What makes the buyer uncertain?",
-      "Which effort and waiting time can you actually reduce?"
+      "What exactly does the customer get for the price – and what are they spared?",
+      "Why would the customer believe it will work for them?",
+      "How soon will the customer notice the first benefit?",
+      "Which wait or which work can we actually remove?"
     ],
     "example": {
-      "context": "Fictional: an accounting firm handles ongoing bookkeeping, offers an introductory call and answers emails on weekdays.",
+      "context": "Fictional: an accounting firm handles ongoing bookkeeping, starts with an introductory call and answers email on weekdays.",
       "before": "Unlock your financial potential with our irresistible solution.",
-      "after": "We handle your day-to-day bookkeeping. You get an introductory call and can email us when you need help.",
-      "explanation": "Specify the service and support without promising a financial result."
+      "after": "We take care of your day-to-day bookkeeping, so you don't have to do it yourself. We start with an introductory call, and after that you can email us on weekdays whenever something comes up.",
+      "explanation": "The copy shows what the customer is spared, how it starts and what support they get, so the value is easy to judge without promising a financial result."
     }
   },
   "jobs-to-be-done": {
     "title": "Understand why the customer wants to switch",
     "author": "Christensen Institute / Jobs to Be Done",
-    "summary": "Investigate the situation that makes someone seek a solution, the change they want and what holds them back.",
-    "useWhen": "When the audience is described only by age, industry or company size, or when buyers hesitate to switch.",
-    "avoidWhen": "When you have no interviews: write questions and hypotheses, not claims about what customers really feel.",
+    "summary": "Customers 'hire' a product to make progress in a particular situation. Find out what happened when they started looking, what change they want – practical, social and emotional – and what keeps them tied to the old way.",
+    "useWhen": "When the audience is described only by age, industry or company size, when you don't know why customers buy, or when buyers hesitate to switch.",
+    "avoidWhen": "When you haven't talked to customers: write questions and hypotheses, not claims about what customers really feel.",
     "keywords": [
-      "jobs",
+      "jobs to be done",
       "JTBD",
+      "job",
+      "customer insight",
+      "customer interviews",
+      "why customers buy",
+      "buying decision",
+      "switching",
+      "switch",
+      "hesitate",
       "progress",
       "circumstances",
-      "switching",
+      "struggle",
       "objection",
       "anxiety",
-      "customer"
+      "habit",
+      "push",
+      "pull",
+      "hire",
+      "persona",
+      "audience"
     ],
     "principles": [
-      "Ask about a specific occasion: what happened, what did the customer try and why did it matter then?",
-      "Distinguish practical value, social context and emotional needs.",
-      "Describe both the reason to switch and the obstacle. One customer's story is not a fact about the whole audience."
+      "Ask about a specific occasion: when did the customer start looking, what had just happened, what did they try first and why did it matter right then? Ask what people did, not what they think they want.",
+      "Describe the job as progress in a situation – 'When …, I want to …, so I can …' – rather than as a product feature or a demographic.",
+      "Capture all three sides of the job: the practical (getting the books done), the social (how the customer wants to be seen) and the emotional (no longer having to worry).",
+      "Our application: a switch is driven by frustration with the old way and the pull of the new, and held back by anxiety about the new and habits tied to the old. Copy should strengthen the first two and ease the last two – for example by showing how the move works.",
+      "One customer's story is a hypothesis, not a truth about the whole audience. Look for patterns across several interviews before you build the message on them."
     ],
     "questions": [
-      "What triggered the search?",
-      "What works poorly with the current alternative?",
-      "What would make switching difficult or uncertain?"
+      "What happened just before the customer started looking for a solution?",
+      "What works poorly with what they use today?",
+      "What do they want to be able to do, feel or show afterwards?",
+      "What makes switching difficult or uncertain?"
     ],
     "example": {
       "context": "Fictional: a service helps small businesses move bookkeeping records from another system. This is not based on a real interview.",
       "before": "Our solution suits businesses with 1–10 employees.",
-      "after": "Switching accounting systems? We help you move your records from the one you use today.",
-      "explanation": "A relevant situation can say more than a demographic description."
+      "after": "Want to switch accounting software but dreading the move? We'll help you transfer your records from the system you use today.",
+      "explanation": "The copy meets readers in their situation – wanting to switch and worrying about the move – instead of sorting them by headcount."
     }
   },
   "ogilvy-headline": {
-    "title": "Give the headline a clear idea",
+    "title": "Make the headline carry the message",
     "author": "David Ogilvy / our application",
-    "summary": "Understand the product and the reader. Then choose a headline that says something meaningful and that the rest of the copy can support.",
-    "useWhen": "When the headline is interchangeable, overloaded or promises more than the page shows.",
-    "avoidWhen": "When a general headline rule is treated as a guarantee of results.",
+    "summary": "David Ogilvy held that far more people read the headline than the body copy. So get to know the product and the reader, then write a headline that promises a specific benefit or delivers news – and that the rest of the copy can live up to.",
+    "useWhen": "When the headline, email subject line or intro is interchangeable, overloaded or promises more than the copy shows – or when nobody reads on, opens the newsletter or stays on the page.",
+    "avoidWhen": "When a headline rule is treated as a guarantee of results, or when the headline would promise something the product doesn't deliver.",
     "keywords": [
+      "Ogilvy",
       "headline",
+      "headlines",
+      "subject line",
+      "email subject",
+      "newsletter",
+      "open rate",
+      "nobody reads",
+      "not reading",
+      "intro",
+      "standfirst",
       "hook",
       "promise",
-      "product",
-      "research",
-      "brand"
+      "news",
+      "benefit",
+      "product research",
+      "big idea"
     ],
     "principles": [
-      "Build the headline's idea from real product and customer knowledge.",
-      "Show specific supporting evidence in the body copy.",
-      "Check that the wording sounds like the brand and works in the chosen channel."
+      "Write the headline as if it's the only thing the reader will see. It should stand on its own and still tell them what they'll get from reading on.",
+      "Promise a specific benefit or share real news, and make it clear who the headline is for. Ogilvy preferred plain, specific headlines to puns and riddles that only make sense once you've read the body copy.",
+      "Find the idea in product knowledge: do your homework, use the product and talk to customers until you find what is genuinely interesting. Ogilvy believed that is where the best ideas come from.",
+      "Let the body copy prove the promise with facts, detail and terms. A headline the copy can't live up to costs more trust than it earns.",
+      "Test the headline in its channel: a newsletter subject line, an ad and a web page are read differently. Check that it sounds like the sender and that it's clear who is speaking when the headline stands alone."
     ],
     "questions": [
-      "What does the reader learn from the headline alone?",
-      "Where on the page do we support the promise?"
+      "If the reader sees only the headline, what have they learned?",
+      "What benefit or news does the headline promise, and to whom?",
+      "Where in the copy do we prove the promise?"
     ],
     "example": {
-      "context": "Fictional: customers can choose a delivery window, but no exact delivery time is guaranteed.",
+      "context": "Fictional: an online grocer lets customers choose a two-hour delivery slot. No exact delivery time is guaranteed.",
       "before": "Delivery exactly when you want it. Every time.",
-      "after": "Choose a delivery window that suits you.",
-      "explanation": "Preserve the actual choice without turning it into a stronger guarantee."
+      "after": "You choose the two hours your groceries arrive.",
+      "explanation": "The headline promises a specific, true benefit the body copy can back up, without turning the choice into a guarantee of an exact time."
     }
   },
   "schwartz-awareness": {
     "title": "Start where the reader is",
     "author": "Eugene Schwartz",
-    "summary": "Adapt the opening to what the reader already knows about the problem, the available solutions and the product.",
-    "useWhen": "When copy explains the obvious or asks for a purchase before the reader understands the offer.",
-    "avoidWhen": "When awareness is only a guess: treat the level as a hypothesis and try alternatives.",
+    "summary": "Eugene Schwartz describes five levels of awareness, from not seeing the problem at all to being ready to buy. The more the reader already knows, the sooner the copy can get to the product and the offer; the less they know, the more the opening has to start from their situation or desire.",
+    "useWhen": "When copy explains what the reader already knows, or asks for a purchase before the reader understands why they should care – in ads, on landing pages and in newsletters.",
+    "avoidWhen": "When you're only guessing how much the reader knows: treat the level as a hypothesis and test openings written for different levels.",
     "keywords": [
+      "Schwartz",
+      "Breakthrough Advertising",
       "awareness",
-      "problem",
-      "solution",
-      "product",
+      "stages of awareness",
+      "levels of awareness",
+      "unaware",
+      "problem aware",
+      "solution aware",
+      "product aware",
+      "most aware",
+      "cold traffic",
+      "warm traffic",
       "opening",
-      "reader"
+      "intro",
+      "irrelevant",
+      "beginner"
     ],
     "principles": [
-      "Distinguish readers who have not noticed the problem, know the problem, compare solutions, know the product or already consider the offer.",
-      "A new visitor may need context. A buyer comparing options needs differences, terms and evidence.",
-      "Start with the channel and situation. The same person may know different amounts in different contexts."
+      "Identify the level: unaware (doesn't see the problem or need), problem aware (feels the problem but doesn't know a solution), solution aware (knows the result they want but not that your product delivers it), product aware (knows your product but isn't convinced) or most aware (wants the product and just needs the right offer).",
+      "Most aware and product aware: get straight to the point. Name the product, the offer, the price and the terms, or show how you differ from the alternatives and what backs that up.",
+      "Solution aware and problem aware: open with the result the reader wants or the problem they feel, in their own words, then show that a solution exists and how it works.",
+      "Unaware: don't lead with the product. Open with something readers recognise from their own lives – a situation, a feeling, an identity – and build the path from there. The lower the awareness, the more work the copy has to do before the offer appears.",
+      "Copy can't create a desire that isn't there; it can only channel an existing one towards your offer, so find that desire first. The same person can be at different levels in different channels, so adapt to the context."
     ],
     "questions": [
-      "What does the reader already know?",
-      "Which question needs answering before the next step feels reasonable?"
+      "What does the reader already know about the problem, the solutions and us?",
+      "Which desire or problem does the reader already have?",
+      "Which question must be answered before the next step feels reasonable?"
     ],
     "example": {
-      "context": "Fictional: the reader is comparing removal firms. The page lets them send the same enquiry to three companies.",
-      "before": "Moving means changing where you live.",
-      "after": "Ask three removal firms for a quote with one enquiry.",
-      "explanation": "For a reader comparing options, the service's function may be a better opening than explaining a familiar problem."
+      "context": "Fictional: the reader knows they need a removal firm and is comparing options. The page lets them send one enquiry to three firms.",
+      "before": "Moving can be stressful. Did you know there are removal firms that can help?",
+      "after": "Compare quotes from three removal firms – with a single enquiry.",
+      "explanation": "The reader is already solution aware, so the opening goes straight to what the service does for the comparison they're already making."
     }
   },
   "swedish-original": {
     "title": "Write as if the idea began in Swedish",
     "author": "Isof / our Swedish writing guide",
-    "summary": "Start with the reader's situation and the brand's voice. Write natural Swedish with concrete words, idiomatic sentence structure and clear actions.",
-    "useWhen": "When Swedish copy sounds translated, impersonal or full of anglicisms and sweeping sales promises.",
-    "avoidWhen": "When an expressive voice is deliberately right for the brand. Swedish copy need not be restrained, stiff or the same for everyone.",
+    "summary": "Write Swedish copy directly in Swedish, from the reader's situation and the sender's voice – not by way of English. Choose concrete words, verbs over nouns, natural word order and the most important point first.",
+    "useWhen": "When Swedish copy sounds translated, impersonal or stiff, or is full of anglicisms and sweeping sales promises such as 'lås upp' (unlock), 'ta kontroll över' (take control of) and 'nästa nivå' (next level).",
+    "avoidWhen": "When an expressive voice is deliberately right for the brand. Swedish copy doesn't have to be cautious, stiff or sound the same for everyone.",
     "keywords": [
       "Swedish",
       "svenska",
+      "Swedish copy",
       "translation",
+      "translated",
+      "sounds translated",
       "anglicisms",
+      "Swenglish",
+      "localisation",
+      "localization",
+      "transcreation",
+      "plain language",
+      "klarspråk",
+      "Isof",
       "voice",
       "tone",
-      "plain language"
+      "register",
+      "form of address"
     ],
     "principles": [
-      "Write directly in Swedish from the facts and purpose. Keep the message but rebuild sentences when English dictates the rhythm.",
-      "Choose forms of address and technical terms for the reader. Do not assume every Swedish audience wants the same tone.",
-      "Describe actions and benefits specifically. Keep humour, emotion and energy when they help.",
-      "Check compound words, headings, currency, units and dates. Do not change the offer's facts or terms to fit the language."
+      "Write directly in Swedish from the facts and purpose. Keep the message but rebuild the sentence when English is dictating the rhythm, and replace calques such as 'ta kontroll över', 'på daglig basis', 'adressera' and 'leverera värde' with what you actually mean.",
+      "Prefer verbs to nouns and the active voice: 'vi skickar fakturan' (we send the invoice) rather than 'fakturering sker' (invoicing takes place). Address the reader as 'du' unless the sender has a reason not to.",
+      "Put the most important point first and make it concrete: what the reader gets, what they need to do and what it costs. Keep humour, emotion and energy when they help.",
+      "Choose the form of address, tone and terminology for the reader. Don't assume every Swedish audience wants the same tone – an estate agent, a games studio and a government agency all sound different.",
+      "Check the form: write compounds as one word ('kundtjänst', not 'kund tjänst'), use Swedish quotation marks (”…”), sentence case in headings, amounts as '995 kr' and dates as '28 oktober 2026'. Never change the offer's facts, currency or terms to make it sound better."
     ],
     "questions": [
       "Would someone in this audience say it this way?",
       "What does the wording mean in practice?",
-      "Does it sound like this brand rather than a translated template?"
+      "Does it sound like this sender, or like a translated template?",
+      "Could a noun become a verb, or one long sentence become two?"
     ],
     "example": {
-      "context": "Fictional: a subscription tool displays recurring costs. Savings are not guaranteed. The wording below shows the same contrast in English; this framework is specifically about Swedish copy.",
-      "before": "Unlock savings and take control of your financial journey.",
-      "after": "See what your subscriptions cost each month.",
-      "explanation": "This example is our own application. Isof's plain-language guidance supports clarity, not claims about sales performance."
+      "context": "Fictional: a subscription tool shows what the user's subscriptions cost each month. No savings are guaranteed. The example is in Swedish, with literal glosses.",
+      "before": "Lås upp besparingar och ta kontroll över din finansiella resa. ('Unlock savings and take control of your financial journey.')",
+      "after": "Se vad dina abonnemang kostar varje månad, samlat på ett ställe. ('See what your subscriptions cost each month, all in one place.')",
+      "explanation": "The borrowed phrases give way to an everyday verb and a concrete benefit. Isof's plain-language advice supports clarity, not claims about sales performance."
     }
   },
   "wiebe-customer-language": {
-    "title": "Find the words in the customer's everyday life",
+    "title": "Take your words from customers",
     "author": "Joanna Wiebe / Copyhackers",
-    "summary": "Collect customers' questions, objections and descriptions of the problem before choosing the message.",
-    "useWhen": "When the copy relies on internal product terms or you need to understand what buyers want to know.",
-    "avoidWhen": "When there are no customer sources: do not invent quotations or call your assumptions customer insight.",
+    "summary": "Joanna Wiebe and Copyhackers argue that copy starts with research: gather how customers themselves describe the problem, what they want to achieve and what makes them hesitate – then build the message on their words instead of your internal ones.",
+    "useWhen": "When the copy is full of internal product terms, when you don't know what buyers are wondering about, or when you need a headline readers recognise themselves in.",
+    "avoidWhen": "When you have no customer sources: don't invent quotes or call your own assumptions customer insight. Start by collecting material.",
     "keywords": [
-      "customer",
-      "research",
-      "voice",
-      "language",
-      "interview",
+      "Wiebe",
+      "Copyhackers",
+      "voice of customer",
+      "VoC",
+      "customer language",
+      "customer words",
+      "customer research",
+      "customer interviews",
+      "interviews",
+      "surveys",
       "reviews",
-      "objections"
+      "review mining",
+      "message mining",
+      "support tickets",
+      "sales calls",
+      "jargon",
+      "internal language",
+      "objections",
+      "conversion copywriting"
     ],
     "principles": [
-      "Read interviews, support questions and reviews you are allowed to use, keeping their context.",
-      "Distinguish quotations, paraphrases and your own interpretation. Record the source and the limits of the sample.",
-      "Check whether people understand the message. Let customer language inform the copy without erasing the brand's voice."
+      "Collect material where customers speak freely: interviews, surveys with open questions, support tickets, sales calls and reviews – competitors' too. Only use material you have the right to use.",
+      "Copy exact phrases into one document and sort them by problem, desired outcome, objections and how customers describe the product. Note the source and context of every quote.",
+      "Look for what keeps coming up and what stands out: expressions many people use, and vivid phrases that say something new. These often become headlines, subheads and answers to objections.",
+      "Keep quotes, paraphrase and your own interpretation apart. A handful of voices is a hypothesis – test the message with more people before you build everything on it.",
+      "Let customers' words shape the copy without erasing the sender's voice, and never use a real customer quote in marketing without permission."
     ],
     "questions": [
-      "Which questions recur?",
-      "How does the customer describe the problem before knowing the product?",
-      "What needs to be checked with more people?"
+      "How does the customer describe the problem before they know the product?",
+      "Which questions and objections keep coming up?",
+      "Which words do customers use that we never do?",
+      "What needs confirming with more customers?"
     ],
     "example": {
-      "context": "Fictional: the service collects receipts. In an invented customer conversation, a business owner describes searching for them before doing the books.",
+      "context": "Fictional: the service lets users photograph receipts and keeps them in one place. In an invented customer conversation, a business owner says: 'Before I do the books, I'm hunting for receipts in my wallet and the car.'",
       "before": "Streamline your receipt management process.",
-      "after": "Keep receipts in one place, so you can find them when it's time to do the books.",
-      "explanation": "Choose concrete words and a recognisable situation."
+      "after": "Stop hunting for receipts in your wallet and the car. Snap each one as you get it, and they're all in one place when it's time to do the books.",
+      "explanation": "The customer's own picture – the wallet, the car – makes the problem recognisable in a way 'receipt management process' never could."
     }
   }
 }
