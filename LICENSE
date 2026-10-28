@@ -29,3 +29,9 @@ with this standalone repository. See "Content and takedowns" in README.md.
 Original additions in copy/, data/copy-frameworks/, data/people/ and skills/copy-operator/
 are copyright (c) 2026 AC0 AI and are provided under the MIT License above.
 This does not license the original third-party works linked as references.
+
+Portrait images in public/portraits/ are third-party works, excluded from the
+MIT License. Their sources and any stated individual licences are recorded in
+docs/portrait-sources.json. The Socrates photograph is by Eric Gaba (Sting),
+Wikimedia Commons, licensed under CC BY-SA 2.5:
+https://creativecommons.org/licenses/by-sa/2.5/
