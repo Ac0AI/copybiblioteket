@@ -137,6 +137,20 @@ dialog p{font-size:14px;line-height:1.7;color:var(--ink-soft)}
 .mock-chip.is-primary{background:var(--ink);border-color:var(--ink);color:#fff}
 @media(max-width:560px){.mock{padding:0 14px 14px;font-size:12px}.mock-bar{margin:0 -14px 12px}.mock-chat{min-height:0}}
 
+/* Sigge the mascot: an ink blot with a pencil. Blinks, bobs and waves now and then. */
+.mascot{display:block;width:100%;height:auto;overflow:visible}
+.mascot *{transform-box:view-box}
+.mascot-body{animation:mascot-bob 3.2s ease-in-out infinite alternate}
+.mascot-eyes{transform-origin:100px 140px;animation:mascot-blink 5.5s infinite}
+.mascot-arm{transform-origin:42px 150px;animation:mascot-wave 7s ease-in-out infinite}
+.mascot-pencil{transform-origin:148px 70px;animation:mascot-pencil 3.2s ease-in-out infinite alternate}
+.mascot-dot{transform-origin:182px 214px;animation:mascot-dot 3.2s ease-in-out infinite alternate}
+@keyframes mascot-bob{to{transform:translateY(-5px)}}
+@keyframes mascot-blink{0%,93%,100%{transform:none}95%{transform:scaleY(.12)}}
+@keyframes mascot-wave{0%,62%,100%{transform:none}68%,80%{transform:rotate(-16deg)}74%,86%{transform:rotate(12deg)}}
+@keyframes mascot-pencil{to{transform:rotate(4deg)}}
+@keyframes mascot-dot{from{transform:translateY(-4px)}to{transform:translateY(2px) scaleX(1.08)}}
+
 /* Reveal on scroll; content is visible by default and only animates when scripting is available. */
 .reveal{animation:rise .7s cubic-bezier(.2,.8,.2,1) both;animation-timeline:view();animation-range:entry 0% entry 40%}
 @keyframes rise{from{opacity:0;transform:translateY(24px)}}

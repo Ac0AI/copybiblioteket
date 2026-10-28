@@ -103,7 +103,7 @@
       </aside>
       <section class="document-panel" data-i18n-aria-label="draft">
         <div class="document-toolbar"><h3><span data-i18n="draft"></span></h3><span id="word-count"></span><div class="document-actions"><button id="copy-text" class="button subtle" type="button" disabled data-i18n="copy"></button><button id="download-text" class="button subtle" type="button" disabled data-i18n="download"></button></div></div>
-        <div class="paper"><div id="empty-state" class="empty-state"><span class="editorial-mark" aria-hidden="true">Aa</span><h4 data-i18n="emptyHeading"></h4><p data-i18n="emptyText"></p><button id="start-pasting" class="button outlined" type="button" data-i18n="pasteDraft"></button></div><label for="document" class="sr-only" data-i18n="editLabel"></label><textarea id="document" spellcheck="true" lang="{{language}}" maxlength="10000" data-i18n-placeholder="documentPlaceholder" hidden></textarea></div>
+        <div class="paper"><div id="empty-state" class="empty-state"><span class="empty-mascot">{{mascot}}</span><h4 data-i18n="emptyHeading"></h4><p data-i18n="emptyText"></p><button id="start-pasting" class="button outlined" type="button" data-i18n="pasteDraft"></button></div><label for="document" class="sr-only" data-i18n="editLabel"></label><textarea id="document" spellcheck="true" lang="{{language}}" maxlength="10000" data-i18n-placeholder="documentPlaceholder" hidden></textarea></div>
         <form id="revise-form" class="revision-bar"><label for="instruction" data-i18n="revisionLabel"></label><div class="revision-controls"><input id="instruction" maxlength="1200" data-i18n-placeholder="revisionPlaceholder" required><button id="revise-button" class="button primary" type="submit" disabled data-i18n="revisionButton"></button></div><div class="revision-shortcuts"><button type="button" class="chip" data-revise="shorten" data-i18n="shorten"></button><button type="button" class="chip" data-revise="sharpen" data-i18n="sharpen"></button><button type="button" class="chip" data-revise="natural" data-i18n="natural"></button></div></form>
         <div class="save-bar"><label><input id="remember" type="checkbox"> <span class="label-text" data-i18n="remember"></span></label><button id="clear-saved" type="button" class="text-button" data-i18n="clearSaved"></button></div>
       </section>
@@ -123,6 +123,14 @@
       <li class="reveal"><strong data-i18n="principleTwoTitle"></strong><span data-i18n="principleTwo"></span></li>
       <li class="reveal"><strong data-i18n="principleThreeTitle"></strong><span data-i18n="principleThree"></span></li>
     </ul>
+  </section>
+  <section class="about-name" id="om-sigge" aria-labelledby="name-heading">
+    <div class="name-mascot"><p class="name-speech" data-i18n="mascotHello"></p>{{mascot}}</div>
+    <div class="name-copy">
+      <p class="eyebrow" data-i18n="nameEyebrow"></p><h2 id="name-heading" class="section-title" data-i18n="nameHeading"></h2>
+      <p class="lead" data-i18n="nameOne"></p><p data-i18n="nameTwo"></p><p data-i18n="nameThree"></p>
+      <dl class="name-facts"><div><dt data-i18n="nameFactSayTitle"></dt><dd data-i18n="nameFactSay"></dd></div><div><dt data-i18n="nameFactFromTitle"></dt><dd data-i18n="nameFactFrom"></dd></div><div><dt data-i18n="nameFactRootTitle"></dt><dd data-i18n="nameFactRoot"></dd></div></dl>
+    </div>
   </section>
 </main>
 {{footer}}

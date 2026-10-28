@@ -24,6 +24,8 @@
 }
 
 .site-footer{max-width:var(--max);margin:96px auto 0;padding:40px var(--gutter) 44px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:28px 40px;align-items:start;font-size:13px;color:var(--muted)}
+.footer-id{display:flex;align-items:flex-start;gap:16px}
+.footer-mascot{flex:none;width:46px}
 .footer-brand{font:600 28px/1 var(--serif);letter-spacing:-.04em;color:var(--ink)}
 .footer-caption{display:block;font:13px/1.6 var(--sans);letter-spacing:0;color:var(--muted);margin-top:10px;max-width:42ch}
 .footer-links{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:flex-end}

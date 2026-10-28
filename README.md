@@ -10,6 +10,8 @@ Webben hjälper dig välja ramverk och kopiera ett komplett skrivunderlag till d
 
 Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Förklarande filmer på startsidan och anslutningssidan byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/`, till exempel [så funkar Sigge](https://sigge.si/media/sigge-sa-funkar-det.mp4) och [anslut din AI](https://sigge.si/media/sigge-anslut-din-ai.mp4).
 
+Maskoten Sigge är en SVG-bläckplump i `client/pages/_mascot.html` som byggs in där `{{mascot}}` står i sidmallarna. Namnet är en kortform av Sigurd, Sigvard och Sigfrid (fornnordiska *sigr*, seger); se avsnittet Om namnet på startsidan.
+
 Integritetspolicyn finns på [sigge.si/privacy](https://sigge.si/privacy). Konton kan raderas av användaren själv på `/connect`.
 
 ## Kör lokalt
