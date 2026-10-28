@@ -53,7 +53,7 @@ I webbläsaren testades registrering, språkbyte, faktisk kopiering av MCP-adres
 
 Commit `c470036187562df1f0343b8965db2f8f54e06eb2` publicerades till sigge.si via PR #3 den 28 oktober 2026. Turso-databasen `sigge` ligger i Frankfurt och dess schema validerades efter migrering. Produktionsvariabler är krypterade i Vercel; Resend har en separat Sigge-nyckel.
 
-Livekontrollen genomförde e-postinloggning i webbläsaren, godkännande av en registrerad testklient, kodbyte, tokenförnyelse och läsning av nio MCP-verktyg, 59 profiler och skrivråd på båda språken via en riktig MCP SDK-klient. Återkallning i kontosidan gav omedelbart 401 för MCP och 400 för förnyelse. Utloggning, engelskt gränssnitt och mobilbredd kontrollerades också.
+Livekontrollen genomförde e-postinloggning i webbläsaren, godkännande av en registrerad testklient, kodbyte, tokenförnyelse och upptäckt av nio MCP-verktyg. En riktig MCP SDK-klient hämtade listan med 59 profiler och skrivråd på båda språken. Återkallning i kontosidan gav omedelbart 401 för MCP och 400 för förnyelse. Utloggning, engelskt gränssnitt och mobilbredd kontrollerades också.
 
 Resends skickade post hade rätt avsändare, mottagare och ämne. Testet använde en märkt `delivered@resend.dev`-adress: leverantörens leveransstatus är simulerad och bevisar inte leverans till en vanlig inkorg. Kontot gav ingen Field Notes-kontakt före tillval. Efter ett uttryckligt tillval verifierades kontakt, befintligt segment och sparat samtycke hos de riktiga leverantörerna. Testkontot, testklienten och testkontakten togs bort efteråt.
 
