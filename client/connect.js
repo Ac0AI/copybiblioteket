@@ -1,4 +1,6 @@
 import { t, language, onLanguageChange, route } from "./i18n.js";
+import { films } from "./film.js";
+films();
 const $ = (id) => document.getElementById(id);
 const consentPage = !!$("consent-form");
 let user = null,
@@ -201,6 +203,18 @@ if (!consentPage) {
       $("sign-out").disabled = false;
     }
   });
+  $("delete-account").addEventListener("click", async () => {
+    if (!confirm(t("deleteConfirm"))) return;
+    $("delete-account").disabled = true;
+    try {
+      await api("/api/account/delete", { confirm: true });
+      location.assign(route("/connect") + "?deleted=1");
+    } catch {
+      notice("deleteError");
+      $("delete-account").disabled = false;
+    }
+  });
+  if (new URLSearchParams(location.search).has("deleted")) notice("accountDeleted");
   $("notes-join").addEventListener("click", async () => {
     $("notes-join").disabled = true;
     try {

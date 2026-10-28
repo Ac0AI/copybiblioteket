@@ -154,6 +154,50 @@ export function mountAccounts(
       }
     },
   );
+  // Erasure covers everything tied to the user in Sigge's database. A Field Notes
+  // subscription is managed by the newsletter itself and is not changed here.
+  app.post(
+    "/api/account/delete",
+    express.json({ limit: "1kb" }),
+    async (req, res, next) => {
+      try {
+        if (req.headers.origin !== origin)
+          return void res.status(403).json({ error: "Origin not allowed." });
+        const session = await auth.api.getSession({
+          headers: fromNodeHeaders(req.headers),
+        });
+        if (!session)
+          return void res.status(401).json({ error: "Sign in first." });
+        if (req.body?.confirm !== true)
+          return void res
+            .status(400)
+            .json({ error: "Explicit confirmation is required." });
+        const { id, email } = session.user;
+        await runtime.db.transaction().execute(async (db) => {
+          for (const table of [
+            "oauthAccessToken",
+            "oauthRefreshToken",
+            "oauthConsent",
+            "oauthClient",
+            "session",
+            "account",
+            "fieldNotes",
+          ])
+            await sql`delete from ${sql.table(table)} where "userId"=${id}`.execute(
+              db,
+            );
+          await sql`delete from "verification" where "identifier" like ${"%" + email}`.execute(
+            db,
+          );
+          await sql`delete from "user" where "id"=${id}`.execute(db);
+        });
+        res.set("Clear-Site-Data", '"cookies"');
+        res.json({ deleted: true });
+      } catch (error) {
+        next(error);
+      }
+    },
+  );
   app.post(
     "/api/account/field-notes",
     express.json({ limit: "1kb" }),

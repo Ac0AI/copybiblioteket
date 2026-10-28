@@ -6,7 +6,7 @@ let people=[],current=null,latest=0;
 const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 function portrait(person,detail=false){
   const frame=el('span');frame.className='person-portrait';frame.setAttribute('aria-hidden','true');
-  const parts=person.name.split(/\s+/).filter(Boolean);
+  const parts=person.name.replace(/\(.*?\)/g,'').split(/\s+/).filter(Boolean);
   const initials=[parts[0],...(parts.length>1?[parts.at(-1)]:[])].map(part=>part.replace(/[^\p{L}]/gu,'').slice(0,1)).join('');
   const fallback=el('span',initials);fallback.className='portrait-fallback';frame.append(fallback);
   const photo=portraits[person.id];
@@ -76,4 +76,12 @@ async function load(){
     $('people-category').value=previous;render();openHash();
   }catch{if(request===latest){$('people-count').removeAttribute('data-i18n');$('people-count').textContent=t('loadError');}}
 }
+// A slow wall of portraits sets the scene; it is decorative and hidden from assistive technology.
+function renderWall(){
+  const photos=Object.values(portraits).filter(photo=>photo.kind!=='avatar'),wall=$('portrait-wall');if(!wall)return;
+  const columns=[0,1,2].map(()=>el('div'));
+  photos.slice(0,18).forEach((photo,i)=>{const img=el('img');img.src=photo.src;img.alt='';img.width=photo.width;img.height=photo.height;img.decoding='async';columns[i%3].append(img);});
+  for(const column of columns){column.className='wall-column';column.append(...[...column.children].map(node=>node.cloneNode()));wall.append(column);}
+}
+renderWall();
 onLanguageChange(load);load();

@@ -1,1 +1,90 @@
-.connect-main{max-width:1040px;margin:0 auto;padding:54px 24px 80px}.connect-intro{max-width:680px;margin-bottom:36px}.connect-intro h1{font:500 clamp(34px,5vw,56px)/1.1 Georgia,serif;margin:14px 0 20px;letter-spacing:-1.5px}.connect-intro p{line-height:1.7;color:var(--muted)}.connect-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:28px;align-items:start}.account-card,.client-card,.consent-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px;margin-bottom:22px}.account-card h2,.client-card h2{font:500 25px/1.2 Georgia,serif;margin:0 0 14px}.account-card p,.client-card p,.consent-card p{line-height:1.65}.account-card input[type=email],.account-card input[type=text]{box-sizing:border-box;width:100%;margin:8px 0 16px;padding:12px;border:1px solid var(--line);border-radius:6px;font:inherit}.account-card label{display:block}.newsletter-label{display:flex!important;gap:10px;margin:20px 0 8px;line-height:1.6;font-size:14px}.newsletter-label input{flex:none;margin-top:6px}.connect-small{font-size:13px;color:var(--muted);line-height:1.65}.account-privacy{border-top:1px solid var(--line);padding-top:18px;margin-top:24px}.client-card code{display:block;overflow-wrap:anywhere;white-space:pre-wrap;font:13px/1.7 ui-monospace,monospace;background:#f4f6f9;padding:16px;margin:18px 0;border-radius:6px}.client-card .button{margin:0 8px 10px 0}.connect-main .notice{margin-bottom:24px}.connect-main .text-button{margin-top:16px}.connect-main .button{min-height:42px}.connection-list{padding:0;list-style:none}.connection-list li{display:flex;gap:16px;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:16px 0;overflow-wrap:anywhere}.consent-card{max-width:620px;margin:auto}.consent-card h1{font:500 36px Georgia,serif}.consent-card #client-id{overflow-wrap:anywhere}.consent-actions{display:flex;gap:12px;margin-top:24px}.connect-example{border-left:3px solid var(--blue);padding-left:18px;margin-top:28px}.connect-main [hidden]{display:none!important}@media(max-width:760px){.connect-grid{grid-template-columns:1fr}.connect-main{padding:32px 20px 60px}.account-card,.client-card,.consent-card{padding:22px}.connect-intro h1{font-size:38px}}@media(max-width:620px){.topbar nav{gap:18px}.topbar nav a{font-size:12px}}
+/* Connect: explain MCP with a film, then sign-in and client instructions. */
+.connect-main{max-width:var(--max);margin:0 auto;padding:clamp(28px,5vw,64px) var(--gutter) 0}
+.connect-main [hidden]{display:none!important}
+.connect-hero{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,72px);align-items:center;margin-bottom:clamp(48px,6vw,88px)}
+.connect-intro .display{font-size:clamp(38px,4.6vw,64px)}
+.connect-intro .lead{margin:20px 0 26px}
+.connect-steps{list-style:none;counter-reset:step;padding:0;margin:0;display:grid;gap:10px}
+.connect-steps li{counter-increment:step;display:flex;align-items:center;gap:12px;font-size:15px;color:var(--ink-soft)}
+.connect-steps li::before{content:counter(step);display:grid;place-items:center;width:28px;height:28px;flex:none;border-radius:50%;background:var(--card);border:1px solid var(--line-strong);font-size:12px;font-weight:600;color:var(--ink)}
+@media(max-width:1020px){.connect-hero{grid-template-columns:1fr}.film-connect{max-width:720px}}
+.connect-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:24px;align-items:start}
+.account-card,.client-card,.consent-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px;margin-bottom:20px;box-shadow:var(--shadow)}
+.card-step{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--blue-soft);color:var(--blue);font-size:13px;font-weight:700;margin:0 0 14px}
+.card-step.is-done{background:var(--green-soft);color:var(--green)}
+.account-card h2,.client-card h2,.connect-example h2{font:500 26px/1.15 var(--serif);letter-spacing:-.015em;margin:0 0 10px}
+.account-card p,.client-card p,.consent-card p{line-height:1.65;color:var(--ink-soft)}
+.account-card form label{margin-top:16px}
+.account-card form .button{margin-top:16px}
+.newsletter-label{display:flex!important;gap:10px;margin:18px 0 6px;line-height:1.6;font-size:14px;font-weight:500}
+.newsletter-label input{flex:none;margin-top:5px}
+.connect-small{font-size:13px;color:var(--muted)!important;line-height:1.65}
+.account-privacy{border-top:1px solid var(--line);padding-top:16px;margin-top:24px}
+.account-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px}
+.danger{color:#a1452e;text-decoration-color:#e3b9ad}
+.client-card code{display:block;overflow-wrap:anywhere;white-space:pre-wrap;font:13px/1.7 var(--mono);background:var(--ink);color:#e8edff;padding:16px 18px;margin:16px 0;border-radius:12px}
+.client-actions{display:flex;flex-wrap:wrap;gap:8px}
+.connect-main .text-button{margin-top:14px}
+.connection-list{padding:0;list-style:none;margin:0}
+.connection-list li{display:flex;gap:16px;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:14px 0;overflow-wrap:anywhere}
+.connect-example{border-radius:22px;padding:26px 28px;background:var(--marker)}
+.connect-example .first-prompt{font:400 19px/1.5 var(--serif);color:var(--ink);margin:8px 0 12px}
+.connect-example .connect-small{color:#5d5321!important}
+.consent-card{max-width:620px;margin:0 auto}
+.consent-card h1{font:400 40px/1.1 var(--serif);letter-spacing:-.02em;margin:0 0 12px}
+.consent-card h2{font:500 24px/1.2 var(--serif);margin:20px 0 4px}
+.consent-card #client-id{overflow-wrap:anywhere}
+.consent-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+@media(max-width:860px){.connect-grid{grid-template-columns:1fr}.account-card,.client-card,.consent-card{padding:22px}}
+
+/* Connect film */
+.terminal{width:min(100%,540px);background:#0b1222;border-radius:14px;box-shadow:0 30px 60px -30px #000c,0 0 0 1px #ffffff1f;padding:0 18px 20px;font:13px/1.7 var(--mono);color:#dfe6ff;text-align:left}
+.terminal-bar{display:flex;align-items:center;gap:6px;height:36px;margin:0 -18px 14px;padding:0 14px;border-bottom:1px solid #ffffff14}
+.terminal-bar i{width:9px;height:9px;border-radius:50%;background:#ffffff2e}
+.terminal-bar em{font:600 11px var(--sans);font-style:normal;color:#8d9abb;margin-left:8px}
+.terminal-line{margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.terminal-line .type{display:inline-block;vertical-align:bottom;max-width:calc(100% - 20px);overflow:hidden;text-overflow:ellipsis}
+.prompt{color:#7f9cff}
+.terminal-ok{margin:8px 0;color:#7ee2a8}
+.terminal-ok::before{content:'✓ '}
+.is-active .terminal-line .type{animation:type 1.6s steps(48,end) .4s both}
+.is-active .terminal-ok{animation:card-in .4s ease 2.3s both}
+.is-active .t2 .type{animation:type .4s steps(4,end) 3s both}
+.is-active .t2{animation:card-in .3s ease 2.9s both}
+.mock small{display:block;font-size:10.5px;font-weight:600;color:var(--muted);margin:2px 0 5px}
+.login-email{margin:0 0 12px;border:1px solid var(--line-strong);border-radius:8px;padding:7px 10px}
+.login-email .type{display:inline-block}
+.code-boxes{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.code-boxes span{display:grid;place-items:center;height:40px;border:1px solid var(--line-strong);border-radius:8px;font:500 20px var(--serif);background:#fff}
+.is-active .login-email .type{animation:type .9s steps(14,end) .3s both}
+.is-active .code-boxes span{animation:digit .3s ease both}
+.is-active .code-boxes span:nth-child(1){animation-delay:1.5s}.is-active .code-boxes span:nth-child(2){animation-delay:1.7s}.is-active .code-boxes span:nth-child(3){animation-delay:1.9s}.is-active .code-boxes span:nth-child(4){animation-delay:2.1s}.is-active .code-boxes span:nth-child(5){animation-delay:2.3s}.is-active .code-boxes span:nth-child(6){animation-delay:2.5s}
+.is-active .mock-login .mock-button{animation:press .5s ease 3.4s both}
+@keyframes digit{from{color:transparent;border-color:var(--blue);box-shadow:0 0 0 3px #2351d826}}
+.mock-consent{padding-top:22px}
+.consent-seal{display:inline-block;font:600 18px/1 var(--serif);letter-spacing:-.04em;background:var(--ink);color:#fff;padding:6px 10px 8px;border-radius:10px;margin-bottom:12px}
+.consent-seal span{color:#8eaaff}
+.mock-consent h4{font:500 21px/1.2 var(--serif);margin:0 0 6px}
+.mock-consent p{margin:0 0 8px;color:var(--ink-soft);font-size:12.5px}
+.mock-consent ul{margin:0 0 14px;padding-left:18px;color:var(--ink-soft);font-size:12.5px}
+.consent-row{display:flex;gap:8px;align-items:center;justify-content:flex-end}
+.consent-row .mock-button{margin:0;padding:8px 16px}
+.consent-done{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0!important;background:var(--green);color:#fff!important;font:600 14px var(--sans)!important;padding:12px 18px;border-radius:999px;white-space:nowrap;box-shadow:0 20px 40px -20px #000a}
+.consent-done::before{content:'✓  '}
+.is-active .mock-consent .mock-button{animation:press .5s ease 2.2s both}
+.is-active .consent-done{animation:done-in .5s cubic-bezier(.3,1.5,.5,1) 2.9s both}
+@keyframes done-in{from{opacity:0;transform:translate(-50%,-30%) scale(.8)}}
+.tool-call{align-self:flex-start;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted);background:var(--paper);border:1px dashed var(--line-strong);border-radius:999px;padding:4px 10px}
+.tool-call code{font:11px var(--mono);color:var(--ink)}
+.tool-dot{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px var(--green-soft)}
+.film-connect .mock-chat{min-height:280px}
+.is-active .film-connect .from-user,.film-connect .is-active .from-user{animation:pop .45s cubic-bezier(.3,1.4,.5,1) .3s both;transform-origin:right bottom}
+.film-connect .is-active .tool-call{animation:card-in .4s ease 1.1s both}
+.film-connect .is-active .tc2{animation-delay:1.6s}
+.film-connect .is-active .tool-dot{animation:spin-dot .9s ease 1.1s both}
+.film-connect .is-active .from-ai{animation:pop .45s cubic-bezier(.3,1.4,.5,1) 2.3s both;transform-origin:left bottom}
+.film-connect .is-active .from-ai strong{animation:type 1s steps(30,end) 2.6s both}
+.film-connect .is-active .stream i{animation:grow-x .5s ease both;transform-origin:left}
+.film-connect .is-active .stream i:nth-child(1){animation-delay:3.4s}.film-connect .is-active .stream i:nth-child(2){animation-delay:3.7s}.film-connect .is-active .stream i:nth-child(3){animation-delay:4s}
+@keyframes spin-dot{0%,60%{background:transparent;border:2px solid var(--line-strong);border-top-color:var(--blue);box-shadow:none;transform:rotate(0)}59%{transform:rotate(540deg)}}
+@media(max-width:560px){.terminal{font-size:11px;padding:0 12px 14px}.terminal-bar{margin:0 -12px 10px}.code-boxes span{height:32px;font-size:16px}.film-connect .mock-chat{min-height:0}.tc2{display:none!important}}
