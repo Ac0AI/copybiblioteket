@@ -1,0 +1,1062 @@
+{
+  "adam-robinson": {
+    "summary": "A founder's voice, conversations and demand",
+    "topics": [
+      "LinkedIn",
+      "personal brand",
+      "customer interviews",
+      "sales"
+    ],
+    "principles": [
+      "Start with questions real buyers ask and write as the person behind the business.",
+      "Make the next step a concrete conversation about the problem; distinguish interest from willingness to pay."
+    ],
+    "questions": [
+      "What do customers say before they understand the offer?",
+      "Which experience can the writer personally stand behind?"
+    ]
+  },
+  "alex-hormozi": {
+    "summary": "An offer people can understand and assess",
+    "topics": [
+      "price",
+      "packaging",
+      "value",
+      "offer",
+      "focus"
+    ],
+    "principles": [
+      "Explain what the customer gets, what it takes and what evidence supports it.",
+      "Let each bonus address a real obstacle. Do not add deadlines the business does not have."
+    ],
+    "questions": [
+      "What is included, and what is not?",
+      "Which uncertainty does the buyer need resolved?"
+    ]
+  },
+  "alex-slater": {
+    "summary": "Ads, creators and the path to purchase",
+    "topics": [
+      "ads",
+      "video",
+      "creators",
+      "onboarding",
+      "payment"
+    ],
+    "principles": [
+      "Compare different ideas in your ad creative, not just small wording changes.",
+      "Make the ad's promise recognisable in the product and before payment."
+    ],
+    "questions": [
+      "What makes someone stop in the first few seconds?",
+      "Which terms need to be visible before purchase?"
+    ]
+  },
+  "alex-west": {
+    "summary": "Start where you can already reach customers",
+    "topics": [
+      "channel",
+      "niche",
+      "B2B",
+      "launch",
+      "demand"
+    ],
+    "principles": [
+      "Choose a reachable customer group and write for the situation in which you meet them.",
+      "Make the next step a clear test of demand, with honest information about what is available to buy."
+    ],
+    "questions": [
+      "Where does the customer look for help today?",
+      "What would a purchase actually give them now?"
+    ]
+  },
+  "alexandr-wang": {
+    "summary": "Explain the bottleneck the product removes",
+    "topics": [
+      "AI",
+      "data",
+      "bottleneck",
+      "product",
+      "technology"
+    ],
+    "principles": [
+      "Show the specific obstacle the product removes before describing the technology.",
+      "Explain how users can assess results and limitations, especially for AI features."
+    ],
+    "questions": [
+      "Which step works poorly today?",
+      "What must the user be able to check for themselves?"
+    ]
+  },
+  "alexxgrowth": {
+    "summary": "One clear point you can show in a short video",
+    "topics": [
+      "short video",
+      "opening",
+      "clips",
+      "creators",
+      "attention"
+    ],
+    "principles": [
+      "Build the opening around a situation or demonstration the viewer understands immediately.",
+      "Let the product follow naturally from the content's point. Reach is not evidence of sales."
+    ],
+    "questions": [
+      "Which moment makes the value visible?",
+      "Why would someone want to share this?"
+    ]
+  },
+  "andrew-huberman": {
+    "summary": "Explain knowledge without overstating the evidence",
+    "topics": [
+      "explanation",
+      "knowledge",
+      "focus",
+      "science",
+      "evidence"
+    ],
+    "principles": [
+      "Distinguish mechanisms, hypotheses and demonstrated effects when writing about research.",
+      "Explain technical terms clearly without making a health claim stronger than its evidence."
+    ],
+    "questions": [
+      "What do we know, and how do we know it?",
+      "Which conditions or uncertainties does the reader need to understand?"
+    ]
+  },
+  "blake-anderson": {
+    "summary": "Test different reasons to use the same product",
+    "topics": [
+      "apps",
+      "creators",
+      "ad angle",
+      "opening",
+      "demand"
+    ],
+    "principles": [
+      "Develop angles that address different, specific user situations.",
+      "Assess whether interest leads to relevant use, rather than just views."
+    ],
+    "questions": [
+      "Which problem is visible in a short demonstration?",
+      "Which angle encourages the right person to try it?"
+    ]
+  },
+  "bryan-johnson": {
+    "summary": "Make measurements and personal experiments understandable",
+    "topics": [
+      "experiments",
+      "measurement",
+      "transparency",
+      "method",
+      "longevity"
+    ],
+    "principles": [
+      "Describe what was measured, in whom and under which conditions.",
+      "Keep personal experiences separate from general effects; one person's results are not product evidence."
+    ],
+    "questions": [
+      "Does the claim concern one person or a studied group?",
+      "What can the measurement actually show?"
+    ]
+  },
+  "casey-adams": {
+    "summary": "Curiosity and relevance in interviews and outreach",
+    "topics": [
+      "podcast",
+      "interview",
+      "relationships",
+      "email",
+      "collaboration"
+    ],
+    "principles": [
+      "Make the invitation specific: why this person, which topic and for which audience.",
+      "Ask questions that reveal a story or useful lesson rather than a generic recipe for success."
+    ],
+    "questions": [
+      "What makes the conversation worth the recipient's time?",
+      "Which follow-up question goes beyond the standard answer?"
+    ]
+  },
+  "corey-haines": {
+    "summary": "Connect the message to the customer, product and channel",
+    "topics": [
+      "marketing",
+      "conversion",
+      "positioning",
+      "AI",
+      "newsletter"
+    ],
+    "principles": [
+      "Check that the customer group, offer and message fit together before optimising a channel.",
+      "Give the content a natural next step towards a relationship you can maintain."
+    ],
+    "questions": [
+      "Is the message unclear, or is it the offer?",
+      "What should the reader be able to do after reading?"
+    ]
+  },
+  "cris-pop": {
+    "summary": "Show culture and values through behaviour",
+    "topics": [
+      "culture",
+      "recruitment",
+      "trust",
+      "team",
+      "values"
+    ],
+    "principles": [
+      "Replace abstract values with situations that show how you work.",
+      "Let recruitment copy explain responsibilities, support and expectations too."
+    ],
+    "questions": [
+      "How does an employee experience this value?",
+      "What can people decide for themselves, and what support is available?"
+    ]
+  },
+  "dagobert-renouf": {
+    "summary": "Build a voice through real conversations",
+    "topics": [
+      "social media",
+      "humour",
+      "founders",
+      "distribution",
+      "audience"
+    ],
+    "principles": [
+      "Start with recognisable problems and answer other people's questions.",
+      "Use humour when it suits the writer. Do not confuse popular posts with demand for the product."
+    ],
+    "questions": [
+      "Which everyday frustration does the audience recognise?",
+      "What do we want to learn from the replies?"
+    ]
+  },
+  "dalton-caldwell": {
+    "summary": "Look for concrete signs that the product is needed",
+    "topics": [
+      "customer conversations",
+      "needs",
+      "product market fit",
+      "early customers",
+      "validation"
+    ],
+    "principles": [
+      "Ask what someone did the last time the problem occurred, not just what they think of the idea.",
+      "Write for a specific group with a clear need for the solution."
+    ],
+    "questions": [
+      "What has the customer already tried?",
+      "Which behaviour would show that the offer helps?"
+    ]
+  },
+  "damon-chen": {
+    "summary": "Make customers' experiences useful",
+    "topics": [
+      "testimonials",
+      "social proof",
+      "sharing",
+      "product",
+      "credibility"
+    ],
+    "principles": [
+      "Help customers describe their situation, use and experience in their own words.",
+      "Place relevant testimonials where a real doubt arises; preserve context and permission."
+    ],
+    "questions": [
+      "Which objection could a real testimonial help explain?",
+      "Can the experience be understood without exaggerated conclusions?"
+    ]
+  },
+  "danny-postma": {
+    "summary": "Start with what the customer already searches for",
+    "topics": [
+      "SEO",
+      "search intent",
+      "AI",
+      "product",
+      "one-off purchase"
+    ],
+    "principles": [
+      "Let the search query guide the answer and product explanation the page needs.",
+      "Show how the result can be used and its limitations before technical details."
+    ],
+    "questions": [
+      "What does the visitor hope to find after searching?",
+      "Which specific use case justifies the purchase?"
+    ]
+  },
+  "david-goggins": {
+    "summary": "Responsibility and action in motivational writing",
+    "topics": [
+      "motivation",
+      "responsibility",
+      "discipline",
+      "storytelling",
+      "action"
+    ],
+    "principles": [
+      "Connect a strong call to action to something the reader can freely choose to do.",
+      "Describe setbacks specifically without shaming the reader or equating achievement with personal worth."
+    ],
+    "questions": [
+      "Which small action is possible today?",
+      "Is this energy helpful for this particular reader?"
+    ]
+  },
+  "dustin-howes": {
+    "summary": "Clear offers for partners",
+    "topics": [
+      "affiliate",
+      "partnerships",
+      "commission",
+      "activation",
+      "collaboration"
+    ],
+    "principles": [
+      "Explain who the partnership suits, what the partner's audience gains and how compensation works.",
+      "Give partners materials that make the offer easy to present accurately."
+    ],
+    "questions": [
+      "Why does the product suit the partner's audience?",
+      "Which terms need to appear alongside the offer?"
+    ]
+  },
+  "elon-musk": {
+    "summary": "Question assumptions before polishing the wording",
+    "topics": [
+      "simplification",
+      "first principles",
+      "bottleneck",
+      "product",
+      "technology"
+    ],
+    "principles": [
+      "Break a broad problem into the parts that actually hold the customer back.",
+      "Remove unnecessary steps and messages before trying to phrase them more elegantly."
+    ],
+    "questions": [
+      "Which assumption does the text rely on?",
+      "Does the reader really need this step?"
+    ]
+  },
+  "farza": {
+    "summary": "Find one sentence that makes the product clear",
+    "topics": [
+      "story",
+      "product demo",
+      "opening",
+      "launch",
+      "short video"
+    ],
+    "principles": [
+      "Write a simple explanation of what the product lets someone do.",
+      "Test the explanation with a concrete demonstration and learn from what people actually understand."
+    ],
+    "questions": [
+      "What would make the right person pause?",
+      "Can the value be shown without a long introduction?"
+    ]
+  },
+  "garry-tan": {
+    "summary": "A home page that makes the next step clear",
+    "topics": [
+      "home page",
+      "design",
+      "needs",
+      "product market fit",
+      "users"
+    ],
+    "principles": [
+      "Make it clear who the product is for and what they can do with it.",
+      "Look for behaviour and use to support the message, rather than polite reactions alone."
+    ],
+    "questions": [
+      "What should visitors understand on the first screen?",
+      "What happens when someone tries it?"
+    ]
+  },
+  "greg-isenberg": {
+    "summary": "Listen to a niche before offering a solution",
+    "topics": [
+      "community",
+      "niche",
+      "Reddit",
+      "audience",
+      "customer insight"
+    ],
+    "principles": [
+      "Treat recurring questions and frustrations in a relevant community as hypotheses to investigate.",
+      "Write with the group's specific situation in mind and contribute something useful in its own right."
+    ],
+    "questions": [
+      "Which problem keeps coming up in conversations?",
+      "How do this group's needs differ from a broad audience?"
+    ]
+  },
+  "guillermo-rauch": {
+    "summary": "Make it easy to understand, try and share",
+    "topics": [
+      "developers",
+      "product",
+      "simplification",
+      "open source",
+      "demo"
+    ],
+    "principles": [
+      "Describe a clear starting point and help users reach a visible result quickly.",
+      "Treat every extra message as a choice that needs a reason."
+    ],
+    "questions": [
+      "What can someone try immediately?",
+      "Which detail gets in the way of the main point?"
+    ]
+  },
+  "hubert-thieblot": {
+    "summary": "Show the problem behind the founder's conviction",
+    "topics": [
+      "founders",
+      "problem",
+      "niche",
+      "pitch",
+      "product"
+    ],
+    "principles": [
+      "Use personal experience as a starting point, then investigate whether others share the problem.",
+      "Make commitment credible through concrete choices and work, rather than grand promises."
+    ],
+    "questions": [
+      "Which experience made the problem clear?",
+      "Who else has the same need?"
+    ]
+  },
+  "hunter-isaacson": {
+    "summary": "Explain the value in the first use",
+    "topics": [
+      "sharing",
+      "onboarding",
+      "apps",
+      "first experience",
+      "product"
+    ],
+    "principles": [
+      "Make the first step easy to understand and show value before asking for more effort.",
+      "Make sharing worthwhile for both sender and recipient, with clear privacy choices."
+    ],
+    "questions": [
+      "What does the user get from the first visit?",
+      "Why would the recipient appreciate someone sharing this?"
+    ]
+  },
+  "iman-gadzhi": {
+    "summary": "Define the service and the job it does",
+    "topics": [
+      "agency",
+      "service",
+      "niche",
+      "sales",
+      "collaboration"
+    ],
+    "principles": [
+      "Describe a specific customer group, a concrete assignment and what is included.",
+      "Explain responsibilities, payment and follow-up without pressuring someone to decide."
+    ],
+    "questions": [
+      "Which part of the work are you responsible for?",
+      "What must the customer assess before saying yes?"
+    ]
+  },
+  "jack-friks": {
+    "summary": "Make short content useful before it sells",
+    "topics": [
+      "TikTok",
+      "Instagram",
+      "short video",
+      "organic",
+      "content"
+    ],
+    "principles": [
+      "Learn how effective formats build interest, then create an example of your own.",
+      "Give the content a point even for someone who does not click through."
+    ],
+    "questions": [
+      "What does the viewer learn in a few seconds?",
+      "How does the call to action relate to what was just shown?"
+    ]
+  },
+  "jake-castillo": {
+    "summary": "Connect the ad, introduction and payment",
+    "topics": [
+      "influencers",
+      "apps",
+      "onboarding",
+      "payment",
+      "conversion"
+    ],
+    "principles": [
+      "Keep the same concrete benefit recognisable throughout the path to purchase.",
+      "Make the trial period, price and renewal terms clear when the user makes a decision."
+    ],
+    "questions": [
+      "Which expectation does the ad create?",
+      "Where does the next step become unclear or surprising?"
+    ]
+  },
+  "jason-calacanis": {
+    "summary": "A pitch with a problem, signs of demand and a next step",
+    "topics": [
+      "pitch",
+      "investors",
+      "founders",
+      "evidence",
+      "business"
+    ],
+    "principles": [
+      "Explain the customer problem and the business's solution before describing the ambition.",
+      "Separate achieved results from plans, estimates and funding needs."
+    ],
+    "questions": [
+      "Which facts support the claim that customers want this?",
+      "What is the specific next step for the recipient?"
+    ]
+  },
+  "jason-cohen": {
+    "summary": "Pricing that reflects the customer's priorities",
+    "topics": [
+      "price",
+      "positioning",
+      "B2B",
+      "value",
+      "differentiation"
+    ],
+    "principles": [
+      "Investigate which benefits the customer prioritises and show how the offer contributes to them.",
+      "Describe your deliberate trade-offs so the difference from alternatives is understandable."
+    ],
+    "questions": [
+      "What does the customer value beyond a low price?",
+      "Which choice makes you a better fit for this customer?"
+    ]
+  },
+  "justin-welsh": {
+    "summary": "A content system with a clear reader in mind",
+    "topics": [
+      "LinkedIn",
+      "content",
+      "newsletter",
+      "solopreneurs",
+      "audience"
+    ],
+    "principles": [
+      "Develop several useful pieces from one experience without repeating the same point word for word.",
+      "Let each piece solve a specific problem and offer a reasonable next step."
+    ],
+    "questions": [
+      "Which specific question does the post answer?",
+      "Which part deserves a piece of its own?"
+    ]
+  },
+  "lenny-rachitsky": {
+    "summary": "Connect the growth message to real use",
+    "topics": [
+      "product",
+      "growth",
+      "retention",
+      "customer insight",
+      "channels"
+    ],
+    "principles": [
+      "Describe how the product helps a defined group do a recurring job.",
+      "Distinguish the initial acquisition of users from the reason they come back."
+    ],
+    "questions": [
+      "Why does the user return?",
+      "Which next step fits this stage?"
+    ]
+  },
+  "marc-lou": {
+    "summary": "Make a small offer easy to try",
+    "topics": [
+      "launch",
+      "headline",
+      "small products",
+      "buy button",
+      "demo"
+    ],
+    "principles": [
+      "Write a clear headline around one problem and the product that actually exists.",
+      "Test interest in a focused offer before filling the page with more features."
+    ],
+    "questions": [
+      "What does the smallest useful version do?",
+      "Does the buyer understand what they are paying for?"
+    ]
+  },
+  "naval-ravikant": {
+    "summary": "Show your own knowledge and judgement",
+    "topics": [
+      "own voice",
+      "specialist knowledge",
+      "media",
+      "judgement",
+      "long term"
+    ],
+    "principles": [
+      "Start with insights the writer can develop through their own experience.",
+      "Explain your reasoning so the piece remains useful after the topic stops trending."
+    ],
+    "questions": [
+      "What does the writer know that helps this reader?",
+      "What can only you explain this way?"
+    ]
+  },
+  "nevo-david": {
+    "summary": "Describe the job that gets done",
+    "topics": [
+      "AI",
+      "open source",
+      "distribution",
+      "results",
+      "pricing plans"
+    ],
+    "principles": [
+      "Start with the user's task and show how the product helps.",
+      "Distinguish features, usage limits and responsibilities across plans without promising unsupported results."
+    ],
+    "questions": [
+      "What can the customer actually do after buying?",
+      "Which use would justify a larger plan?"
+    ]
+  },
+  "paul-buchheit": {
+    "summary": "Simplify around the most important user need",
+    "topics": [
+      "simplicity",
+      "feedback",
+      "product",
+      "needs",
+      "first version"
+    ],
+    "principles": [
+      "Look for the problem behind a feature request and describe the value at that level.",
+      "Prioritise the small group that needs the product most when explaining the offer."
+    ],
+    "questions": [
+      "Which request hides a different problem?",
+      "What would the most affected user miss?"
+    ]
+  },
+  "paul-graham": {
+    "summary": "Explain a problem people actually have",
+    "topics": [
+      "customer needs",
+      "founders",
+      "early customers",
+      "manual work",
+      "ideas"
+    ],
+    "principles": [
+      "Start with an observed situation and show how you help the customer in it.",
+      "Use early conversations and concrete manual work to learn, without presenting individual cases as universal evidence."
+    ],
+    "questions": [
+      "When did the problem last occur?",
+      "Which specific help would the customer accept?"
+    ]
+  },
+  "pavel-durov": {
+    "summary": "Make the product's benefits worth recommending",
+    "topics": [
+      "recommendations",
+      "privacy",
+      "product",
+      "premium",
+      "independence"
+    ],
+    "principles": [
+      "Explain the benefit in a way a user could retell.",
+      "Describe privacy and paid plans through verifiable features and terms."
+    ],
+    "questions": [
+      "What would someone tell a friend about the product?",
+      "Which privacy claim can you substantiate?"
+    ]
+  },
+  "peter-thiel": {
+    "summary": "Show a real difference for a focused market",
+    "topics": [
+      "differentiation",
+      "niche",
+      "strategy",
+      "alternatives",
+      "positioning"
+    ],
+    "principles": [
+      "Compare the product with the customer's actual alternatives and identify a concrete difference.",
+      "Test your perspective against counterarguments before making it the main message."
+    ],
+    "questions": [
+      "What makes the offer especially relevant to this niche?",
+      "Which important assumption would a critical reader question?"
+    ]
+  },
+  "pieter-levels": {
+    "summary": "A direct explanation of a small product that works",
+    "topics": [
+      "solopreneurs",
+      "launch",
+      "simplicity",
+      "payment",
+      "automation"
+    ],
+    "principles": [
+      "Show a real use case and make the scope easy to understand.",
+      "Let the demonstration and a clear purchase do more of the work than a grand vision."
+    ],
+    "questions": [
+      "What can the customer use right now?",
+      "Which extra words are unnecessary to understand the offer?"
+    ]
+  },
+  "priyam-raj": {
+    "summary": "A focused problem for a reachable customer group",
+    "topics": [
+      "creators",
+      "niche",
+      "distribution",
+      "partnerships",
+      "validation"
+    ],
+    "principles": [
+      "Choose a specific job and an audience already looking for help with it.",
+      "Build a partnership offer around the audience's benefit and clear terms."
+    ],
+    "questions": [
+      "Which feature matters most to this group?",
+      "Which partner reaches the group credibly?"
+    ]
+  },
+  "rob-hallam": {
+    "summary": "Show the work and learn from paying customers",
+    "topics": [
+      "building in public",
+      "founders",
+      "demand",
+      "SEO",
+      "product"
+    ],
+    "principles": [
+      "Explain what you are trying, what you know and what remains to be learned.",
+      "Use specific customer reactions as evidence and distinguish appreciation from willingness to pay."
+    ],
+    "questions": [
+      "What have you actually learned since last time?",
+      "Which improvement could a customer notice?"
+    ]
+  },
+  "rob-walling": {
+    "summary": "SaaS offers that fit the right customer",
+    "topics": [
+      "SaaS",
+      "price",
+      "trial",
+      "channels",
+      "churn"
+    ],
+    "principles": [
+      "Explain plans and limitations in terms of the customer's use.",
+      "Adapt the message to how well the reader understands the problem and which alternatives they are considering."
+    ],
+    "questions": [
+      "Who is the service best suited to?",
+      "What causes hesitation before a trial or upgrade?"
+    ]
+  },
+  "roman-czerny": {
+    "summary": "Relevant outreach grounded in a current need",
+    "topics": [
+      "B2B",
+      "outreach email",
+      "Reddit",
+      "buying signal",
+      "guidance"
+    ],
+    "principles": [
+      "Connect the email to a specific, relevant situation without pretending to know more than you do.",
+      "Offer a small, useful next step and make it easy to decline."
+    ],
+    "questions": [
+      "Why is this contact relevant now?",
+      "What could help the recipient without a sales meeting?"
+    ]
+  },
+  "ross-jenkins": {
+    "summary": "Personal emails with a clear purpose",
+    "topics": [
+      "email",
+      "personality",
+      "agency",
+      "reactivation"
+    ],
+    "principles": [
+      "Write about something specific, with an identifiable human sender.",
+      "Adapt the content to the relationship and ask for one thing at a time."
+    ],
+    "questions": [
+      "What does the recipient need to know to reply?",
+      "Can the email be read aloud without sounding like a template?"
+    ]
+  },
+  "ruben-hassid": {
+    "summary": "Useful AI copy needs human judgement",
+    "topics": [
+      "AI",
+      "LinkedIn",
+      "editing",
+      "judgement",
+      "prompt"
+    ],
+    "principles": [
+      "Give the AI concrete context, then choose between genuinely different approaches.",
+      "Keep what helps the reader and edit out generic filler."
+    ],
+    "questions": [
+      "Which problem does the text solve for the reader?",
+      "What must a person assess before publication?"
+    ]
+  },
+  "ryan-hoover": {
+    "summary": "A clear benefit people can gather around",
+    "topics": [
+      "community",
+      "launch",
+      "audience",
+      "product discovery",
+      "early users"
+    ],
+    "principles": [
+      "Describe what participants can do or discover before inviting them to join a community.",
+      "Test the most important assumption with a small, concrete offer."
+    ],
+    "questions": [
+      "What does someone gain from participating for the first time?",
+      "Which behaviour shows that the value is real?"
+    ]
+  },
+  "sam-altman": {
+    "summary": "Focus on a product a specific group wants",
+    "topics": [
+      "product",
+      "focus",
+      "iteration",
+      "early users",
+      "prioritisation"
+    ],
+    "principles": [
+      "Write for users with the strongest need instead of trying to appeal to everyone.",
+      "Make the next test clear and learn from actual use."
+    ],
+    "questions": [
+      "Who would be most disappointed if the product disappeared?",
+      "Which message deserves more room, and which can be removed?"
+    ]
+  },
+  "scott-wu": {
+    "summary": "Make the AI offer specific and possible to check",
+    "topics": [
+      "AI",
+      "agents",
+      "tasks",
+      "results",
+      "verification"
+    ],
+    "principles": [
+      "Describe the defined tasks the agent can perform and what users need to provide.",
+      "Explain how the result is checked and when a person needs to take over."
+    ],
+    "questions": [
+      "What counts as a finished job?",
+      "How can the customer tell whether the result is correct?"
+    ]
+  },
+  "shaan-puri": {
+    "summary": "A story with a clear human change",
+    "topics": [
+      "storytelling",
+      "positioning",
+      "opening",
+      "attention",
+      "angle"
+    ],
+    "principles": [
+      "Build the story around a concrete situation, an obstacle and a change supported by the facts.",
+      "Choose a clear contrast with the customer's current alternatives without inventing a heroic result."
+    ],
+    "questions": [
+      "What does the main character want to get done?",
+      "Which detail makes the story worth reading further?"
+    ]
+  },
+  "socrates": {
+    "summary": "Examine what a claim really means",
+    "topics": [
+      "questions",
+      "assumptions",
+      "definitions",
+      "reasoning",
+      "critique"
+    ],
+    "principles": [
+      "Ask for a precise explanation when the text relies on words such as best, easy or effective.",
+      "Test the claim with a counterexample and make the remaining uncertainty visible."
+    ],
+    "questions": [
+      "What exactly do we mean by this word?",
+      "When would the claim not hold?"
+    ]
+  },
+  "steve-jobs": {
+    "summary": "Give the product one clear central idea",
+    "topics": [
+      "storytelling",
+      "focus",
+      "product",
+      "presentation",
+      "simplicity"
+    ],
+    "principles": [
+      "Choose the most important user experience and build the presentation around it.",
+      "Show details that make the experience understandable instead of piling up features."
+    ],
+    "questions": [
+      "What should the audience remember afterwards?",
+      "Which demonstration explains the idea best?"
+    ]
+  },
+  "theo-browne": {
+    "summary": "Explain technical choices through real use",
+    "topics": [
+      "developers",
+      "tools",
+      "AI",
+      "product",
+      "technical choices"
+    ],
+    "principles": [
+      "Start with a problem users recognise and show how the tool solves it.",
+      "Be specific about limitations and costs when the audience needs them to choose."
+    ],
+    "questions": [
+      "Which part of the work changes?",
+      "Which technical detail actually helps the buyer choose?"
+    ]
+  },
+  "theprimeagen": {
+    "summary": "Make technical reasoning clear and testable",
+    "topics": [
+      "developers",
+      "code",
+      "learning",
+      "technology",
+      "review"
+    ],
+    "principles": [
+      "Explain a technical choice through a concrete example and its trade-off.",
+      "Check an AI-generated claim against how the tool actually behaves."
+    ],
+    "questions": [
+      "Which observation supports the recommendation?",
+      "What does the reader learn from the example?"
+    ]
+  },
+  "tibo-maker": {
+    "summary": "Connect the product, price and recurring value",
+    "topics": [
+      "SaaS",
+      "price",
+      "retention",
+      "small tools",
+      "distribution"
+    ],
+    "principles": [
+      "Describe the recurring job that justifies a subscription.",
+      "Let a small tool or example show the value and offer an understandable next step to the larger service."
+    ],
+    "questions": [
+      "Why would the customer use this next month?",
+      "What becomes clear when they try the small version?"
+    ]
+  },
+  "vic-giurgiu": {
+    "summary": "Test the offer before expanding it",
+    "topics": [
+      "validation",
+      "B2B",
+      "prototype",
+      "affiliate",
+      "customer interviews"
+    ],
+    "principles": [
+      "Show a simple sketch and talk to people who already do the work.",
+      "Build the offer around a recurring problem and ask for specific reactions to scope and price."
+    ],
+    "questions": [
+      "What does the customer already pay to get done?",
+      "Which assumption can the sketch help us test?"
+    ]
+  },
+  "warren-buffett": {
+    "summary": "Explain lasting value within what you know",
+    "topics": [
+      "long term",
+      "value",
+      "expertise",
+      "credibility",
+      "business"
+    ],
+    "principles": [
+      "Describe why the offer's value lasts and which qualities support it.",
+      "Keep your argument within what you can explain and substantiate. Do not borrow an investor's authority as product evidence."
+    ],
+    "questions": [
+      "What makes the value lasting for the customer?",
+      "Which part of the claim goes beyond our evidence?"
+    ]
+  },
+  "yahia-bakour": {
+    "summary": "Use detailed customer reactions as evidence",
+    "topics": [
+      "customer feedback",
+      "B2B",
+      "developers",
+      "product",
+      "usage"
+    ],
+    "principles": [
+      "Take specific complaints seriously and separate the problem from the customer's proposed solution.",
+      "Explain improvements in the words users use about their work."
+    ],
+    "questions": [
+      "Which problem recurs among paying customers?",
+      "What does the customer want to do that they cannot do today?"
+    ]
+  },
+  "zach-yadegari": {
+    "summary": "A product benefit you can demonstrate and follow up",
+    "topics": [
+      "apps",
+      "influencers",
+      "ads",
+      "onboarding",
+      "conversion"
+    ],
+    "principles": [
+      "Make the product's main use case clear in a short demonstration.",
+      "Keep the promise and terms consistent from ad to trial and payment."
+    ],
+    "questions": [
+      "Which specific benefit can be shown without exaggeration?",
+      "Which step needs a clearer explanation?"
+    ]
+  }
+}

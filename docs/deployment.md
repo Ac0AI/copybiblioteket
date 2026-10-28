@@ -11,7 +11,7 @@
 1. Kör `npm ci --ignore-scripts` och `npm run build`.
 2. Granska diffen och publicera den avsedda committen till GitHub.
 3. Vercels Git-koppling bygger produktion från `main`. Samma kontroller körs i Vercels build, så ett testfel stoppar bygget.
-4. Verifiera `/`, `/library`, `/people`, `/api/health`, `/api/people`, en sökning och en källänk över HTTPS. Kontrollera att `/api/write` fortfarande ger 503. Kontrollera sidan i webbläsare.
+4. Verifiera `/`, `/library`, `/people` och motsvarande adresser under `/en/`, `/api/health`, `/api/people`, en sökning och en källänk över HTTPS. Kontrollera att `/api/write` fortfarande ger 503. Kontrollera sidan i webbläsare.
 
 För en manuell första release eller felsökning, välj alltid teamet `ac0` och projektet `copybiblioteket`. Gissa inte domänens DNS-mål; hämta rekommenderade värden från Vercels domänkonfiguration. Uppdatera endast avsedda webbposter hos Porkbun.
 
@@ -19,7 +19,7 @@ För en manuell första release eller felsökning, välj alltid teamet `ac0` och
 
 `public/` serveras som statiska filer. Startsidan har en explicit Express-rutt med `sendFile`, eftersom Vercels Express-adapter inte serverar katalogindex genom `express.static`. [Vercels Express-dokumentation](https://vercel.com/docs/frameworks/backend/express#serving-static-assets) anger att express.static ignoreras i drift. Express ger läsande API:er och POST `/api/search`. Sökningen använder ett litet BM25-index i minnet. Det finns inga inloggningar, uppladdningar, skriv-API:er, databaser eller externa modellanrop. Sökfrågor placeras inte i URL:en och sparas inte av applikationen.
 
-`app.ts` stänger uttryckligen av den valfria lokala, ärvda textsamlingen. Bara egna ramverk, de 59 svenska personprofilerna och källänkar publiceras. Installerad skill och MCP kan använda en separat lokal samling. Lokal konfiguration, miljöfiler och maskinsökvägar ska inte checkas in.
+`app.ts` stänger uttryckligen av den valfria lokala, ärvda textsamlingen. Bara egna ramverk, de 59 personprofilerna på svenska och engelska och källänkar publiceras. Installerad skill och MCP kan använda en separat lokal samling. Lokal konfiguration, miljöfiler och maskinsökvägar ska inte checkas in.
 
 ## Kontroll och återställning
 
@@ -33,6 +33,6 @@ Porkbun har en ALIAS-post för `sigge.si` och en CNAME för `www.sigge.si`, båd
 
 ## Skrivverkstad och åtkomst
 
-`npm run build` bygger `client/studio.js` till `public/studio-app.js`. Den genererade filen är ignorerad och måste byggas vid release. Den inkluderas uttryckligen i Vercel-funktionen och har en sendFile-rutt; kontrollera alltid /studio-app.js över HTTPS eftersom lyckat bygge inte bevisar att den genererade filen finns i drift. Brief och skrivunderlag behandlas i webbläsaren. Konton väntar på beslut; appen behöver inga autentiserings-, databas-, modell- eller e-posthemligheter. Den lokala AI-utvärderingen ingår inte i HTTP-rutterna.
+`npm run build` genererar HTML för båda språken från `client/pages/` och `client/messages.js`, samt de tre JS-paketen för skrivverkstad, ramverk och profiler. Alla genererade filer är ignorerade och måste byggas vid release. HTML, JS och engelska katalogdata inkluderas uttryckligen i Vercel-funktionen och sidor/paket har sendFile-rutter. Kontrollera alla sex sidor och /studio-app.js, /library.js och /people.js över HTTPS eftersom ett lyckat bygge inte bevisar att filerna finns i drift. Jämför paketens SHA-256 med bygget. Brief och skrivunderlag behandlas i webbläsaren. Konton väntar på beslut; appen behöver inga autentiserings-, databas-, modell- eller e-posthemligheter. Den lokala AI-utvärderingen ingår inte i HTTP-rutterna.
 
 Resend-domänen sigge.si verifierades med DKIM och de tre SPF/returvägsposter som leverantören begärde. Den planerade avsändaren är Sigge <hej@sigge.si>. Verifierad domän är inte ett genomfört leveranstest. Ingen publik funktion skickar e-post i denna release.

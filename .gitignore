@@ -8,3 +8,9 @@ data/brains/
 
 public/studio-app.js
 evaluations/results/
+public/index.html
+public/library.html
+public/people.html
+public/en/
+public/library.js
+public/people.js

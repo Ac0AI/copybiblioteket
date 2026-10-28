@@ -33,7 +33,7 @@
     "test": "tsx --test copy/tests/*.test.ts",
     "smoke": "tsx --test copy/tests/http.test.ts copy/tests/mcp.test.ts",
     "build": "npm run typecheck && npm run build:client && npm test",
-    "build:client": "esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js"
+    "build:client": "node scripts/build-pages.mjs && esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js && esbuild client/library.js client/people.js --bundle --format=esm --target=es2022 --minify --outdir=public"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",

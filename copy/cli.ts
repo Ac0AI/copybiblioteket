@@ -3,7 +3,9 @@ import { personSchema, searchInput } from "./schema.js";
 
 const [command = "list", argument, person] = process.argv.slice(2);
 try {
-  const library = await loadCopyLibrary();
+  const selectedLanguage=process.env.COPY_BRAINS_LANGUAGE || 'sv';
+  if(selectedLanguage!=='sv'&&selectedLanguage!=='en')throw new Error('COPY_BRAINS_LANGUAGE must be sv or en.');
+  const library = (await loadCopyLibrary()).forLanguage(selectedLanguage);
   let output: unknown;
   if (command === "list") output = library.list();
   else if(command==='people') output=argument?library.searchPeople(argument,10):library.people;

@@ -4,3 +4,18 @@
 @media(max-width:430px){.topbar{gap:20px;padding:0 16px}.topbar nav{gap:12px;font-size:12px}.intro{display:block}.example-button{margin-top:18px}.example-button small{display:block;font-size:11px}.intro h1{font-size:35px}.brief-panel{padding:22px}.save-bar{align-items:flex-start}.save-bar label{max-width:215px}.revision-controls button{padding:9px 11px;font-size:12px}.paper{padding:26px 24px}.site-footer{font-size:11px}dialog{padding:30px 26px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 #prompt-dialog{width:min(760px,calc(100vw - 28px));max-height:calc(100vh - 40px)}#prompt-text{font:12px/1.6 ui-monospace,monospace;background:#f8fafc;min-height:240px}#perspective{white-space:nowrap;text-overflow:ellipsis}#prompt-dialog h2{margin-top:8px}@media(max-width:760px){.topbar{gap:24px}.topbar nav{gap:15px}.topbar #about-button{padding:7px 0;font-size:11px}.revision-controls{flex-wrap:wrap}.revision-controls input{flex-basis:100%}}@media(max-width:430px){.topbar{gap:17px}.topbar nav{gap:11px;font-size:11px}.topbar #about-button{font-size:10px}.brand{font-size:32px}}
+
+/* A short brief first; optional controls stay behind one disclosure. */
+label>.label-text{font:inherit;color:inherit;margin:0}
+main{max-width:1400px}.intro>div{max-width:650px}.intro{margin-bottom:22px}
+.workflow{display:flex;gap:28px;list-style:none;margin:0 0 26px;padding:0;color:var(--muted);font-size:12px;flex-wrap:wrap}
+.workflow li{display:flex;align-items:center;gap:8px}.workflow li>span:first-child{display:grid;place-items:center;width:22px;height:22px;border:1px solid #bccbde;border-radius:50%;color:var(--ink);font-size:11px}
+.studio-grid{grid-template-columns:minmax(320px,.85fr) minmax(0,1.15fr)}
+.brief-panel{grid-row:auto;padding:26px 28px}.brief-panel .section-heading{margin-bottom:20px}.brief-panel #brief>label:first-child{margin-top:0}
+.brief-details summary small{display:block;font-weight:400;color:var(--muted);margin:4px 0 0 16px;font-size:12px}.brief-details .field-row{margin:18px 0 0}
+#write-button{margin-top:20px}.paper{min-height:380px;padding:30px}.empty-state{padding:28px 10px;max-width:380px}.empty-state h3{font-size:29px}#document{min-height:340px}
+.revision-controls{flex-wrap:wrap}.revision-controls input{flex-basis:100%}.revision-controls button{margin-top:4px}
+.workshop-support{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(200px,1fr);gap:20px 44px;padding:26px 0 0}
+.example-notes summary,.versions summary{font-size:13px;font-weight:600;cursor:pointer}.example-notes .editor-intro{max-width:60ch}.versions{margin-top:0;padding-top:0;border:0}.editor-footer{grid-column:1/-1;border:0;padding:0;margin:0;font-size:12px}.editor-footer a{display:inline;margin-left:6px}
+.headline-option{border-left:0;border-bottom:1px solid var(--line);padding:8px 0}.note-section{max-width:none}.site-footer{max-width:1400px}
+@media(max-width:760px){.studio-grid{grid-template-columns:1fr}.brief-panel{padding:24px}.workflow{gap:8px;display:grid;font-size:12px}.intro{margin-bottom:18px}.paper{min-height:320px}.workshop-support{grid-template-columns:1fr}.editor-footer{grid-column:auto}.document-toolbar{height:auto;min-height:68px;flex-wrap:wrap;padding:14px 20px;gap:10px}.document-toolbar>div{gap:8px}.save-bar{flex-wrap:wrap}}

@@ -14,7 +14,7 @@ test("the production entry cannot expose a configured local collection", async (
       const base = "http://127.0.0.1:" + (server.address() as AddressInfo).port;
       const home = await fetch(base + "/");
       assert.equal(home.status, 200);
-      assert.match(await home.text(), /<title>Sigge — skriv med egna ord<\/title>/);
+      assert.match(await home.text(), /<title[^>]*>Sigge — skriv med egna ord<\/title>/);
       const bundle = await fetch(base + "/studio-app.js");
       assert.equal(bundle.status, 200);
       assert.match(bundle.headers.get("content-type") || "", /javascript/);

@@ -1,55 +1,69 @@
-import express from "express";
-import { join } from "node:path";
-import { z } from "zod";
-import { ROOT, PROFILE_NOTICE, type CopyLibrary } from "./library.js";
-import { studioRouter } from "./studio-http.js";
-import { personSchema, searchInput } from "./schema.js";
+import express from 'express';
+import { join } from 'node:path';
+import { z } from 'zod';
+import { ROOT, type CopyLibrary } from './library.js';
+import { languageFrom } from './locale.js';
+import { studioRouter } from './studio-http.js';
+import { personSchema, searchInput } from './schema.js';
 
 export function createApp(library: CopyLibrary) {
   const app = express();
-  app.disable("x-powered-by");
+  const current = (req: express.Request) => library.forLanguage(languageFrom(req.query.lang));
+  const message = (req: express.Request, sv: string, en: string) => req.query.lang === 'en' ? en : sv;
+  app.disable('x-powered-by');
   app.use((_req, res, next) => {
-    res.set("X-Content-Type-Options", "nosniff");
-    res.set("Content-Security-Policy", "default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'");
+    res.set('X-Content-Type-Options', 'nosniff');
+    res.set('Content-Security-Policy', "default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'");
     next();
   });
-  app.use(express.json({ limit: "64kb" }));
-  app.use("/api", (_req, res, next) => { res.set("Cache-Control", "no-store"); next(); });
+  app.use(express.json({ limit: '64kb' }));
+  app.use('/api', (req, res, next) => {
+    res.set('Cache-Control', 'no-store');
+    if (req.query.lang !== undefined && req.query.lang !== 'sv' && req.query.lang !== 'en') {
+      return void res.status(400).json({error:'Choose language sv or en.'});
+    }
+    next();
+  });
   app.use(studioRouter(library));
-  app.get("/api/health", (_req, res) => res.json({ status: "ok", frameworks: library.frameworks.length, people:library.people.length, sourceMode: library.sourceMode }));
-  app.get('/api/people', (_req,res)=>res.json({people:library.people,notice:PROFILE_NOTICE}));
-  app.get('/api/people/:id', (req,res)=>{const person=library.getPerson(req.params.id);if(!person)return void res.status(404).json({error:'Profilen finns inte.'});res.json({person,notice:PROFILE_NOTICE});});
-  app.get("/api/frameworks", (_req, res) => res.json({ frameworks: library.list(), sourceMode: library.sourceMode }));
-  app.get("/api/frameworks/:id", (req, res) => {
-    const framework = library.get(req.params.id);
-    if (!framework) return void res.status(404).json({ error: "Ramverket finns inte." });
-    res.json({ framework });
+  app.get('/api/health', (_req, res) => res.json({status:'ok',frameworks:library.frameworks.length,people:library.people.length,sourceMode:library.sourceMode}));
+  app.get('/api/people', (req, res) => res.json({people:current(req).people,notice:current(req).notice.profile,language:current(req).language}));
+  app.get('/api/people/:id', (req, res) => {
+    const person = current(req).getPerson(req.params.id);
+    if (!person) return void res.status(404).json({error:message(req,'Profilen finns inte.','Profile not found.')});
+    res.json({person,notice:current(req).notice.profile});
   });
-  app.get("/api/guide", (_req, res) => res.json({ guide: library.writingGuide }));
-  const requestSchema = searchInput.extend({
-    scope: z.enum(["frameworks", "sources", "people"]).default("frameworks"),
-    person: personSchema.optional(),
-  }).strict();
-  app.post("/api/search", (req, res) => {
+  app.get('/api/frameworks', (req, res) => res.json({frameworks:current(req).list(),sourceMode:library.sourceMode,language:current(req).language}));
+  app.get('/api/frameworks/:id', (req, res) => {
+    const framework = current(req).get(req.params.id);
+    if (!framework) return void res.status(404).json({error:message(req,'Ramverket finns inte.','Framework not found.')});
+    res.json({framework});
+  });
+  app.get('/api/guide', (req, res) => res.json({guide:current(req).writingGuide,language:current(req).language}));
+  const requestSchema = searchInput.extend({scope:z.enum(['frameworks','sources','people']).default('frameworks'),person:personSchema.optional()}).strict();
+  app.post('/api/search', (req, res) => {
     const input = requestSchema.safeParse(req.body);
-    if (!input.success) return void res.status(400).json({ error: "Skriv en fråga på 2–500 tecken och välj en giltig sökning." });
-    const { query, limit, scope, person } = input.data;
-    if(person && !library.getPerson(person))return void res.status(400).json({error:'Välj en person som finns i biblioteket.'});
-    res.json(scope === 'people' ? library.searchPeople(query,limit) : scope === "sources" ? library.searchSources(query, limit, person) : library.search(query, limit));
+    if (!input.success) return void res.status(400).json({error:message(req,'Skriv en fråga på 2–500 tecken och välj en giltig sökning.','Enter a query of 2–500 characters and choose a valid search type.')});
+    const {query,limit,scope,person} = input.data;
+    if (person && !library.getPerson(person)) return void res.status(400).json({error:message(req,'Välj en person som finns i biblioteket.','Choose a person from the library.')});
+    const localized = current(req);
+    res.json(scope === 'people' ? localized.searchPeople(query,limit) : scope === 'sources' ? localized.searchSources(query,limit,person) : localized.search(query,limit));
   });
-  // Vercel's Express adapter does not serve directory indexes via express.static.
-  app.get("/", (_req, res) => res.sendFile(join(ROOT, "public", "index.html")));
-  app.get("/library", (_req, res) => res.sendFile(join(ROOT, "public", "library.html")));
-  app.get('/people', (_req,res)=>res.sendFile(join(ROOT,'public','people.html')));
-  // The generated bundle is explicitly included for Vercel's Express adapter.
-  app.get("/studio-app.js", (_req, res) => res.sendFile(join(ROOT, "public", "studio-app.js")));
-  app.use(express.static(join(ROOT, "public")));
-  app.use("/api", (_req, res) => { res.status(404).json({ error: "Sidan finns inte." }); });
-  app.use((err: unknown, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
-    const status = (err as { status?: number }).status;
-    if (status === 413) return void res.status(413).json({ error: "Förfrågan är för stor." });
-    if (status === 400) return void res.status(400).json({ error: "Förfrågan kunde inte läsas." });
-    res.status(500).json({ error: "Biblioteket kunde inte läsas. Försök igen." });
+  // Explicit files are needed by Vercel's Express adapter, including generated pages/bundles.
+  for (const language of ['sv','en']) {
+    const prefix = language === 'en' ? '/en' : '';
+    const dir = language === 'en' ? 'en' : '';
+    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html']]) {
+      app.get(prefix + route, (_req, res) => res.sendFile(join(ROOT,'public',dir,file)));
+    }
+  }
+  for (const file of ['studio-app.js','library.js','people.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
+  app.use(express.static(join(ROOT,'public')));
+  app.use('/api', (req, res) => {res.status(404).json({error:message(req,'Sidan finns inte.','Page not found.')});});
+  app.use((err: unknown, req: express.Request, res: express.Response, _next: express.NextFunction) => {
+    const status = (err as {status?:number}).status;
+    if (status === 413) return void res.status(413).json({error:message(req,'Förfrågan är för stor.','The request is too large.')});
+    if (status === 400) return void res.status(400).json({error:message(req,'Förfrågan kunde inte läsas.','The request could not be read.')});
+    res.status(500).json({error:message(req,'Biblioteket kunde inte läsas. Försök igen.','The library could not be loaded. Please try again.')});
   });
   return app;
 }
