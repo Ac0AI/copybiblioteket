@@ -5,7 +5,7 @@
   "installCommand": "npm ci --ignore-scripts",
   "functions": {
     "app.ts": {
-      "includeFiles": "{data/copy-frameworks/**,data/people/**,data/translations/**,skills/copy-operator/references/**,public/*.html,public/en/*.html,public/profiles/*.html,public/en/profiles/*.html,public/frameworks/*.html,public/en/frameworks/*.html,public/*.js}",
+      "includeFiles": "{data/copy-frameworks/**,data/people/**,data/translations/**,skills/copy-operator/references/**,public/*.html,public/en/*.html,public/profiles/*.html,public/en/profiles/*.html,public/frameworks/*.html,public/en/frameworks/*.html,public/*.js,public/sitemap.xml}",
       "maxDuration": 180
     }
   },

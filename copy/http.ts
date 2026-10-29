@@ -62,6 +62,7 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
     app.get(prefix + '/people/:id', (req, res, next) => library.getPerson(req.params.id) ? res.sendFile(join(ROOT,'public',dir,'profiles',req.params.id+'.html')) : next());
     app.get(prefix + '/library/:id', (req, res, next) => library.get(req.params.id) ? res.sendFile(join(ROOT,'public',dir,'frameworks',req.params.id+'.html')) : next());
   }
+  app.get('/sitemap.xml', (_req, res) => res.type('application/xml').sendFile(join(ROOT,'public','sitemap.xml')));
   for (const file of ['studio-app.js','library.js','people.js','connect.js','page.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
   app.use(express.static(join(ROOT,'public')));
   app.use('/api', (req, res) => {res.status(404).json({error:message(req,'Sidan finns inte.','Page not found.')});});

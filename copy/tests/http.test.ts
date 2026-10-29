@@ -77,7 +77,9 @@ test("every person and framework has an indexable page in both languages", async
     assert.match(await (await fetch(base + "/en/library/clear-3-2-1")).text(), /<html lang="en">/);
     assert.equal((await fetch(base + "/people/not-a-person")).status, 404);
     assert.equal((await fetch(base + "/library/..%2Fpackage.json")).status, 404);
-    const sitemap = await (await fetch(base + "/sitemap.xml")).text();
+    const sitemapResponse = await fetch(base + "/sitemap.xml");
+    assert.match(sitemapResponse.headers.get("content-type") ?? "", /xml/);
+    const sitemap = await sitemapResponse.text();
     assert.equal(sitemap.match(/<loc>/g)?.length, 2 * (4 + library.people.length + library.frameworks.length));
   } finally {
     server.close();
