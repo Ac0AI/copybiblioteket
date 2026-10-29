@@ -3,35 +3,53 @@
   "title": "Ge argumentet en tydlig ordning",
   "author": "Copyhackers / etablerade skrivmodeller",
   "category": "Budskap",
-  "summary": "Använd AIDA, PAS eller före–efter–vägen dit som stöd för ordningen när fakta och huvudargument redan är kända.",
-  "useWhen": "När materialet är bra men läsaren får informationen i fel ordning.",
-  "avoidWhen": "När strukturen lockar fram överdrifter, upprepat problemskapande eller utfyllnad. Välj en form som passar textens längd.",
+  "summary": "Använd AIDA, PAS eller före–efter–vägen dit som en checklista för i vilken ordning läsaren behöver få veta saker, när fakta och huvudargument redan är klara. Modellen ordnar innehållet – den ersätter det inte.",
+  "useWhen": "När innehållet är bra men texten hoppar fram och tillbaka, börjar i fel ände eller slutar utan ett tydligt nästa steg – i mejl, på landningssidor och i annonser.",
+  "avoidWhen": "När fakta eller huvudargument saknas, eller när mallen lockar fram överdrifter, uppblåsta problem och utfyllnad. En kort text behöver sällan alla steg.",
   "keywords": [
     "aida",
     "pas",
     "bab",
     "struktur",
     "strukturera",
+    "disposition",
     "ordning",
+    "upplägg",
+    "röd tråd",
+    "rörig",
+    "flöde",
+    "argument",
+    "argumentet",
+    "landningssida",
+    "säljbrev",
+    "säljmejl",
+    "mall",
     "problem agitate solution",
     "before after bridge",
     "attention interest desire action",
-    "argument"
+    "copywriting formula",
+    "structure",
+    "order",
+    "flow",
+    "outline"
   ],
   "principles": [
-    "AIDA: fånga relevant uppmärksamhet, utveckla intresset, visa önskvärd nytta och gör nästa steg tydligt.",
-    "PAS: beskriv ett känt problem, förklara dess faktiska följd och visa lösningen. Förstärk inte oro utan grund.",
-    "Före–efter–vägen dit: visa en möjlig förändring och hur tjänsten hjälper till. Framtidsbilden måste vara rimlig."
+    "Välj modell efter läsarens läge: PAS när läsaren redan känner problemet, före–efter–vägen dit när förändringen är lätt att föreställa sig och AIDA när en längre text ska ta en ny läsare hela vägen till handling.",
+    "AIDA (Attention, Interest, Desire, Action): fånga rätt läsare med något relevant, inte bara något högljutt. Väck intresse med detaljer om hur det fungerar, gör nyttan konkret i läsarens vardag och avsluta med ett enda tydligt steg.",
+    "PAS (Problem, Agitate, Solve): beskriv problemet med läsarens egna ord, visa vad det faktiskt kostar i tid, pengar eller besvär och presentera sedan lösningen. Skärp problemet med konkreta följder, inte med skrämsel eller överdrifter.",
+    "Före–efter–vägen dit (Before–After–Bridge): beskriv läget i dag, visa ett rimligt läge efteråt och förklara konkret hur erbjudandet tar läsaren dit. Bilden av framtiden får inte lova mer än ni kan leverera.",
+    "Använd modellen som checklista, inte som ifyllnadsmall: stryk steg som inte tillför något och kontrollera att varje stycke leder vidare till nästa."
   ],
   "questions": [
-    "Vad behöver läsaren förstå först?",
-    "Finns en tydlig koppling mellan problem, erbjudande och handling?"
+    "Vad behöver läsaren förstå först för att vilja läsa vidare?",
+    "Hänger problem, erbjudande och nästa steg ihop utan hopp i logiken?",
+    "Vilket stycke kan strykas utan att läsaren saknar något?"
   ],
   "example": {
-    "context": "Påhittat: en tjänst visar arbetsgruppens uppgifter i en delad lista.",
+    "context": "Påhittat: en tjänst samlar arbetsgruppens uppgifter i en gemensam lista som alla i gruppen kan se.",
     "before": "Full kontroll. Maximal potential. Obegränsade möjligheter.",
-    "after": "Svårt att se vad som återstår? Samla uppgifterna i en gemensam lista. Se hur det fungerar.",
-    "explanation": "En enkel följd räcker. Exemplet bevisar ingen konverteringseffekt."
+    "after": "Vem gör vad den här veckan? När uppgifterna ligger utspridda i mejl, chatt och lappar är det lätt att något faller mellan stolarna. Samla dem i en lista som hela gruppen ser. [Se hur det fungerar]",
+    "explanation": "Problem, följd och lösning i tre meningar (PAS): läsaren känner igen sig innan erbjudandet kommer, och superlativerna behövs inte."
   },
   "sources": [
     {

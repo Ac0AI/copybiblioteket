@@ -10,6 +10,24 @@ function renderList(frameworks,heading){
   $('#list-heading').removeAttribute('data-i18n');$('#list-heading').textContent=heading;list.replaceChildren();
   for(const f of frameworks){const button=element('button',undefined,'framework-button');button.type='button';button.dataset.id=f.id;button.append(element('strong',f.title),element('span',f.author));button.setAttribute('aria-current',String(f.id===activeId));button.addEventListener('click',()=>selectFramework(f.id,true));list.append(button);}
 }
+// The example replays as an edit: the draft is struck through, then the revision arrives word by word.
+const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+let exampleObserver=null;
+function play(example){example.classList.remove('is-playing');void example.offsetWidth;example.classList.add('is-playing');}
+function renderExample(e){
+  const example=element('section',undefined,'example'),head=element('div',undefined,'example-head'),replay=element('button',t('replay'),'replay');
+  replay.type='button';replay.addEventListener('click',()=>play(example));head.append(element('h3',t('exampleHeading')),replay);
+  const before=element('div',undefined,'rewrite-pane before'),after=element('div',undefined,'rewrite-pane after'),quote=element('blockquote');
+  const words=e.after.split(/(\s+)/);let i=0;
+  for(const part of words){if(/^\s+$/.test(part)||!part){quote.append(part);continue;}const word=element('span',part,'word');word.style.setProperty('--i',String(i++));quote.append(word);}
+  example.style.setProperty('--n',String(i));
+  before.append(element('p',t('draftLabel'),'example-label'),element('blockquote',e.before));after.append(element('p',t('revised'),'example-label'),quote);
+  const rewrite=element('div',undefined,'rewrite');rewrite.append(before,after);
+  example.append(head,element('p',e.context,'example-context'),rewrite,element('p',e.explanation,'explanation'));
+  exampleObserver?.disconnect();
+  if(!reducedMotion.matches){exampleObserver=new IntersectionObserver(([entry])=>{if(entry.isIntersecting){play(example);exampleObserver.disconnect();}},{threshold:.6});exampleObserver.observe(example);}
+  return example;
+}
 function subsection(title,text){const section=element('section');section.append(element('h3',title),element('p',text));return section;}
 function bulleted(title,items){const section=element('section'),ul=element('ul');for(const item of items)ul.append(element('li',item));section.append(element('h3',title),ul);return section;}
 function renderFramework(f){
@@ -17,14 +35,14 @@ function renderFramework(f){
   detail.replaceChildren(element('p',f.author+' / '+t(f.category),'author'),element('h2',f.title),element('p',f.summary,'lead'));
   const contexts=element('div',undefined,'context');contexts.append(subsection(t('useWhen'),f.useWhen),subsection(t('avoidWhen'),f.avoidWhen));
   detail.append(contexts,bulleted(t('apply'),f.principles),bulleted(t('questions'),f.questions));
-  const example=element('section',undefined,'example');example.append(element('h3',t('exampleHeading')),element('p',f.example.context,'example-context'),element('p',t('draftLabel'),'example-label'),element('blockquote',f.example.before),element('p',t('revised'),'example-label'),element('blockquote',f.example.after,'after'),element('p',f.example.explanation,'explanation'));
+  const example=renderExample(f.example);
   detail.append(example,element('h3',t('sources')));const sources=element('ul',undefined,'source-links');for(const source of f.sources){const li=element('li');li.append(link(source.title,source.url));sources.append(li);}detail.append(sources,element('p',t('exampleNotice'),'note'));
-  const copy=element('button',t('copyFramework'),'quiet-button copy-button');copy.type='button';
+  const copy=element('button',t('copyFramework'),'button primary');copy.type='button';
   copy.addEventListener('click',async()=>{
     const prompt=[t('frameworkPrompt'),f.title,f.summary,t('apply')+':',...f.principles.map(p=>'- '+p),t('questions')+':',...f.questions.map(p=>'- '+p),t('sources')+':',...f.sources.map(s=>s.title+': '+s.url),t('briefTemplate')].join('\n\n');
     try{await navigator.clipboard.writeText(prompt);status.textContent=t('frameworkCopied');}catch{status.textContent=t('copyBlocked');}
   });
-  const use=element('a',t('studio')+' ↗','workshop-link');use.href=route('/');detail.append(copy,use);
+  const use=element('a',t('useInWorkshop'),'button outlined');use.href=route('/')+'#workshop';const actions=element('div',undefined,'detail-actions');actions.append(copy,use);detail.append(actions);
 }
 async function selectFramework(id,focus=false){
   const requestId=++latestRequest;

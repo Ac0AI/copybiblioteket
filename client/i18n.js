@@ -40,3 +40,9 @@ for (const link of document.querySelectorAll('[data-language]')) link.addEventLi
 });
 window.addEventListener('popstate',() => changeLanguage(/^\/en(?:\/|$)/.test(location.pathname) ? 'en' : 'sv',false));
 applyLanguage();
+// The sticky header gets a hairline once the page scrolls under it.
+const topbar = document.querySelector('.topbar');
+if (topbar) {const mark = () => topbar.classList.toggle('is-scrolled', scrollY > 8);addEventListener('scroll', mark, {passive:true});mark();}
+// On narrow screens the navigation scrolls sideways; keep the current page in view.
+const currentLink = document.querySelector('.topbar nav [aria-current]');
+if (currentLink) {const nav = currentLink.parentElement;nav.scrollLeft = Math.max(0, currentLink.offsetLeft - nav.clientWidth / 2 + currentLink.clientWidth / 2);}

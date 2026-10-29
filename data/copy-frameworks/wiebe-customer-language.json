@@ -1,39 +1,59 @@
 {
   "id": "wiebe-customer-language",
-  "title": "Hitta orden i kundens vardag",
+  "title": "Hämta orden från kunderna",
   "author": "Joanna Wiebe / Copyhackers",
   "category": "Kundinsikt",
-  "summary": "Samla kundernas frågor, invändningar och sätt att beskriva problemet innan du väljer budskap.",
-  "useWhen": "När texten består av interna produktord eller när du behöver förstå vad köparen vill veta.",
-  "avoidWhen": "När inga kundkällor finns: hitta inte på citat och kalla inte egna antaganden kundinsikt.",
+  "summary": "Joanna Wiebe och Copyhackers förespråkar att copy börjar i research: samla hur kunderna själva beskriver problemet, vad de vill uppnå och vad som får dem att tveka – och bygg budskapet på deras ord i stället för era interna.",
+  "useWhen": "När texten består av interna produktord, när ni inte vet vad köparen undrar över eller när ni behöver en rubrik som läsaren känner igen sig i.",
+  "avoidWhen": "När ni saknar kundkällor: hitta inte på citat och kalla inte egna antaganden för kundinsikt. Börja med att samla in material.",
   "keywords": [
     "wiebe",
+    "copyhackers",
     "kundspråk",
+    "kundens ord",
+    "kundens egna ord",
+    "ord",
     "kundintervjuer",
     "intervjuer",
+    "intervju",
+    "enkät",
+    "kundenkät",
     "recensioner",
+    "supportärenden",
+    "kundtjänst",
+    "säljsamtal",
     "research",
+    "interna ord",
+    "fackspråk",
+    "jargong",
+    "invändning",
+    "invändningar",
     "voice of customer",
     "voc",
+    "review mining",
+    "message mining",
     "customer language",
     "customer research",
-    "invändning"
+    "conversion copywriting"
   ],
   "principles": [
-    "Läs tillåtna intervjuer, supportfrågor och recensioner med sammanhanget kvar.",
-    "Skilj citat, parafras och egen tolkning. Notera källa och hur begränsat urvalet är.",
-    "Pröva om budskapet förstås. Låt kundens ord informera texten utan att sudda ut varumärkets röst."
+    "Samla material där kunderna pratar fritt: intervjuer, enkäter med öppna frågor, supportärenden, säljsamtal och recensioner – även av konkurrenter. Använd bara material ni har rätt att använda.",
+    "Kopiera ordagranna formuleringar till ett dokument och sortera dem efter problem, önskat resultat, invändningar och hur kunderna beskriver produkten. Notera källa och sammanhang för varje citat.",
+    "Leta efter det som återkommer och det som sticker ut: uttryck som många använder och träffande formuleringar som säger något nytt. De blir ofta rubriker, mellanrubriker och svar på invändningar.",
+    "Skilj på citat, omskrivning och egen tolkning. Ett fåtal röster är en hypotes – pröva budskapet på fler innan du bygger allt på det.",
+    "Låt kundernas ord forma texten utan att sudda ut avsändarens röst, och använd aldrig ett riktigt kundcitat i marknadsföring utan tillstånd."
   ],
   "questions": [
-    "Vilka frågor återkommer?",
-    "Hur beskriver kunden problemet innan hen känner produkten?",
-    "Vad behöver verifieras med fler personer?"
+    "Hur beskriver kunden problemet innan hen känner till produkten?",
+    "Vilka frågor och invändningar återkommer?",
+    "Vilka ord använder kunderna som vi själva aldrig använder?",
+    "Vad behöver bekräftas med fler kunder?"
   ],
   "example": {
-    "context": "Påhittat: tjänsten samlar kvitton. I ett fiktivt kundsamtal säger en företagare att hen letar efter dem inför bokföringen.",
+    "context": "Påhittat: tjänsten låter användaren fotografera kvitton och samlar dem på ett ställe. I ett påhittat kundsamtal säger en företagare: ”Inför bokföringen sitter jag och letar kvitton i plånboken och i bilen.”",
     "before": "Effektivisera din kvittohanteringsprocess.",
-    "after": "Samla kvittona på ett ställe, så att du hittar dem när det är dags för bokföringen.",
-    "explanation": "Välj konkreta ord och en begriplig situation."
+    "after": "Sluta leta kvitton i plånboken och bilen. Fota kvittot direkt, så ligger allt samlat när det är dags för bokföringen.",
+    "explanation": "Kundens egen bild – plånboken och bilen – gör problemet igenkännbart på ett sätt som ”kvittohanteringsprocess” aldrig gör."
   },
   "sources": [
     {

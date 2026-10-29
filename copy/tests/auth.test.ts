@@ -171,6 +171,50 @@ test("email signup verifies ownership, hashes codes, consumes them once and requ
   assert.ok(!JSON.stringify(values.rows).includes(f.codes.get(other)!));
 });
 
+test("account deletion requires same-origin confirmation and erases the user's sessions and records", async (t) => {
+  const f = await fixture(t),
+    email = "leaving@example.test";
+  assert.equal(
+    (await f.request("/api/account/delete", { confirm: true })).status,
+    401,
+  );
+  await f.login(email);
+  assert.equal(
+    (await f.request("/api/account/field-notes", { consent: true })).status,
+    200,
+  );
+  assert.equal(
+    (await f.request("/api/account/delete", { confirm: false })).status,
+    400,
+  );
+  assert.equal(
+    (
+      await f.request(
+        "/api/account/delete",
+        { confirm: true },
+        { Origin: "https://attacker.example" },
+      )
+    ).status,
+    403,
+  );
+  const deleted = await f.request("/api/account/delete", { confirm: true });
+  assert.equal(deleted.status, 200);
+  assert.equal(deleted.headers.get("clear-site-data"), '"cookies"');
+  assert.equal((await (await f.request("/api/account")).json()).user, null);
+  for (const table of ["user", "session", "fieldNotes"]) {
+    const rows = await sql`select count(*) as n from ${sql.table(table)}`.execute(
+      f.runtime.db,
+    );
+    assert.equal(Number((rows.rows[0] as { n: number }).n), 0, table);
+  }
+  // Signing in again starts a fresh account without the previous opt-in.
+  await f.login(email);
+  assert.equal(
+    (await (await f.request("/api/account")).json()).fieldNotes,
+    "not-subscribed",
+  );
+});
+
 test("mail errors, expired codes and repeated wrong codes never authenticate; subscription failures remain visible", async (t) => {
   const f = await fixture(t);
   f.setMailFailure(true);

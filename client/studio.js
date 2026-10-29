@@ -1,6 +1,7 @@
 import { buildWritingPrompt } from '../copy/brief.ts';
 import { language, t, route, apiPath, onLanguageChange } from './i18n.js';
 import { examples, revisionInstructions } from './examples.js';
+import { films } from './film.js';
 
 const $ = id => document.getElementById(id);
 const fields = ['task','audience','channel','length','tone','voice','facts','mustKeep','perspective','language'];
@@ -123,8 +124,8 @@ for(const button of document.querySelectorAll('[data-revise]'))button.addEventLi
 $('remember').addEventListener('change',()=>{if($('remember').checked)save();else{try{localStorage.removeItem(storageKey);}catch{}notify(t('storageOff'));}});
 $('clear-saved').addEventListener('click',()=>{try{localStorage.removeItem(storageKey);}catch{}$('remember').checked=false;notify(t('storageDeleted'));});
 $('new-document').addEventListener('click',()=>{snapshot('beforeNew');$('brief').reset();$('language').value=language;languageChosen=false;pendingPerspective='';$('document').value='';$('instruction').value='';result=null;$('empty-state').hidden=false;$('document').hidden=true;$('more-settings').open=false;$('example-notes').open=false;renderNotes();loadKit();notify(t('newBrief'));$('task').focus();});
-$('load-example').addEventListener('click',()=>{snapshot('beforeExample');const demo=examples[language];fill(demo.brief);languageChosen=false;$('document').value=demo.text;result={demo:true,text:demo.text,exampleLanguage:language};renderNotes();loadKit();notify(t('exampleLoaded'));});
-for(const id of ['about-button','privacy-button','about-privacy'])$(id).addEventListener('click',()=>$('privacy-dialog').showModal());
+$('load-example').addEventListener('click',()=>{snapshot('beforeExample');const demo=examples[language];fill(demo.brief);languageChosen=false;$('document').value=demo.text;result={demo:true,text:demo.text,exampleLanguage:language};renderNotes();loadKit();notify(t('exampleLoaded'));$('workshop').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});
+$('privacy-button').addEventListener('click',()=>$('privacy-dialog').showModal());
 $('copy-prompt').addEventListener('click',async()=>{const ok=await copy($('prompt-text').value,t('promptCopied'));$('prompt-copy-status').textContent=t(ok?'promptCopied':'promptManual');});
 for(const button of document.querySelectorAll('.close-dialog'))button.addEventListener('click',()=>button.closest('dialog').close());
 $('privacy-dialog').querySelector('.close-privacy').addEventListener('click',()=>$('privacy-dialog').close());
@@ -136,4 +137,4 @@ $('language').value=language;
 restore();
 const selected=new URLSearchParams(location.search).get('perspective');
 if(selected)pendingPerspective=selected;
-renderVersions();renderNotes();loadKit();
+renderVersions();renderNotes();loadKit();films();

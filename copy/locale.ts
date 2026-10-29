@@ -22,3 +22,19 @@ export const notices = {
     inherited: 'The source language is English. Use the ideas as context and write your own copy. Preserve uncertainty and do not attribute your own advice to the author.',
   },
 };
+// Category ids stay Swedish and stable; these are the display labels per language.
+export const categoryLabels: Record<string, Record<Language, string>> = {
+  Publik: {sv:'Publik',en:'Audience'}, Erbjudande: {sv:'Erbjudande',en:'Offer'}, Distribution: {sv:'Distribution',en:'Distribution'},
+  Produkt: {sv:'Produkt',en:'Product'}, Fördjupning: {sv:'Fördjupning',en:'Further reading'}, Budskap: {sv:'Budskap',en:'Messaging'},
+  Ledarskap: {sv:'Ledarskap',en:'Leadership'}, Kundinsikt: {sv:'Kundinsikt',en:'Customer insight'}, Svenska: {sv:'Svenska',en:'Swedish writing'},
+  Utvärdering: {sv:'Utvärdering',en:'Evaluation'},
+};
+/** Adds categoryLabel next to every category id in a response, so English clients never see Swedish ids alone. */
+export function withCategoryLabels<T>(value: T, language: Language): T {
+  if (Array.isArray(value)) return value.map(item => withCategoryLabels(item, language)) as T;
+  if (!value || typeof value !== 'object') return value;
+  const entries = Object.entries(value).map(([key, item]) => [key, withCategoryLabels(item, language)]);
+  const category = (value as {category?: unknown}).category;
+  if (typeof category === 'string' && categoryLabels[category]) entries.push(['categoryLabel', categoryLabels[category][language]]);
+  return Object.fromEntries(entries) as T;
+}

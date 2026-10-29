@@ -3,39 +3,60 @@
   "title": "Pröva budskapet i verkligheten",
   "author": "Claude Hopkins / vår tillämpning för utvärdering",
   "category": "Utvärdering",
-  "summary": "Formulera en tydlig hypotes och skilj vad du tror ska fungera från vad en relevant mätning faktiskt visar.",
-  "useWhen": "När ni väljer mellan budskap eller behöver veta om en ändring hjälper läsaren och affären.",
-  "avoidWhen": "När underlaget är för litet eller mätningen blandar ihop trafik, målgrupper och andra förändringar.",
+  "summary": "Claude Hopkins menade att reklamens uppgift är att sälja och att den därför ska bedömas efter vad den får människor att göra, inte efter vad vi tycker om den. Skriv specifikt, pröva versioner mot spårbara svar och skilj det du tror från det mätningen faktiskt visar.",
+  "useWhen": "När ni ska välja mellan rubriker, erbjudanden eller versioner, eller vill veta om en ändring faktiskt hjälper läsaren och affären.",
+  "avoidWhen": "När underlaget är för litet för att säga något, eller när mätningen blandar ihop texten med ändrad trafik, målgrupp, säsong eller pris. Då är resultatet en fingervisning, inte ett facit.",
   "keywords": [
     "hopkins",
+    "scientific advertising",
     "test",
     "testa",
+    "testet",
     "abtest",
     "a/b",
+    "ab-test",
+    "splittest",
     "experiment",
     "mäta",
     "mätning",
+    "mätbar",
+    "spårbar",
     "utvärdering",
+    "utvärdera",
     "vinnare",
+    "vilken version",
+    "versioner",
+    "jämföra",
+    "hypotes",
+    "statistik",
+    "konvertering",
+    "specifik",
     "testing",
+    "split test",
+    "hypothesis",
+    "measurement",
     "validation",
-    "evidence"
+    "evidence",
+    "tracking"
   ],
   "principles": [
-    "Skriv ned vad ni ändrar, varför, för vem och vilket utfall ni vill se.",
-    "Kontrollera begriplighet och saklighet innan ni mäter effekt.",
-    "En egen bedömning eller ett litet stickprov är inte en uppmätt konverteringsvinst. Rapportera osäkra resultat som osäkra."
+    "Döm texten efter vad den får läsaren att göra. Hopkins menade att reklamens uppgift är att sälja; att en text är snygg, rolig eller omtyckt internt säger ingenting om det.",
+    "Var specifik. Hopkins konstaterade att människor tror på exakta uppgifter men läser förbi allmänna fraser och superlativer. Skriv vad som ingår, vad det kostar och hur det fungerar, med fakta ni kan stå för.",
+    "Gör svaren spårbara. Hopkins använde kodade kuponger för att se vilken annons som gav svar; i dag motsvaras det av separata länkar, koder eller testgrupper för varje version. Bestäm i förväg vad som räknas som utfall.",
+    "Ändra en sak i taget och skriv ned hypotesen: vad ni ändrar, varför, för vem och vilket utfall ni väntar er.",
+    "Rapportera ärligt. En egen bedömning eller ett litet stickprov är ingen uppmätt förbättring, och ett resultat från en kanal eller målgrupp gäller inte automatiskt för andra. De moderna mätreglerna här är vår tillämpning, inte citat ur Hopkins."
   ],
   "questions": [
-    "Vad är hypotesen?",
-    "Vad räknas som ett relevant utfall?",
-    "Kan mätningen skilja textens effekt från andra förändringar?"
+    "Vad är hypotesen, och vad skulle visa att den är fel?",
+    "Vilket beteende räknas som utfall – klick, förfrågan eller köp?",
+    "Kan mätningen skilja textens effekt från andra förändringar?",
+    "Räcker underlaget för en slutsats, eller är det bara en fingervisning?"
   ],
   "example": {
-    "context": "Påhittat: två rubriker ska prövas. Ingen av dem har testats ännu.",
+    "context": "Påhittat: ett städföretag ska pröva två rubriker på sin offertsida. Ingen av dem har testats ännu.",
     "before": "Den nya rubriken kommer att öka konverteringen.",
-    "after": "Hypotes: rubriken som förklarar vad som ingår gör erbjudandet lättare att förstå.",
-    "explanation": "Formulera vad som ska undersökas. Moderna mätregler här är vår tillämpning, inte citat ur Hopkins."
+    "after": "Hypotes: en rubrik som säger vad som ingår i priset ger fler offertförfrågningar. Vi visar båda versionerna slumpvis och jämför antalet förfrågningar när underlaget räcker.",
+    "explanation": "Ett löfte om effekt blir en prövbar hypotes med ett tydligt utfall – det är resultatet som avgör, inte magkänslan."
   },
   "sources": [
     {

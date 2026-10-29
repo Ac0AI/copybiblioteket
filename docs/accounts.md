@@ -23,6 +23,8 @@ Migrations only add Better Auth tables, `fieldNotes`, and `usageLimit`. Startup 
 - `/.well-known/oauth-authorization-server/api/auth`: authorization-server discovery.
 - `/api/auth/*`: Better Auth, email OTP and OAuth endpoints. Password signup and unnecessary OTP routes are disabled.
 - `/api/account/field-notes`: same-origin, authenticated, verified-email opt-in. Failures remain pending and return 502. Repeated successful requests do not subscribe again.
+- `/api/account/delete`: same-origin, authenticated, explicit `{confirm:true}`. Deletes the user, sessions, OAuth tokens, consents and user-owned clients, Field Notes status and pending codes in one transaction and clears cookies. A Field Notes newsletter subscription is managed through the newsletter's own unsubscribe link.
+- `/privacy`, `/en/privacy`: the privacy policy. Keep it in step with this document.
 - `/api/account/connections/revoke`: same-origin request, ownership check, consent and refresh-token family removal. Current access is denied immediately.
 
 Claude Code:

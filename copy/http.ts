@@ -55,11 +55,11 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
   for (const language of ['sv','en']) {
     const prefix = language === 'en' ? '/en' : '';
     const dir = language === 'en' ? 'en' : '';
-    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html'],['/connect','connect.html'],['/consent','consent.html']]) {
+    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html'],['/connect','connect.html'],['/consent','consent.html'],['/privacy','privacy.html']]) {
       app.get(prefix + route, (_req, res) => res.sendFile(join(ROOT,'public',dir,file)));
     }
   }
-  for (const file of ['studio-app.js','library.js','people.js','connect.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
+  for (const file of ['studio-app.js','library.js','people.js','connect.js','privacy.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
   app.use(express.static(join(ROOT,'public')));
   app.use('/api', (req, res) => {res.status(404).json({error:message(req,'Sidan finns inte.','Page not found.')});});
   app.use((err: unknown, req: express.Request, res: express.Response, _next: express.NextFunction) => {
