@@ -42,7 +42,7 @@ for (const language of ['sv','en']) {
 // One indexable page per person and framework, in both languages. Output folders are named
 // differently from the routes (/people/:id, /library/:id) so static hosting never shadows /people.
 const sv = await loadCopyLibrary(undefined,false);
-const paths = ['/','/library','/people','/privacy'];
+const paths = ['/','/connect','/library','/people','/privacy'];
 for (const language of ['sv','en']) {
   const library = sv.forLanguage(language), base = 'public' + (language === 'en' ? '/en' : '');
   for (const dir of ['profiles','frameworks']) {await rm(`${base}/${dir}`,{recursive:true,force:true});await mkdir(`${base}/${dir}`,{recursive:true});}
