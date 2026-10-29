@@ -4,26 +4,34 @@
   <div id="account-notice" class="notice" role="status" aria-live="polite" hidden></div>
   <section class="connect-hero">
     <div class="connect-intro"><p class="eyebrow" data-i18n="connectEyebrow"></p><h1 class="display" data-i18n="connectHeading"></h1><p class="lead" data-i18n="connectIntro"></p>
-      <ol class="connect-steps"><li data-i18n="connectStepOne"></li><li data-i18n="connectStepTwo"></li><li data-i18n="connectStepThree"></li><li data-i18n="connectStepFour"></li></ol>
+      <ol class="connect-steps"><li data-i18n="connectStepOne"></li><li data-i18n="connectStepTwo"></li><li data-i18n="connectStepThree"></li></ol>
     </div>
     {{filmConnect}}
   </section>
-  <div class="connect-grid">
-    <div>
+  <section class="clients" aria-labelledby="clients-heading">
+    <div class="clients-head"><h2 id="clients-heading" class="section-title" data-i18n="clientsHeading"></h2><p data-i18n="clientsIntro"></p></div>
+    <div class="client-cards">
+      <section class="client-card is-recommended"><p class="client-badge" data-i18n="clientEasiest"></p><h3>Claude</h3><p class="client-where" data-i18n="claudeAppWhere"></p><ol class="client-steps"><li data-i18n="claudeAppStepOne"></li><li data-i18n="claudeAppStepTwo"></li><li data-i18n="claudeAppStepThree"></li></ol><code id="claude-url">https://sigge.si/mcp</code><button id="copy-claude-url" class="button primary full" data-i18n="copyAddress"></button></section>
+      <section class="client-card"><h3>ChatGPT</h3><p class="client-where" data-i18n="chatgptWhere"></p><p data-i18n="chatgptInstructions"></p><code id="mcp-url">https://sigge.si/mcp</code><div class="client-actions"><button id="copy-mcp" class="button outlined" data-i18n="copyAddress"></button><a class="button subtle" href="https://chatgpt.com/plugins" target="_blank" rel="noopener noreferrer" data-i18n="openPlugins"></a></div></section>
+      <section class="client-card"><h3>Claude Code</h3><p class="client-where" data-i18n="claudeCodeWhere"></p><p data-i18n="claudeInstructions"></p><code id="claude-command">claude mcp add --transport http --scope user sigge https://sigge.si/mcp</code><button id="copy-command" class="button outlined" data-i18n="copyCommand"></button></section>
+    </div>
+    <div class="connect-example"><h2 data-i18n="firstPromptTitle"></h2><p class="first-prompt" data-i18n="firstPrompt"></p><p class="connect-small" data-i18n="ownAI"></p></div>
+  </section>
+  <section class="account-area" aria-labelledby="account-area-heading">
+    <h1 class="oauth-heading" data-i18n="oauthHeading"></h1>
+    <div class="clients-head"><h2 id="account-area-heading" class="section-title" data-i18n="accountAreaHeading"></h2><p data-i18n="accountAreaIntro"></p></div>
+    <div class="account-grid">
       <section class="account-card">
-        <div id="sign-in"><p class="card-step">1</p><h2 data-i18n="accountHeading"></h2><p data-i18n="accountIntro"></p><form id="email-form"><label for="account-email-input" data-i18n="emailLabel"></label><input id="account-email-input" type="email" name="email" required autocomplete="email" maxlength="254" data-i18n-placeholder="emailPlaceholder" placeholder=""><button id="send-code" class="button primary large full" data-i18n="sendCode"></button></form><form id="code-form" hidden><p id="code-email"></p><label for="code" data-i18n="codeLabel"></label><input id="code" type="text" name="code" inputmode="numeric" pattern="[0-9]{6}" minlength="6" maxlength="6" required autocomplete="one-time-code" aria-describedby="code-help"><p id="code-help" class="connect-small" data-i18n="codeHelp"></p><label class="newsletter-label"><input id="newsletter" type="checkbox"><span data-i18n="newsletterChoice"></span></label><p class="connect-small" data-i18n="newsletterDetail"></p><button id="verify-code" class="button primary large full" data-i18n="verifyCode"></button><button id="change-email" class="text-button" type="button" data-i18n="changeEmail"></button></form></div>
+        <div id="sign-in"><h2 data-i18n="accountHeading"></h2><p data-i18n="accountIntro"></p><form id="email-form"><label for="account-email-input" data-i18n="emailLabel"></label><input id="account-email-input" type="email" name="email" required autocomplete="email" maxlength="254" data-i18n-placeholder="emailPlaceholder" placeholder=""><button id="send-code" class="button primary large full" data-i18n="sendCode"></button></form><form id="code-form" hidden><p id="code-email"></p><label for="code" data-i18n="codeLabel"></label><input id="code" type="text" name="code" inputmode="numeric" pattern="[0-9]{6}" minlength="6" maxlength="6" required autocomplete="one-time-code" aria-describedby="code-help"><p id="code-help" class="connect-small" data-i18n="codeHelp"></p><label class="newsletter-label"><input id="newsletter" type="checkbox"><span data-i18n="newsletterChoice"></span></label><p class="connect-small" data-i18n="newsletterDetail"></p><button id="verify-code" class="button primary large full" data-i18n="verifyCode"></button><button id="change-email" class="text-button" type="button" data-i18n="changeEmail"></button></form></div>
         <div id="signed-in" hidden><p class="card-step is-done">✓</p><h2 data-i18n="accountReady"></h2><p id="account-email"></p><div class="account-actions"><button id="sign-out" class="button outlined" data-i18n="signOut"></button><button id="delete-account" class="text-button danger" type="button" data-i18n="deleteAccount"></button></div></div>
         <div class="account-privacy connect-small"><p data-i18n="accountPrivacy"></p><p><a data-route="/privacy" data-i18n="privacyFull"></a></p></div>
       </section>
-      <section id="newsletter-account" class="account-card" hidden><h2>AC0 Field Notes</h2><p id="notes-state"></p><button id="notes-join" class="button outlined" data-i18n="notesJoin"></button><p><a href="https://www.ac0.ai/en/field-notes" target="_blank" rel="noopener noreferrer" data-i18n="fieldNotesLink"></a></p></section>
-      <section id="connections" class="account-card" hidden><h2 data-i18n="connectionsTitle"></h2><p id="no-connections" data-i18n="noConnections"></p><ul id="connection-list" class="connection-list"></ul></section>
+      <div>
+        <section id="connections" class="account-card" hidden><h2 data-i18n="connectionsTitle"></h2><p id="no-connections" data-i18n="noConnections"></p><ul id="connection-list" class="connection-list"></ul></section>
+        <section id="newsletter-account" class="account-card" hidden><h2>AC0 Field Notes</h2><p id="notes-state"></p><button id="notes-join" class="button outlined" data-i18n="notesJoin"></button><p><a href="https://www.ac0.ai/en/field-notes" target="_blank" rel="noopener noreferrer" data-i18n="fieldNotesLink"></a></p></section>
+      </div>
     </div>
-    <div>
-      <section class="client-card"><p class="card-step">2</p><h2>Claude Code</h2><p data-i18n="claudeInstructions"></p><code id="claude-command">claude mcp add --transport http --scope user sigge https://sigge.si/mcp</code><button id="copy-command" class="button outlined" data-i18n="copyCommand"></button></section>
-      <section class="client-card"><p class="card-step">2</p><h2>ChatGPT</h2><p data-i18n="chatgptInstructions"></p><code id="mcp-url">https://sigge.si/mcp</code><div class="client-actions"><button id="copy-mcp" class="button outlined" data-i18n="copyAddress"></button><a class="button subtle" href="https://chatgpt.com/plugins" target="_blank" rel="noopener noreferrer" data-i18n="openPlugins"></a></div></section>
-      <div class="connect-example"><h2 data-i18n="firstPromptTitle"></h2><p class="first-prompt" data-i18n="firstPrompt"></p><p class="connect-small" data-i18n="ownAI"></p></div>
-    </div>
-  </div>
+  </section>
 </main>
 {{footer}}
 </body></html>

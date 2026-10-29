@@ -10,6 +10,8 @@ const oauthParams = new URLSearchParams(location.search);
 const oauthQuery = oauthParams.has("sig")
   ? location.search.slice(1)
   : undefined;
+// Arriving from an AI client's sign-in: show only the sign-in, nothing to set up.
+if (oauthQuery && !consentPage) document.body.classList.add("is-oauth");
 function notice(key) {
   noticeKey = key;
   $("account-notice").textContent = t(key);
@@ -228,6 +230,7 @@ if (!consentPage) {
   for (const [id, value] of [
     ["copy-command", "claude-command"],
     ["copy-mcp", "mcp-url"],
+    ["copy-claude-url", "claude-url"],
   ])
     $(id).addEventListener("click", async () => {
       try {
@@ -275,6 +278,7 @@ try {
     }
     if (!consentPage) {
       $("mcp-url").textContent = connection.mcpURL;
+      $("claude-url").textContent = connection.mcpURL;
       $("claude-command").textContent =
         "claude mcp add --transport http --scope user sigge " +
         connection.mcpURL;

@@ -2,18 +2,14 @@
       <div class="film-stage" aria-hidden="true">
         <div class="film-scene" data-scene>
           <p class="film-caption"><b>1</b><span data-i18n="connectStepOne"></span></p>
-          <div class="terminal"><div class="terminal-bar"><i></i><i></i><i></i><em>Terminal</em></div><p class="terminal-line"><span class="prompt">$</span> <span class="type">claude mcp add --transport http sigge https://sigge.si/mcp</span></p><p class="terminal-ok" data-i18n="filmServerAdded"></p><p class="terminal-line t2"><span class="prompt">&gt;</span> <span class="type">/mcp</span></p></div>
+          <div class="mock mock-add"><div class="mock-bar"><i></i><i></i><i></i><em data-i18n="filmAddConnector"></em></div><small data-i18n="filmName"></small><p class="add-field">Sigge</p><small>URL</small><p class="add-field"><span class="type">https://sigge.si/mcp</span></p><div class="consent-row"><span class="mock-chip" data-i18n="denyConnection"></span><span class="mock-button" data-i18n="filmAdd"></span></div></div>
         </div>
         <div class="film-scene" data-scene>
           <p class="film-caption"><b>2</b><span data-i18n="connectStepTwo"></span></p>
-          <div class="mock mock-login"><div class="mock-bar"><em>sigge.si/connect</em></div><small data-i18n="emailLabel"></small><p class="login-email"><span class="type" data-i18n="emailPlaceholder"></span></p><small data-i18n="codeLabel"></small><div class="code-boxes"><span>4</span><span>8</span><span>1</span><span>2</span><span>0</span><span>7</span></div><span class="mock-button" data-i18n="verifyCode"></span></div>
+          <div class="mock mock-login"><div class="mock-bar"><em>sigge.si</em></div><small data-i18n="emailLabel"></small><p class="login-email"><span class="type" data-i18n="emailPlaceholder"></span></p><small data-i18n="codeLabel"></small><div class="code-boxes"><span>4</span><span>8</span><span>1</span><span>2</span><span>0</span><span>7</span></div><span class="mock-button" data-i18n="filmSignInApprove"></span><p class="consent-done" data-i18n="filmConnected"></p></div>
         </div>
         <div class="film-scene" data-scene>
           <p class="film-caption"><b>3</b><span data-i18n="connectStepThree"></span></p>
-          <div class="mock mock-consent"><span class="consent-seal">sigge<span>.</span></span><h4 data-i18n="consentHeading"></h4><p data-i18n="filmConsentText"></p><ul><li data-i18n="filmConsentRead"></li><li data-i18n="filmConsentRevoke"></li></ul><div class="consent-row"><span class="mock-chip" data-i18n="denyConnection"></span><span class="mock-button" data-i18n="allowConnection"></span></div><p class="consent-done" data-i18n="filmConnected"></p></div>
-        </div>
-        <div class="film-scene" data-scene>
-          <p class="film-caption"><b>4</b><span data-i18n="connectStepFour"></span></p>
           <div class="mock mock-chat"><div class="mock-bar"><i></i><i></i><i></i><em data-i18n="filmChat"></em></div><div class="bubble from-user"><span data-i18n="filmConnectAsk"></span></div><div class="tool-call"><span class="tool-dot"></span><code>sigge · search_copy_knowledge</code></div><div class="tool-call tc2"><span class="tool-dot"></span><code>sigge · check_ai_patterns</code></div><div class="bubble from-ai"><strong data-i18n="filmConnectAnswer"></strong><span class="stream"><i></i><i></i><i></i></span></div></div>
         </div>
       </div>
@@ -23,7 +19,6 @@
           <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="connectStepOne"></span></button></li>
           <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="connectStepTwo"></span></button></li>
           <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="connectStepThree"></span></button></li>
-          <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="connectStepFour"></span></button></li>
         </ol>
       </div>
     </figure>
