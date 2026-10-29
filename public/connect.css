@@ -8,7 +8,29 @@
 .connect-steps li{counter-increment:step;display:flex;align-items:center;gap:12px;font-size:15px;color:var(--ink-soft)}
 .connect-steps li::before{content:counter(step);display:grid;place-items:center;width:28px;height:28px;flex:none;border-radius:50%;background:var(--card);border:1px solid var(--line-strong);font-size:12px;font-weight:600;color:var(--ink)}
 @media(max-width:1020px){.connect-hero{grid-template-columns:1fr}.film-connect{max-width:720px}}
-.connect-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:24px;align-items:start}
+/* Choose your AI: three cards, the easiest first. */
+.clients-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px 64px;align-items:end;margin-bottom:28px}
+.clients-head h2{font:400 clamp(30px,3.4vw,46px)/1.08 var(--serif);letter-spacing:-.02em;margin:0}
+.clients-head p{margin:0;color:var(--ink-soft);max-width:52ch}
+.client-cards{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+.client-card{display:flex;flex-direction:column;margin-bottom:0}
+.client-card h3{font:500 26px/1.15 var(--serif);letter-spacing:-.015em;margin:0}
+.client-where{font-size:13px;color:var(--muted)!important;margin:4px 0 12px}
+.client-card.is-recommended{border-color:var(--blue-line);box-shadow:0 0 0 3px var(--blue-soft),var(--shadow)}
+.client-badge{position:absolute;top:-12px;right:24px;margin:0;padding:4px 12px;border-radius:999px;background:var(--blue);color:#fff!important;font-size:12px;font-weight:600;letter-spacing:.02em}
+.client-steps{margin:0;padding-left:20px;display:grid;gap:8px;color:var(--ink-soft);line-height:1.6}
+.client-steps li::marker{color:var(--blue);font-weight:700}
+.clients .connect-example{margin-top:24px}
+/* Account: secondary, last on the page. */
+.account-area{margin-top:clamp(56px,7vw,96px)}
+.account-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
+/* Arriving from an AI client's sign-in: only the sign-in card. */
+.is-oauth .connect-hero,.is-oauth .clients,.is-oauth .account-area>.clients-head,.is-oauth #newsletter-account,.is-oauth #connections{display:none!important}
+.is-oauth .account-area{margin-top:0}
+.is-oauth #sign-in>h2{display:none}
+.is-oauth .account-grid{grid-template-columns:minmax(0,560px);justify-content:center}
+.oauth-heading{display:none}
+.is-oauth .oauth-heading{display:block;text-align:center;font:400 clamp(32px,4vw,46px)/1.1 var(--serif);letter-spacing:-.02em;margin:0 0 24px}
 .account-card,.client-card,.consent-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px;margin-bottom:20px;box-shadow:var(--shadow)}
 .card-step{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--blue-soft);color:var(--blue);font-size:13px;font-weight:700;margin:0 0 14px}
 .card-step.is-done{background:var(--green-soft);color:var(--green)}
@@ -35,4 +57,5 @@
 .consent-card h2{font:500 24px/1.2 var(--serif);margin:20px 0 4px}
 .consent-card #client-id{overflow-wrap:anywhere}
 .consent-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
-@media(max-width:860px){.connect-grid{grid-template-columns:1fr}.account-card,.client-card,.consent-card{padding:22px}}
+@media(max-width:1020px){.client-cards{grid-template-columns:1fr 1fr}.client-cards .is-recommended{grid-column:1/-1}}
+@media(max-width:860px){.clients-head,.client-cards,.account-grid{grid-template-columns:1fr}.account-card,.client-card,.consent-card{padding:22px}}
