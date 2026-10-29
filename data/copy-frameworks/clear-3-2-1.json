@@ -1,0 +1,61 @@
+{
+  "id": "clear-3-2-1",
+  "title": "Ge nyhetsbrevet en fast form",
+  "author": "James Clear",
+  "category": "Budskap",
+  "summary": "James Clears nyhetsbrev 3-2-1 har samma form varje vecka: tre korta idéer från honom, två citat från andra och en fråga till läsaren. Begränsningen tvingar fram ett urval, och läsaren vet vad hen får redan av namnet. Hitta en fast form som passar ert innehåll – och håll den.",
+  "useWhen": "När nyhetsbrevet blir långt, spretigt eller svårt att få ut i tid, eller när läsarna slutar öppna det.",
+  "avoidWhen": "När ni har en enda stor nyhet eller ett erbjudande som behöver hela utrymmet. Kopiera inte heller Clears format och namn rakt av – det är hans varumärke.",
+  "keywords": [
+    "james clear",
+    "3-2-1",
+    "nyhetsbrev",
+    "nyhetsbrevet",
+    "newsletter",
+    "mejlutskick",
+    "utskick",
+    "format",
+    "mall",
+    "struktur",
+    "fast form",
+    "ingen läser",
+    "öppningsgrad",
+    "läses inte",
+    "för långt",
+    "spretigt",
+    "citat",
+    "fråga",
+    "veckobrev",
+    "email newsletter",
+    "format constraint"
+  ],
+  "principles": [
+    "Bestäm formen en gång. Välj ett fast antal delar och en fast ordning, till exempel tre tips, ett citat och en fråga, så att varje utskick blir ett urval i stället för ett nytt projekt.",
+    "Låt namnet berätta vad läsaren får. En rubrik som ”3 tips, 1 fråga” eller ett fast veckonamn sätter förväntningen innan brevet ens öppnas.",
+    "Gör varje del kort och fristående. En idé per stycke, en poäng per idé – Clear beskriver målet som mest visdom per ord.",
+    "Citera andra korrekt och ange vem som sa det. Citaten ger variation och perspektiv, men de ska vara verkliga och rätt återgivna.",
+    "Avsluta med en fråga läsaren kan ta med sig, och skicka på samma dag varje gång så att brevet blir en vana."
+  ],
+  "questions": [
+    "Vilken fast form skulle passa det ni faktiskt har att säga varje gång?",
+    "Vad kan strykas om varje del bara får ett stycke?",
+    "Vilken fråga vill ni att läsaren tänker på efteråt?"
+  ],
+  "example": {
+    "context": "Påhittat: Räkna skickar ett nyhetsbrev till sina kunder varannan fredag.",
+    "before": "Nyhetsbrev oktober: Nyheter från Räkna, uppdateringar om våra tjänster, några tankar om hösten och mycket mer!",
+    "after": "3 bokföringstips, 1 deadline och 1 fråga: Fredagsbrevet från Räkna.",
+    "explanation": "Rubriken lovar en fast och kort form, så läsaren vet vad hen får innan brevet öppnas."
+  },
+  "sources": [
+    {
+      "title": "James Clear: 3-2-1 Newsletter",
+      "url": "https://jamesclear.com/3-2-1",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-29"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

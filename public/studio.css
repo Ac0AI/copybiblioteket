@@ -173,3 +173,21 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
 .name-facts dd{margin:4px 0 0;font:500 16px/1.35 var(--serif);color:var(--ink)}
 @media(max-width:860px){.about-name{grid-template-columns:1fr;border-radius:24px}.name-mascot{max-width:220px}.name-facts{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.name-speech{opacity:1}}
+
+/* AI-tell report: a list of findings under the draft, each one selects its passage. */
+.slop-report{border-top:1px solid var(--line);padding:18px 24px 20px;background:#fffbea}
+.slop-report.is-clean{background:var(--green-soft)}
+.slop-head{position:relative;display:flex;align-items:center;gap:14px;padding-right:44px}
+.slop-head .close-dialog{top:0;right:0}
+.slop-mascot{flex:none;width:40px}
+.slop-head h4{font:500 19px/1.25 var(--serif);margin:0}
+.slop-head p{font-size:12.5px;color:var(--muted);margin:2px 0 0}
+#slop-list{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:8px}
+.slop-item{display:grid;grid-template-columns:minmax(120px,auto) 1fr;gap:2px 14px;width:100%;text-align:left;border:1px solid #eadfb4;background:#fff;border-radius:12px;padding:10px 14px;color:var(--ink)}
+.slop-item:hover{border-color:var(--ink)}
+.slop-item strong{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#8a6d12;grid-row:span 2}
+.slop-item q{font:15px/1.4 var(--serif);quotes:'”' '”'}
+.slop-item q:lang(en){quotes:'“' '”'}
+.slop-item span{font-size:12.5px;color:var(--muted)}
+#fix-slop{margin-top:14px}
+@media(max-width:560px){.slop-item{grid-template-columns:1fr}.slop-item strong{grid-row:auto}.slop-report{padding:16px 20px}}

@@ -2,6 +2,7 @@ import { buildWritingPrompt } from '../copy/brief.ts';
 import { language, t, route, apiPath, onLanguageChange } from './i18n.js';
 import { examples, revisionInstructions } from './examples.js';
 import { films } from './film.js';
+import { findSlop } from './slop.js';
 
 const $ = id => document.getElementById(id);
 const fields = ['task','audience','channel','length','tone','voice','facts','mustKeep','perspective','language'];
@@ -29,7 +30,7 @@ function updateDocument() {
   const text=$('document').value.trim();
   $('word-count').textContent=t('words',{count:text?text.split(/\s+/u).length:0});
   $('document').lang=outputLanguage();
-  for (const id of ['copy-text','download-text']) $(id).disabled=!text;
+  for (const id of ['copy-text','download-text','scan-slop']) $(id).disabled=!text;
   $('revise-button').disabled=!text||!kit;
   if (text) showDocument();
   $('editor-intro').removeAttribute('data-i18n');
@@ -110,6 +111,22 @@ function run(mode) {
   $('prompt-context').textContent=[...data.frameworks.map(f=>f.title),...data.people.map(p=>p.name)].join(' · ');
   $('prompt-copy-status').textContent='';$('prompt-dialog').showModal();
 }
+// Detect mode: name each pattern with the quoted passage and a fix; never rewrite or score.
+function scanSlop() {
+  const text=$('document').value,findings=findSlop(text),list=$('slop-list'),index=language==='en'?1:0;
+  list.replaceChildren();$('slop-report').hidden=false;
+  $('slop-title').textContent=findings.length?t('slopFound',{count:findings.length}):t('slopClean');
+  $('fix-slop').hidden=!findings.length;$('slop-report').classList.toggle('is-clean',!findings.length);
+  for(const finding of findings){
+    const item=el('li'),button=el('button',null,'slop-item');button.type='button';
+    button.append(el('strong',finding.label[index]),el('q',finding.quote),el('span',finding.fix[index]));
+    button.addEventListener('click',()=>{$('document').focus();$('document').setSelectionRange(finding.start,finding.end);});
+    item.append(button);list.append(item);
+  }
+}
+$('scan-slop').addEventListener('click',scanSlop);
+$('close-slop').addEventListener('click',()=>{$('slop-report').hidden=true;});
+$('fix-slop').addEventListener('click',()=>{$('instruction').value=revisionInstructions[outputLanguage()].deslop;$('instruction').focus();$('instruction').scrollIntoView({block:'center',behavior:'smooth'});});
 $('brief').addEventListener('submit',event=>{event.preventDefault();run('write');});
 $('revise-form').addEventListener('submit',event=>{event.preventDefault();run('revise');});
 $('document').addEventListener('input',updateDocument);

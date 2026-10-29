@@ -18,7 +18,7 @@ test("web app serves the library and validates search requests", async () => {
     const health = await (await fetch(base + "/api/health")).json();
     assert.equal(health.status, "ok");
     assert.equal(health.sourceMode, "links");
-    assert.equal(health.frameworks, 11);
+    assert.equal(health.frameworks, 14);
     assert.equal((await fetch(base + "/api/no-such-route")).status, 404);
     assert.equal((await fetch(base + "/studio.css")).status, 200);
     assert.equal((await fetch(base + "/library.js")).status, 200);
@@ -49,5 +49,37 @@ test("web app serves the library and validates search requests", async () => {
     assert.ok((await malformed.json()).error);
   } finally {
     await new Promise<void>((resolve, reject) => server.close((error) => error ? reject(error) : resolve()));
+  }
+});
+
+test("every person and framework has an indexable page in both languages", async () => {
+  const library = await loadCopyLibrary(undefined, false);
+  const server = createApp(library).listen(0, "127.0.0.1");
+  await once(server, "listening");
+  const base = "http://127.0.0.1:" + (server.address() as AddressInfo).port;
+  try {
+    for (const [path, id] of [...library.people.map((p) => ["/people/", p.id]), ...library.frameworks.map((f) => ["/library/", f.id])]) {
+      for (const prefix of ["", "/en"]) {
+        const response = await fetch(base + prefix + path + id);
+        assert.equal(response.status, 200, prefix + path + id);
+        const html = await response.text();
+        assert.match(html, new RegExp(`<link rel="canonical" href="https://sigge.si${prefix}${path}${id}">`));
+        assert.match(html, new RegExp(`hreflang="en" href="https://sigge.si/en${path}${id}"`));
+        assert.match(html, /<meta name="description" content="[^"]{60,170}">/);
+        assert.match(html, /<h1 class="display">[^<]+<\/h1>/);
+        const ld = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)![1]);
+        assert.equal(ld["@graph"][1]["@type"], "BreadcrumbList");
+      }
+    }
+    const paul = await (await fetch(base + "/people/paul-graham")).text();
+    assert.match(paul, /<title>Paul Graham – [^<]+ \| Sigge<\/title>/);
+    assert.match(paul, /href="\/library\/[a-z0-9-]+"/);
+    assert.match(await (await fetch(base + "/en/library/clear-3-2-1")).text(), /<html lang="en">/);
+    assert.equal((await fetch(base + "/people/not-a-person")).status, 404);
+    assert.equal((await fetch(base + "/library/..%2Fpackage.json")).status, 404);
+    const sitemap = await (await fetch(base + "/sitemap.xml")).text();
+    assert.equal(sitemap.match(/<loc>/g)?.length, 2 * (4 + library.people.length + library.frameworks.length));
+  } finally {
+    server.close();
   }
 });

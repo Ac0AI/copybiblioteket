@@ -31,6 +31,19 @@ Påhittade exempel för språkbedömning. Ingen av formuleringarna har konverter
 
 Exemplen visar val, inte förbjudna ord eller universella mallar. En avsiktlig metafor ska inte raderas bara för att den liknar ett exempel.
 
+## Stryk AI-mönstren
+
+Text som skrivs med AI får lätt samma tics. Leta efter dem och gör minsta möjliga ändring; behåll det som låter som avsändaren.
+
+- Tomma ord: sömlös, banbrytande, revolutionerande, skräddarsydd, holistisk, innovativ, kraftfull, frigöra potential, ta till nästa nivå, i dagens snabbrörliga värld, din resa, navigera i landskapet, dyka ner i. Skriv vad som faktiskt händer.
+- Falska kontraster: ”Det handlar inte om X, utan om Y” och ”inte bara X, utan också Y”. Säg Y.
+- Harklingar och regi: ”Här är grejen”, ”Låt oss”, ”Det är värt att notera”, ”Det intressanta är”. Börja med poängen och låt fakta visa vad som är viktigt.
+- Kolonavslöjanden och dramatik: ”Det bästa av allt: …”, ”Inte X. Inte Y. Utan Z.”, staplade enordsmeningar och slutrader som försöker låta djupa. Skriv hela meningar och sluta på den konkreta poängen eller nästa steg.
+- Kluster av tankstreck, fetstil som dekor och emojis i rubriker.
+- Vaga källor: ”experter menar”, ”studier visar”. Namnge källan eller stryk påståendet.
+
+Flyttbarhetstestet: om en mening skulle passa oförändrad hos ett annat företag är den troligen fyllnad. Mönstren säger inget om vem som skrev texten; de är bara skäl att läsa en gång till. Listan bygger på Peter Yangs [no-ai-slop](https://github.com/petergyang/no-ai-slop) (MIT), anpassad till svenska.
+
 ## Läs en gång till som mottagare
 
 1. Skulle en person i den här målgruppen uttrycka sig så? Är ordföljden naturlig?

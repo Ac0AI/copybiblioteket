@@ -1,0 +1,74 @@
+{
+  "id": "ai-slop-edit",
+  "title": "Stryk AI-flosklerna, behåll rösten",
+  "author": "Peter Yang",
+  "category": "Utvärdering",
+  "summary": "Peter Yangs skill no-ai-slop beskriver de mönster som får text att låta maskinskriven – tomma superlativ, falska kontraster, inledande harklingar och slutrader som försöker låta djupa. Gör minsta möjliga redigering: stryk mönstren, behåll fakta och låt skribentens egen röst stå kvar.",
+  "useWhen": "När ett AI-utkast låter som alla andras, när texten är full av ord som sömlös och banbrytande, eller när du vill granska en text innan den publiceras.",
+  "avoidWhen": "När målet är att lura en AI-detektor. Mönstren säger ingenting om vem som har skrivit texten, och en kantig mening med verklig röst ska få stå kvar.",
+  "keywords": [
+    "ai",
+    "ai-text",
+    "ai-floskler",
+    "floskler",
+    "klyschor",
+    "slop",
+    "ai slop",
+    "låter som ai",
+    "låter som chatgpt",
+    "chatgpt",
+    "generisk",
+    "generiskt",
+    "maskinskriven",
+    "redigera",
+    "redigering",
+    "granska",
+    "språkgranskning",
+    "korrektur",
+    "sömlös",
+    "banbrytande",
+    "tankstreck",
+    "no-ai-slop",
+    "deslop",
+    "editing",
+    "generic",
+    "buzzwords"
+  ],
+  "principles": [
+    "Gör minsta effektiva ändring. Ta bort mönstren, felen och upprepningarna men låt starka meningar, humor, tvekan och egenheter stå kvar. Texten ska fortfarande låta som samma person efteråt.",
+    "Pröva om meningen går att flytta. Skulle den passa oförändrad hos ett annat företag, i ett annat land eller om en annan produkt är den troligen fyllnad. Stryk den eller byt ut den mot ett faktum, ett exempel eller en konsekvens som bara gäller här.",
+    "Stryk konstruktionerna: ”Det handlar inte om X, utan om Y” (säg Y direkt), inledande harklingar som ”Här är grejen” och ”Låt oss dyka ner i”, kolonavslöjanden som ”Det bästa av allt: …”, kluster av tankstreck, sammanfattande slut och slutrader som försöker låta djupa.",
+    "Byt tomma ord mot det de borde betyda. Sömlös, banbrytande, skräddarsydd, holistisk, frigöra potential, ta till nästa nivå och i dagens snabbrörliga värld säger inget i sig – skriv vad tjänsten gör, för vem och hur.",
+    "Visa i stället för att tala om vad läsaren ska tycka. Stryk ”det här är viktigt” och ”det intressanta är” och låt fakta, exempel och följder bära poängen.",
+    "Namnge källan eller stryk påståendet. ”Experter menar” och ”studier visar” utan källa ska bort; fråga hellre efter underlaget än hitta på det."
+  ],
+  "questions": [
+    "Vilka meningar skulle passa lika bra hos en konkurrent?",
+    "Vad i texten låter som skribenten själv, och hur skyddar vi det?",
+    "Vilka påståenden saknar en namngiven källa eller ett konkret faktum?"
+  ],
+  "example": {
+    "context": "Påhittat: Räkna sköter löpande bokföring åt småföretag, och varje kund får en egen kontakt att mejla.",
+    "before": "I dagens snabbrörliga värld handlar det inte bara om bokföring – det handlar om frihet. Räkna erbjuder en sömlös, skräddarsydd lösning som frigör din potential.",
+    "after": "Räkna sköter din löpande bokföring, och du får en egen kontakt att mejla när något är oklart.",
+    "explanation": "Flosklerna och den falska kontrasten är borta; kvar finns vad tjänsten gör och vem läsaren kan fråga."
+  },
+  "sources": [
+    {
+      "title": "Peter Yang: no-ai-slop (skill på GitHub, MIT)",
+      "url": "https://github.com/petergyang/no-ai-slop",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-29"
+    },
+    {
+      "title": "Peter Yang: Use my /no-ai-slop skill to remove 20+ patterns of AI slop",
+      "url": "https://creatoreconomy.so/p/use-my-no-ai-slop-skill-to-remove-20-ai-slop-patterns",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-29"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

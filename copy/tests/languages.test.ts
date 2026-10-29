@@ -9,7 +9,7 @@ import { createApp } from '../http.js';
 const sv=await loadCopyLibrary(undefined,false),en=sv.forLanguage('en');
 test('English catalogue is complete and preserves identities, sources and provenance',()=>{
   assert.equal(en.language,'en');assert.equal(en.forLanguage('sv'),sv);
-  assert.equal(en.frameworks.length,11);assert.equal(en.people.length,59);
+  assert.equal(en.frameworks.length,14);assert.equal(en.people.length,59);
   for(const p of sv.people){const translated=en.getPerson(p.id)!;assert.equal(translated.name,p.name);assert.notEqual(translated.summary,p.summary);assert.deepEqual(translated.sources,p.sources);assert.deepEqual(translated.provenance,p.provenance);assert.equal(en.searchPeople(p.name,1).results[0]?.id,p.id);}
   for(const f of sv.frameworks){const translated=en.get(f.id)!;assert.equal(translated.language,'en');assert.notEqual(translated.summary,f.summary);assert.deepEqual(translated.sources,f.sources);assert.equal(translated.principles.length,f.principles.length);assert.equal(translated.questions.length,f.questions.length);}
   assert.equal(en.search('trust and testimonials',1).results[0]?.id,'cialdini-persuasion');
@@ -33,7 +33,7 @@ test('both languages work without account configuration and the public AI route 
         const response=await fetch(base+prefix+path),html=await response.text();assert.equal(response.status,200);assert.match(html,new RegExp('<html lang="'+language+'">'));assert.ok(html.includes('https://sigge.si'+prefix+path));assert.doesNotMatch(html,/\{\{/);assert.match(html,/hreflang="en"/);
         if(language==='en')assert.match(html,/Workshop/);
       }
-      const kit=await (await fetch(base+'/api/writing-kit?lang='+language)).json();assert.equal(kit.language,language);assert.equal(kit.people.length,59);assert.equal(kit.frameworks.length,11);
+      const kit=await (await fetch(base+'/api/writing-kit?lang='+language)).json();assert.equal(kit.language,language);assert.equal(kit.people.length,59);assert.equal(kit.frameworks.length,14);
       const search=await fetch(base+'/api/search?lang='+language,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query:language==='en'?'trust and testimonials':'förtroende och kundomdömen'})});const data=await search.json();assert.equal(data.language,language);assert.equal(data.results[0].id,'cialdini-persuasion');
       assert.equal((await fetch(base+'/api/write?lang='+language,{method:'POST'})).status,503);assert.equal((await fetch(base+'/api/auth/signin?lang='+language,{method:'POST'})).status,404);assert.equal((await fetch(base+'/api/fieldnotes?lang='+language,{method:'POST'})).status,404);
     }
@@ -43,4 +43,13 @@ test('both languages work without account configuration and the public AI route 
     assert.equal((await fetch(base+'/mcp',{method:'POST'})).status,503);
     for(const asset of ['/studio-app.js','/library.js','/people.js','/connect.js','/connect.css','/navigation.css'])assert.equal((await fetch(base+asset)).status,200);
   }finally{await new Promise<void>((resolve,reject)=>server.close(error=>error?reject(error):resolve()));}
+});
+
+test('interface copy states the real number of frameworks and profiles',async()=>{
+  const {message}=await import('../../client/messages.js');
+  for(const language of ['sv','en']){
+    assert.ok(message('factFrameworks',language).startsWith(String(sv.frameworks.length)),language);
+    assert.ok(message('factPeople',language).startsWith(String(sv.people.length)),language);
+    assert.ok(message('connectIntro',language).includes(String(sv.frameworks.length)),language);
+  }
 });
