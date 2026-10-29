@@ -4,9 +4,9 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f4ee">
   <title data-i18n="homeTitle"></title><meta name="description" data-i18n-content="homeDescription" content="">
   <link rel="canonical" href="{{canonical}}"><link rel="alternate" hreflang="sv" href="https://sigge.si/"><link rel="alternate" hreflang="en" href="https://sigge.si/en/"><link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <meta property="og:title" data-i18n-content="homeTitle" content=""><meta property="og:description" data-i18n-content="homeDescription" content=""><meta property="og:url" content="{{canonical}}"><meta property="og:type" content="website"><meta property="og:image" content="https://sigge.si/og.png"><meta name="twitter:card" content="summary_large_image"><meta property="og:video" data-i18n-content="homeVideo" content=""><meta property="og:video:type" content="video/mp4">
+  <meta property="og:title" data-i18n-content="homeTitle" content=""><meta property="og:description" data-i18n-content="homeDescription" content=""><meta property="og:url" content="{{canonical}}"><meta property="og:type" content="website"><meta property="og:image" content="https://sigge.si/og.png"><meta name="twitter:card" content="summary_large_image"><meta property="og:video" data-i18n-content="connectVideo" content=""><meta property="og:video:type" content="video/mp4">
   <link rel="preload" href="/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/navigation.css"><link rel="stylesheet" href="/studio.css"><script src="/studio-app.js" type="module"></script>
+  <link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/navigation.css"><link rel="stylesheet" href="/film-connect.css"><link rel="stylesheet" href="/studio.css"><script src="/studio-app.js" type="module"></script>
 </head>
 <body>
 <a class="skip" href="#workshop" data-i18n="skip"></a>
@@ -17,64 +17,10 @@
       <p class="eyebrow" data-i18n="eyebrow"></p>
       <h1 class="display"><span data-i18n="heroTitleA"></span> <em data-i18n="heroTitleB"></em></h1>
       <p class="lead" data-i18n="intro"></p>
-      <div class="hero-actions"><a class="button primary large" href="#workshop" data-i18n="startWriting"></a><button id="load-example" class="button outlined large" type="button" data-i18n="exampleButton"></button></div>
+      <div class="hero-actions"><a class="button primary large" data-route="/connect" data-i18n="heroConnect"></a><a class="button outlined large" href="#workshop" data-i18n="heroTry"></a></div>
       <ul class="hero-facts"><li data-i18n="factFrameworks"></li><li data-i18n="factPeople"></li><li data-i18n="factLanguages"></li><li data-i18n="factFree"></li></ul>
     </div>
-    <figure class="film film-home" data-film data-i18n-aria-label="filmLabel" role="group">
-      <div class="film-stage" aria-hidden="true">
-        <div class="film-scene scene-brief" data-scene>
-          <p class="film-caption"><b>1</b><span data-i18n="stepOne"></span></p>
-          <div class="mock mock-brief">
-            <div class="mock-bar"><i></i><i></i><i></i><em data-i18n="brief"></em></div>
-            <div class="mock-field f1"><small data-i18n="taskLabel"></small><p><span class="type" data-i18n="filmTask"></span></p></div>
-            <div class="mock-field f2"><small data-i18n="audienceLabel"></small><p><span class="type" data-i18n="filmAudience"></span></p></div>
-            <div class="mock-field f3"><small data-i18n="factsLabel"></small><p><span class="type" data-i18n="filmFacts"></span></p></div>
-            <span class="mock-button" data-i18n="filmCreate"></span>
-            <span class="mock-cursor"></span>
-          </div>
-        </div>
-        <div class="film-scene scene-assemble" data-scene>
-          <p class="film-caption"><b>2</b><span data-i18n="stepAssemble"></span></p>
-          <div class="assemble">
-            <div class="assemble-cards">
-              <div class="fw-card c1"><small data-i18n="Erbjudande"></small><strong data-i18n="filmFwOne"></strong></div>
-              <div class="fw-card c2"><small data-i18n="Kundinsikt"></small><strong data-i18n="filmFwTwo"></strong></div>
-              <div class="fw-card c3"><small data-i18n="filmGuideCategory"></small><strong data-i18n="filmFwThree"></strong></div>
-            </div>
-            <div class="assemble-arrow"></div>
-            <div class="assemble-doc"><span class="doc-title" data-i18n="promptLabel"></span><i></i><i></i><i></i><i></i><i></i><i></i><span class="doc-seal">sigge<span>.</span></span></div>
-          </div>
-        </div>
-        <div class="film-scene scene-chat" data-scene>
-          <p class="film-caption"><b>3</b><span data-i18n="stepTwo"></span></p>
-          <div class="mock mock-chat">
-            <div class="mock-bar"><i></i><i></i><i></i><em data-i18n="filmChat"></em></div>
-            <div class="bubble from-user"><span class="doc-pill" data-i18n="promptLabel"></span></div>
-            <div class="bubble from-ai"><strong class="type" data-i18n="filmHeadline"></strong><span class="stream"><i></i><i></i><i></i><i></i></span></div>
-            <div class="chat-input"><span data-i18n="filmAsk"></span><b></b></div>
-          </div>
-        </div>
-        <div class="film-scene scene-edit" data-scene>
-          <p class="film-caption"><b>4</b><span data-i18n="stepThree"></span></p>
-          <div class="mock mock-doc">
-            <div class="mock-bar"><em data-i18n="draft"></em><span class="mock-count" data-i18n="filmWords"></span></div>
-            <h4 data-i18n="filmHeadline"></h4>
-            <p><span data-i18n="filmBodyA"></span> <span class="swap"><s data-i18n="filmCut"></s><ins data-i18n="filmInsert"></ins></span><span data-i18n="filmBodyB"></span></p>
-            <div class="mock-actions"><span class="mock-chip" data-i18n="copy"></span><span class="mock-chip is-primary" data-i18n="download"></span></div>
-            <p class="mock-toast" data-i18n="filmDone"></p>
-          </div>
-        </div>
-      </div>
-      <div class="film-controls">
-        <button class="film-toggle" type="button"><svg class="icon-pause" viewBox="0 0 14 14"><rect x="2" y="1" width="3.5" height="12" rx="1"/><rect x="8.5" y="1" width="3.5" height="12" rx="1"/></svg><svg class="icon-play" viewBox="0 0 14 14"><path d="M3 1.5v11l9-5.5z"/></svg></button>
-        <ol class="film-chapters">
-          <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="stepOne"></span></button></li>
-          <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="stepAssemble"></span></button></li>
-          <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="stepTwo"></span></button></li>
-          <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="stepThree"></span></button></li>
-        </ol>
-      </div>
-    </figure>
+    {{filmConnect}}
   </section>
 
   <section class="workshop" id="workshop" aria-labelledby="workshop-heading">
@@ -82,7 +28,7 @@
     <div id="notice" role="status" aria-live="polite" class="notice" hidden></div>
     <div class="studio-grid">
       <aside class="brief-panel">
-        <div class="section-heading"><h3><span data-i18n="brief"></span></h3><button id="new-document" class="text-button" type="button" data-i18n="startOver"></button></div>
+        <div class="section-heading"><h3><span data-i18n="brief"></span></h3><div class="heading-actions"><button id="load-example" class="text-button" type="button" data-i18n="exampleButton"></button><button id="new-document" class="text-button" type="button" data-i18n="startOver"></button></div></div>
         <form id="brief">
           <label for="task"><span class="label-text" data-i18n="taskLabel"></span> <span data-i18n="required"></span></label><textarea id="task" name="task" rows="3" required minlength="8" maxlength="4000" data-i18n-placeholder="taskPlaceholder"></textarea>
           <label for="audience"><span class="label-text" data-i18n="audienceLabel"></span> <span data-i18n="required"></span></label><textarea id="audience" name="audience" rows="2" required minlength="3" maxlength="1000" data-i18n-placeholder="audiencePlaceholder"></textarea>
@@ -98,18 +44,19 @@
           <p id="selected-perspective" class="small-note" hidden></p>
           <button id="write-button" class="button primary large full" type="submit" disabled data-i18n="createPrompt"></button>
           <p id="quota-note" class="small-note" role="status" data-i18n="loading"></p>
+          <label class="remember-brief"><input id="remember" type="checkbox"> <span class="label-text" data-i18n="rememberBrief"></span></label>
           <p class="privacy-hint"><span data-i18n="privacyHint"></span> <button type="button" id="privacy-button" class="inline-button" data-i18n="privacyLink"></button></p>
         </form>
       </aside>
-      <section class="document-panel" data-i18n-aria-label="draft">
-        <div class="document-toolbar"><h3><span data-i18n="draft"></span></h3><span id="word-count"></span><div class="document-actions"><button id="scan-slop" class="button subtle" type="button" disabled data-i18n="scanSlop"></button><button id="copy-text" class="button subtle" type="button" disabled data-i18n="copy"></button><button id="download-text" class="button subtle" type="button" disabled data-i18n="download"></button></div></div>
-        <div class="paper"><div id="empty-state" class="empty-state"><span class="empty-mascot">{{mascot}}</span><h4 data-i18n="emptyHeading"></h4><p data-i18n="emptyText"></p><button id="start-pasting" class="button outlined" type="button" data-i18n="pasteDraft"></button></div><label for="document" class="sr-only" data-i18n="editLabel"></label><textarea id="document" spellcheck="true" lang="{{language}}" maxlength="10000" data-i18n-placeholder="documentPlaceholder" hidden></textarea></div>
-        <section id="slop-report" class="slop-report" hidden aria-live="polite"><div class="slop-head"><span class="slop-mascot">{{mascot}}</span><div><h4 id="slop-title"></h4><p id="slop-note" data-i18n="slopNote"></p></div><button id="close-slop" class="close-dialog" type="button" data-i18n-aria-label="close">×</button></div><ol id="slop-list"></ol><button id="fix-slop" class="button outlined" type="button" data-i18n="fixSlop"></button></section>
-        <form id="revise-form" class="revision-bar"><label for="instruction" data-i18n="revisionLabel"></label><div class="revision-controls"><input id="instruction" maxlength="1200" data-i18n-placeholder="revisionPlaceholder" required><button id="revise-button" class="button primary" type="submit" disabled data-i18n="revisionButton"></button></div><div class="revision-shortcuts"><button type="button" class="chip" data-revise="shorten" data-i18n="shorten"></button><button type="button" class="chip" data-revise="sharpen" data-i18n="sharpen"></button><button type="button" class="chip" data-revise="natural" data-i18n="natural"></button><button type="button" class="chip" data-revise="deslop" data-i18n="deslop"></button></div></form>
-        <div class="save-bar"><label><input id="remember" type="checkbox"> <span class="label-text" data-i18n="remember"></span></label><button id="clear-saved" type="button" class="text-button" data-i18n="clearSaved"></button></div>
+      <section class="check-panel" aria-labelledby="check-heading">
+        <div class="section-heading"><h3 id="check-heading" data-i18n="checkHeading"></h3><span class="check-mascot">{{mascot}}</span></div>
+        <p class="check-intro" data-i18n="checkIntro"></p>
+        <label for="check-text" class="sr-only" data-i18n="checkLabel"></label><textarea id="check-text" rows="9" maxlength="20000" data-i18n-placeholder="checkPlaceholder"></textarea>
+        <button id="scan-slop" class="button outlined full" type="button" disabled data-i18n="scanSlop"></button>
+        <section id="slop-report" class="slop-report" hidden aria-live="polite"><h4 id="slop-title"></h4><p id="slop-note" data-i18n="slopNote"></p><ol id="slop-list"></ol><button id="fix-slop" class="button primary full" type="button" data-i18n="copyFixPrompt"></button><p id="fix-status" class="small-note" role="status" aria-live="polite"></p></section>
+        <p class="check-mcp"><span data-i18n="checkMcp"></span> <a data-route="/connect" data-i18n="exploreConnect"></a></p>
       </section>
     </div>
-    <div class="workshop-support"><details id="example-notes" class="example-notes"><summary data-i18n="exampleNotes"></summary><p class="editor-intro" id="editor-intro" data-i18n="notesEmpty"></p><div id="editor-notes"></div></details><details id="version-panel" class="versions" hidden><summary><span data-i18n="versions"></span> <span id="version-count"></span></summary><div id="versions"></div></details></div>
   </section>
 
   <section class="inside" aria-labelledby="inside-heading">
@@ -135,7 +82,7 @@
   </section>
 </main>
 {{footer}}
-<dialog id="prompt-dialog" aria-labelledby="prompt-title"><button class="close-dialog" type="button" data-i18n-aria-label="close">×</button><p class="eyebrow" data-i18n="promptEyebrow"></p><h2 id="prompt-title" data-i18n="promptTitle"></h2><p data-i18n="promptIntro"></p><p id="prompt-context" class="prompt-context"></p><label for="prompt-text" data-i18n="promptLabel"></label><textarea id="prompt-text" readonly rows="10"></textarea><button id="copy-prompt" class="button primary large full" type="button" data-i18n="copyPrompt"></button><p id="prompt-copy-status" class="small-note" role="status" aria-live="polite"></p><p class="small-note" data-i18n="promptNote"></p><button id="return-to-draft" class="button outlined full" type="button" data-i18n="returnToDraft"></button></dialog>
+<dialog id="prompt-dialog" aria-labelledby="prompt-title"><button class="close-dialog" type="button" data-i18n-aria-label="close">×</button><p class="eyebrow" data-i18n="promptEyebrow"></p><h2 id="prompt-title" data-i18n="promptTitle"></h2><p data-i18n="promptIntro"></p><p id="prompt-context" class="prompt-context"></p><label for="prompt-text" data-i18n="promptLabel"></label><textarea id="prompt-text" readonly rows="10"></textarea><button id="copy-prompt" class="button primary large full" type="button" data-i18n="copyPrompt"></button><p id="prompt-copy-status" class="small-note" role="status" aria-live="polite"></p><p class="small-note" data-i18n="promptNote"></p><p class="prompt-mcp"><span data-i18n="promptMcp"></span> <a data-route="/connect" data-i18n="exploreConnect"></a></p></dialog>
 <dialog id="privacy-dialog" aria-labelledby="privacy-title"><button class="close-dialog" type="button" data-i18n-aria-label="close">×</button><h2 id="privacy-title" data-i18n="privacyTitle"></h2><p data-i18n="privacyOne"></p><p data-i18n="privacyTwo"></p><p data-i18n="privacyThree"></p><p data-i18n="privacyFour"></p><p><a data-route="/privacy" data-i18n="privacyFull"></a></p><button class="button primary close-privacy" type="button" data-i18n="backToDraft"></button></dialog>
 </body>
 </html>

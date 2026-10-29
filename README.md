@@ -4,11 +4,11 @@
 
 En tvåspråkig skrivverkstad, 59 personprofiler och fjorton ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, James Clear (vanor och nyhetsbrevsformatet 3-2-1), Peter Yangs no-ai-slop, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna tillämpningar, frågor och fiktiva exempel på båda språken. Varumärkets röst styr skrivandet.
 
-Webben hjälper dig välja ramverk och kopiera ett komplett skrivunderlag till din AI-chatt. Själva skrivandet sker i din AI-klient, gärna med [Copy Operator](skills/copy-operator/SKILL.md). Konton med e-postkod används för anslutningar till egna AI-klienter. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
+Huvudvägen är att ansluta Sigge till Claude eller ChatGPT via MCP, så att din AI hämtar kunskapen och kollar texten själv. Utan konto hjälper webben dig att skapa ett komplett skrivunderlag att klistra in i en AI-chatt och att granska en text mot AI-floskler. Själva skrivandet sker i din AI-klient, gärna med [Copy Operator](skills/copy-operator/SKILL.md). Konton med e-postkod används för anslutningar till egna AI-klienter. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
 
 ## Design och filmer
 
-Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Förklarande filmer på startsidan och anslutningssidan byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/`, till exempel [så funkar Sigge](https://sigge.si/media/sigge-sa-funkar-det.mp4) och [anslut din AI](https://sigge.si/media/sigge-anslut-din-ai.mp4).
+Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Filmen om att ansluta din AI (startsidan och anslutningssidan, `client/pages/_film-connect.html`) byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/`, till exempel [så funkar Sigge](https://sigge.si/media/sigge-sa-funkar-det.mp4) och [anslut din AI](https://sigge.si/media/sigge-anslut-din-ai.mp4).
 
 Maskoten Sigge är en SVG-bläckplump i `client/pages/_mascot.html` som byggs in där `{{mascot}}` står i sidmallarna. Namnet är en kortform av Sigurd, Sigvard och Sigfrid (fornnordiska *sigr*, seger); se avsnittet Om namnet på startsidan.
 
@@ -56,10 +56,11 @@ Kopiera `skills/copy-operator` till din skill-katalog. Bevara egna ändringar om
 | `list_copy_people` | Lista alla 59 profiler |
 | `search_copy_people` | Hitta perspektiv efter namn eller ämne |
 | `get_copy_person` | Läs tillämpningar och källhänvisningar |
+| `check_ai_patterns` | Granska en text mot vanliga AI-mönster, med citat och förslag |
 
 Ange `language: "en"` för engelska svar i MCP; svenska är standard. `get_swedish_writing_guide` ger alltid svenska. CLI och skillens hjälpskript kan köras med `COPY_BRAINS_LANGUAGE=en`.
 
-Kunskapsverktygen är läsande och anropar ingen språkmodell. Publik åtkomst kontrollerar inloggning och samtycke i kontodatabasen. Biblioteket sparar inte frågorna. Din AI-klients datahantering gäller separat. Webbhotellet behandlar normala trafikuppgifter; det finns ingen egen analys- eller spårningskod i appen.
+Alla verktyg är läsande och anropar ingen språkmodell; `check_ai_patterns` kör samma mönsterkoll som webben. Publik åtkomst kontrollerar inloggning och samtycke i kontodatabasen. Biblioteket sparar inte frågorna. Din AI-klients datahantering gäller separat. Webbhotellet behandlar normala trafikuppgifter; det finns ingen egen analys- eller spårningskod i appen.
 
 ## Valfria lokala fördjupningskällor
 

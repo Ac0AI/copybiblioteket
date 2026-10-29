@@ -5,13 +5,14 @@ import { personPage, frameworkPage, sitemap, alternates, esc } from './seo-pages
 const header = await readFile('client/pages/_header.html','utf8');
 const footer = await readFile('client/pages/_footer.html','utf8');
 const mascot = (await readFile('client/pages/_mascot.html','utf8')).trim();
+const filmConnect = (await readFile('client/pages/_film-connect.html','utf8')).trim();
 const entryTemplate = await readFile('client/pages/entry.html','utf8');
 const portraits = JSON.parse(await readFile('data/portraits.json','utf8'));
 const escape = esc;
 
 // Shared header, footer and localisation for every generated page.
 function render(html, language, path, nav) {
-  html = html.replace('{{header}}',()=>header.replace(`data-nav="${nav}"`,`data-nav="${nav}" aria-current="page"`)).replace('{{footer}}',()=>footer).replaceAll('{{mascot}}',()=>mascot);
+  html = html.replace('{{header}}',()=>header.replace(`data-nav="${nav}"`,`data-nav="${nav}" aria-current="page"`)).replace('{{footer}}',()=>footer).replace('{{filmConnect}}',()=>filmConnect).replaceAll('{{mascot}}',()=>mascot);
   html = html.replaceAll('{{language}}',language).replaceAll('{{canonical}}','https://sigge.si'+pagePath(path,language));
   // Only empty, explicitly marked text nodes and attributes are localised.
   html = html.replace(/(<([a-z][a-z0-9]*)\b[^>]*\bdata-i18n="([^"]+)"[^>]*>)\s*(<\/\2>)/g, (_,open,_tag,key,close) => open + escape(message(key,language)) + close);
