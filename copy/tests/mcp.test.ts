@@ -19,6 +19,11 @@ test("a real stdio MCP client can discover and use the Swedish copy tools", { ti
     const { tools } = await client.listTools();
     assert.ok(tools.some((t) => t.name === "search_copy_knowledge"));
     assert.ok(tools.every((t) => t.annotations?.readOnlyHint === true));
+    const check = (await client.callTool({ name: "check_ai_patterns", arguments: { text: "I dagens snabbrörliga värld erbjuder vi en sömlös lösning. Studier visar det." } })).structuredContent as { count: number; findings: { pattern: string; quote: string }[] };
+    assert.equal(check.count, 3);
+    assert.deepEqual(check.findings.map((f) => f.pattern), ["Tomma ord", "Tomma ord", "Vag källa"]);
+    const checkEn = (await client.callTool({ name: "check_ai_patterns", arguments: { text: "We leverage robust tools.", language: "en" } })).structuredContent as { findings: { pattern: string }[] };
+    assert.equal(checkEn.findings[0].pattern, "Empty words");
     const result = await client.callTool({
       name: "search_copy_knowledge", arguments: { query: "naturlig svenska utan svengelska", limit: 2 },
     });

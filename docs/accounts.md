@@ -18,7 +18,7 @@ Migrations only add Better Auth tables, `fieldNotes`, and `usageLimit`. Startup 
 
 - `/connect`, `/en/connect`: signup, account, client instructions, and connection revocation.
 - `/consent`, `/en/consent`: approve or deny a specific OAuth client. Client-provided names are untrusted labels.
-- `/mcp`: authenticated stateless Streamable HTTP. Same nine knowledge tools as local stdio. JWT signature, issuer, audience, expiry, scope and current user/client consent are checked.
+- `/mcp`: authenticated stateless Streamable HTTP. The same ten read-only tools as local stdio: nine knowledge tools and `check_ai_patterns`. JWT signature, issuer, audience, expiry, scope and current user/client consent are checked.
 - `/.well-known/oauth-protected-resource`: MCP discovery.
 - `/.well-known/oauth-authorization-server/api/auth`: authorization-server discovery.
 - `/api/auth/*`: Better Auth, email OTP and OAuth endpoints. Password signup and unnecessary OTP routes are disabled.

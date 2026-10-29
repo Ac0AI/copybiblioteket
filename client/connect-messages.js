@@ -29,8 +29,8 @@ export const connectMessages = {
     "Your AI. More to write with.",
   ],
   connectIntro: [
-    "Ge Claude eller ChatGPT direkt tillgång till 14 ramverk, 59 perspektiv och skrivguiderna. Din AI slår upp rätt kunskap själv medan ni skriver – du stannar i din vanliga chatt.",
-    "Give Claude or ChatGPT direct access to 14 frameworks, 59 perspectives and the writing guides. Your AI looks up what it needs while you write — you stay in your usual chat.",
+    "Ge Claude eller ChatGPT direkt tillgång till 14 ramverk, 59 perspektiv och skrivguiderna. Din AI slår upp rätt kunskap själv medan ni skriver och kollar texten mot AI-floskler innan den svarar – du stannar i din vanliga chatt.",
+    "Give Claude or ChatGPT direct access to 14 frameworks, 59 perspectives and the writing guides. Your AI looks up what it needs while you write and checks the draft for AI tells before it replies — you stay in your usual chat.",
   ],
   accountHeading: ["Börja med din e-post", "Start with your email"],
   accountIntro: [
@@ -79,8 +79,8 @@ export const connectMessages = {
   openPlugins: ["Öppna ChatGPT Plugins ↗", "Open ChatGPT Plugins ↗"],
   firstPromptTitle: ["Prova i chatten", "Try it in your chat"],
   firstPrompt: [
-    "Använd Sigge. Hjälp mig skriva en landningssida på naturlig svenska. Fråga efter mottagare, erbjudande och verifierade fakta innan du skriver.",
-    "Use Sigge. Help me write a landing page in natural English. Ask for the audience, offer and verified facts before writing.",
+    "Använd Sigge. Hjälp mig skriva en landningssida på naturlig svenska. Fråga efter mottagare, erbjudande och verifierade fakta innan du skriver, och kolla texten mot AI-floskler innan du svarar.",
+    "Use Sigge. Help me write a landing page in natural English. Ask for the audience, offer and verified facts before writing, and check the draft for AI tells before you reply.",
   ],
   ownAI: [
     "Sigge levererar kunskapen. Modellen i din AI-klient skriver texten, enligt villkoren för ditt konto där.",
