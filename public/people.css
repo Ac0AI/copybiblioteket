@@ -17,7 +17,7 @@
 .people-category{flex:0 1 230px}
 .people-controls>p{margin:0 0 10px auto;font-size:13px;color:var(--muted)}
 .people-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-.person-card{display:grid;grid-template-columns:84px minmax(0,1fr);gap:16px;align-items:center;border:1px solid var(--line);border-radius:20px;padding:14px;background:var(--card);text-align:left;color:var(--ink);min-width:0;transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,border-color .25s}
+.person-card{text-decoration:none;display:grid;grid-template-columns:84px minmax(0,1fr);gap:16px;align-items:center;border:1px solid var(--line);border-radius:20px;padding:14px;background:var(--card);text-align:left;color:var(--ink);min-width:0;transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,border-color .25s}
 .person-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--line-strong)}
 .person-card:focus-visible{outline:3px solid #8eaaff;outline-offset:3px}
 .person-copy{min-width:0}

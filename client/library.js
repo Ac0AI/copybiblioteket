@@ -5,10 +5,10 @@ let all=[],activeId='',latestRequest=0,latestLoad=0;
 function element(tag,text,className){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(className)node.className=className;return node;}
 function link(title,url){const node=element('a',title);if(new URL(url).protocol!=='https:')return element('span',title);node.href=url;node.target='_blank';node.rel='noopener noreferrer';return node;}
 async function request(path,body){const response=await fetch(apiPath(path),body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{});const data=await response.json();if(!response.ok)throw new Error(data.error||t('loadError'));return data;}
-function setActive(id){activeId=id;for(const button of list.querySelectorAll('button'))button.setAttribute('aria-current',String(button.dataset.id===id));}
+function setActive(id){activeId=id;for(const button of list.querySelectorAll('.framework-button'))button.setAttribute('aria-current',String(button.dataset.id===id));}
 function renderList(frameworks,heading){
   $('#list-heading').removeAttribute('data-i18n');$('#list-heading').textContent=heading;list.replaceChildren();
-  for(const f of frameworks){const button=element('button',undefined,'framework-button');button.type='button';button.dataset.id=f.id;button.append(element('strong',f.title),element('span',f.author));button.setAttribute('aria-current',String(f.id===activeId));button.addEventListener('click',()=>selectFramework(f.id,true));list.append(button);}
+  for(const f of frameworks){const button=element('a',undefined,'framework-button');button.href=route('/library/'+f.id);button.dataset.id=f.id;button.append(element('strong',f.title),element('span',f.author));button.setAttribute('aria-current',String(f.id===activeId));button.addEventListener('click',event=>{if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||event.button)return;event.preventDefault();selectFramework(f.id,true);});list.append(button);}
 }
 // The example replays as an edit: the draft is struck through, then the revision arrives word by word.
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
@@ -42,7 +42,7 @@ function renderFramework(f){
     const prompt=[t('frameworkPrompt'),f.title,f.summary,t('apply')+':',...f.principles.map(p=>'- '+p),t('questions')+':',...f.questions.map(p=>'- '+p),t('sources')+':',...f.sources.map(s=>s.title+': '+s.url),t('briefTemplate')].join('\n\n');
     try{await navigator.clipboard.writeText(prompt);status.textContent=t('frameworkCopied');}catch{status.textContent=t('copyBlocked');}
   });
-  const use=element('a',t('useInWorkshop'),'button outlined');use.href=route('/')+'#workshop';const actions=element('div',undefined,'detail-actions');actions.append(copy,use);detail.append(actions);
+  const use=element('a',t('useInWorkshop'),'button outlined');use.href=route('/')+'#workshop';const page=element('a',t('frameworkPage'),'button subtle');page.href=route('/library/'+f.id);const actions=element('div',undefined,'detail-actions');actions.append(copy,use,page);detail.append(actions);
 }
 async function selectFramework(id,focus=false){
   const requestId=++latestRequest;

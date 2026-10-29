@@ -1,0 +1,85 @@
+{
+  "id": "clear-habit-laws",
+  "title": "Skriv för vanan, inte bara klicket",
+  "author": "James Clear",
+  "category": "Kundinsikt",
+  "summary": "James Clear beskriver i Atomic Habits fyra lagar för beteendeförändring, kopplade till vanans fyra steg (signal, begär, respons, belöning): gör det tydligt, lockande, lätt och tillfredsställande. Använd dem när texten ska få läsaren att komma tillbaka – i onboarding, påminnelser och nyhetsbrev.",
+  "useWhen": "När kunden har registrerat sig men inte kommer i gång, när en tjänst bygger på att man använder den regelbundet, eller i välkomstmejl och påminnelser.",
+  "avoidWhen": "När läsaren ska fatta ett enstaka beslut, som att be om en offert – använd då Foggs modell för nästa steg. Lova inga vanor eller resultat som tjänsten inte kan stå för.",
+  "keywords": [
+    "james clear",
+    "atomic habits",
+    "atomära vanor",
+    "vanor",
+    "vana",
+    "rutin",
+    "beteende",
+    "onboarding",
+    "välkomstmejl",
+    "påminnelse",
+    "påminnelser",
+    "aktivering",
+    "kommer inte igång",
+    "återkommande",
+    "retention",
+    "churn",
+    "engagemang",
+    "tvåminutersregeln",
+    "identitet",
+    "habit",
+    "habits",
+    "four laws",
+    "two-minute rule"
+  ],
+  "principles": [
+    "Gör det tydligt (signalen). Koppla handlingen till ett tillfälle läsaren redan har: ”När du har skickat din sista faktura för månaden, ladda upp kvittona.” En tid, en plats eller en befintlig vana fungerar bättre än ”när det passar”.",
+    "Gör det lockande (begäret). Visa vad läsaren får direkt, eller koppla det nya till något hen redan vill göra. Tala gärna om vem läsaren blir: vanor som bekräftar en identitet håller längre än vanor som bara siktar på ett mål.",
+    "Gör det lätt (responsen). Beskriv en första version som tar under två minuter – Clears tvåminutersregel – och ta bort steg som står i vägen. ”Fota ett kvitto” är lättare att börja med än ”få ordning på bokföringen”.",
+    "Gör det tillfredsställande (belöningen). Bekräfta direkt när något är gjort och visa framstegen. Det som belönas med en gång blir lättare att upprepa.",
+    "Vänd lagarna när läsaren vill sluta med något: gör det osynligt, oattraktivt, svårt och otillfredsställande – och beskriv bara hjälp som tjänsten faktiskt ger."
+  ],
+  "questions": [
+    "Vid vilket befintligt tillfälle ska läsaren göra det här?",
+    "Hur ser en tvåminutersversion av handlingen ut?",
+    "Vad får läsaren direkt när steget är gjort?",
+    "Vem blir läsaren av att göra det här regelbundet?"
+  ],
+  "example": {
+    "context": "Påhittat: i Räknas app fotar kunden kvitton, som sedan bokförs av byrån.",
+    "before": "Kom igång med smart kvittohantering och ta kontroll över din ekonomi!",
+    "after": "Varje fredag när du stänger datorn: fota veckans kvitton. Det tar två minuter, och vi bokför dem åt dig.",
+    "explanation": "Texten kopplar handlingen till ett tillfälle, gör den liten och säger vad läsaren får direkt, i stället för att lova kontroll."
+  },
+  "sources": [
+    {
+      "title": "James Clear: The 3 Steps to Habit Change (de fyra lagarna)",
+      "url": "https://jamesclear.com/three-steps-habit-change",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-29"
+    },
+    {
+      "title": "James Clear: How to Stop Procrastinating by Using the 2-Minute Rule",
+      "url": "https://jamesclear.com/how-to-stop-procrastinating",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-29"
+    },
+    {
+      "title": "James Clear: Identity-Based Habits",
+      "url": "https://jamesclear.com/identity-based-habits",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-29"
+    },
+    {
+      "title": "James Clear: Atomic Habits",
+      "url": "https://jamesclear.com/atomic-habits",
+      "kind": "author",
+      "language": "en",
+      "checked": "2026-10-29"
+    }
+  ],
+  "language": "sv",
+  "provenance": "original-application"
+}

@@ -2,7 +2,7 @@
 
 [sigge.si](https://sigge.si) – ramverk, exempel och källor för tydligare copy på svenska och engelska.
 
-En tvåspråkig skrivverkstad, 59 personprofiler och elva ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna tillämpningar, frågor och fiktiva exempel på båda språken. Varumärkets röst styr skrivandet.
+En tvåspråkig skrivverkstad, 59 personprofiler och fjorton ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, James Clear (vanor och nyhetsbrevsformatet 3-2-1), Peter Yangs no-ai-slop, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna tillämpningar, frågor och fiktiva exempel på båda språken. Varumärkets röst styr skrivandet.
 
 Webben hjälper dig välja ramverk och kopiera ett komplett skrivunderlag till din AI-chatt. Själva skrivandet sker i din AI-klient, gärna med [Copy Operator](skills/copy-operator/SKILL.md). Konton med e-postkod används för anslutningar till egna AI-klienter. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
 

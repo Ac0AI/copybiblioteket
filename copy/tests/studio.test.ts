@@ -41,7 +41,7 @@ test('public routes cannot invoke AI, create accounts or subscribe while access 
     assert.equal((await fetch(base+'/library')).status,200);
     assert.equal((await fetch(base+'/people')).status,200);
     const kit=await (await fetch(base+'/api/writing-kit')).json();
-    assert.equal(kit.people.length,59);assert.equal(kit.frameworks.length,11);
+    assert.equal(kit.people.length,59);assert.equal(kit.frameworks.length,14);
     assert.equal((await fetch(base+'/.env.local')).status,404);
   }finally{await new Promise<void>(r=>server.close(()=>r()));}
 });

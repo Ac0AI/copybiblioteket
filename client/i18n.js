@@ -34,6 +34,8 @@ function changeLanguage(next, updateUrl = true) {
   for (const listener of listeners) listener(previous);
 }
 for (const link of document.querySelectorAll('[data-language]')) link.addEventListener('click',event => {
+  // Server-rendered entries exist per language, so switching loads the other page.
+  if (document.body.hasAttribute('data-server-language')) return;
   if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
   event.preventDefault();
   changeLanguage(link.dataset.language);

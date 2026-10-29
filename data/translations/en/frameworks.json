@@ -514,5 +514,146 @@
       "after": "Stop hunting for receipts in your wallet and the car. Snap each one as you get it, and they're all in one place when it's time to do the books.",
       "explanation": "The customer's own picture – the wallet, the car – makes the problem recognisable in a way 'receipt management process' never could."
     }
+  },
+  "ai-slop-edit": {
+    "title": "Cut the AI tells, keep the voice",
+    "author": "Peter Yang",
+    "summary": "Peter Yang's no-ai-slop skill names the patterns that make writing sound machine-made: empty superlatives, false contrasts, throat-clearing openers and closing lines that try to sound profound. Make the minimum effective edit: cut the patterns, keep the facts and leave the writer's own voice intact.",
+    "useWhen": "When an AI draft sounds like everyone else's, when it's full of words like seamless and cutting-edge, or when you want to check a piece before it's published.",
+    "avoidWhen": "When the goal is to fool an AI detector. These patterns say nothing about who wrote a piece, and a rough sentence with a real voice should stay.",
+    "keywords": [
+      "AI",
+      "AI writing",
+      "AI slop",
+      "slop",
+      "sounds like AI",
+      "sounds like ChatGPT",
+      "ChatGPT",
+      "generic",
+      "buzzwords",
+      "cliches",
+      "clichés",
+      "editing",
+      "edit",
+      "proofread",
+      "review",
+      "seamless",
+      "cutting-edge",
+      "delve",
+      "em dash",
+      "no-ai-slop",
+      "deslop"
+    ],
+    "principles": [
+      "Make the minimum effective edit. Remove the patterns, errors and repetition but keep strong sentences, humour, hesitation and quirks. The piece should still sound like the same person afterwards.",
+      "Run the portability test. If a sentence could move unchanged to another company, country or product, it's probably filler. Cut it or replace it with a fact, example or consequence that only applies here.",
+      "Cut the constructions: 'It's not X, it's Y' (just say Y), throat-clearing openers like 'Here's the thing' and 'Let's dive in', colon reveals like 'The best part: …', clusters of em dashes, recap endings and closing lines that try to sound deep.",
+      "Swap empty words for what they should mean. Seamless, robust, leverage, delve, unlock your potential and in today's fast-paced world say nothing on their own – write what the product does, for whom and how.",
+      "Show rather than tell the reader what to think. Cut 'this matters' and 'the interesting part is' and let facts, examples and consequences carry the point.",
+      "Name the source or cut the claim. 'Experts agree' and 'studies show' without a source should go; ask for the evidence rather than inventing it."
+    ],
+    "questions": [
+      "Which sentences would work just as well for a competitor?",
+      "What in the piece sounds like the writer, and how do we protect it?",
+      "Which claims lack a named source or a concrete fact?"
+    ],
+    "example": {
+      "context": "Fictional: Räkna handles day-to-day bookkeeping for small businesses, and every client gets a dedicated contact to email.",
+      "before": "In today's fast-paced world, it's not just about bookkeeping – it's about freedom. Räkna offers a seamless, tailored solution that unlocks your potential.",
+      "after": "Räkna handles your day-to-day bookkeeping, and you get a dedicated contact to email whenever something is unclear.",
+      "explanation": "The buzzwords and the false contrast are gone; what remains is what the service does and who the reader can ask."
+    }
+  },
+  "clear-habit-laws": {
+    "title": "Write for the habit, not just the click",
+    "author": "James Clear",
+    "summary": "In Atomic Habits, James Clear describes four laws of behaviour change, tied to the four stages of a habit (cue, craving, response, reward): make it obvious, attractive, easy and satisfying. Use them when the copy should bring readers back – in onboarding, reminders and newsletters.",
+    "useWhen": "When customers sign up but never get started, when a product depends on regular use, or in welcome emails and reminders.",
+    "avoidWhen": "When the reader is making a one-off decision, such as requesting a quote – use Fogg's model for the next step instead. Don't promise habits or results the product can't deliver.",
+    "keywords": [
+      "James Clear",
+      "Atomic Habits",
+      "habit",
+      "habits",
+      "routine",
+      "behaviour",
+      "behavior",
+      "onboarding",
+      "welcome email",
+      "reminder",
+      "reminders",
+      "activation",
+      "not getting started",
+      "retention",
+      "churn",
+      "engagement",
+      "two-minute rule",
+      "identity",
+      "four laws"
+    ],
+    "principles": [
+      "Make it obvious (the cue). Tie the action to a moment the reader already has: 'After you send your last invoice of the month, upload your receipts.' A time, a place or an existing habit beats 'whenever suits you'.",
+      "Make it attractive (the craving). Show what the reader gets straight away, or pair the new habit with something they already want to do. Speak to who the reader becomes: habits that confirm an identity last longer than habits aimed only at a goal.",
+      "Make it easy (the response). Describe a first version that takes under two minutes – Clear's two-minute rule – and remove steps in the way. 'Snap one receipt' is easier to start than 'get your books in order'.",
+      "Make it satisfying (the reward). Confirm straight away when something is done and show progress. What is rewarded immediately is easier to repeat.",
+      "Invert the laws when the reader wants to stop something: make it invisible, unattractive, difficult and unsatisfying – and describe only help the product actually gives."
+    ],
+    "questions": [
+      "At which existing moment should the reader do this?",
+      "What does a two-minute version of the action look like?",
+      "What does the reader get straight away once it's done?",
+      "Who does the reader become by doing this regularly?"
+    ],
+    "example": {
+      "context": "Fictional: in Räkna's app, clients photograph receipts, which the firm then books.",
+      "before": "Get started with smart receipt management and take control of your finances!",
+      "after": "Every Friday when you close your laptop: snap this week's receipts. It takes two minutes, and we'll book them for you.",
+      "explanation": "The copy ties the action to a moment, makes it small and says what the reader gets straight away, instead of promising control."
+    }
+  },
+  "clear-3-2-1": {
+    "title": "Give your newsletter a fixed shape",
+    "author": "James Clear",
+    "summary": "James Clear's 3-2-1 newsletter has the same shape every week: three short ideas from him, two quotes from others and one question for the reader. The constraint forces a selection, and readers know what they'll get from the name alone. Find a fixed shape that suits your content – and keep it.",
+    "useWhen": "When your newsletter keeps getting longer, rambles or is hard to send on time, or when readers stop opening it.",
+    "avoidWhen": "When you have one big piece of news or an offer that needs all the space. And don't copy Clear's format and name wholesale – it's his brand.",
+    "keywords": [
+      "James Clear",
+      "3-2-1",
+      "newsletter",
+      "email newsletter",
+      "email",
+      "format",
+      "template",
+      "structure",
+      "fixed format",
+      "nobody reads",
+      "open rate",
+      "not opened",
+      "too long",
+      "rambling",
+      "quotes",
+      "question",
+      "weekly email",
+      "format constraint"
+    ],
+    "principles": [
+      "Decide the shape once. Choose a fixed number of parts in a fixed order, such as three tips, one quote and one question, so each issue becomes a selection rather than a new project.",
+      "Let the name tell readers what they get. A subject line like '3 tips, 1 question' or a fixed weekly name sets the expectation before the email is even opened.",
+      "Keep each part short and self-contained. One idea per paragraph, one point per idea – Clear describes the aim as the most wisdom per word.",
+      "Quote others accurately and say who said it. Quotes add variety and perspective, but they must be real and correctly attributed.",
+      "End with a question readers can take with them, and send on the same day every time so the newsletter becomes a habit."
+    ],
+    "questions": [
+      "Which fixed shape suits what you actually have to say each time?",
+      "What could go if each part only gets one paragraph?",
+      "Which question do you want readers to think about afterwards?"
+    ],
+    "example": {
+      "context": "Fictional: Räkna sends its clients a newsletter every other Friday.",
+      "before": "October newsletter: News from Räkna, updates on our services, some thoughts on autumn and much more!",
+      "after": "3 bookkeeping tips, 1 deadline and 1 question: The Friday letter from Räkna.",
+      "explanation": "The subject line promises a short, fixed shape, so readers know what they'll get before opening it."
+    }
   }
 }

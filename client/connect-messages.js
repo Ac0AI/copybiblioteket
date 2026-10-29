@@ -29,8 +29,8 @@ export const connectMessages = {
     "Your AI. More to write with.",
   ],
   connectIntro: [
-    "Ge Claude eller ChatGPT direkt tillgång till 11 ramverk, 59 perspektiv och skrivguiderna. Din AI slår upp rätt kunskap själv medan ni skriver – du stannar i din vanliga chatt.",
-    "Give Claude or ChatGPT direct access to 11 frameworks, 59 perspectives and the writing guides. Your AI looks up what it needs while you write — you stay in your usual chat.",
+    "Ge Claude eller ChatGPT direkt tillgång till 14 ramverk, 59 perspektiv och skrivguiderna. Din AI slår upp rätt kunskap själv medan ni skriver – du stannar i din vanliga chatt.",
+    "Give Claude or ChatGPT direct access to 14 frameworks, 59 perspectives and the writing guides. Your AI looks up what it needs while you write — you stay in your usual chat.",
   ],
   accountHeading: ["Börja med din e-post", "Start with your email"],
   accountIntro: [
