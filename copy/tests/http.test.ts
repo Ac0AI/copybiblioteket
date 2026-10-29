@@ -80,7 +80,8 @@ test("every person and framework has an indexable page in both languages", async
     const sitemapResponse = await fetch(base + "/sitemap.xml");
     assert.match(sitemapResponse.headers.get("content-type") ?? "", /xml/);
     const sitemap = await sitemapResponse.text();
-    assert.equal(sitemap.match(/<loc>/g)?.length, 2 * (4 + library.people.length + library.frameworks.length));
+    assert.match(sitemap, /<loc>https:\/\/sigge.si\/connect<\/loc>/);
+    assert.equal(sitemap.match(/<loc>/g)?.length, 2 * (5 + library.people.length + library.frameworks.length));
   } finally {
     server.close();
   }
