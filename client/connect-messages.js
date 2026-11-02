@@ -2,7 +2,7 @@ export const connectMessages = {
   connectFilmLabel: ["Film: så ansluter du Sigge till din AI", "Film: how to connect Sigge to your AI"],
   connectStepOne: ["Lägg till Sigge i din AI", "Add Sigge to your AI"],
   connectStepTwo: ["Logga in med en kod från mejlen", "Sign in with a code from your email"],
-  connectStepThree: ["Skriv – din AI frågar Sigge", "Write — your AI asks Sigge"],
+  connectStepThree: ["Skriv – din AI frågar Sigge", "Write – your AI asks Sigge"],
   filmAddConnector: ["Lägg till connector", "Add connector"],
   filmName: ["Namn", "Name"],
   filmAdd: ["Lägg till", "Add"],
@@ -43,17 +43,17 @@ export const connectMessages = {
   connectNav: ["Anslut din AI", "Connect your AI"],
   connectTitle: ["Sigge — anslut din AI", "Sigge — connect your AI"],
   connectDescription: [
-    "Lägg till Sigge i Claude eller ChatGPT med en adress. Logga in med en kod från mejlen – inget att installera.",
-    "Add Sigge to Claude or ChatGPT with one address. Sign in with a code from your email — nothing to install.",
+    "Lägg till Sigge i Claude eller ChatGPT med en adress. Logga in med en kod från mejlen. Inget att installera.",
+    "Add Sigge to Claude or ChatGPT with one address. Sign in with a code from your email. Nothing to install.",
   ],
   connectEyebrow: ["Sigge i din AI-chatt", "Sigge in your AI chat"],
   connectHeading: [
-    "Din AI. Mer att skriva med.",
-    "Your AI. More to write with.",
+    "Ge din AI mer att skriva med.",
+    "Give your AI more to write with.",
   ],
   connectIntro: [
-    "Ge Claude eller ChatGPT direkt tillgång till 14 ramverk, 59 perspektiv och skrivguiderna. Din AI slår upp rätt kunskap själv medan ni skriver och kollar texten mot AI-floskler innan den svarar – du stannar i din vanliga chatt.",
-    "Give Claude or ChatGPT direct access to 14 frameworks, 59 perspectives and the writing guides. Your AI looks up what it needs while you write and checks the draft for AI tells before it replies — you stay in your usual chat.",
+    "Ge Claude eller ChatGPT direkt tillgång till 14 ramverk, 59 perspektiv och skrivguiderna. Din AI slår upp rätt kunskap själv medan ni skriver och kollar texten mot AI-floskler innan den svarar. Du stannar i din vanliga chatt.",
+    "Give Claude or ChatGPT direct access to 14 frameworks, 59 perspectives and the writing guides. Your AI looks up what it needs while you write and checks the draft for AI tells before it replies. You stay in your usual chat.",
   ],
   accountHeading: ["Logga in med e-post", "Sign in with email"],
   accountIntro: [
