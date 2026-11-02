@@ -1,0 +1,57 @@
+{
+ "site": "sc-domain:sigge.si",
+ "window": {
+  "start": "2026-10-05",
+  "end": "2026-11-02"
+ },
+ "rows": [
+  {
+   "query": "hunter j isaacson",
+   "page": "https://sigge.si/en/people/hunter-isaacson",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "query": "jason calacanis",
+   "page": "https://sigge.si/en/people/jason-calacanis",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "query": "paul buchheit",
+   "page": "https://sigge.si/en/people/paul-buchheit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "query": "paul buchheit portfolio",
+   "page": "https://sigge.si/en/people/paul-buchheit",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "query": "sigge",
+   "page": "https://sigge.si/en/",
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 5.3
+  },
+  {
+   "query": "siqge",
+   "page": "https://sigge.si/en/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  }
+ ]
+}

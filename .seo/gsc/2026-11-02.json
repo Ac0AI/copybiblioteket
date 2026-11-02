@@ -1,0 +1,114 @@
+{
+ "site": "sc-domain:sigge.si",
+ "window": {
+  "start": "2026-10-05",
+  "end": "2026-11-02"
+ },
+ "rows": [
+  {
+   "page": "https://sigge.si/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "page": "https://sigge.si/en/",
+   "clicks": 0,
+   "impressions": 19,
+   "ctr": 0,
+   "position": 5.3
+  },
+  {
+   "page": "https://sigge.si/en/library/hormozi-offer",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://sigge.si/en/people/andrew-huberman",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 18
+  },
+  {
+   "page": "https://sigge.si/en/people/damon-chen",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "page": "https://sigge.si/en/people/hunter-isaacson",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "page": "https://sigge.si/en/people/iman-gadzhi",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "page": "https://sigge.si/en/people/jake-castillo",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "page": "https://sigge.si/en/people/jason-calacanis",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "page": "https://sigge.si/en/people/nevo-david",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://sigge.si/en/people/paul-buchheit",
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 42
+  },
+  {
+   "page": "https://sigge.si/en/people/roman-czerny",
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "page": "https://sigge.si/library/clear-habit-laws",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "page": "https://sigge.si/people/greg-isenberg",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "page": "https://sigge.si/people/roman-czerny",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  }
+ ]
+}
