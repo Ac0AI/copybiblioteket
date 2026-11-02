@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-02",
+ "action": "repair",
+ "target": [
+  "https://sigge.si/people",
+  "https://sigge.si/en/people",
+  "https://sigge.si/library",
+  "https://sigge.si/en/library"
+ ],
+ "rule": "orphan-island: 146 av 156 sitemap-URL:er nås inte via statiska länkar från startsidan (depth_check.py)",
+ "before": {
+  "static_links_to_profiles_from_/people": 0,
+  "static_links_to_frameworks_from_/library": 0,
+  "body_words": {
+   "/library": 66,
+   "/en/library": 75,
+   "/people": 119,
+   "/en/people": 132
+  },
+  "depth_check_reached": "10/156",
+  "bing_GetUrlInfo": {
+   "/people": "upptäckt 2026-10-29",
+   "/people/paul-graham": "okänd",
+   "/library/hormozi-offer": "okänd",
+   "/en/people/naval-ravikant": "okänd"
+  },
+  "gsc_inspection_sample": "7/7 Submitted and indexed (Google renderar JS)"
+ },
+ "after_local_build": {
+  "/people": "59 person-card-länkar",
+  "/en/people": "59",
+  "/library": "14 framework-button-länkar",
+  "/en/library": "14",
+  "tests": "39/39, ny assertion i copy/tests/http.test.ts"
+ },
+ "after_production": "väntar på merge"
+}

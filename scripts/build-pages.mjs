@@ -30,18 +30,36 @@ function render(html, language, path, nav) {
   return html;
 }
 
+// The people and framework lists are rendered into the HTML as plain links, so crawlers that do not run
+// JavaScript reach every profile and framework from the hub pages. client/people.js and client/library.js
+// replace these lists with the interactive ones on load, using the same markup and order.
+const sv = await loadCopyLibrary(undefined,false);
+function initials(name) {
+  const parts = name.replace(/\(.*?\)/g,'').split(/\s+/).filter(Boolean);
+  return [parts[0],...(parts.length > 1 ? [parts.at(-1)] : [])].map(part => part.replace(/[^\p{L}]/gu,'').slice(0,1)).join('');
+}
+function personCard(person, language) {
+  const photo = portraits[person.id];
+  const image = photo ? `<img alt="" width="${photo.width}" height="${photo.height}" loading="lazy" decoding="async" src="${escape(photo.src)}">` : '';
+  return `<a class="person-card" href="${pagePath('/people/'+person.id,language)}"><span class="person-portrait${photo?.kind === 'avatar' ? ' portrait-avatar' : ''}" aria-hidden="true"><span class="portrait-fallback">${escape(initials(person.name))}</span>${image}</span>` +
+    `<div class="person-copy"><span class="person-category">${escape(message(person.category,language))}</span><h2>${escape(person.name)}<span aria-hidden="true">↗</span></h2><p>${escape(person.summary)}</p></div></a>`;
+}
+const peopleList = language => [...sv.forLanguage(language).people].sort((a,b) => a.name.localeCompare(b.name,language)).map(person => personCard(person,language)).join('');
+const frameworkList = language => sv.forLanguage(language).frameworks
+  .map(f => `<a class="framework-button" href="${pagePath('/library/'+f.id,language)}" data-id="${escape(f.id)}" aria-current="false"><strong>${escape(f.title)}</strong><span>${escape(f.author)}</span></a>`).join('');
+
 for (const language of ['sv','en']) {
   const directory = 'public' + (language === 'en' ? '/en' : '');
   await mkdir(directory,{recursive:true});
   for (const page of ['index','library','people','connect','consent','privacy']) {
     const path = page === 'index' ? '/' : '/' + page;
-    await writeFile(`${directory}/${page}.html`,render(await readFile(`client/pages/${page}.html`,'utf8'),language,path,page === 'consent' ? '/connect' : path));
+    const template = (await readFile(`client/pages/${page}.html`,'utf8')).replace('{{peopleList}}',()=>peopleList(language)).replace('{{frameworkList}}',()=>frameworkList(language));
+    await writeFile(`${directory}/${page}.html`,render(template,language,path,page === 'consent' ? '/connect' : path));
   }
 }
 
 // One indexable page per person and framework, in both languages. Output folders are named
 // differently from the routes (/people/:id, /library/:id) so static hosting never shadows /people.
-const sv = await loadCopyLibrary(undefined,false);
 const paths = ['/','/connect','/library','/people','/privacy'];
 for (const language of ['sv','en']) {
   const library = sv.forLanguage(language), base = 'public' + (language === 'en' ? '/en' : '');

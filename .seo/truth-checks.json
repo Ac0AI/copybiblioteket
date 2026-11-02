@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Sigge har 14 ramverk (data/copy-frameworks/*.json). James Clear står för två, så 'Hormozi, Cialdini, Clear, Schwartz' + 9 till.",
+    "paths": [
+      "client/*.js",
+      "client/pages/*.html",
+      "README.md",
+      "scripts/*.mjs",
+      "skills/copy-operator/SKILL.md"
+    ],
+    "must_not_match": [
+      "och tio till",
+      "and ten more",
+      "\\b(1[0-35-9]|[2-9]\\d) (ramverk|frameworks)\\b"
+    ],
+    "must_match": []
+  },
+  {
+    "claim": "59 personprofiler (data/people/*.json), alla från The Brains.",
+    "paths": [
+      "client/*.js",
+      "client/pages/*.html",
+      "README.md",
+      "scripts/*.mjs"
+    ],
+    "must_not_match": [
+      "\\b(?!59\\b)\\d{2} (personer|perspektiv|profiler|people|perspectives|profiles)\\b"
+    ],
+    "must_match": []
+  },
+  {
+    "claim": "Den publika skrivverkstaden anropar ingen AI och skriver inte texten; texten skrivs i användarens AI-chatt.",
+    "paths": [
+      "client/*.js",
+      "client/pages/*.html"
+    ],
+    "must_not_match": [
+      "Sigge skriver (texten|din text) åt dig",
+      "Sigge writes (the|your) (copy|draft) for you",
+      "AI-skrivning direkt på sajten"
+    ],
+    "must_match": []
+  },
+  {
+    "claim": "Profilerna är egna tillämpningar, inte personernas godkännande eller officiella tjänst.",
+    "paths": [
+      "client/*.js",
+      "client/pages/*.html",
+      "README.md"
+    ],
+    "must_not_match": [
+      "godkänd av (författaren|personen)",
+      "endorsed by (the author|them)",
+      "(?<!inte )(?<!eller )officiellt samarbete med",
+      "(?<!not )(?<!or )official partner(ship)? (of|with)"
+    ],
+    "must_match": []
+  },
+  {
+    "claim": "Sigge är gratis; det finns ingen betald plan (JSON-LD offers price 0).",
+    "paths": [
+      "client/*.js",
+      "client/pages/*.html",
+      "README.md"
+    ],
+    "must_not_match": [
+      "\\b(Pro|Premium|Plus)-?plan\\b",
+      "\\d+ ?(kr|SEK|€|\\$) ?(/|per) ?mån\\w* för Sigge"
+    ],
+    "must_match": []
+  }
+]

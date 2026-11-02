@@ -82,6 +82,13 @@ test("every person and framework has an indexable page in both languages", async
     const sitemap = await sitemapResponse.text();
     assert.match(sitemap, /<loc>https:\/\/sigge.si\/connect<\/loc>/);
     assert.equal(sitemap.match(/<loc>/g)?.length, 2 * (5 + library.people.length + library.frameworks.length));
+    // The hub pages link every profile and framework in plain HTML, so crawlers without JavaScript reach them.
+    for (const prefix of ["", "/en"]) {
+      const people = await (await fetch(base + prefix + "/people")).text();
+      for (const person of library.people) assert.match(people, new RegExp(`<a class="person-card" href="${prefix}/people/${person.id}">`), prefix + "/people links " + person.id);
+      const frameworks = await (await fetch(base + prefix + "/library")).text();
+      for (const framework of library.frameworks) assert.match(frameworks, new RegExp(`<a class="framework-button" href="${prefix}/library/${framework.id}"`), prefix + "/library links " + framework.id);
+    }
   } finally {
     server.close();
   }
