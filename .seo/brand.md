@@ -1,10 +1,11 @@
 # Sigge — Brand Context
 
-> Röstkontraktet. Läses i början av varje `/seo`-körning. Utkast 2026-11-02 från repot, sajten och ägarens svar i checkpointen. Rader märkta *inferred* är obekräftade (se needs-you NY-1).
+> Röstkontraktet. Läses i början av varje `/seo`-körning. Utkast 2026-11-02 från repot, sajten och ägarens svar i checkpointen. Positioneringen bekräftades av ägaren 2026-11-02 (NY-1). Rader märkta *inferred* är fortfarande obekräftade.
 
 ## Product
 
 - **Name:** Sigge (sigge.si). Repo och MCP-namn: copybiblioteket / copy-brains.
+- **Positioning (bekräftad 2026-11-02, NY-1):** Sigge är en gratis skrivverkstad och copy-MCP för grundare och marknadsförare som skriver säljtext med Claude eller ChatGPT, på svenska och engelska. Den vinner för att din egen AI får beprövade ramverk och en flosklerkoll direkt i chatten och texten fortfarande låter som du. Den är inte för den som vill att ett verktyg skriver färdig text åt en.
 - **One-liner (≤20 words):** Gratis skrivverkstad och copy-MCP som ger din egen AI ramverk, perspektiv och en flosklerkoll, på svenska och engelska.
 - **What we do:** Sigge ansluts till Claude eller ChatGPT via MCP (https://sigge.si/mcp). Din AI slår då upp 14 copyramverk, 59 personperspektiv och skrivguider och kör `check_ai_patterns` innan den svarar. Utan konto bygger webben ett skrivunderlag att klistra in i valfri AI-chatt och granskar text mot AI-floskler. Sigge skriver inte texten själv på sajten.
 - **Pricing structure:** Gratis. Ingen betald plan.
@@ -12,7 +13,7 @@
 
 ## Audience
 
-- **Primary persona:** *inferred* Grundare och marknadsförare som skriver säljtext (landningssidor, mejl, annonser, LinkedIn) med Claude eller ChatGPT och vill att den låter mänsklig. Ägaren 2026-11-02: inte bara svenska, jobbar internationellt.
+- **Primary persona:** Grundare och marknadsförare som skriver säljtext (landningssidor, mejl, annonser, LinkedIn) med Claude eller ChatGPT och vill att den låter mänsklig. Ägaren 2026-11-02: inte bara svenska, jobbar internationellt.
 - **Secondary personas:** *inferred* Copywriters och byråer som vill ha ramverk direkt i sin AI; utvecklare som letar MCP-servrar för skrivande.
 - **Industries we target:** Branschoberoende. Exemplen på sajten är en påhittad bokföringsbyrå.
 - **Company size we target:** Ensamföretagare till små team.
