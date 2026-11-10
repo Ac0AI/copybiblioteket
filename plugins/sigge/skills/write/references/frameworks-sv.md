@@ -2,7 +2,7 @@
 
 # Ramverk
 
-Välj högst tre som passar uppgiften och läs bara dem. Ramverken styr resonemanget och nämns inte i den färdiga texten.
+Välj högst tre som passar uppgiften och läs bara dem. Varje ramverk har grepp med exempelrader och ett helt textexempel. Ramverken styr resonemanget och nämns inte i den färdiga texten. Exemplen visar arbetssättet; kopiera inte deras formuleringar eller fakta.
 
 - [Gör erbjudandet lätt att värdera](frameworks/sv/hormozi-offer.md) (Alex Hormozi). När kunderna tycker att det är för dyrt, inte ser vad de får för pengarna eller upplever att erbjudandet kräver för mycket av dem.
 - [Ge läsaren skäl att lita på er](frameworks/sv/cialdini-persuasion.md) (Robert Cialdini). När läsaren undrar vilka ni är, om erbjudandet passar just hen eller om andra har haft nytta av det – till exempel på startsidan, i ett kundcase eller nära priset.
@@ -10,11 +10,10 @@ Välj högst tre som passar uppgiften och läs bara dem. Ramverken styr resonema
 - [Börja där läsaren är](frameworks/sv/schwartz-awareness.md) (Eugene Schwartz). När texten förklarar sådant läsaren redan vet, eller ber om ett köp innan läsaren har förstått varför hen ska bry sig – i annonser, på landningssidor och i nyhetsbrev.
 - [Förstå varför kunden vill byta](frameworks/sv/jobs-to-be-done.md) (Christensen Institute / Jobs to Be Done). När målgruppen bara beskrivs med ålder, bransch eller bolagsstorlek, när ni inte vet varför kunderna köper eller när köparen tvekar inför att byta.
 - [Ge argumentet en tydlig ordning](frameworks/sv/copy-structure.md) (Copyhackers / etablerade skrivmodeller). När innehållet är bra men texten hoppar fram och tillbaka, börjar i fel ände eller slutar utan ett tydligt nästa steg – i mejl, på landningssidor och i annonser.
-- [Ge nyhetsbrevet en fast form](frameworks/sv/clear-3-2-1.md) (James Clear). När nyhetsbrevet blir långt, spretigt eller svårt att få ut i tid, eller när läsarna slutar öppna det.
+- [Ge ett skäl och pröva om det håller](frameworks/sv/hopkins-testing.md) (Claude Hopkins / vår tillämpning för utvärdering). När texten påstår saker utan att säga varför, när ni ska välja mellan rubriker, erbjudanden eller versioner, eller när ni vill veta om en ändring faktiskt hjälper läsaren och affären.
 - [Gör nästa steg lätt att ta](frameworks/sv/fogg-action.md) (BJ Fogg). När läsarna verkar intresserade men inte klickar, bokar eller fyller i formuläret, eller när konverteringen är låg trots att trafiken är relevant.
 - [Hämta orden från kunderna](frameworks/sv/wiebe-customer-language.md) (Joanna Wiebe / Copyhackers). När texten består av interna produktord, när ni inte vet vad köparen undrar över eller när ni behöver en rubrik som läsaren känner igen sig i.
 - [Låt rubriken bära budskapet](frameworks/sv/ogilvy-headline.md) (David Ogilvy / vår tillämpning). När rubriken, ämnesraden eller ingressen är utbytbar, överlastad eller lovar mer än texten visar – eller när ingen läser vidare, öppnar nyhetsbrevet eller stannar kvar på sidan.
-- [Pröva budskapet i verkligheten](frameworks/sv/hopkins-testing.md) (Claude Hopkins / vår tillämpning för utvärdering). När ni ska välja mellan rubriker, erbjudanden eller versioner, eller vill veta om en ändring faktiskt hjälper läsaren och affären.
 - [Skriv för vanan, inte bara klicket](frameworks/sv/clear-habit-laws.md) (James Clear). När kunden har registrerat sig men inte kommer i gång, när en tjänst bygger på att man använder den regelbundet, eller i välkomstmejl och påminnelser.
 - [Stryk AI-flosklerna, behåll rösten](frameworks/sv/ai-slop-edit.md) (Peter Yang). När ett AI-utkast låter som alla andras, när texten är full av ord som sömlös och banbrytande, eller när du vill granska en text innan den publiceras.
 - [Visa skillnaden som spelar roll](frameworks/sv/dunford-positioning.md) (April Dunford). När läsaren inte förstår vad ni säljer, vem det är till för eller varför hen ska välja er i stället för det hen redan gör – eller när ni ständigt jämförs med fel konkurrenter.

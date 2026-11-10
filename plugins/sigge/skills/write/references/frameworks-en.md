@@ -2,20 +2,19 @@
 
 # Frameworks
 
-Choose at most three that fit the task and read only those. Frameworks guide the reasoning and are not named in the finished copy.
+Choose at most three that fit the task and read only those. Each framework has moves with example lines and one complete worked example. Frameworks guide the reasoning and are not named in the finished copy. The examples show the way of working; do not copy their wording or facts.
 
 - [Make the offer easy to value](frameworks/en/hormozi-offer.md) (Alex Hormozi). When customers say it's too expensive, can't see what they get for the money or feel the offer asks too much of them.
 - [Give the reader reasons to trust](frameworks/en/cialdini-persuasion.md) (Robert Cialdini). When readers wonder who you are, whether the offer fits them or whether anyone like them has benefited – on a homepage, in a case study or next to the price.
 - [Write as if the idea began in Swedish](frameworks/en/swedish-original.md) (Isof / our Swedish writing guide). When Swedish copy sounds translated, impersonal or stiff, or is full of anglicisms and sweeping sales promises such as 'lås upp' (unlock), 'ta kontroll över' (take control of) and 'nästa nivå' (next level).
 - [Cut the AI tells, keep the voice](frameworks/en/ai-slop-edit.md) (Peter Yang). When an AI draft sounds like everyone else's, when it's full of words like seamless and cutting-edge, or when you want to check a piece before it's published.
-- [Give your newsletter a fixed shape](frameworks/en/clear-3-2-1.md) (James Clear). When your newsletter keeps getting longer, rambles or is hard to send on time, or when readers stop opening it.
+- [Give a reason, then test whether it holds](frameworks/en/hopkins-testing.md) (Claude Hopkins / our application for evaluation). When the copy makes claims without saying why, when you're choosing between headlines, offers or versions, or when you want to know whether a change actually helps the reader and the business.
 - [Make the headline carry the message](frameworks/en/ogilvy-headline.md) (David Ogilvy / our application). When the headline, email subject line or intro is interchangeable, overloaded or promises more than the copy shows – or when nobody reads on, opens the newsletter or stays on the page.
 - [Make the next step easy to take](frameworks/en/fogg-action.md) (BJ Fogg). When readers seem interested but don't click, book or fill in the form, or when conversion is low even though the traffic is relevant.
 - [Put the argument in the right order](frameworks/en/copy-structure.md) (Copyhackers / established writing models). When the material is good but the copy jumps around, starts at the wrong end or finishes without a clear next step – in emails, on landing pages and in ads.
 - [Show the difference that matters](frameworks/en/dunford-positioning.md) (April Dunford). When readers can't tell what you sell, who it's for or why they should choose you over what they already do – or when you keep being compared with the wrong competitors.
 - [Start where the reader is](frameworks/en/schwartz-awareness.md) (Eugene Schwartz). When copy explains what the reader already knows, or asks for a purchase before the reader understands why they should care – in ads, on landing pages and in newsletters.
 - [Take your words from customers](frameworks/en/wiebe-customer-language.md) (Joanna Wiebe / Copyhackers). When the copy is full of internal product terms, when you don't know what buyers are wondering about, or when you need a headline readers recognise themselves in.
-- [Test the message in the real world](frameworks/en/hopkins-testing.md) (Claude Hopkins / our application for evaluation). When you're choosing between headlines, offers or versions, or want to know whether a change actually helps the reader and the business.
 - [Understand why the customer wants to switch](frameworks/en/jobs-to-be-done.md) (Christensen Institute / Jobs to Be Done). When the audience is described only by age, industry or company size, when you don't know why customers buy, or when buyers hesitate to switch.
 - [Write for the habit, not just the click](frameworks/en/clear-habit-laws.md) (James Clear). When customers sign up but never get started, when a product depends on regular use, or in welcome emails and reminders.
 

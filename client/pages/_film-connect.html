@@ -2,11 +2,15 @@
       <div class="film-stage" aria-hidden="true">
         <div class="film-scene" data-scene>
           <p class="film-caption"><b>1</b><span data-i18n="connectStepOne"></span></p>
-          <div class="mock mock-add"><div class="mock-bar"><i></i><i></i><i></i><em data-i18n="filmAddConnector"></em></div><small data-i18n="filmName"></small><p class="add-field">Sigge</p><small>URL</small><p class="add-field"><span class="type">https://sigge.si/mcp</span></p><div class="consent-row"><span class="mock-chip" data-i18n="filmCancel"></span><span class="mock-button" data-i18n="filmAdd"></span></div></div>
+          <div class="mock mock-install"><div class="mock-bar"><i></i><i></i><i></i><em>Plugins</em></div><small data-i18n="filmAddMarketplace"></small><p class="add-field"><span class="type">Ac0AI/sigge</span></p><div class="plugin-row"><span class="plugin-icon">s<i></i></span><span class="plugin-name"><strong>Sigge</strong><span data-i18n="filmPluginTagline"></span></span><span class="mock-button" data-i18n="filmInstall"></span></div><p class="consent-done" data-i18n="filmInstalled"></p></div>
         </div>
         <div class="film-scene" data-scene>
           <p class="film-caption"><b>2</b><span data-i18n="connectStepTwo"></span></p>
-          <div class="mock mock-chat"><div class="mock-bar"><i></i><i></i><i></i><em data-i18n="filmChat"></em></div><div class="bubble from-user"><span data-i18n="filmConnectAsk"></span></div><div class="tool-call"><span class="tool-dot"></span><code>sigge · get_writing_kit</code></div><div class="tool-call tc2"><span class="tool-dot"></span><code>sigge · check_ai_patterns</code></div><div class="bubble from-ai"><strong data-i18n="filmConnectAnswer"></strong><span class="stream"><i></i><i></i><i></i></span></div></div>
+          <div class="mock mock-chat"><div class="mock-bar"><i></i><i></i><i></i><em data-i18n="filmChat"></em></div><div class="bubble from-user"><span data-i18n="filmConnectAsk"></span></div><div class="tool-call"><span class="tool-dot"></span><code>sigge · write</code></div><div class="tool-call tc2"><span class="tool-dot"></span><code>sigge · get_writing_kit</code></div><div class="bubble from-ai"><strong data-i18n="filmConnectAnswer"></strong><span class="stream"><i></i><i></i><i></i></span></div></div>
+        </div>
+        <div class="film-scene" data-scene>
+          <p class="film-caption"><b>3</b><span data-i18n="connectStepThree"></span></p>
+          <div class="mock mock-check"><div class="mock-bar"><i></i><i></i><i></i><em data-i18n="filmDraft"></em></div><p class="draft-line"><s data-i18n="filmSlopA"></s><span data-i18n="filmSlopRest"></span><s class="s2" data-i18n="filmSlopB"></s><span data-i18n="filmSlopEnd"></span></p><div class="tool-call"><span class="tool-dot"></span><code>sigge · check_ai_patterns</code></div><p class="clean-line" data-i18n="filmClean"></p><p class="clean-note" data-i18n="filmCleanNote"></p></div>
         </div>
       </div>
       <div class="film-controls">
@@ -14,6 +18,7 @@
         <ol class="film-chapters">
           <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="connectStepOne"></span></button></li>
           <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="connectStepTwo"></span></button></li>
+          <li><button type="button" data-chapter><span class="bar"><span class="fill"></span></span><span class="label" data-i18n="connectStepThree"></span></button></li>
         </ol>
       </div>
     </figure>

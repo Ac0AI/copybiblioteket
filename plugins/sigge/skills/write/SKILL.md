@@ -24,7 +24,7 @@ If the Sigge tools are available (a tool named `get_writing_kit`), call it once 
 Otherwise use the files that ship with this skill:
 
 - **Writing guide.** Always read the one for the output language: [references/swedish.md](references/swedish.md) or [references/english.md](references/english.md).
-- **Frameworks.** [references/frameworks-sv.md](references/frameworks-sv.md) and [references/frameworks-en.md](references/frameworks-en.md) list all fourteen with when each one helps. Pick at most three and read only those.
+- **Frameworks.** [references/frameworks-sv.md](references/frameworks-sv.md) and [references/frameworks-en.md](references/frameworks-en.md) list all thirteen with when each one helps. Pick at most three and read only those. Each has a table for choosing a move, the moves with example lines, common mistakes and one complete worked example. The examples are fictional: use the way of working, never their wording or facts.
 - **Channel.** [references/channels.md](references/channels.md) for landing pages, ads, emails and experiments.
 - **Techniques.** [references/persuasion.md](references/persuasion.md) when choosing an argument for a substantial piece.
 

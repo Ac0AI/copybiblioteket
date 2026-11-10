@@ -1,7 +1,7 @@
 {
   "name": "sigge",
   "version": "1.0.0",
-  "description": "Write copy that sounds like you, in Swedish or English. Fourteen copy frameworks, writing guides and a check for AI-writing patterns. No account needed.",
+  "description": "Write copy that sounds like you, in Swedish or English. Thirteen copy frameworks, writing guides and a check for AI-writing patterns. No account needed.",
   "author": { "name": "AC0 AI", "email": "hej@sigge.si", "url": "https://ac0.ai" },
   "homepage": "https://sigge.si",
   "repository": "https://github.com/Ac0AI/sigge",
@@ -13,7 +13,7 @@
   "interface": {
       "displayName": "Sigge",
       "shortDescription": "Copy that sounds like you",
-      "longDescription": "Sigge helps your assistant write copy that sounds like you, in Swedish or English. It brings fourteen copy frameworks with questions and examples, a writing guide for each language and a check for AI-writing patterns. Write a landing page, an email, an ad or a post, check a draft for AI tells, or get a copy chief review of a text you already have. There is no account and nothing to sign in to. The connection to sigge.si adds 59 perspectives and source search.",
+      "longDescription": "Sigge helps your assistant write copy that sounds like you, in Swedish or English. It brings thirteen copy frameworks, each with named moves and a complete worked example, a writing guide for each language and a check for AI-writing patterns. Write a landing page, an email, an ad or a post, check a draft for AI tells, or get a copy chief review of a text you already have. There is no account and nothing to sign in to. The connection to sigge.si adds 59 perspectives and source search.",
       "developerName": "AC0 AI",
       "category": "Productivity",
       "capabilities": ["Read"],

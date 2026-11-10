@@ -7,6 +7,9 @@ import { languageFrom } from './locale.js';
 import { studioRouter } from './studio-http.js';
 import { personSchema, searchInput } from './schema.js';
 
+// Frameworks that were removed. Their pages were public, so the old addresses lead to the library.
+const retiredFrameworks = new Set(['clear-3-2-1']);
+
 export function createApp(library: CopyLibrary) {
   const app = express();
   const current = (req: express.Request) => library.forLanguage(languageFrom(req.query.lang));
@@ -59,7 +62,8 @@ export function createApp(library: CopyLibrary) {
     }
     // Server-rendered entries: only known ids reach the file system.
     app.get(prefix + '/people/:id', (req, res, next) => library.getPerson(req.params.id) ? res.sendFile(join(ROOT,'public',dir,'profiles',req.params.id+'.html')) : next());
-    app.get(prefix + '/library/:id', (req, res, next) => library.get(req.params.id) ? res.sendFile(join(ROOT,'public',dir,'frameworks',req.params.id+'.html')) : next());
+    app.get(prefix + '/library/:id', (req, res, next) => library.get(req.params.id) ? res.sendFile(join(ROOT,'public',dir,'frameworks',req.params.id+'.html'))
+      : retiredFrameworks.has(req.params.id) ? res.redirect(301, prefix + '/library') : next());
   }
   app.get('/sitemap.xml', (_req, res) => res.type('application/xml').sendFile(join(ROOT,'public','sitemap.xml')));
   for (const file of ['studio-app.js','library.js','people.js','connect.js','page.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));

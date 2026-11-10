@@ -30,16 +30,25 @@ function renderExample(e){
 }
 function subsection(title,text){const section=element('section');section.append(element('h3',title),element('p',text));return section;}
 function bulleted(title,items){const section=element('section'),ul=element('ul');for(const item of items)ul.append(element('li',item));section.append(element('h3',title),ul);return section;}
+function renderChoose(rows){const section=element('section',undefined,'moves-section'),dl=element('dl',undefined,'choose');for(const row of rows){const pair=element('div');pair.append(element('dt',row.when),element('dd',row.use));dl.append(pair);}section.append(element('h3',t('chooseHeading')),dl);return section;}
+function renderMoves(moves){const section=element('section',undefined,'moves-section'),grid=element('div',undefined,'moves');for(const m of moves){const move=element('div',undefined,'move');move.append(element('h4',m.name),element('p',m.how),element('p',m.example,'move-example'));grid.append(move);}section.append(element('h3',t('frameworkMoves')),grid);return section;}
+function prose(text,className){const block=element('div',undefined,className);for(const part of text.split(/\n{2,}/)){const p=element('p');part.split('\n').forEach((line,i)=>{if(i)p.append(document.createElement('br'));p.append(line);});block.append(p);}return block;}
+function renderWorked(w){
+  const section=element('section',undefined,'worked');section.append(element('h3',t('workedHeading')),element('p',w.context,'worked-context'));
+  if(w.before)section.append(element('p',t('draftLabel'),'example-label'),prose(w.before,'worked-text is-before'),element('p',t('revised'),'example-label'));
+  const notes=element('ul');for(const note of w.notes)notes.append(element('li',note));
+  section.append(prose(w.text,'worked-text'),element('h4',t('workedNotes')),notes);return section;
+}
 function renderFramework(f){
   setActive(f.id);history.replaceState(null,'','#'+f.id);
   detail.replaceChildren(element('p',f.author+' / '+t(f.category),'author'),element('h2',f.title),element('p',f.summary,'lead'));
   const contexts=element('div',undefined,'context');contexts.append(subsection(t('useWhen'),f.useWhen),subsection(t('avoidWhen'),f.avoidWhen));
-  detail.append(contexts,bulleted(t('apply'),f.principles),bulleted(t('questions'),f.questions));
+  detail.append(contexts,bulleted(t('apply'),f.principles),renderChoose(f.choose),renderMoves(f.moves),bulleted(t('questions'),f.questions));
   const example=renderExample(f.example);
-  detail.append(example,element('h3',t('sources')));const sources=element('ul',undefined,'source-links');for(const source of f.sources){const li=element('li');li.append(link(source.title,source.url));sources.append(li);}detail.append(sources,element('p',t('exampleNotice'),'note'));
+  detail.append(example,renderWorked(f.worked),bulleted(t('mistakesHeading'),f.mistakes),element('h3',t('sources')));const sources=element('ul',undefined,'source-links');for(const source of f.sources){const li=element('li');li.append(link(source.title,source.url));sources.append(li);}detail.append(sources,element('p',t('exampleNotice'),'note'));
   const copy=element('button',t('copyFramework'),'button primary');copy.type='button';
   copy.addEventListener('click',async()=>{
-    const prompt=[t('frameworkPrompt'),f.title,f.summary,t('apply')+':',...f.principles.map(p=>'- '+p),t('questions')+':',...f.questions.map(p=>'- '+p),t('sources')+':',...f.sources.map(s=>s.title+': '+s.url),t('briefTemplate')].join('\n\n');
+    const prompt=[t('frameworkPrompt'),f.title,f.summary,t('apply')+':',...f.principles.map(p=>'- '+p),t('chooseHeading')+':',...f.choose.map(c=>'- '+c.when+': '+c.use),t('frameworkMoves')+':',...f.moves.map(m=>'- '+m.name+': '+m.how+' '+m.example),t('mistakesHeading')+':',...f.mistakes.map(p=>'- '+p),t('questions')+':',...f.questions.map(p=>'- '+p),t('sources')+':',...f.sources.map(s=>s.title+': '+s.url),t('briefTemplate')].join('\n\n');
     try{await navigator.clipboard.writeText(prompt);status.textContent=t('frameworkCopied');}catch{status.textContent=t('copyBlocked');}
   });
   const use=element('a',t('useInWorkshop'),'button outlined');use.href=route('/')+'#workshop';const page=element('a',t('frameworkPage'),'button subtle');page.href=route('/library/'+f.id);const actions=element('div',undefined,'detail-actions');actions.append(copy,use,page);detail.append(actions);

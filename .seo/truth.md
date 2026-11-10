@@ -4,7 +4,7 @@ Härlett ur repot 2026-11-02. Härled om när ramverk, profiler, pris eller ansl
 
 | Claim | Value | Source | Read |
 |---|---|---|---|
-| Antal ramverk | 14 (Clear står för två) | data/copy-frameworks/*.json | 2026-11-02 |
+| Antal ramverk | 13 (3-2-1 borttaget 2026-11-10) | data/copy-frameworks/*.json | 2026-11-10 |
 | Antal personprofiler | 59, alla från The Brains | data/people/*.json, AGENTS.md | 2026-11-02 |
 | Pris | Gratis, ingen betald plan | client/pages/index.html JSON-LD offers price 0 | 2026-11-02 |
 | Språk | Svenska och engelska | data/translations/en/, client/messages.js | 2026-11-02 |
@@ -28,4 +28,4 @@ Härlett ur repot 2026-11-02. Härled om när ramverk, profiler, pris eller ansl
 
 | Claim | Code says | Site says | Which is right |
 |---|---|---|---|
-| Antal ramverk efter fyra namn | 14 totalt = 5 + 9 | "och tio till" (rättat i PR #12) | koden |
+| Antal ramverk efter fyra namn | 13 totalt = 4 + 9 | "och tio till" (rättat i PR #12) | koden |

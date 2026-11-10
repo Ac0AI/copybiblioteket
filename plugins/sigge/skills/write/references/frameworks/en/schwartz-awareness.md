@@ -15,8 +15,26 @@ Eugene Schwartz describes five levels of awareness, from not seeing the problem 
 - Identify the level: unaware (doesn't see the problem or need), problem aware (feels the problem but doesn't know a solution), solution aware (knows the result they want but not that your product delivers it), product aware (knows your product but isn't convinced) or most aware (wants the product and just needs the right offer).
 - Most aware and product aware: get straight to the point. Name the product, the offer, the price and the terms, or show how you differ from the alternatives and what backs that up.
 - Solution aware and problem aware: open with the result the reader wants or the problem they feel, in their own words, then show that a solution exists and how it works.
-- Unaware: don't lead with the product. Open with something readers recognise from their own lives – a situation, a feeling, an identity – and build the path from there. The lower the awareness, the more work the copy has to do before the offer appears.
+- Unaware: don't lead with the product. Open with something readers recognise from their own lives (a situation, a feeling, an identity) and build the path from there. The lower the awareness, the more work the copy has to do before the offer appears.
 - Copy can't create a desire that isn't there; it can only channel an existing one towards your offer, so find that desire first. The same person can be at different levels in different channels, so adapt to the context.
+
+## Choose a move for the situation
+
+- The reader searched for your name or has bought before: Most aware.
+- The reader is comparing you with others: Product-aware.
+- The reader searched for the solution, for example 'contract reminder': Solution-aware.
+- The reader searched for the problem or complains about it: Problem-aware.
+- The reader meets the copy in a feed without having looked for it: Unaware.
+- Everyone in the market promises the same thing: Market sophistication: show how it is done.
+
+## Moves
+
+- **Most aware.** The reader wants the product. Give the offer and nothing else. 'Bevaka: 99 kr a month. The first month is free.'
+- **Product-aware.** The reader knows you but hesitates. Show how you differ from the alternatives and what backs that up. 'Bevaka reads your contracts in from your email. You don't have to fill in anything yourself.'
+- **Solution-aware.** The reader knows what they want to achieve but not that you exist. Open with the result. 'Get a reminder 30 days before a contract renews.'
+- **Problem-aware.** The reader feels the problem but doesn't know the solution. Open with the problem the way they would describe it themselves. 'Did your broadband renew for another year because you missed the notice period?'
+- **Unaware.** The reader sees no problem. Open with something they recognise and let the product wait. 'Do you know the date your electricity contract moves to a higher price?'
+- **Market sophistication.** Schwartz also describes how many similar promises the reader has already heard. In a new market a plain promise is enough. When everyone promises the same thing, you need to show how it works, and in the end who it is for. New market: 'Never miss a notice period.' Saturated market: 'Bevaka reads the contract for you and works out the last day to cancel.'
 
 ## Questions to ask
 
@@ -31,6 +49,34 @@ Fictional: the reader knows they need a removal firm and is comparing options. T
 - **Before:** Moving can be stressful. Did you know there are removal firms that can help?
 - **After:** Compare quotes from three removal firms – with a single enquiry.
 - **Why:** The reader is already solution aware, so the opening goes straight to what the service does for the comparison they're already making.
+
+## A complete example
+
+Fictional: the service Bevaka keeps track of when contracts expire. Facts in the brief: reads contracts in from email, works out the last day to cancel, sends a text 30 days before, 99 kr a month, first month free. The reader is problem-aware: they have missed a notice period but don't know there are services for this.
+
+> Did your broadband renew for another year?
+>
+> It's easily done. The contract has three months' notice, the letter came in the summer and now you're tied in for twelve more months.
+>
+> You can avoid it. Bevaka reads your contracts in from your email and works out the last day to cancel each one. Thirty days before, you get a text.
+>
+> Then you decide for yourself: cancel, renegotiate or let the contract run.
+>
+> Bevaka costs 99 kr a month, and the first month is free.
+>
+> [Add your first contract]
+
+**What the example does:**
+
+- The opening is the problem in the reader's words. The product isn't mentioned until the third paragraph.
+- The sentence 'You can avoid it' takes the reader from problem-aware to solution-aware before the offer arrives.
+- For a reader who is already comparing services, the copy would have opened with the line about Bevaka reading contracts in from email.
+
+## Common mistakes
+
+- Writing the same opening for everyone. Someone who already wants to buy tires of background, and someone who sees no problem doesn't understand the offer.
+- Opening with the product in an ad shown to people who haven't searched for it.
+- Guessing the level without looking at where the reader comes from. A search for the product name and a post in the feed are different levels.
 
 ## Sources
 

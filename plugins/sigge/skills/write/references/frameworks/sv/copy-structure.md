@@ -18,6 +18,24 @@ Använd AIDA, PAS eller före–efter–vägen dit som en checklista för i vilk
 - Före–efter–vägen dit (Before–After–Bridge): beskriv läget i dag, visa ett rimligt läge efteråt och förklara konkret hur erbjudandet tar läsaren dit. Bilden av framtiden får inte lova mer än ni kan leverera.
 - Använd modellen som checklista, inte som ifyllnadsmall: stryk steg som inte tillför något och kontrollera att varje stycke leder vidare till nästa.
 
+## Välj grepp efter läget
+
+- En kort text till en läsare som känner problemet: PAS i tre meningar.
+- Förändringen är lätt att se framför sig: Före, efter, vägen dit.
+- En längre text till en ny läsare: AIDA för en längre text.
+- En hel sida: Landningssidans ordning.
+- Ett mejl: Mejlets ordning.
+- Texten ber läsaren om flera saker: Ett steg per text.
+
+## Grepp
+
+- **PAS i tre meningar.** Problemet med läsarens ord, vad det kostar, lösningen. Passar annonser och korta mejl. ”Regnar det in på altanen igen? Då blir sommarmöblerna stående i garaget. Vi glasar in altanen på två dagar.”
+- **Före, efter, vägen dit.** Läget i dag, ett rimligt läge efteråt, hur erbjudandet tar läsaren dit. Passar när förändringen är lätt att se framför sig. ”I dag putsar du fönstren två gånger om året, om du hinner. Med abonnemang är de rena var sjätte vecka. Vi kommer på samma veckodag varje gång.”
+- **AIDA för en längre text.** Fånga rätt läsare, väck intresse med hur det fungerar, gör nyttan konkret, avsluta med ett steg. Rubrik som pekar ut läsaren. Ett stycke om hur det går till. Ett stycke om vad läsaren slipper. En knapp.
+- **Landningssidans ordning.** Vår tillämpning: löftet, vad det är och för vem, hur det går till, belägg, pris och villkor, vanliga frågor, ett nästa steg. Stryk det som saknar innehåll. En sida utan kundomdömen hoppar över belägg och lägger mer vikt vid hur det går till.
+- **Mejlets ordning.** Vår tillämpning: ämnesrad som säger ärendet, första raden med poängen, ett skäl, en uppmaning. Ämnesrad: ”Fönsterputs torsdag 14 maj”. Första raden: ”Vi kommer mellan 8 och 12.”
+- **Ett steg per text.** Bestäm vad läsaren ska göra, och låt allt annat leda dit. Ber sidan om tre saker vet läsaren inte vilken som är viktigast. Välj en och gör de andra till länkar längre ner.
+
 ## Frågor att ställa
 
 - Vad behöver läsaren förstå först för att vilja läsa vidare?
@@ -31,6 +49,40 @@ Påhittat: en tjänst samlar arbetsgruppens uppgifter i en gemensam lista som al
 - **Före:** Full kontroll. Maximal potential. Obegränsade möjligheter.
 - **Efter:** Vem gör vad den här veckan? När uppgifterna ligger utspridda i mejl, chatt och lappar är det lätt att något faller mellan stolarna. Samla dem i en lista som hela gruppen ser. [Se hur det fungerar]
 - **Varför:** Problem, följd och lösning i tre meningar (PAS): läsaren känner igen sig innan erbjudandet kommer, och superlativerna behövs inte.
+
+## Ett helt exempel
+
+Påhittat: Klart Glas säljer fönsterputs i abonnemang till villaägare i Västerås. Fakta i underlaget: var sjätte vecka, samma veckodag, 395 kr per gång efter rutavdrag för en villa med upp till 15 fönster, ingen bindningstid, kunden behöver inte vara hemma, fakturan kommer månaden efter. Inga kundomdömen finns att visa.
+
+> Rena fönster var sjätte vecka
+>
+> Fönsterputs i abonnemang för villor i Västerås.
+>
+> Så går det till
+> Vi kommer samma veckodag var sjätte vecka och putsar utsidan. Du behöver inte vara hemma. Dagen innan får du ett sms.
+>
+> Vad det kostar
+> 395 kr per gång efter rutavdrag, för en villa med upp till 15 fönster. Fakturan kommer månaden efter.
+>
+> Ingen bindningstid
+> Du avslutar när du vill, senast dagen före nästa besök.
+>
+> Har du fler än 15 fönster?
+> Skicka adressen, så svarar vi med ett pris.
+>
+> [Välj veckodag]
+
+**Det här gör exemplet:**
+
+- Ordningen är löftet, vad det är och för vem, hur det går till, pris och villkor, en vanlig fråga, ett steg.
+- Belägg saknas i underlaget. Därför finns ingen sådan del, och texten låtsas inte ha kundomdömen.
+- Varje mellanrubrik är ett svar på något läsaren annars måste fråga om.
+
+## Vanliga misstag
+
+- Att fylla i alla steg i en modell fast underlaget bara räcker till tre.
+- Att förstora problemet för att PAS ska kännas dramatiskt. Läsaren märker när det överdrivs.
+- Att avsluta med flera uppmaningar som konkurrerar med varandra.
 
 ## Källor
 

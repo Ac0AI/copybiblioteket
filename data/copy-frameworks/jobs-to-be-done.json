@@ -3,7 +3,7 @@
   "title": "Förstå varför kunden vill byta",
   "author": "Christensen Institute / Jobs to Be Done",
   "category": "Kundinsikt",
-  "summary": "Kunder ”anlitar” en produkt för att komma framåt i en viss situation. Ta reda på vad som hände när de började leta, vilken förändring de vill uppnå – praktiskt, socialt och känslomässigt – och vad som håller dem kvar i det gamla.",
+  "summary": "Kunder ”anlitar” en produkt för att komma framåt i en viss situation. Ta reda på vad som hände när de började leta, vilken förändring de vill uppnå (praktiskt, socialt och känslomässigt) och vad som håller dem kvar i det gamla.",
   "useWhen": "När målgruppen bara beskrivs med ålder, bransch eller bolagsstorlek, när ni inte vet varför kunderna köper eller när köparen tvekar inför att byta.",
   "avoidWhen": "När ni inte har pratat med kunder: formulera då frågor och hypoteser, inte påståenden om vad kunderna egentligen känner.",
   "keywords": [
@@ -39,7 +39,7 @@
   ],
   "principles": [
     "Fråga om ett konkret tillfälle: när började kunden leta, vad hade just hänt, vad provade hen först och varför blev det viktigt just då? Fråga vad människor gjorde, inte vad de tror att de vill ha.",
-    "Beskriv jobbet som en förändring i en situation – ”när …, vill jag …, så att …” – i stället för som en produktegenskap eller en demografisk grupp.",
+    "Beskriv jobbet som en förändring i en situation (”när …, vill jag …, så att …”) i stället för som en produktegenskap eller en demografisk grupp.",
     "Fånga jobbets alla tre sidor: den praktiska (få bokföringen gjord), den sociala (hur kunden vill uppfattas) och den känslomässiga (slippa oron).",
     "Vår tillämpning: ett byte drivs av missnöje med det gamla och dragningskraften hos det nya, men bromsas av oro för det nya och vanan vid det gamla. Texten ska stärka de två första och minska de två sista, till exempel genom att visa hur flytten går till.",
     "En kunds berättelse är en hypotes, inte en sanning om hela målgruppen. Leta efter mönster i flera intervjuer innan du bygger budskapet på dem."
@@ -50,12 +50,80 @@
     "Vad vill kunden kunna göra, känna eller visa efteråt?",
     "Vad gör bytet besvärligt eller osäkert?"
   ],
+  "choose": [
+    {
+      "when": "Läsaren ser inte varför hen ska byta",
+      "use": "Det som knuffar."
+    },
+    {
+      "when": "Läsaren ser problemet men inte vad som blir bättre",
+      "use": "Det som drar."
+    },
+    {
+      "when": "Läsaren är intresserad men drar sig för bytet",
+      "use": "Oron för det nya."
+    },
+    {
+      "when": "Läsaren tycker om delar av det gamla",
+      "use": "Vanan vid det gamla."
+    },
+    {
+      "when": "Ni vet inte varför kunderna köper",
+      "use": "Jobbformuleringen, som hypotes tills ni har frågat dem."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Jobbformuleringen",
+      "how": "Skriv jobbet som en mening: När [situation] vill jag [förändring], så att [resultat].",
+      "example": "”När lagret i Excel inte stämmer med hyllan vill jag se rätt saldo direkt, så att jag slipper sälja varor som är slut.”"
+    },
+    {
+      "name": "Det som knuffar",
+      "how": "Vår tillämpning: beskriv det som skaver i det gamla, med en händelse läsaren känner igen.",
+      "example": "”Sålde du en vara i helgen som redan var slut?”"
+    },
+    {
+      "name": "Det som drar",
+      "how": "Vår tillämpning: visa hur vardagen ser ut med det nya, konkret och utan superlativ.",
+      "example": "”Saldot ändras när ordern läggs, inte när du hinner uppdatera arket.”"
+    },
+    {
+      "name": "Oron för det nya",
+      "how": "Vår tillämpning: svara på det som gör bytet läskigt, oftast flytten, inlärningen och risken att förlora data.",
+      "example": "”Vi läser in ditt Excelark. Du behöver inte lägga upp varorna en gång till.”"
+    },
+    {
+      "name": "Vanan vid det gamla",
+      "how": "Vår tillämpning: låt läsaren behålla det hen tycker om i det gamla.",
+      "example": "”Du kan fortsätta exportera till Excel varje fredag om du vill ha kvar dina egna listor.”"
+    },
+    {
+      "name": "Jobbets tre sidor",
+      "how": "Skriv en rad vardera för det praktiska, det sociala och det känslomässiga, och välj vilken texten ska bära.",
+      "example": "Praktiskt: rätt saldo. Socialt: slippa mejla kunder och be om ursäkt. Känslomässigt: kunna stänga datorn på fredagen."
+    }
+  ],
   "example": {
     "context": "Påhittat: en tjänst hjälper småföretag att flytta bokföringsunderlag från ett annat system. Exemplet bygger inte på en verklig intervju.",
     "before": "Vår lösning passar företag med 1–10 anställda.",
     "after": "Vill du byta bokföringsprogram men drar dig för flytten? Vi hjälper dig att föra över underlaget från systemet du använder i dag.",
-    "explanation": "Texten möter läsaren i situationen – viljan att byta och oron för flytten – i stället för att sortera hen efter antal anställda."
+    "explanation": "Texten möter läsaren i situationen (viljan att byta och oron för flytten) i stället för att sortera hen efter antal anställda."
   },
+  "worked": {
+    "context": "Påhittat: lagerprogrammet Hylla för små e-handlare som i dag har lagret i Excel. Fakta i underlaget: läser in befintligt Excelark, saldot uppdateras när en order läggs, export till Excel finns kvar, 290 kr i månaden, 30 dagars gratis provperiod. Exemplet bygger inte på verkliga intervjuer.",
+    "text": "Sålde du en vara i helgen som redan var slut?\n\nDå vet du hur måndagen ser ut. Du mejlar kunden, ber om ursäkt och betalar tillbaka.\n\nLagret i Excel stämmer så länge du hinner uppdatera det. Med Hylla ändras saldot i samma stund som ordern läggs.\n\nDu behöver inte börja om. Vi läser in arket du redan har, med artikelnummer och antal. Vill du ha kvar dina egna listor exporterar du till Excel när du vill.\n\nProva i 30 dagar utan kostnad. Sedan kostar Hylla 290 kr i månaden.\n\n[Läs in ditt Excelark]",
+    "notes": [
+      "Öppningen är en händelse, inte en målgrupp. Den som känner igen sig läser vidare.",
+      "Tredje stycket är lockelsen. Fjärde stycket tar hand om oron för flytten och vanan vid Excel.",
+      "Knappen är första steget i bytet, så att läsaren ser att flytten börjar med något litet."
+    ]
+  },
+  "mistakes": [
+    "Att beskriva målgruppen med ålder och bransch och tro att det förklarar varför någon köper.",
+    "Att bara stärka lockelsen och glömma oron. Den som är övertygad om nyttan kan ändå stanna kvar för att bytet verkar jobbigt.",
+    "Att presentera en gissning om kundens känslor som en insikt. Utan samtal är det en hypotes."
+  ],
   "sources": [
     {
       "title": "Christensen Institute: Jobs to Be Done Theory",

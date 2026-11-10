@@ -2,7 +2,7 @@
   "cialdini-persuasion": {
     "title": "Give the reader reasons to trust",
     "author": "Robert Cialdini",
-    "summary": "Choose the evidence that answers the reader's doubt – other customers, expertise, a generous first step or a genuine condition – and present it so readers can judge it for themselves. Robert Cialdini describes seven principles of influence; use them to make a good decision easier, never to push someone into one.",
+    "summary": "Choose the evidence that answers the reader's doubt (other customers, expertise, a generous first step or a genuine condition) and present it so readers can judge it for themselves. Robert Cialdini describes seven principles of influence; use them to make a good decision easier, never to push someone into one.",
     "useWhen": "When readers wonder who you are, whether the offer fits them or whether anyone like them has benefited – on a homepage, in a case study or next to the price.",
     "avoidWhen": "When the evidence isn't there: never invent testimonials, customer numbers, credentials, a shared identity or 'only three places left'.",
     "keywords": [
@@ -32,10 +32,10 @@
       "convince"
     ],
     "principles": [
-      "Start with the doubt. Ask what is holding the reader back right now – are they legitimate, is this for me, has it worked for others? – and pick the one or two principles that answer it. Cramming in all seven makes copy pushy, not credible.",
+      "Start with the doubt. Ask what is holding the reader back right now (are they legitimate, is this for me, has it worked for others?) and pick the one or two principles that answer it. Cramming in all seven makes copy pushy, not credible.",
       "Social proof and unity: show that people like the reader have already chosen you – same industry, size or situation. A named case study outweighs 'happy customers'. Only appeal to a shared identity ('fellow founders') when it is real.",
       "Authority and liking: establish relevant expertise before you ask for anything – training, track record, who actually does the work. Write like a knowledgeable person who understands the reader, and be honest about what you don't do; it makes everything else more believable.",
-      "Reciprocity and consistency: give something genuinely useful first – a checklist, advice, a calculator – with no strings attached. Then ask for a small, voluntary step that fits what the reader has already said or done, rather than a big commitment straight away.",
+      "Reciprocity and consistency: give something genuinely useful first (a checklist, advice, a calculator) with no strings attached. Then ask for a small, voluntary step that fits what the reader has already said or done, rather than a big commitment straight away.",
       "Scarcity: point out what the reader stands to miss only when the limit is real, and state the condition precisely – number of places, closing date, what happens afterwards. Fake urgency destroys the trust you are trying to build."
     ],
     "questions": [
@@ -44,12 +44,85 @@
       "Will the reader recognise themselves in the customers or experts we show?",
       "Is the limit or offer real, with terms we can stand behind?"
     ],
+    "choose": [
+      {
+        "when": "The reader wonders whether you are serious",
+        "use": "Authority."
+      },
+      {
+        "when": "The reader wonders whether it suits someone like them",
+        "use": "Social proof and Unity."
+      },
+      {
+        "when": "The reader is afraid of regretting it",
+        "use": "Reciprocity and Commitment and consistency: one small first step."
+      },
+      {
+        "when": "The reader sees no reason to decide now",
+        "use": "Scarcity, only if the limit is real."
+      },
+      {
+        "when": "The reader does not trust sales copy",
+        "use": "Liking: say what you are not right for."
+      }
+    ],
+    "moves": [
+      {
+        "name": "Social proof",
+        "how": "Show customers who resemble the reader and say what they have in common. Numbers should be checkable.",
+        "example": "'38 companies have their office here. Half are one-person businesses.'"
+      },
+      {
+        "name": "Authority",
+        "how": "Show what makes you knowledgeable on this particular question: training, years in the trade or who does the work.",
+        "example": "'Anna, who runs the place, has let office space in Malmö for eleven years.'"
+      },
+      {
+        "name": "Liking",
+        "how": "Write as a person who understands the reader's situation, and say honestly what you are not right for.",
+        "example": "'If you need a lockable room of your own, we're the wrong place. Everyone here sits in an open-plan room.'"
+      },
+      {
+        "name": "Reciprocity",
+        "how": "Give something useful first, with no strings attached.",
+        "example": "'Try a day for free. You don't need to give any card details.'"
+      },
+      {
+        "name": "Commitment and consistency",
+        "how": "Ask for a small, voluntary step in line with what the reader already wants.",
+        "example": "'Start with a five-day pass before you decide on a permanent desk.'"
+      },
+      {
+        "name": "Scarcity",
+        "how": "Say what is limited, how much and from when.",
+        "example": "'We have 24 desks. Three are free from 1 April.'"
+      },
+      {
+        "name": "Unity",
+        "how": "Point to a community only when it exists and matters to the choice.",
+        "example": "'Every Thursday we eat lunch together. It's optional, but most people come.'"
+      }
+    ],
     "example": {
       "context": "Fictional: three accounting firms with two to eight staff have agreed to publish their interviews about the service.",
       "before": "The obvious choice for every successful firm.",
       "after": "How three accounting firms with 2–8 staff use the service day to day. Read their stories.",
       "explanation": "Real customers who resemble the reader can be checked; 'the obvious choice' is just an assertion."
-    }
+    },
+    "worked": {
+      "context": "Fictional: Kontoret Södra, a shared office in Malmö. Facts in the brief: 24 desks in an open-plan room, 38 companies have their office here, half are one-person businesses (among them a translator, two developers and an accountant), none of them knew anyone else when they arrived, a free trial day with no card details, a five-day pass, three free desks from 1 April, a shared lunch on Thursdays. The reader works from home and is hesitant about sitting among strangers.",
+      "text": "Working from home and missing having people around?\n\nHalf the companies here are one-person businesses: a translator, two developers, an accountant. None of them knew anyone when they arrived.\n\nThis is how it usually goes. You try a day for free, without giving any card details. If you like it, you can buy a five-day pass before you decide on a permanent desk.\n\nOn Thursdays we eat lunch together. It's optional, but most people come.\n\nIf you need a lockable room of your own, we're the wrong place. Everyone here sits in an open-plan room.\n\nWe have 24 desks, and three are free from 1 April.\n\n[Book a trial day]",
+      "notes": [
+        "The doubt is 'will I fit in?'. That is why social proof and unity carry the copy, and authority isn't needed.",
+        "The trial day and the five-day pass are two small steps before the big one. That is reciprocity and commitment in practice.",
+        "The line about who the place doesn't suit makes the rest easier to believe."
+      ]
+    },
+    "mistakes": [
+      "Using all seven at once. The copy turns into a list of sales tricks, and the reader trusts it less.",
+      "Showing proof that doesn't answer the doubt. Someone wondering whether it suits a one-person business isn't reassured by logos from large corporations.",
+      "Writing 'limited number of places' without a number. The reader has seen it before and doesn't believe it."
+    ]
   },
   "copy-structure": {
     "title": "Put the argument in the right order",
@@ -89,12 +162,84 @@
       "Do the problem, offer and next step connect without a leap in logic?",
       "Which paragraph could go without the reader missing it?"
     ],
+    "choose": [
+      {
+        "when": "A short text for a reader who feels the problem",
+        "use": "PAS in three sentences."
+      },
+      {
+        "when": "The change is easy to picture",
+        "use": "Before, after, bridge."
+      },
+      {
+        "when": "A longer text for a new reader",
+        "use": "AIDA for a longer text."
+      },
+      {
+        "when": "A whole page",
+        "use": "The order of a landing page."
+      },
+      {
+        "when": "An email",
+        "use": "The order of an email."
+      },
+      {
+        "when": "The copy asks the reader for several things",
+        "use": "One step per text."
+      }
+    ],
+    "moves": [
+      {
+        "name": "PAS in three sentences",
+        "how": "The problem in the reader's words, what it costs, the solution. Suits ads and short emails.",
+        "example": "'Rain coming in on the patio again? Then the garden furniture stays in the garage. We glaze the patio in two days.'"
+      },
+      {
+        "name": "Before, after, bridge",
+        "how": "Today's situation, a reasonable situation afterwards, how the offer takes the reader there. Suits cases where the change is easy to picture.",
+        "example": "'Today you clean the windows twice a year, if you get round to it. With a subscription they are clean every six weeks. We come on the same weekday each time.'"
+      },
+      {
+        "name": "AIDA for a longer text",
+        "how": "Catch the right reader, build interest with how it works, make the benefit concrete, end with one step.",
+        "example": "A headline that singles out the reader. A paragraph on how it works. A paragraph on what the reader is spared. A button."
+      },
+      {
+        "name": "The order of a landing page",
+        "how": "Our application: the promise, what it is and who it is for, how it works, proof, price and terms, common questions, one next step. Cut whatever has no content.",
+        "example": "A page without customer reviews skips proof and puts more weight on how it works."
+      },
+      {
+        "name": "The order of an email",
+        "how": "Our application: a subject line that states the purpose, a first line with the point, one reason, one call to action.",
+        "example": "Subject line: 'Window cleaning Thursday 14 May'. First line: 'We'll arrive between 8 and 12.'"
+      },
+      {
+        "name": "One step per text",
+        "how": "Decide what the reader should do, and let everything else lead there.",
+        "example": "If the page asks for three things, the reader doesn't know which matters most. Choose one and turn the others into links further down."
+      }
+    ],
     "example": {
       "context": "Fictional: a service gathers a team's tasks into one shared list that everyone in the team can see.",
       "before": "Total control. Maximum potential. Unlimited possibilities.",
       "after": "Who's doing what this week? When tasks are scattered across email, chat and sticky notes, things slip through the cracks. Put them in one list the whole team can see. [See how it works]",
       "explanation": "Problem, consequence and solution in three sentences (PAS): the reader recognises the situation before the offer appears, so the superlatives aren't needed."
-    }
+    },
+    "worked": {
+      "context": "Fictional: Klart Glas sells window cleaning on subscription to house owners in Västerås. Facts in the brief: every six weeks, the same weekday, 395 kr per visit after the RUT tax deduction for a house with up to 15 windows, no minimum term, the customer doesn't need to be at home, the invoice comes the following month. There are no customer reviews to show.",
+      "text": "Clean windows every six weeks\n\nWindow cleaning on subscription for houses in Västerås.\n\nHow it works\nWe come on the same weekday every six weeks and clean the outside. You don't need to be at home. The day before, you get a text.\n\nWhat it costs\n395 kr per visit after the RUT tax deduction, for a house with up to 15 windows. The invoice comes the following month.\n\nNo minimum term\nYou can cancel whenever you like, up to the day before the next visit.\n\nMore than 15 windows?\nSend us the address and we'll reply with a price.\n\n[Choose a weekday]",
+      "notes": [
+        "The order is the promise, what it is and who it is for, how it works, price and terms, a common question, one step.",
+        "The brief has no proof. So there is no such section, and the copy doesn't pretend to have customer reviews.",
+        "Every subheading answers something the reader would otherwise have to ask."
+      ]
+    },
+    "mistakes": [
+      "Filling in every step of a model when the brief only stretches to three.",
+      "Inflating the problem so that PAS feels dramatic. The reader notices when it is exaggerated.",
+      "Ending with several calls to action that compete with each other."
+    ]
   },
   "dunford-positioning": {
     "title": "Show the difference that matters",
@@ -125,7 +270,7 @@
       "Competitive alternatives: list what customers would do if you didn't exist – pick a competitor, carry on with a spreadsheet, hire an intern or do nothing at all. That is what readers compare you with, not your own list of competitors.",
       "Unique attributes: write down what you have or can do that the alternatives lack – features, ways of working, expertise, delivery model. Stick to facts, not adjectives.",
       "Value: ask 'so what does that mean for the customer?' of each attribute until the answer is a concrete benefit, and note the evidence that shows the benefit is real.",
-      "Best-fit customers: describe what the customers who care most about that value have in common – their situation, needs or way of working, not just industry and size – and write for them.",
+      "Best-fit customers: describe what the customers who care most about that value have in common (their situation, needs or way of working, not just industry and size) and write for them.",
       "Market category: choose the context that lets readers instantly understand what you are and why your value matters. Don't claim to be unique or the best without a comparison to back it up."
     ],
     "questions": [
@@ -134,12 +279,80 @@
       "Who cares most about that difference, and what do they have in common?",
       "In what context does our value become obvious to the reader?"
     ],
+    "choose": [
+      {
+        "when": "The reader asks what this actually is",
+        "use": "A category that makes the value obvious."
+      },
+      {
+        "when": "The reader says they already have a system",
+        "use": "Alternatives first and The feature the alternatives lack."
+      },
+      {
+        "when": "The copy lists features",
+        "use": "Ask 'so what?'."
+      },
+      {
+        "when": "The page tries to suit everyone",
+        "use": "The customers who care most."
+      },
+      {
+        "when": "The positioning exists but the home page is unclear",
+        "use": "From positioning to home page."
+      }
+    ],
+    "moves": [
+      {
+        "name": "Alternatives first",
+        "how": "Write down what the customer chooses between today, including what isn't a competitor.",
+        "example": "'Cafés today choose between a large till system built for shops and a card reader with an app.'"
+      },
+      {
+        "name": "The feature the alternatives lack",
+        "how": "Stick to something you can show, and check that the alternatives really lack it.",
+        "example": "'Orders from the till and from the QR code on the tables land on the same screen in the kitchen.'"
+      },
+      {
+        "name": "Ask 'so what?'",
+        "how": "Ask what the feature leads to, until the answer is something the customer would say themselves.",
+        "example": "The same screen in the kitchen. So what? Nobody runs around with slips of paper. So what? Fewer forgotten orders when it's full."
+      },
+      {
+        "name": "The customers who care most",
+        "how": "Describe the situation that makes the value large, and go beyond industry and size.",
+        "example": "'Cafés with table service and a lunch rush. Not kiosks with a single queue.'"
+      },
+      {
+        "name": "A category that makes the value obvious",
+        "how": "Choose the context where your strength is what the reader expects to compare.",
+        "example": "'A till for cafés with table service' says more than 'till system' or 'platform for the restaurant industry'."
+      },
+      {
+        "name": "From positioning to home page",
+        "how": "Our application: the headline states the category and the value, the subheading says who it is for and compared with what, and the first section shows the feature that makes the difference.",
+        "example": "Headline: 'The till for cafés with table service.' Subheading: 'Orders from the till and the tables land on the same screen in the kitchen.'"
+      }
+    ],
     "example": {
       "context": "Fictional: a scheduling tool holds the rota and lets staff request shift swaps inside the tool. Today, customers keep the rota in a spreadsheet and handle swaps by email and text.",
       "before": "An innovative platform that takes your business to the next level.",
       "after": "Let staff request shift swaps right in the rota, instead of emailing and texting you.",
       "explanation": "The copy sets the tool against what the reader actually uses today and highlights the difference that decides the comparison."
-    }
+    },
+    "worked": {
+      "context": "Fictional: the till system Brygga. Facts in the brief: orders from the till and from a QR code on the tables appear on the same kitchen screen, 490 kr a month per till, no minimum term. Customers today use a shop till system or a card reader with an app, and write orders on slips of paper.",
+      "text": "The till for cafés with table service\n\nOrders from the till and from the tables land on the same screen in the kitchen.\n\nDo you have a till system built for shops? Then you probably write orders on slips of paper when it's full. With Brygga, the guest orders at the till or with the QR code on the table. The kitchen sees everything in the order it came in.\n\nFor cafés with a rush\nBrygga is made for places where twenty people want lunch at the same time. If you have a single queue and no tables, a card reader will do you fine.\n\n490 kr a month per till. No minimum term.\n\n[See what the kitchen screen looks like]",
+      "notes": [
+        "The headline is the category. The reader knows at once what it is and what to compare it with.",
+        "The copy names what the reader uses today, the shop till and the slips of paper, and sets the feature against exactly that.",
+        "The paragraph about who it isn't for marks out the customers who care most."
+      ]
+    },
+    "mistakes": [
+      "Comparing yourself with the competitor management worries about, when customers choose between you and a spreadsheet.",
+      "Choosing a broad category so as not to close any doors. Then the copy has to explain everything from scratch.",
+      "Calling a feature unique without having checked what the alternatives do."
+    ]
   },
   "fogg-action": {
     "title": "Make the next step easy to take",
@@ -185,18 +398,82 @@
       "Which piece of information or which step can we remove?",
       "Does the prompt appear when the reader is actually ready to act?"
     ],
+    "choose": [
+      {
+        "when": "The reader wants to but does not act",
+        "use": "Find what is missing. Most often it is ability: Remove fields."
+      },
+      {
+        "when": "The reader hesitates at the button",
+        "use": "The line by the button."
+      },
+      {
+        "when": "The reader does not know what a click does",
+        "use": "The button states the action and Say what happens next."
+      },
+      {
+        "when": "The reader is not interested enough",
+        "use": "The right kind of prompt: give a reason. If that does not help, the problem is in the offer, not in the copy."
+      }
+    ],
+    "moves": [
+      {
+        "name": "Find what is missing",
+        "how": "Go through motivation, ability and prompt for this particular step. Fix what is missing, not what is already there.",
+        "example": "The reader wants solar panels but leaves the form. Ability is what fails: the form asks for too much."
+      },
+      {
+        "name": "The button states the action",
+        "how": "Write what happens when the reader presses it.",
+        "example": "'Get a price estimate' instead of 'Submit'."
+      },
+      {
+        "name": "The line by the button",
+        "how": "Answer what makes the reader hesitate, right where they hesitate.",
+        "example": "'Free of charge. Nobody calls you unless you ask.'"
+      },
+      {
+        "name": "Remove fields",
+        "how": "Ask only for what you need for the next step. The rest can wait.",
+        "example": "The address and which way the roof faces are enough for an estimate. A personal identity number isn't needed until there is a contract."
+      },
+      {
+        "name": "Say what happens next",
+        "how": "Tell the reader what they get, how and when.",
+        "example": "'You'll get an estimate by email within two working days.'"
+      },
+      {
+        "name": "The right kind of prompt",
+        "how": "Fogg distinguishes three: one that gives a reason when motivation is low, one that makes it easier when the step is hard, and a reminder when both motivation and ability are there.",
+        "example": "Low motivation: 'See what your roof could give.' Hard step: 'It takes two minutes.' Ready: 'Your estimate is ready.'"
+      }
+    ],
     "example": {
       "context": "Fictional: the form sends a free quote request. Nothing is ordered until the customer accepts the quote.",
       "before": "[Start your journey]",
       "after": "[Request a quote] It's free – you're not ordering anything until you accept the quote.",
       "explanation": "The button says what happens and the line beneath removes the fear of committing, so the step gets easier without adding pressure."
-    }
+    },
+    "worked": {
+      "context": "Fictional: Soltak sells solar panels to house owners. Facts in the brief: the estimate is free, is based on the address and which way the roof faces, is sent by email within two working days, no salesperson calls unless the customer asks. The old form had nine fields and the button 'Submit'.",
+      "text": "What would solar panels give on your roof?\n\nEnter the address and which way the roof slopes. We work out how much electricity the roof can give and what the installation would cost.\n\nAddress\n[                    ]\n\nThe roof slopes towards\n( ) South  ( ) East  ( ) West  ( ) Don't know\n\nEmail address\n[                    ]\n\n[Get an estimate]\n\nFree of charge. You'll get the estimate by email within two working days, and nobody calls you unless you ask.",
+      "notes": [
+        "Nine fields have become three. Ability was what was missing, not motivation.",
+        "The button says what the reader gets. The line underneath answers the three most common reasons to hesitate: price, waiting and sales calls.",
+        "'Don't know' is an option, so nobody gets stuck on a question they can't answer."
+      ]
+    },
+    "mistakes": [
+      "Trying to persuade harder when the problem is that the step is awkward.",
+      "Buttons that say 'Submit', 'Next' or 'Get started' without saying what happens.",
+      "Asking for everything at once to avoid asking later."
+    ]
   },
   "hopkins-testing": {
-    "title": "Test the message in the real world",
+    "title": "Give a reason, then test whether it holds",
     "author": "Claude Hopkins / our application for evaluation",
-    "summary": "Claude Hopkins held that advertising exists to sell, so it should be judged by what it gets people to do, not by whether we like it. Be specific, test versions against traceable responses and separate what you believe from what the measurement actually shows.",
-    "useWhen": "When you're choosing between headlines, offers or versions, or want to know whether a change actually helps the reader and the business.",
+    "summary": "Claude Hopkins saw advertising as salesmanship. It should give the reader a concrete reason to buy, and it should be judged by what it gets people to do. Be specific, say how it is done and test versions against traceable responses.",
+    "useWhen": "When the copy makes claims without saying why, when you're choosing between headlines, offers or versions, or when you want to know whether a change actually helps the reader and the business.",
     "avoidWhen": "When the sample is too small to say anything, or the measurement mixes the copy up with changes in traffic, audience, season or price. The result is then a hint, not a verdict.",
     "keywords": [
       "Hopkins",
@@ -217,7 +494,10 @@
       "conversion",
       "specific",
       "validation",
-      "evidence"
+      "evidence",
+      "reason why",
+      "sample",
+      "free sample"
     ],
     "principles": [
       "Judge copy by what it gets the reader to do. Hopkins argued that advertising's job is to sell; whether copy is polished, witty or popular internally tells you nothing about that.",
@@ -232,12 +512,80 @@
       "Can the measurement separate the copy's effect from other changes?",
       "Is there enough data for a conclusion, or is this only a hint?"
     ],
+    "choose": [
+      {
+        "when": "The copy makes claims without explaining them",
+        "use": "The reason."
+      },
+      {
+        "when": "You sound like your competitors",
+        "use": "What you do but never mention."
+      },
+      {
+        "when": "The reader does not believe the claim",
+        "use": "Exact, not roughly and Let the reader try."
+      },
+      {
+        "when": "The wrong people answer the ad",
+        "use": "The headline chooses the reader."
+      },
+      {
+        "when": "You have to choose between versions",
+        "use": "A version with a hypothesis."
+      }
+    ],
+    "moves": [
+      {
+        "name": "The reason",
+        "how": "Follow each claim with a reason the reader can test.",
+        "example": "'The bread is warm when it arrives, because we bake at five and drive out at six.'"
+      },
+      {
+        "name": "What you do but never mention",
+        "how": "Hopkins built campaigns on working steps the whole industry had and nobody described. Look for what is obvious to you and unknown to the customer.",
+        "example": "'The dough rises for 18 hours before it is baked.'"
+      },
+      {
+        "name": "Exact, not roughly",
+        "how": "Swap judgements for facts. Hopkins held that readers believe the exact and read past the general.",
+        "example": "'There before 07.30' instead of 'early delivery'."
+      },
+      {
+        "name": "Let the reader try",
+        "how": "Hopkins argued for samples over persuasion. Give the reader a way to try without risk.",
+        "example": "'The first breakfast is on us.'"
+      },
+      {
+        "name": "The headline chooses the reader",
+        "how": "Write the headline so the right person feels singled out and others can move on.",
+        "example": "'Breakfast for offices of 10 to 40 people.'"
+      },
+      {
+        "name": "A version with a hypothesis",
+        "how": "Our application: when you write variants, say what separates them and what you expect.",
+        "example": "A: price per person. B: price per week. Hypothesis: price per person brings more enquiries from small offices."
+      }
+    ],
     "example": {
       "context": "Fictional: a cleaning company wants to test two headlines on its quote page. Neither has been tested yet.",
       "before": "The new headline will increase conversion.",
       "after": "Hypothesis: a headline that says what the price includes will bring in more quote requests. We'll show both versions at random and compare requests once we have enough data.",
       "explanation": "A promised effect becomes a testable hypothesis with a clear outcome – the results decide, not a hunch."
-    }
+    },
+    "worked": {
+      "context": "Fictional: the bakery Ugnen delivers breakfast to offices in Gothenburg. Facts in the brief: bakes at five, drives out at six, there before 07.30, the dough rises for 18 hours, 59 kr per person, at least ten people, the first delivery is free. None of the claims have been tested against each other.",
+      "text": "Breakfast for offices of 10 to 40 people\n\nThe bread is warm when it arrives. We bake at five and drive out at six, so breakfast is on your table before 07.30.\n\nThe dough rises for 18 hours before it is baked. That is why the rolls stay soft until lunch.\n\n59 kr per person. You order for at least ten.\n\nThe first breakfast is on us. Tell us which day and how many you are.\n\n[Order a free breakfast]\n\nTo test\nVersion A has the headline above. Version B opens with the price: 'Breakfast for the office at 59 kr per person.' Hypothesis: A brings more enquiries, because it singles out the reader. Outcome: the number of trial breakfasts ordered per hundred visits.",
+      "notes": [
+        "Every claim has a reason: warm because it is baked at five, soft because the dough rises for a long time.",
+        "The rising time is a working step many bakeries have but few talk about.",
+        "The test has a hypothesis and an outcome decided in advance. The copy doesn't claim that either version is better."
+      ]
+    },
+    "mistakes": [
+      "Superlatives without a reason. 'The best breakfast in town' can't be tested, so it isn't believed.",
+      "Changing the headline, the price and the image at once and then believing you know what made the difference.",
+      "Calling a version the winner after a handful of responses."
+    ]
   },
   "hormozi-offer": {
     "title": "Make the offer easy to value",
@@ -279,17 +627,85 @@
       "How soon will the customer notice the first benefit?",
       "Which wait or which work can we actually remove?"
     ],
+    "choose": [
+      {
+        "when": "The customer says it costs too much",
+        "use": "List the obstacles and Package the solutions. Make clear what the price covers before you touch the price."
+      },
+      {
+        "when": "The customer doubts it will work for them",
+        "use": "A guarantee that moves the risk, together with proof from customers in the same position."
+      },
+      {
+        "when": "The customer wants it but keeps putting it off",
+        "use": "Real scarcity, if there is a real limit. If there is none, make the first step smaller."
+      },
+      {
+        "when": "The customer wonders what happens after buying",
+        "use": "A bonus that solves the next problem."
+      },
+      {
+        "when": "The offer cannot be explained in one line",
+        "use": "A name that states the result and the time."
+      }
+    ],
+    "moves": [
+      {
+        "name": "List the obstacles",
+        "how": "Write down everything that stands between the customer and what they want: before they buy, while they wait and afterwards. Each obstacle becomes a part of the offer.",
+        "example": "Obstacle: 'I don't have time to pull together copy and photos.' Part of the offer: 'We interview you for 45 minutes and write the copy.'"
+      },
+      {
+        "name": "Package the solutions",
+        "how": "Group the solutions, cut what costs you a lot and matters little to the customer, and give each part a name the customer understands.",
+        "example": "'What's included: the site, the copy, a photo shoot on site and a walkthrough of how to change your opening hours yourself.'"
+      },
+      {
+        "name": "A guarantee that moves the risk",
+        "how": "Hormozi describes four kinds: unconditional, conditional (it applies if the customer has done their part), anti-guarantee (the sale is final, with a reason) and implied (you get paid on results). Choose one the business can bear and spell out the condition.",
+        "example": "'If the site isn't live three weeks after the interview, we take 20% off the price.'"
+      },
+      {
+        "name": "A bonus that solves the next problem",
+        "how": "Add something that removes the obstacle that comes after the purchase. Say what it does for the customer. Don't invent a value in kronor.",
+        "example": "'We also list your business on Google Maps, so customers nearby can find you.'"
+      },
+      {
+        "name": "Real scarcity",
+        "how": "Limit only what really is limited, such as places, capacity or start dates, and say why.",
+        "example": "'We build four sites a month. The next free start is 2 March.'"
+      },
+      {
+        "name": "A name that states the result and the time",
+        "how": "Hormozi suggests a name that says who the offer is for, what they achieve and how soon.",
+        "example": "'The Tradesperson's Site: live in three weeks.'"
+      }
+    ],
     "example": {
       "context": "Fictional: an accounting firm handles ongoing bookkeeping, starts with an introductory call and answers email on weekdays.",
       "before": "Unlock your financial potential with our irresistible solution.",
       "after": "We take care of your day-to-day bookkeeping, so you don't have to do it yourself. We start with an introductory call, and after that you can email us on weekdays whenever something comes up.",
       "explanation": "The copy shows what the customer is spared, how it starts and what support they get, so the value is easy to judge without promising a financial result."
-    }
+    },
+    "worked": {
+      "context": "Fictional: a web agency builds websites for tradespeople. Facts in the brief: 24,000 kr excl. VAT, fixed price, live within three weeks of the interview, the agency writes the copy, a photo shoot is included, four projects a month.",
+      "text": "The Tradesperson's Site: live in three weeks\n\nYou have your hands full with jobs. The website never gets done, and someone searching for a carpenter nearby finds somebody else.\n\nWe build the site for you for 24,000 kr excl. VAT. You need to set aside 45 minutes.\n\nHow it works\n1. We interview you for 45 minutes and write all the copy.\n2. We photograph you and a job in progress.\n3. Three weeks after the interview, the site is live.\n\nWhat's included\nThe site, the copy, the photos and a walkthrough of how to change prices and opening hours yourself. We also list your business on Google Maps.\n\nIf we're late\nIf the site isn't live three weeks after the interview, we take 20% off the price.\n\nWe build four sites a month. The next free start is 2 March.\n\n[Book the interview]",
+      "notes": [
+        "The opening describes today's situation in the customer's words. The offer promises the site, not more customers, because the agency doesn't control that.",
+        "Effort and waiting time are stated as numbers: 45 minutes and three weeks.",
+        "The guarantee and the limit have conditions the reader can check, and the limit comes with a reason."
+      ]
+    },
+    "mistakes": [
+      "Cutting the price instead of making the value clear. A vague offer doesn't get easier to understand by being cheaper.",
+      "Stacking bonuses nobody asked for. Each part should remove an obstacle the customer really has.",
+      "Promising a result the customer controls, such as more customers or higher revenue. Promise what you deliver and show why it tends to help."
+    ]
   },
   "jobs-to-be-done": {
     "title": "Understand why the customer wants to switch",
     "author": "Christensen Institute / Jobs to Be Done",
-    "summary": "Customers 'hire' a product to make progress in a particular situation. Find out what happened when they started looking, what change they want – practical, social and emotional – and what keeps them tied to the old way.",
+    "summary": "Customers 'hire' a product to make progress in a particular situation. Find out what happened when they started looking, what change they want (practical, social and emotional) and what keeps them tied to the old way.",
     "useWhen": "When the audience is described only by age, industry or company size, when you don't know why customers buy, or when buyers hesitate to switch.",
     "avoidWhen": "When you haven't talked to customers: write questions and hypotheses, not claims about what customers really feel.",
     "keywords": [
@@ -317,7 +733,7 @@
     ],
     "principles": [
       "Ask about a specific occasion: when did the customer start looking, what had just happened, what did they try first and why did it matter right then? Ask what people did, not what they think they want.",
-      "Describe the job as progress in a situation – 'When …, I want to …, so I can …' – rather than as a product feature or a demographic.",
+      "Describe the job as progress in a situation ('When …, I want to …, so I can …') rather than as a product feature or a demographic.",
       "Capture all three sides of the job: the practical (getting the books done), the social (how the customer wants to be seen) and the emotional (no longer having to worry).",
       "Our application: a switch is driven by frustration with the old way and the pull of the new, and held back by anxiety about the new and habits tied to the old. Copy should strengthen the first two and ease the last two – for example by showing how the move works.",
       "One customer's story is a hypothesis, not a truth about the whole audience. Look for patterns across several interviews before you build the message on them."
@@ -328,12 +744,80 @@
       "What do they want to be able to do, feel or show afterwards?",
       "What makes switching difficult or uncertain?"
     ],
+    "choose": [
+      {
+        "when": "The reader sees no reason to switch",
+        "use": "What pushes."
+      },
+      {
+        "when": "The reader sees the problem but not what gets better",
+        "use": "What pulls."
+      },
+      {
+        "when": "The reader is interested but dreads the switch",
+        "use": "The worry about the new."
+      },
+      {
+        "when": "The reader likes parts of the old way",
+        "use": "The habit of the old."
+      },
+      {
+        "when": "You do not know why customers buy",
+        "use": "The job statement, as a hypothesis until you have asked them."
+      }
+    ],
+    "moves": [
+      {
+        "name": "The job statement",
+        "how": "Write the job as one sentence: When [situation], I want to [change], so that [result].",
+        "example": "'When the stock in Excel doesn't match the shelf, I want to see the right stock level straight away, so that I don't sell items that have run out.'"
+      },
+      {
+        "name": "What pushes",
+        "how": "Our application: describe what chafes in the old way, with an event the reader recognises.",
+        "example": "'Did you sell an item at the weekend that had already run out?'"
+      },
+      {
+        "name": "What pulls",
+        "how": "Our application: show what everyday life looks like with the new way, concretely and without superlatives.",
+        "example": "'The stock level changes when the order is placed, not when you get round to updating the sheet.'"
+      },
+      {
+        "name": "The worry about the new",
+        "how": "Our application: answer what makes the switch daunting, usually the move, the learning and the risk of losing data.",
+        "example": "'We import your Excel sheet. You don't have to add the products all over again.'"
+      },
+      {
+        "name": "The habit of the old",
+        "how": "Our application: let the reader keep what they like about the old way.",
+        "example": "'You can keep exporting to Excel every Friday if you want to hold on to your own lists.'"
+      },
+      {
+        "name": "The three sides of the job",
+        "how": "Write one line each for the practical, the social and the emotional side, and choose which one the copy should carry.",
+        "example": "Practical: the right stock level. Social: not having to email customers and apologise. Emotional: being able to shut the laptop on Friday."
+      }
+    ],
     "example": {
       "context": "Fictional: a service helps small businesses move bookkeeping records from another system. This is not based on a real interview.",
       "before": "Our solution suits businesses with 1–10 employees.",
       "after": "Want to switch accounting software but dreading the move? We'll help you transfer your records from the system you use today.",
-      "explanation": "The copy meets readers in their situation – wanting to switch and worrying about the move – instead of sorting them by headcount."
-    }
+      "explanation": "The copy meets readers in their situation (wanting to switch and worrying about the move) instead of sorting them by headcount."
+    },
+    "worked": {
+      "context": "Fictional: the stock program Hylla for small online shops that keep their stock in Excel today. Facts in the brief: imports the existing Excel sheet, the stock level updates when an order is placed, export to Excel remains, 290 kr a month, a 30-day free trial. The example is not based on real interviews.",
+      "text": "Did you sell an item at the weekend that had already run out?\n\nThen you know what Monday looks like. You email the customer, apologise and pay the money back.\n\nThe stock in Excel is right for as long as you have time to update it. With Hylla, the stock level changes the moment the order is placed.\n\nYou don't have to start again. We import the sheet you already have, with item numbers and quantities. If you want to keep your own lists, you export to Excel whenever you like.\n\nTry it for 30 days at no cost. After that Hylla costs 290 kr a month.\n\n[Import your Excel sheet]",
+      "notes": [
+        "The opening is an event, not a target group. Whoever recognises it reads on.",
+        "The third paragraph is the pull. The fourth deals with the worry about the move and the habit of Excel.",
+        "The button is the first step of the switch, so the reader can see that the move starts with something small."
+      ]
+    },
+    "mistakes": [
+      "Describing the target group by age and industry and believing that explains why anyone buys.",
+      "Strengthening only the pull and forgetting the worry. Someone convinced of the benefit may still stay put because the switch looks like hard work.",
+      "Presenting a guess about the customer's feelings as an insight. Without conversations it is a hypothesis."
+    ]
   },
   "ogilvy-headline": {
     "title": "Make the headline carry the message",
@@ -372,12 +856,84 @@
       "What benefit or news does the headline promise, and to whom?",
       "Where in the copy do we prove the promise?"
     ],
+    "choose": [
+      {
+        "when": "The reader gets something concrete",
+        "use": "The benefit."
+      },
+      {
+        "when": "Something has changed or been added",
+        "use": "The news."
+      },
+      {
+        "when": "The reader wants to know how it is done",
+        "use": "How to."
+      },
+      {
+        "when": "The claim is hard to believe",
+        "use": "The fact."
+      },
+      {
+        "when": "The copy is for a narrow group",
+        "use": "Single out the reader."
+      },
+      {
+        "when": "It is an email",
+        "use": "The subject line."
+      }
+    ],
+    "moves": [
+      {
+        "name": "The benefit",
+        "how": "Say what the reader gets, concretely enough to picture.",
+        "example": "'Hire an e-bike and see all of Visby in a day.'"
+      },
+      {
+        "name": "The news",
+        "how": "If something has changed, the headline should say so. Ogilvy counted news among the things that get read most.",
+        "example": "'New this year: return the bike in Slite.'"
+      },
+      {
+        "name": "How to",
+        "how": "Promise guidance that the copy then gives.",
+        "example": "'How to get from the ferry to Fårö without a car.'"
+      },
+      {
+        "name": "The fact",
+        "how": "An exact detail is easier to believe than a judgement.",
+        "example": "'65 km on one charge. Enough to get to Tofta and back.'"
+      },
+      {
+        "name": "Single out the reader",
+        "how": "Say who the headline is for, so the right person stops.",
+        "example": "'For those arriving on the morning ferry.'"
+      },
+      {
+        "name": "The subject line",
+        "how": "The same rules, only shorter. State the purpose and stop there.",
+        "example": "'Your bike is booked for 14 July.'"
+      }
+    ],
     "example": {
       "context": "Fictional: an online grocer lets customers choose a two-hour delivery slot. No exact delivery time is guaranteed.",
       "before": "Delivery exactly when you want it. Every time.",
       "after": "You choose the two hours your groceries arrive.",
       "explanation": "The headline promises a specific, true benefit the body copy can back up, without turning the choice into a guarantee of an exact time."
-    }
+    },
+    "worked": {
+      "context": "Fictional: Gotlandscykel hires out e-bikes in Visby. Facts in the brief: pick-up 200 metres from the ferry terminal, 65 km range per charge, 450 kr per 24 hours, new this year is that the bike can be returned in Slite. The copy will sit at the top of the home page.",
+      "text": "Pick up your e-bike 200 metres from the ferry\n\nYou step off the boat, collect the bike and you're on your way. One charge lasts 65 km, so you can get to Tofta and back without thinking about the battery.\n\nNew this year: you can return the bike in Slite instead of cycling back to Visby.\n\n450 kr per 24 hours.\n\n[Book a bike]\n\nHeadlines that were rejected\n'Experience Gotland on two wheels' fits any hire firm.\n'Real freedom' doesn't say what the reader gets.\n'Cycle smart' is wordplay that needs the body copy to mean anything.",
+      "notes": [
+        "The headline stands on its own. Someone who reads only that knows what is on offer and where.",
+        "The fact, 200 metres, makes the benefit credible, and the body copy proves it with the range.",
+        "The rejected headlines show the test: could the line sit on a competitor's site without being changed?"
+      ]
+    },
+    "mistakes": [
+      "Wordplay that needs the body copy to make sense. Many people read only the headline.",
+      "Headlines that fit any company.",
+      "Promising something in the headline and never coming back to it in the copy."
+    ]
   },
   "schwartz-awareness": {
     "title": "Start where the reader is",
@@ -407,7 +963,7 @@
       "Identify the level: unaware (doesn't see the problem or need), problem aware (feels the problem but doesn't know a solution), solution aware (knows the result they want but not that your product delivers it), product aware (knows your product but isn't convinced) or most aware (wants the product and just needs the right offer).",
       "Most aware and product aware: get straight to the point. Name the product, the offer, the price and the terms, or show how you differ from the alternatives and what backs that up.",
       "Solution aware and problem aware: open with the result the reader wants or the problem they feel, in their own words, then show that a solution exists and how it works.",
-      "Unaware: don't lead with the product. Open with something readers recognise from their own lives – a situation, a feeling, an identity – and build the path from there. The lower the awareness, the more work the copy has to do before the offer appears.",
+      "Unaware: don't lead with the product. Open with something readers recognise from their own lives (a situation, a feeling, an identity) and build the path from there. The lower the awareness, the more work the copy has to do before the offer appears.",
       "Copy can't create a desire that isn't there; it can only channel an existing one towards your offer, so find that desire first. The same person can be at different levels in different channels, so adapt to the context."
     ],
     "questions": [
@@ -415,12 +971,84 @@
       "Which desire or problem does the reader already have?",
       "Which question must be answered before the next step feels reasonable?"
     ],
+    "choose": [
+      {
+        "when": "The reader searched for your name or has bought before",
+        "use": "Most aware."
+      },
+      {
+        "when": "The reader is comparing you with others",
+        "use": "Product-aware."
+      },
+      {
+        "when": "The reader searched for the solution, for example 'contract reminder'",
+        "use": "Solution-aware."
+      },
+      {
+        "when": "The reader searched for the problem or complains about it",
+        "use": "Problem-aware."
+      },
+      {
+        "when": "The reader meets the copy in a feed without having looked for it",
+        "use": "Unaware."
+      },
+      {
+        "when": "Everyone in the market promises the same thing",
+        "use": "Market sophistication: show how it is done."
+      }
+    ],
+    "moves": [
+      {
+        "name": "Most aware",
+        "how": "The reader wants the product. Give the offer and nothing else.",
+        "example": "'Bevaka: 99 kr a month. The first month is free.'"
+      },
+      {
+        "name": "Product-aware",
+        "how": "The reader knows you but hesitates. Show how you differ from the alternatives and what backs that up.",
+        "example": "'Bevaka reads your contracts in from your email. You don't have to fill in anything yourself.'"
+      },
+      {
+        "name": "Solution-aware",
+        "how": "The reader knows what they want to achieve but not that you exist. Open with the result.",
+        "example": "'Get a reminder 30 days before a contract renews.'"
+      },
+      {
+        "name": "Problem-aware",
+        "how": "The reader feels the problem but doesn't know the solution. Open with the problem the way they would describe it themselves.",
+        "example": "'Did your broadband renew for another year because you missed the notice period?'"
+      },
+      {
+        "name": "Unaware",
+        "how": "The reader sees no problem. Open with something they recognise and let the product wait.",
+        "example": "'Do you know the date your electricity contract moves to a higher price?'"
+      },
+      {
+        "name": "Market sophistication",
+        "how": "Schwartz also describes how many similar promises the reader has already heard. In a new market a plain promise is enough. When everyone promises the same thing, you need to show how it works, and in the end who it is for.",
+        "example": "New market: 'Never miss a notice period.' Saturated market: 'Bevaka reads the contract for you and works out the last day to cancel.'"
+      }
+    ],
     "example": {
       "context": "Fictional: the reader knows they need a removal firm and is comparing options. The page lets them send one enquiry to three firms.",
       "before": "Moving can be stressful. Did you know there are removal firms that can help?",
       "after": "Compare quotes from three removal firms – with a single enquiry.",
       "explanation": "The reader is already solution aware, so the opening goes straight to what the service does for the comparison they're already making."
-    }
+    },
+    "worked": {
+      "context": "Fictional: the service Bevaka keeps track of when contracts expire. Facts in the brief: reads contracts in from email, works out the last day to cancel, sends a text 30 days before, 99 kr a month, first month free. The reader is problem-aware: they have missed a notice period but don't know there are services for this.",
+      "text": "Did your broadband renew for another year?\n\nIt's easily done. The contract has three months' notice, the letter came in the summer and now you're tied in for twelve more months.\n\nYou can avoid it. Bevaka reads your contracts in from your email and works out the last day to cancel each one. Thirty days before, you get a text.\n\nThen you decide for yourself: cancel, renegotiate or let the contract run.\n\nBevaka costs 99 kr a month, and the first month is free.\n\n[Add your first contract]",
+      "notes": [
+        "The opening is the problem in the reader's words. The product isn't mentioned until the third paragraph.",
+        "The sentence 'You can avoid it' takes the reader from problem-aware to solution-aware before the offer arrives.",
+        "For a reader who is already comparing services, the copy would have opened with the line about Bevaka reading contracts in from email."
+      ]
+    },
+    "mistakes": [
+      "Writing the same opening for everyone. Someone who already wants to buy tires of background, and someone who sees no problem doesn't understand the offer.",
+      "Opening with the product in an ad shown to people who haven't searched for it.",
+      "Guessing the level without looking at where the reader comes from. A search for the product name and a post in the feed are different levels."
+    ]
   },
   "swedish-original": {
     "title": "Write as if the idea began in Swedish",
@@ -461,12 +1089,77 @@
       "Does it sound like this sender, or like a translated template?",
       "Could a noun become a verb, or one long sentence become two?"
     ],
+    "choose": [
+      {
+        "when": "The text is translated or written by way of English",
+        "use": "Translated phrases and Headlines in Swedish."
+      },
+      {
+        "when": "The text sounds like a government agency",
+        "use": "Verbs instead of nouns."
+      },
+      {
+        "when": "The form of address wavers between du, ni and Ni",
+        "use": "Du and ni."
+      },
+      {
+        "when": "The text is about to be published",
+        "use": "Compounds and Numbers, dates and money."
+      }
+    ],
+    "moves": [
+      {
+        "name": "Translated phrases",
+        "how": "Replace the borrowed phrase with what you mean.",
+        "example": "'Ta kontroll över' (take control of) becomes 'få ordning på' (get on top of). 'På daglig basis' (on a daily basis) becomes 'varje dag' (every day). 'Adressera problemet' (address the problem) becomes 'lösa problemet' (solve the problem). 'Leverera värde' (deliver value) becomes what the customer actually gets."
+      },
+      {
+        "name": "Verbs instead of nouns",
+        "how": "Look for Swedish words ending in -ning, -ande and -else and turn them into verbs.",
+        "example": "'Vid genomförande av beställning sker fakturering' (upon completion of order, invoicing takes place) becomes 'När du beställer skickar vi en faktura' (when you order, we send an invoice)."
+      },
+      {
+        "name": "Du and ni",
+        "how": "Use du for one person and ni for a company or a group. Write du with a lower-case d.",
+        "example": "'Vi hjälper Dig' becomes 'Vi hjälper dig' (we help you)."
+      },
+      {
+        "name": "Headlines in Swedish",
+        "how": "A capital letter only on the first word and on names. English title case looks translated.",
+        "example": "'Så Fungerar Det' becomes 'Så fungerar det' (how it works)."
+      },
+      {
+        "name": "Compounds",
+        "how": "Swedish writes compounds as one word. Splitting one can change the meaning.",
+        "example": "'Kund tjänst' becomes 'kundtjänst' (customer service). 'Rök fritt' (smoke freely) means something other than 'rökfritt' (smoke-free)."
+      },
+      {
+        "name": "Numbers, dates and money",
+        "how": "Follow Swedish writing conventions. Never change the amount or the condition.",
+        "example": "'995 kr', '28 oktober 2026', 'kl. 14.30', '20 %' with a space before the sign, and quotation marks ”like this”."
+      }
+    ],
     "example": {
       "context": "Fictional: a subscription tool shows what the user's subscriptions cost each month. No savings are guaranteed. The example is in Swedish, with literal glosses.",
       "before": "Lås upp besparingar och ta kontroll över din finansiella resa. ('Unlock savings and take control of your financial journey.')",
       "after": "Se vad dina abonnemang kostar varje månad, samlat på ett ställe. ('See what your subscriptions cost each month, all in one place.')",
       "explanation": "The borrowed phrases give way to an everyday verb and a concrete benefit. Isof's plain-language advice supports clarity, not claims about sales performance."
-    }
+    },
+    "worked": {
+      "context": "Fictional: the home page for Koll, an app that shows a household's subscriptions. Facts in the brief: shows what the subscriptions cost per month, sends a reminder seven days before renewal, 29 kr a month. The draft was written in English and translated. The example stays in Swedish, and the notes explain what changed.",
+      "before": "Ta Kontroll Över Dina Prenumerationer\n\nLås upp besparingar och håll koll på din finansiella resa på daglig basis. Vår lösning levererar insikter som hjälper Dig att adressera onödiga utgifter. Kom igång idag för endast 29 SEK/månad!",
+      "text": "Se vad dina abonnemang kostar\n\nKoll samlar dina abonnemang på ett ställe och visar vad de kostar varje månad. Sju dagar innan ett abonnemang förnyas får du en påminnelse, så att du hinner säga upp det du inte använder.\n\n29 kr i månaden.\n\n[Lägg till ditt första abonnemang]",
+      "notes": [
+        "The headline follows Swedish capitalisation and says what the reader gets ('See what your subscriptions cost') instead of promising control.",
+        "'Lås upp besparingar' (unlock savings), 'finansiella resa' (financial journey), 'på daglig basis' (on a daily basis) and 'adressera' (address) are replaced with what the app does.",
+        "The price is the same. Only the way it is written has changed, from '29 SEK/månad' to '29 kr i månaden'."
+      ]
+    },
+    "mistakes": [
+      "Correcting single words and leaving the English sentence structure in place.",
+      "Making the copy cautious so that it sounds Swedish. A direct headline is as Swedish as a quiet one.",
+      "Replacing established technical terms that the audience uses itself."
+    ]
   },
   "wiebe-customer-language": {
     "title": "Take your words from customers",
@@ -508,12 +1201,76 @@
       "Which words do customers use that we never do?",
       "What needs confirming with more customers?"
     ],
+    "choose": [
+      {
+        "when": "You have reviews, support tickets or sales notes",
+        "use": "Read the reviews and Sort into four piles."
+      },
+      {
+        "when": "The headline sounds like a brochure",
+        "use": "A headline from a quote."
+      },
+      {
+        "when": "The same question comes up in every sales call",
+        "use": "An objection as a subheading."
+      },
+      {
+        "when": "You have no customer material at all",
+        "use": "Ask about an event, before you write."
+      }
+    ],
+    "moves": [
+      {
+        "name": "Read the reviews",
+        "how": "Read reviews of you and of your competitors, and copy whole sentences about problems, results and hesitation.",
+        "example": "From a review: 'I hardly dared leave him the first time.'"
+      },
+      {
+        "name": "Sort into four piles",
+        "how": "Problems, desired results, objections and words about the service. Note the source next to every quote.",
+        "example": "Problem: 'he wrecks the sofa while I'm at work'. Objection: 'what if he won't eat'. Outcome: 'he falls asleep in the car on the way home'."
+      },
+      {
+        "name": "A headline from a quote",
+        "how": "Take the phrasing most people recognise themselves in and make it the headline, as close to the customer's words as you can.",
+        "example": "'I hardly dared leave him the first time' becomes the headline 'The first time you leave him'."
+      },
+      {
+        "name": "An objection as a subheading",
+        "how": "Put the customer's question the way it was asked and answer it directly underneath.",
+        "example": "Subheading: 'What if he won't eat?' Answer: what the staff do and when you get in touch."
+      },
+      {
+        "name": "Ask about an event",
+        "how": "In interviews and surveys, ask what happened, not what the customer thinks.",
+        "example": "'What happened the day you started looking for dog daycare?' gives you more than 'What matters to you?'"
+      },
+      {
+        "name": "Label what is what",
+        "how": "Keep quotes, paraphrases and your own interpretation apart in the material, so that no guess turns into a customer quote.",
+        "example": "Quote: 'he falls asleep in the car on the way home'. Paraphrase: the dog is tired after the day. Interpretation: the owner wants a quiet evening."
+      }
+    ],
     "example": {
       "context": "Fictional: the service lets users photograph receipts and keeps them in one place. In an invented customer conversation, a business owner says: 'Before I do the books, I'm hunting for receipts in my wallet and the car.'",
       "before": "Streamline your receipt management process.",
       "after": "Stop hunting for receipts in your wallet and the car. Snap each one as you get it, and they're all in one place when it's time to do the books.",
-      "explanation": "The customer's own picture – the wallet, the car – makes the problem recognisable in a way 'receipt management process' never could."
-    }
+      "explanation": "The customer's own picture (the wallet, the car) makes the problem recognisable in a way 'receipt management process' never could."
+    },
+    "worked": {
+      "context": "Fictional: the dog daycare Tassen. The quotes are invented for the example and come from invented reviews: 'I hardly dared leave him the first time', 'what if he won't eat', 'he falls asleep in the car on the way home'. Facts in the brief: settling in over three half-days, a photo is sent at lunchtime, at most twelve dogs a day, dogs that won't eat are given their food in a quiet spot and the owner gets a call.",
+      "text": "The first time you leave him\n\nIt's the hardest. That's why we start with three half-days, and you get a photo at lunchtime every day so you can see how he's doing.\n\nWhat if he won't eat?\nThen we give him his food in a quiet spot and try again after a while. If he still won't eat, we call you.\n\nHe falls asleep in the car on the way home\nSeveral of our customers say so. We take at most twelve dogs a day, so there is time for both play and rest.\n\n[Book a settling-in period]",
+      "notes": [
+        "The headline and the two subheadings are the customers' own phrasings, lightly edited.",
+        "Each objection gets an answer with a fact: three half-days, a photo at lunchtime, at most twelve dogs.",
+        "'He falls asleep in the car on the way home' stays as something customers say. The copy doesn't turn it into a promise."
+      ]
+    },
+    "mistakes": [
+      "Polishing the customer's words until they sound like a brochure. The rough edges are what feel real.",
+      "Building the whole message on a single talkative customer.",
+      "Using a real quote in advertising without asking the person who said it."
+    ]
   },
   "ai-slop-edit": {
     "title": "Cut the AI tells, keep the voice",
@@ -557,12 +1314,77 @@
       "What in the piece sounds like the writer, and how do we protect it?",
       "Which claims lack a named source or a concrete fact?"
     ],
+    "choose": [
+      {
+        "when": "The text is full of adjectives",
+        "use": "An empty word becomes a fact and A triplet for the rhythm."
+      },
+      {
+        "when": "The text never gets to the point",
+        "use": "Throat-clearing and False contrast."
+      },
+      {
+        "when": "The ending sounds like a lecture",
+        "use": "A closing line that tries to sound profound."
+      },
+      {
+        "when": "You are unsure whether a sentence is filler",
+        "use": "The portability test."
+      }
+    ],
+    "moves": [
+      {
+        "name": "An empty word becomes a fact",
+        "how": "Ask what the word would mean if it were true, and write that.",
+        "example": "'A seamless experience' becomes 'You log in with BankID and you're done.'"
+      },
+      {
+        "name": "False contrast",
+        "how": "Cut what nobody claimed and state the second half directly.",
+        "example": "'It's not about technology, it's about people' becomes 'We train the staff before the system goes live.'"
+      },
+      {
+        "name": "Throat-clearing",
+        "how": "Cut the opener and start with the sentence that follows it.",
+        "example": "'Here's the thing: most forms are too long' becomes 'Most forms are too long.'"
+      },
+      {
+        "name": "A triplet for the rhythm",
+        "how": "Three adjectives in a row are often there because they sound good. Keep what you can back up.",
+        "example": "'Fast, simple and secure' becomes 'Done in two minutes.'"
+      },
+      {
+        "name": "A closing line that tries to sound profound",
+        "how": "Cut it and end on the last concrete fact or on the next step.",
+        "example": "'Because at the end of the day, it's about trust.' Cut it. The last line becomes 'Book a walkthrough.'"
+      },
+      {
+        "name": "The portability test",
+        "how": "Would the sentence fit unchanged at a competitor? Then it says nothing about you.",
+        "example": "'We're passionate about our customers' could stand anywhere. 'We reply to email within one working day' can only stand where it is true."
+      }
+    ],
     "example": {
       "context": "Fictional: Räkna handles day-to-day bookkeeping for small businesses, and every client gets a dedicated contact to email.",
       "before": "In today's fast-paced world, it's not just about bookkeeping – it's about freedom. Räkna offers a seamless, tailored solution that unlocks your potential.",
       "after": "Räkna handles your day-to-day bookkeeping, and you get a dedicated contact to email whenever something is unclear.",
       "explanation": "The buzzwords and the false contrast are gone; what remains is what the service does and who the reader can ask."
-    }
+    },
+    "worked": {
+      "context": "Fictional: a LinkedIn post by the founder of Räkna, a bookkeeping firm. Facts in the brief: the firm has started replying to customer emails within one working day, and every customer has been given a named contact with a direct number. The writer usually writes briefly and a little drily.",
+      "before": "In today's fast-paced world, bookkeeping is not just about numbers. It's about trust. Here's the thing: most firms see you as a customer number. At Räkna we have taken the customer experience to the next level with a seamless, personal and tailored service. The best part: you never have to wait. Because at the end of the day, it's the relationship that counts. 🚀",
+      "text": "We've changed two things at Räkna.\n\nYou get a reply to your email within one working day.\n\nYou have your own contact, with a name and a direct number. The same person every time.\n\nWe should have done it sooner.",
+      "notes": [
+        "Six patterns are gone: empty words, a false contrast, throat-clearing, a colon reveal, a profound closing line and an emoji.",
+        "What remains are the two facts. Nothing has been added that wasn't in the brief.",
+        "The last line is the writer's own dry tone. It wasn't in the draft, so the writer should approve it."
+      ]
+    },
+    "mistakes": [
+      "Swapping one empty word for another. 'Smooth' instead of 'seamless' says just as little.",
+      "Sanding away everything that stands out. An awkward sentence with a voice of its own should stay.",
+      "Believing the text is good because the check finds nothing. It finds known phrases, not empty thoughts."
+    ]
   },
   "clear-habit-laws": {
     "title": "Write for the habit, not just the click",
@@ -594,7 +1416,7 @@
     "principles": [
       "Make it obvious (the cue). Tie the action to a moment the reader already has: 'After you send your last invoice of the month, upload your receipts.' A time, a place or an existing habit beats 'whenever suits you'.",
       "Make it attractive (the craving). Show what the reader gets straight away, or pair the new habit with something they already want to do. Speak to who the reader becomes: habits that confirm an identity last longer than habits aimed only at a goal.",
-      "Make it easy (the response). Describe a first version that takes under two minutes – Clear's two-minute rule – and remove steps in the way. 'Snap one receipt' is easier to start than 'get your books in order'.",
+      "Make it easy (the response). Describe a first version that takes under two minutes (Clear's two-minute rule) and remove steps in the way. 'Snap one receipt' is easier to start than 'get your books in order'.",
       "Make it satisfying (the reward). Confirm straight away when something is done and show progress. What is rewarded immediately is easier to repeat.",
       "Invert the laws when the reader wants to stop something: make it invisible, unattractive, difficult and unsatisfying – and describe only help the product actually gives."
     ],
@@ -604,56 +1426,75 @@
       "What does the reader get straight away once it's done?",
       "Who does the reader become by doing this regularly?"
     ],
+    "choose": [
+      {
+        "when": "The customer has signed up but not started",
+        "use": "The two-minute version."
+      },
+      {
+        "when": "The customer starts but forgets",
+        "use": "Stack it on a habit and Time and place."
+      },
+      {
+        "when": "The customer does it a few times and stops",
+        "use": "A reward straight away and Visible progress."
+      },
+      {
+        "when": "The customer has kept going for a long time",
+        "use": "Who the reader becomes."
+      }
+    ],
+    "moves": [
+      {
+        "name": "Stack it on a habit",
+        "how": "Clear calls it habit stacking: the new thing comes after something the reader already does.",
+        "example": "'When you've had your morning coffee, open the app and do today's five words.'"
+      },
+      {
+        "name": "Time and place",
+        "how": "Ask the reader to decide when and where. An occasion is easier to keep than a resolution.",
+        "example": "'Choose a time. We'll remind you at 07.30 on weekdays.'"
+      },
+      {
+        "name": "The two-minute version",
+        "how": "Clear's two-minute rule: shrink the first step until it takes under two minutes.",
+        "example": "'Five words a day. It takes two minutes.'"
+      },
+      {
+        "name": "A reward straight away",
+        "how": "Say what the reader has just managed, the moment it is done.",
+        "example": "'Five words done. Now you can order a coffee in Italian.'"
+      },
+      {
+        "name": "Visible progress",
+        "how": "Show how far the reader has come and what the next step is.",
+        "example": "'Day 4 of 7. You've learned 20 words.'"
+      },
+      {
+        "name": "Who the reader becomes",
+        "how": "Clear holds that habits last longer when they confirm an identity. Describe the person as well as the goal.",
+        "example": "'Seven days in a row. You're someone who practises every day.'"
+      }
+    ],
     "example": {
       "context": "Fictional: in Räkna's app, clients photograph receipts, which the firm then books.",
       "before": "Get started with smart receipt management and take control of your finances!",
       "after": "Every Friday when you close your laptop: snap this week's receipts. It takes two minutes, and we'll book them for you.",
       "explanation": "The copy ties the action to a moment, makes it small and says what the reader gets straight away, instead of promising control."
-    }
-  },
-  "clear-3-2-1": {
-    "title": "Give your newsletter a fixed shape",
-    "author": "James Clear",
-    "summary": "James Clear's 3-2-1 newsletter has the same shape every week: three short ideas from him, two quotes from others and one question for the reader. The constraint forces a selection, and readers know what they'll get from the name alone. Find a fixed shape that suits your content – and keep it.",
-    "useWhen": "When your newsletter keeps getting longer, rambles or is hard to send on time, or when readers stop opening it.",
-    "avoidWhen": "When you have one big piece of news or an offer that needs all the space. And don't copy Clear's format and name wholesale – it's his brand.",
-    "keywords": [
-      "James Clear",
-      "3-2-1",
-      "newsletter",
-      "email newsletter",
-      "email",
-      "format",
-      "template",
-      "structure",
-      "fixed format",
-      "nobody reads",
-      "open rate",
-      "not opened",
-      "too long",
-      "rambling",
-      "quotes",
-      "question",
-      "weekly email",
-      "format constraint"
-    ],
-    "principles": [
-      "Decide the shape once. Choose a fixed number of parts in a fixed order, such as three tips, one quote and one question, so each issue becomes a selection rather than a new project.",
-      "Let the name tell readers what they get. A subject line like '3 tips, 1 question' or a fixed weekly name sets the expectation before the email is even opened.",
-      "Keep each part short and self-contained. One idea per paragraph, one point per idea – Clear describes the aim as the most wisdom per word.",
-      "Quote others accurately and say who said it. Quotes add variety and perspective, but they must be real and correctly attributed.",
-      "End with a question readers can take with them, and send on the same day every time so the newsletter becomes a habit."
-    ],
-    "questions": [
-      "Which fixed shape suits what you actually have to say each time?",
-      "What could go if each part only gets one paragraph?",
-      "Which question do you want readers to think about afterwards?"
-    ],
-    "example": {
-      "context": "Fictional: Räkna sends its clients a newsletter every other Friday.",
-      "before": "October newsletter: News from Räkna, updates on our services, some thoughts on autumn and much more!",
-      "after": "3 bookkeeping tips, 1 deadline and 1 question: The Friday letter from Räkna.",
-      "explanation": "The subject line promises a short, fixed shape, so readers know what they'll get before opening it."
-    }
+    },
+    "worked": {
+      "context": "Fictional: the language app Parla teaches Italian. Facts in the brief: five words a day, a session takes about two minutes, the reminder can be set to any time, the first week covers everyday phrases for cafés and restaurants. The copy is the welcome email after sign-up.",
+      "text": "Subject line: Your first five words\n\nHi!\n\nToday you learn five words. It takes two minutes.\n\nDo it after something you already do every morning, for example once you've had your coffee. Choose a time in the app and we'll remind you then.\n\nBy the end of the week you can order at a café in Rome: coffee, water, the bill, thank you.\n\n[Do today's five words]\n\nWe'll be in touch tomorrow at the same time.",
+      "notes": [
+        "The email asks for a single action, and it takes two minutes.",
+        "The action is tied to the morning coffee and to a time the reader chooses.",
+        "The reward is concrete and close: what the reader can do after a week, not fluent Italian."
+      ]
+    },
+    "mistakes": [
+      "Welcome emails that list every feature instead of asking for one small action.",
+      "Reminders with no occasion. 'Don't forget to practise!' doesn't say when.",
+      "Guilt as the driver. 'You've missed three days' gives the reader a reason to switch the reminders off."
+    ]
   }
 }

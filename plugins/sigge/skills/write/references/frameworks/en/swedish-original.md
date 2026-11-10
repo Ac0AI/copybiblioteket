@@ -18,6 +18,22 @@ Write Swedish copy directly in Swedish, from the reader's situation and the send
 - Choose the form of address, tone and terminology for the reader. Don't assume every Swedish audience wants the same tone – an estate agent, a games studio and a government agency all sound different.
 - Check the form: write compounds as one word ('kundtjänst', not 'kund tjänst'), use Swedish quotation marks (”…”), sentence case in headings, amounts as '995 kr' and dates as '28 oktober 2026'. Never change the offer's facts, currency or terms to make it sound better.
 
+## Choose a move for the situation
+
+- The text is translated or written by way of English: Translated phrases and Headlines in Swedish.
+- The text sounds like a government agency: Verbs instead of nouns.
+- The form of address wavers between du, ni and Ni: Du and ni.
+- The text is about to be published: Compounds and Numbers, dates and money.
+
+## Moves
+
+- **Translated phrases.** Replace the borrowed phrase with what you mean. 'Ta kontroll över' (take control of) becomes 'få ordning på' (get on top of). 'På daglig basis' (on a daily basis) becomes 'varje dag' (every day). 'Adressera problemet' (address the problem) becomes 'lösa problemet' (solve the problem). 'Leverera värde' (deliver value) becomes what the customer actually gets.
+- **Verbs instead of nouns.** Look for Swedish words ending in -ning, -ande and -else and turn them into verbs. 'Vid genomförande av beställning sker fakturering' (upon completion of order, invoicing takes place) becomes 'När du beställer skickar vi en faktura' (when you order, we send an invoice).
+- **Du and ni.** Use du for one person and ni for a company or a group. Write du with a lower-case d. 'Vi hjälper Dig' becomes 'Vi hjälper dig' (we help you).
+- **Headlines in Swedish.** A capital letter only on the first word and on names. English title case looks translated. 'Så Fungerar Det' becomes 'Så fungerar det' (how it works).
+- **Compounds.** Swedish writes compounds as one word. Splitting one can change the meaning. 'Kund tjänst' becomes 'kundtjänst' (customer service). 'Rök fritt' (smoke freely) means something other than 'rökfritt' (smoke-free).
+- **Numbers, dates and money.** Follow Swedish writing conventions. Never change the amount or the condition. '995 kr', '28 oktober 2026', 'kl. 14.30', '20 %' with a space before the sign, and quotation marks ”like this”.
+
 ## Questions to ask
 
 - Would someone in this audience say it this way?
@@ -32,6 +48,38 @@ Fictional: a subscription tool shows what the user's subscriptions cost each mon
 - **Before:** Lås upp besparingar och ta kontroll över din finansiella resa. ('Unlock savings and take control of your financial journey.')
 - **After:** Se vad dina abonnemang kostar varje månad, samlat på ett ställe. ('See what your subscriptions cost each month, all in one place.')
 - **Why:** The borrowed phrases give way to an everyday verb and a concrete benefit. Isof's plain-language advice supports clarity, not claims about sales performance.
+
+## A complete example
+
+Fictional: the home page for Koll, an app that shows a household's subscriptions. Facts in the brief: shows what the subscriptions cost per month, sends a reminder seven days before renewal, 29 kr a month. The draft was written in English and translated. The example stays in Swedish, and the notes explain what changed.
+
+**Draft:**
+
+> Ta Kontroll Över Dina Prenumerationer
+>
+> Lås upp besparingar och håll koll på din finansiella resa på daglig basis. Vår lösning levererar insikter som hjälper Dig att adressera onödiga utgifter. Kom igång idag för endast 29 SEK/månad!
+
+**Revised:**
+
+> Se vad dina abonnemang kostar
+>
+> Koll samlar dina abonnemang på ett ställe och visar vad de kostar varje månad. Sju dagar innan ett abonnemang förnyas får du en påminnelse, så att du hinner säga upp det du inte använder.
+>
+> 29 kr i månaden.
+>
+> [Lägg till ditt första abonnemang]
+
+**What the example does:**
+
+- The headline follows Swedish capitalisation and says what the reader gets ('See what your subscriptions cost') instead of promising control.
+- 'Lås upp besparingar' (unlock savings), 'finansiella resa' (financial journey), 'på daglig basis' (on a daily basis) and 'adressera' (address) are replaced with what the app does.
+- The price is the same. Only the way it is written has changed, from '29 SEK/månad' to '29 kr i månaden'.
+
+## Common mistakes
+
+- Correcting single words and leaving the English sentence structure in place.
+- Making the copy cautious so that it sounds Swedish. A direct headline is as Swedish as a quiet one.
+- Replacing established technical terms that the audience uses itself.
 
 ## Sources
 

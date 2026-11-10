@@ -52,12 +52,80 @@
     "Hur snart märker kunden den första nyttan?",
     "Vilken väntan eller vilket arbete kan vi faktiskt ta bort?"
   ],
+  "choose": [
+    {
+      "when": "Kunden säger att det är för dyrt",
+      "use": "Lista hindren och Paketera lösningarna. Gör tydligt vad priset rymmer innan ni rör priset."
+    },
+    {
+      "when": "Kunden tror inte att det fungerar för just hen",
+      "use": "Garanti som flyttar risken, tillsammans med belägg från kunder i samma läge."
+    },
+    {
+      "when": "Kunden vill men skjuter upp",
+      "use": "Verklig knapphet, om det finns en verklig gräns. Finns ingen: gör första steget mindre."
+    },
+    {
+      "when": "Kunden undrar vad som händer efter köpet",
+      "use": "Bonus som löser nästa problem."
+    },
+    {
+      "when": "Erbjudandet går inte att förklara på en rad",
+      "use": "Namn som säger resultat och tid."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Lista hindren",
+      "how": "Skriv upp allt som står mellan kunden och målet, både före köpet, under tiden och efteråt. Varje hinder blir en del av erbjudandet.",
+      "example": "Hinder: ”Jag hinner inte ta fram texter och bilder.” Del i erbjudandet: ”Vi intervjuar dig i 45 minuter och skriver texterna.”"
+    },
+    {
+      "name": "Paketera lösningarna",
+      "how": "Gruppera lösningarna, stryk det som kostar er mycket och betyder lite för kunden, och ge varje del ett namn som kunden förstår.",
+      "example": "”Det här ingår: sajten, texterna, fotografering på plats och en genomgång av hur du själv ändrar öppettider.”"
+    },
+    {
+      "name": "Garanti som flyttar risken",
+      "how": "Hormozi beskriver fyra slag: ovillkorlig, villkorad (gäller om kunden har gjort sin del), antigaranti (köpet är slutgiltigt, med ett skäl) och underförstådd (ni får betalt efter resultat). Välj en som verksamheten tål och skriv ut villkoret.",
+      "example": "”Är sajten inte publicerad tre veckor efter intervjun drar vi 20 % av priset.”"
+    },
+    {
+      "name": "Bonus som löser nästa problem",
+      "how": "Lägg till något som tar bort hindret som kommer efter köpet. Säg vad det gör för kunden. Hitta inte på ett värde i kronor.",
+      "example": "”Vi lägger också upp företaget på Google Maps, så att kunder i närheten hittar dig.”"
+    },
+    {
+      "name": "Verklig knapphet",
+      "how": "Begränsa bara det som faktiskt är begränsat, som platser, kapacitet eller startdatum, och säg varför.",
+      "example": "”Vi bygger fyra sajter i månaden. Nästa lediga start är 2 mars.”"
+    },
+    {
+      "name": "Namn som säger resultat och tid",
+      "how": "Hormozi föreslår att namnet rymmer vem erbjudandet är till för, vad de uppnår och inom vilken tid.",
+      "example": "”Hantverkarsajten: klar på tre veckor.”"
+    }
+  ],
   "example": {
     "context": "Påhittat: en redovisningsbyrå sköter löpande bokföring, börjar med ett introduktionssamtal och svarar på mejl på vardagar.",
     "before": "Lås upp din ekonomiska potential med vår oemotståndliga lösning.",
     "after": "Vi sköter den löpande bokföringen, så slipper du kontera själv. Vi börjar med ett introduktionssamtal, och sedan mejlar du oss på vardagar när något dyker upp.",
     "explanation": "Texten visar vad kunden slipper, hur det börjar och vilket stöd som finns, så värdet går att bedöma utan löften om ekonomiskt resultat."
   },
+  "worked": {
+    "context": "Påhittat: en webbyrå bygger hemsidor åt hantverkare. Fakta i underlaget: 24 000 kr exkl. moms, fast pris, publicerad inom tre veckor från intervjun, byrån skriver texterna, fotografering ingår, fyra projekt i månaden.",
+    "text": "Hantverkarsajten: klar på tre veckor\n\nDu har fullt upp med jobben. Hemsidan blir aldrig av, och den som söker efter en snickare i närheten hittar någon annan.\n\nVi bygger sajten åt dig för 24 000 kr exkl. moms. Du behöver avsätta 45 minuter.\n\nSå går det till\n1. Vi intervjuar dig i 45 minuter och skriver alla texter.\n2. Vi fotar dig och ett pågående jobb.\n3. Tre veckor efter intervjun ligger sajten ute.\n\nDet här ingår\nSajten, texterna, bilderna och en genomgång av hur du själv ändrar pris och öppettider. Vi lägger också upp företaget på Google Maps.\n\nOm vi blir sena\nÄr sajten inte publicerad tre veckor efter intervjun drar vi 20 % av priset.\n\nVi bygger fyra sajter i månaden. Nästa lediga start är 2 mars.\n\n[Boka intervjun]",
+    "notes": [
+      "Öppningen beskriver läget i dag med kundens ord. Erbjudandet lovar sajten, inte fler kunder, eftersom byrån inte styr över det.",
+      "Ansträngningen och väntetiden står som siffror: 45 minuter och tre veckor.",
+      "Garantin och begränsningen har villkor som går att kontrollera, och begränsningen har ett skäl."
+    ]
+  },
+  "mistakes": [
+    "Att sänka priset i stället för att göra värdet tydligt. Ett otydligt erbjudande blir inte lättare att förstå för att det är billigare.",
+    "Att stapla bonusar som ingen har bett om. Varje del ska ta bort ett hinder som kunden faktiskt har.",
+    "Att lova ett resultat som kunden själv styr över, som fler kunder eller högre omsättning. Lova det ni levererar och visa varför det brukar hjälpa."
+  ],
   "sources": [
     {
       "title": "Acquisition.com: The Value Equation",

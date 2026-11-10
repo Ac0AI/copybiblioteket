@@ -14,9 +14,25 @@ James Clear beskriver i Atomic Habits fyra lagar för beteendeförändring, kopp
 
 - Gör det tydligt (signalen). Koppla handlingen till ett tillfälle läsaren redan har: ”När du har skickat din sista faktura för månaden, ladda upp kvittona.” En tid, en plats eller en befintlig vana fungerar bättre än ”när det passar”.
 - Gör det lockande (begäret). Visa vad läsaren får direkt, eller koppla det nya till något hen redan vill göra. Tala gärna om vem läsaren blir: vanor som bekräftar en identitet håller längre än vanor som bara siktar på ett mål.
-- Gör det lätt (responsen). Beskriv en första version som tar under två minuter – Clears tvåminutersregel – och ta bort steg som står i vägen. ”Fota ett kvitto” är lättare att börja med än ”få ordning på bokföringen”.
+- Gör det lätt (responsen). Beskriv en första version som tar under två minuter (Clears tvåminutersregel) och ta bort steg som står i vägen. ”Fota ett kvitto” är lättare att börja med än ”få ordning på bokföringen”.
 - Gör det tillfredsställande (belöningen). Bekräfta direkt när något är gjort och visa framstegen. Det som belönas med en gång blir lättare att upprepa.
 - Vänd lagarna när läsaren vill sluta med något: gör det osynligt, oattraktivt, svårt och otillfredsställande – och beskriv bara hjälp som tjänsten faktiskt ger.
+
+## Välj grepp efter läget
+
+- Kunden har registrerat sig men inte börjat: Tvåminutersversionen.
+- Kunden börjar men glömmer: Stapla på en vana och Tid och plats.
+- Kunden gör det några gånger och slutar: Belöning direkt och Synliga framsteg.
+- Kunden har hållit i gång länge: Vem läsaren blir.
+
+## Grepp
+
+- **Stapla på en vana.** Clear kallar det vanestapling: efter något läsaren redan gör kommer det nya. ”När du har druckit morgonkaffet: öppna appen och gör dagens fem ord.”
+- **Tid och plats.** Be läsaren bestämma när och var. Ett tillfälle är lättare att hålla än en föresats. ”Välj en tid. Vi påminner dig 07.30 på vardagar.”
+- **Tvåminutersversionen.** Clears tvåminutersregel: krymp det första steget tills det tar under två minuter. ”Fem ord om dagen. Det tar två minuter.”
+- **Belöning direkt.** Säg vad läsaren just har klarat, i samma stund som det är gjort. ”Fem ord klara. Nu kan du beställa kaffe på italienska.”
+- **Synliga framsteg.** Visa hur långt läsaren har kommit och vad nästa steg är. ”Dag 4 av 7. Du har lärt dig 20 ord.”
+- **Vem läsaren blir.** Clear menar att vanor håller längre när de bekräftar en identitet. Beskriv personen, inte bara målet. ”Sju dagar i rad. Du är en person som övar varje dag.”
 
 ## Frågor att ställa
 
@@ -32,6 +48,36 @@ Påhittat: i Räknas app fotar kunden kvitton, som sedan bokförs av byrån.
 - **Före:** Kom igång med smart kvittohantering och ta kontroll över din ekonomi!
 - **Efter:** Varje fredag när du stänger datorn: fota veckans kvitton. Det tar två minuter, och vi bokför dem åt dig.
 - **Varför:** Texten kopplar handlingen till ett tillfälle, gör den liten och säger vad läsaren får direkt, i stället för att lova kontroll.
+
+## Ett helt exempel
+
+Påhittat: språkappen Parla lär ut italienska. Fakta i underlaget: fem ord per dag, ett pass tar ungefär två minuter, påminnelsen kan ställas in på valfri tid, första veckan täcker vardagsfraser för kafé och restaurang. Texten är välkomstmejlet efter registrering.
+
+> Ämnesrad: Dina fem första ord
+>
+> Hej!
+>
+> I dag lär du dig fem ord. Det tar två minuter.
+>
+> Gör det efter något du redan gör varje morgon, till exempel när du har druckit kaffet. Välj en tid i appen, så påminner vi dig då.
+>
+> När veckan är slut kan du beställa på ett kafé i Rom: kaffe, vatten, notan, tack.
+>
+> [Gör dagens fem ord]
+>
+> I morgon hör vi av oss vid samma tid.
+
+**Det här gör exemplet:**
+
+- Mejlet ber om en enda handling, och den tar två minuter.
+- Handlingen kopplas till morgonkaffet och till en tid som läsaren väljer själv.
+- Belöningen är konkret och nära: vad läsaren kan göra efter en vecka, inte flytande italienska.
+
+## Vanliga misstag
+
+- Välkomstmejl som räknar upp alla funktioner i stället för att be om en enda liten handling.
+- Påminnelser utan tillfälle. ”Glöm inte att öva!” säger inte när.
+- Skuld som drivkraft. ”Du har missat tre dagar” ger läsaren ett skäl att stänga av påminnelserna.
 
 ## Källor
 

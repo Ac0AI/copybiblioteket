@@ -9,7 +9,7 @@ Welcome the user in their own language, in a few short lines. No headings, no sa
 
 Cover, briefly:
 
-1. **What it does.** Sigge helps write copy that sounds like the sender, in Swedish or English. It brings fourteen copy frameworks, a writing guide for each language and a check for AI-writing patterns. The user's own assistant does the writing.
+1. **What it does.** Sigge helps write copy that sounds like the sender, in Swedish or English. It brings thirteen copy frameworks, a writing guide for each language and a check for AI-writing patterns. The user's own assistant does the writing.
 2. **Three things to ask for.** Write a text (a landing page, an email, an ad, a LinkedIn post, a product text). Check a text for AI patterns. Review a text that already exists. Give one example request for each, in the user's language.
 3. **Nothing to set up.** There is no account and nothing to sign in to. The frameworks, the writing guides and the checker ship with the plugin, and the 59 perspectives and the source search come from sigge.si when the connection is available.
 

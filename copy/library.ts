@@ -140,7 +140,7 @@ export async function loadCopyLibrary(root = ROOT, sourceDir: string | false = p
   const guide = await readFile(join(root, "plugins", "sigge", "skills", "write", "references", "swedish.md"), "utf8");
   const library = new CopyLibrary(frameworks, references, guide, people);
   const translationsDir = join(root, 'data', 'translations', 'en');
-  const frameworkTranslation = frameworkSchema.pick({title:true,author:true,summary:true,useWhen:true,avoidWhen:true,keywords:true,principles:true,questions:true,example:true});
+  const frameworkTranslation = frameworkSchema.pick({title:true,author:true,summary:true,useWhen:true,avoidWhen:true,keywords:true,principles:true,questions:true,example:true,choose:true,moves:true,worked:true,mistakes:true});
   const personTranslation = profileSchema.pick({summary:true,topics:true,principles:true,questions:true});
   const translatedFrameworks = z.record(z.string(), frameworkTranslation).parse(JSON.parse(await readFile(join(translationsDir, 'frameworks.json'), 'utf8')));
   const translatedPeople = z.record(z.string(), personTranslation).parse(JSON.parse(await readFile(join(translationsDir, 'people.json'), 'utf8')));

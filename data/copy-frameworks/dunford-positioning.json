@@ -40,7 +40,7 @@
     "Konkurrerande alternativ: lista vad kunden skulle göra om ni inte fanns – välja en konkurrent, fortsätta med ett kalkylark, ta in en praktikant eller låta bli. Det är mot dem läsaren jämför er, inte mot er egen konkurrentlista.",
     "Unika egenskaper: skriv upp vad ni har eller kan som alternativen saknar – funktioner, arbetssätt, kunskap, leveransmodell. Håll er till sakuppgifter, inte adjektiv.",
     "Värde: fråga ”och vad betyder det för kunden?” om varje egenskap tills svaret är en konkret nytta, och notera vilket belägg som visar att nyttan är verklig.",
-    "Bästa kunderna: beskriv vad som kännetecknar de kunder som bryr sig mest om värdet – deras situation, behov eller arbetssätt, inte bara bransch och storlek – och skriv till dem.",
+    "Bästa kunderna: beskriv vad som kännetecknar de kunder som bryr sig mest om värdet (deras situation, behov eller arbetssätt, inte bara bransch och storlek) och skriv till dem.",
     "Marknadskategori: välj det sammanhang som gör att läsaren direkt förstår vad ni är och varför värdet spelar roll. Påstå inte att ni är unika eller bäst utan jämförelseunderlag."
   ],
   "questions": [
@@ -49,12 +49,80 @@
     "Vilka kunder bryr sig mest om den skillnaden, och vad har de gemensamt?",
     "I vilket sammanhang blir vårt värde självklart för läsaren?"
   ],
+  "choose": [
+    {
+      "when": "Läsaren frågar vad det här är för något",
+      "use": "Kategori som gör värdet självklart."
+    },
+    {
+      "when": "Läsaren säger att de redan har ett system",
+      "use": "Alternativen först och Egenskapen som alternativen saknar."
+    },
+    {
+      "when": "Texten räknar upp funktioner",
+      "use": "Fråga ”och då?”."
+    },
+    {
+      "when": "Sidan försöker passa alla",
+      "use": "Kunderna som bryr sig mest."
+    },
+    {
+      "when": "Positioneringen finns men startsidan är otydlig",
+      "use": "Från positionering till startsida."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Alternativen först",
+      "how": "Skriv upp vad kunden väljer mellan i dag, även det som inte är en konkurrent.",
+      "example": "”Caféer väljer i dag mellan ett stort kassasystem byggt för butik och en kortläsare med en app.”"
+    },
+    {
+      "name": "Egenskapen som alternativen saknar",
+      "how": "Håll er till något som går att visa, och kontrollera att alternativen verkligen saknar det.",
+      "example": "”Beställningar från kassan och från bordens QR-kod hamnar på samma skärm i köket.”"
+    },
+    {
+      "name": "Fråga ”och då?”",
+      "how": "Fråga vad egenskapen leder till, tills svaret är något kunden skulle säga själv.",
+      "example": "Samma skärm i köket. Och då? Ingen springer med lappar. Och då? Färre bortglömda beställningar när det är fullt."
+    },
+    {
+      "name": "Kunderna som bryr sig mest",
+      "how": "Beskriv situationen som gör värdet stort, inte bara bransch och storlek.",
+      "example": "”Caféer med servering vid borden och rusning vid lunch. Inte kiosker med en enda kö.”"
+    },
+    {
+      "name": "Kategori som gör värdet självklart",
+      "how": "Välj det sammanhang där er styrka är det läsaren väntar sig att jämföra.",
+      "example": "”Kassa för caféer med bordsservering” säger mer än ”kassasystem” eller ”plattform för restaurangbranschen”."
+    },
+    {
+      "name": "Från positionering till startsida",
+      "how": "Vår tillämpning: rubriken säger kategori och värde, underrubriken säger för vem och jämfört med vad, och första sektionen visar egenskapen som gör skillnaden.",
+      "example": "Rubrik: ”Kassan för caféer med bordsservering.” Underrubrik: ”Beställningar från kassan och borden hamnar på samma skärm i köket.”"
+    }
+  ],
   "example": {
     "context": "Påhittat: ett schemaverktyg samlar arbetspassen och låter personalen ansöka om passbyten direkt i verktyget. I dag har kunderna schemat i ett kalkylark och sköter byten via mejl och sms.",
     "before": "En innovativ plattform som tar din verksamhet till nästa nivå.",
     "after": "Låt personalen ansöka om passbyten direkt i schemat, i stället för via mejl och sms till dig.",
     "explanation": "Texten ställer verktyget mot det läsaren faktiskt använder i dag och lyfter fram den skillnad som avgör jämförelsen."
   },
+  "worked": {
+    "context": "Påhittat: kassasystemet Brygga. Fakta i underlaget: beställningar från kassan och från QR-kod på borden visas på samma köksskärm, 490 kr i månaden per kassa, ingen bindningstid. Kunderna använder i dag ett butikskassasystem eller en kortläsare med app, och skriver beställningar på lappar.",
+    "text": "Kassan för caféer med bordsservering\n\nBeställningar från kassan och från borden hamnar på samma skärm i köket.\n\nHar ni ett kassasystem byggt för butik? Då skriver ni förmodligen beställningarna på lappar när det är fullt. Med Brygga beställer gästen vid kassan eller med QR-koden på bordet. Köket ser allt i den ordning det kom in.\n\nFör caféer med rusning\nBrygga är gjort för ställen där tjugo personer vill ha lunch samtidigt. Har ni en enda kö och inga bord klarar ni er bra med en kortläsare.\n\n490 kr i månaden per kassa. Ingen bindningstid.\n\n[Se hur köksskärmen ser ut]",
+    "notes": [
+      "Rubriken är kategorin. Läsaren vet direkt vad det är och vad hen ska jämföra med.",
+      "Texten nämner det läsaren använder i dag, butikskassan och lapparna, och ställer egenskapen mot just det.",
+      "Stycket om vem det inte är till för ringar in de kunder som bryr sig mest."
+    ]
+  },
+  "mistakes": [
+    "Att jämföra sig med konkurrenten som ledningen oroar sig för, när kunderna väljer mellan er och ett kalkylark.",
+    "Att välja en bred kategori för att inte stänga några dörrar. Då måste texten förklara allt från början.",
+    "Att kalla en egenskap unik utan att ha kontrollerat vad alternativen gör."
+  ],
   "sources": [
     {
       "title": "April Dunford: A Quickstart Guide to Positioning",

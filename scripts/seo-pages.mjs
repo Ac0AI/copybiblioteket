@@ -60,14 +60,20 @@ export function frameworkPage(framework, language, {library, people}) {
   const trail = crumbs([[t('home', language).split(',')[0], '/'], [t('frameworks', language), '/library'], [framework.title, path]], language);
   const person = people.find(p => framework.author.includes(p.name));
   const others = library.frameworks.filter(f => f.id !== framework.id);
-  const e = framework.example;
+  const e = framework.example, w = framework.worked;
+  // Worked examples are whole pieces of copy: blank lines separate paragraphs, single line breaks stay.
+  const prose = text => text.split(/\n{2,}/).map(part => `<p>${esc(part).replaceAll('\n', '<br>')}</p>`).join('');
   const content = `${trail.html}
 <header class="entry-head"><div><p class="eyebrow">${esc(framework.author)} · ${esc(category)}</p><h1 class="display">${esc(framework.title)}</h1><p class="lead">${esc(framework.summary)}</p>
 <div class="entry-actions"><a class="button primary" href="${pagePath('/', language)}#workshop">${esc(t('useInWorkshop', language))}</a><a class="button outlined" href="${pagePath('/library', language)}#${framework.id}">${esc(t('openInLibrary', language))}</a>${person ? `<a class="button subtle" href="${pagePath('/people/' + person.id, language)}">${esc(t('authorAsPerspective', language, {name: person.name}))}</a>` : ''}</div></div></header>
 <div class="entry-context"><section><h2>${esc(t('useWhen', language))}</h2><p>${esc(framework.useWhen)}</p></section><section><h2>${esc(t('avoidWhen', language))}</h2><p>${esc(framework.avoidWhen)}</p></section></div>
 <section class="entry-section"><h2>${esc(t('apply', language))}</h2>${list(framework.principles)}</section>
+<section class="entry-section"><h2>${esc(t('chooseHeading', language))}</h2><dl class="choose">${framework.choose.map(c => `<div><dt>${esc(c.when)}</dt><dd>${esc(c.use)}</dd></div>`).join('')}</dl></section>
+<section class="entry-section"><h2>${esc(t('frameworkMoves', language))}</h2><div class="moves">${framework.moves.map(m => `<div class="move"><h3>${esc(m.name)}</h3><p>${esc(m.how)}</p><p class="move-example">${esc(m.example)}</p></div>`).join('')}</div></section>
 <section class="entry-section"><h2>${esc(t('questions', language))}</h2>${list(framework.questions)}</section>
 <section class="entry-example"><h2>${esc(t('exampleHeading', language))}</h2><p class="entry-note">${esc(e.context)}</p><div class="entry-rewrite"><div><p class="example-label">${esc(t('draftLabel', language))}</p><blockquote class="is-before">${esc(e.before)}</blockquote></div><div><p class="example-label">${esc(t('revised', language))}</p><blockquote>${esc(e.after)}</blockquote></div></div><p class="entry-note">${esc(e.explanation)}</p></section>
+<section class="worked"><h2>${esc(t('workedHeading', language))}</h2><p class="worked-context">${esc(w.context)}</p>${w.before ? `<p class="example-label">${esc(t('draftLabel', language))}</p><div class="worked-text is-before">${prose(w.before)}</div><p class="example-label">${esc(t('revised', language))}</p>` : ''}<div class="worked-text">${prose(w.text)}</div><h3>${esc(t('workedNotes', language))}</h3><ul>${w.notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul></section>
+<section class="entry-section"><h2>${esc(t('mistakesHeading', language))}</h2>${list(framework.mistakes)}</section>
 <section class="entry-section"><h2>${esc(t('sources', language))}</h2><ul class="entry-sources">${framework.sources.map(s => `<li>${external(s.title, s.url)}</li>`).join('')}</ul><p class="entry-note">${esc(t('exampleNotice', language))}</p></section>
 <section class="entry-section"><h2>${esc(t('moreFrameworks', language))}</h2><div class="entry-cards">${others.map(f => `<a class="entry-card" href="${pagePath('/library/' + f.id, language)}"><small>${esc(f.author)}</small><strong>${esc(f.title)}</strong></a>`).join('')}</div></section>`;
   const ld = {'@context':'https://schema.org','@graph':[

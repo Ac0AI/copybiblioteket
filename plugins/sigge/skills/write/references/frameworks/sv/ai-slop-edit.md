@@ -19,6 +19,22 @@ Peter Yangs skill no-ai-slop beskriver de mönster som får text att låta maski
 - Visa i stället för att tala om vad läsaren ska tycka. Stryk ”det här är viktigt” och ”det intressanta är” och låt fakta, exempel och följder bära poängen.
 - Namnge källan eller stryk påståendet. ”Experter menar” och ”studier visar” utan källa ska bort; fråga hellre efter underlaget än hitta på det.
 
+## Välj grepp efter läget
+
+- Texten är full av adjektiv: Tomt ord blir sakuppgift och Tretal för rytmens skull.
+- Texten kommer aldrig till saken: Harkling och Falsk kontrast.
+- Slutet låter som en föreläsning: Slutrad som vill låta djup.
+- Du är osäker på om en mening är fyllnad: Flyttbarhetstestet.
+
+## Grepp
+
+- **Tomt ord blir sakuppgift.** Fråga vad ordet skulle betyda om det vore sant, och skriv det. ”En sömlös upplevelse” blir ”Du loggar in med BankID och är klar.”
+- **Falsk kontrast.** Stryk det ingen har påstått och säg det andra ledet direkt. ”Det handlar inte om teknik, utan om människor” blir ”Vi utbildar personalen innan systemet tas i bruk.”
+- **Harkling.** Stryk inledningen och börja med meningen som kommer efter. ”Här är grejen: de flesta formulär är för långa” blir ”De flesta formulär är för långa.”
+- **Tretal för rytmens skull.** Tre adjektiv i rad står ofta för att det låter bra. Behåll det som går att belägga. ”Snabbt, enkelt och tryggt” blir ”Klart på två minuter.”
+- **Slutrad som vill låta djup.** Stryk den och sluta på den sista konkreta uppgiften eller på nästa steg. ”För i slutändan handlar det om förtroende.” Stryk. Sista raden blir ”Boka en genomgång.”
+- **Flyttbarhetstestet.** Skulle meningen passa oförändrad hos en konkurrent? Då säger den inget om er. ”Vi brinner för våra kunder” kan stå var som helst. ”Vi svarar på mejl inom en arbetsdag” kan bara stå där det är sant.
+
 ## Frågor att ställa
 
 - Vilka meningar skulle passa lika bra hos en konkurrent?
@@ -32,6 +48,36 @@ Påhittat: Räkna sköter löpande bokföring åt småföretag, och varje kund f
 - **Före:** I dagens snabbrörliga värld handlar det inte bara om bokföring – det handlar om frihet. Räkna erbjuder en sömlös, skräddarsydd lösning som frigör din potential.
 - **Efter:** Räkna sköter din löpande bokföring, och du får en egen kontakt att mejla när något är oklart.
 - **Varför:** Flosklerna och den falska kontrasten är borta; kvar finns vad tjänsten gör och vem läsaren kan fråga.
+
+## Ett helt exempel
+
+Påhittat: ett LinkedIn-inlägg från grundaren av Räkna, en bokföringsbyrå. Fakta i underlaget: byrån har börjat svara på kundmejl inom en arbetsdag, och varje kund har fått en namngiven kontakt med direktnummer. Skribenten skriver annars kort och lite torrt.
+
+**Utkast:**
+
+> I dagens snabbrörliga värld handlar bokföring inte bara om siffror. Det handlar om förtroende. Här är grejen: de flesta byråer ser dig som ett kundnummer. Vi på Räkna har tagit kundupplevelsen till nästa nivå med en sömlös, personlig och skräddarsydd tjänst. Det bästa av allt: du slipper vänta. För i slutändan är det relationen som räknas. 🚀
+
+**Omarbetat:**
+
+> Vi har ändrat två saker på Räkna.
+>
+> Du får svar på mejl inom en arbetsdag.
+>
+> Du har en egen kontakt, med namn och direktnummer. Samma person varje gång.
+>
+> Det borde vi ha gjort tidigare.
+
+**Det här gör exemplet:**
+
+- Sex mönster är borta: tomma ord, falsk kontrast, harkling, kolonavslöjande, djup slutrad och emoji.
+- Det som står kvar är de två sakuppgifterna. Ingenting har lagts till som inte fanns i underlaget.
+- Sista raden är skribentens egen torra ton. Den stod inte i utkastet, så den ska godkännas av skribenten.
+
+## Vanliga misstag
+
+- Att byta ett tomt ord mot ett annat. ”Smidig” i stället för ”sömlös” säger lika lite.
+- Att slipa bort allt som sticker ut. En kantig mening med egen röst ska stå kvar.
+- Att tro att texten är bra för att kontrollen inte hittar något. Den hittar kända fraser, inte tomma tankar.
 
 ## Källor
 

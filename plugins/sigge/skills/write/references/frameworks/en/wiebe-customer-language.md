@@ -18,6 +18,22 @@ Joanna Wiebe and Copyhackers argue that copy starts with research: gather how cu
 - Keep quotes, paraphrase and your own interpretation apart. A handful of voices is a hypothesis – test the message with more people before you build everything on it.
 - Let customers' words shape the copy without erasing the sender's voice, and never use a real customer quote in marketing without permission.
 
+## Choose a move for the situation
+
+- You have reviews, support tickets or sales notes: Read the reviews and Sort into four piles.
+- The headline sounds like a brochure: A headline from a quote.
+- The same question comes up in every sales call: An objection as a subheading.
+- You have no customer material at all: Ask about an event, before you write.
+
+## Moves
+
+- **Read the reviews.** Read reviews of you and of your competitors, and copy whole sentences about problems, results and hesitation. From a review: 'I hardly dared leave him the first time.'
+- **Sort into four piles.** Problems, desired results, objections and words about the service. Note the source next to every quote. Problem: 'he wrecks the sofa while I'm at work'. Objection: 'what if he won't eat'. Outcome: 'he falls asleep in the car on the way home'.
+- **A headline from a quote.** Take the phrasing most people recognise themselves in and make it the headline, as close to the customer's words as you can. 'I hardly dared leave him the first time' becomes the headline 'The first time you leave him'.
+- **An objection as a subheading.** Put the customer's question the way it was asked and answer it directly underneath. Subheading: 'What if he won't eat?' Answer: what the staff do and when you get in touch.
+- **Ask about an event.** In interviews and surveys, ask what happened, not what the customer thinks. 'What happened the day you started looking for dog daycare?' gives you more than 'What matters to you?'
+- **Label what is what.** Keep quotes, paraphrases and your own interpretation apart in the material, so that no guess turns into a customer quote. Quote: 'he falls asleep in the car on the way home'. Paraphrase: the dog is tired after the day. Interpretation: the owner wants a quiet evening.
+
 ## Questions to ask
 
 - How does the customer describe the problem before they know the product?
@@ -31,7 +47,35 @@ Fictional: the service lets users photograph receipts and keeps them in one plac
 
 - **Before:** Streamline your receipt management process.
 - **After:** Stop hunting for receipts in your wallet and the car. Snap each one as you get it, and they're all in one place when it's time to do the books.
-- **Why:** The customer's own picture – the wallet, the car – makes the problem recognisable in a way 'receipt management process' never could.
+- **Why:** The customer's own picture (the wallet, the car) makes the problem recognisable in a way 'receipt management process' never could.
+
+## A complete example
+
+Fictional: the dog daycare Tassen. The quotes are invented for the example and come from invented reviews: 'I hardly dared leave him the first time', 'what if he won't eat', 'he falls asleep in the car on the way home'. Facts in the brief: settling in over three half-days, a photo is sent at lunchtime, at most twelve dogs a day, dogs that won't eat are given their food in a quiet spot and the owner gets a call.
+
+> The first time you leave him
+>
+> It's the hardest. That's why we start with three half-days, and you get a photo at lunchtime every day so you can see how he's doing.
+>
+> What if he won't eat?
+> Then we give him his food in a quiet spot and try again after a while. If he still won't eat, we call you.
+>
+> He falls asleep in the car on the way home
+> Several of our customers say so. We take at most twelve dogs a day, so there is time for both play and rest.
+>
+> [Book a settling-in period]
+
+**What the example does:**
+
+- The headline and the two subheadings are the customers' own phrasings, lightly edited.
+- Each objection gets an answer with a fact: three half-days, a photo at lunchtime, at most twelve dogs.
+- 'He falls asleep in the car on the way home' stays as something customers say. The copy doesn't turn it into a promise.
+
+## Common mistakes
+
+- Polishing the customer's words until they sound like a brochure. The rough edges are what feel real.
+- Building the whole message on a single talkative customer.
+- Using a real quote in advertising without asking the person who said it.
 
 ## Sources
 

@@ -4,7 +4,7 @@
 
 Robert Cialdini · Budskap · `cialdini-persuasion`
 
-Välj det belägg som besvarar läsarens tvivel – andra kunder, sakkunskap, en generös första gåva eller ett verkligt villkor – och visa det så att läsaren själv kan bedöma det. Robert Cialdini beskriver sju påverkansprinciper; använd dem för att göra ett bra beslut lättare, aldrig för att pressa fram ett.
+Välj det belägg som besvarar läsarens tvivel (andra kunder, sakkunskap, en generös första gåva eller ett verkligt villkor) och visa det så att läsaren själv kan bedöma det. Robert Cialdini beskriver sju påverkansprinciper; använd dem för att göra ett bra beslut lättare, aldrig för att pressa fram ett.
 
 **Använd när:** När läsaren undrar vilka ni är, om erbjudandet passar just hen eller om andra har haft nytta av det – till exempel på startsidan, i ett kundcase eller nära priset.
 
@@ -12,11 +12,29 @@ Välj det belägg som besvarar läsarens tvivel – andra kunder, sakkunskap, en
 
 ## Principer
 
-- Börja i tvivlet. Fråga vad som hindrar läsaren just nu – är de seriösa, passar det mig, har det fungerat för andra? – och välj en eller två principer som svarar på det. Att trycka in alla sju gör texten säljig, inte trovärdig.
+- Börja i tvivlet. Fråga vad som hindrar läsaren just nu (är de seriösa, passar det mig, har det fungerat för andra?) och välj en eller två principer som svarar på det. Att trycka in alla sju gör texten säljig, inte trovärdig.
 - Socialt bevis och samhörighet: visa att människor som liknar läsaren redan har valt er – samma bransch, storlek eller situation. Ett namngivet kundcase väger tyngre än ”nöjda kunder”. Tala bara om gemenskap (”vi som driver eget”) när den finns på riktigt.
 - Auktoritet och sympati: visa relevant sakkunskap innan ni ber om något, till exempel utbildning, erfarenhet eller vem som faktiskt gör jobbet. Skriv som en kunnig människa som förstår läsaren, och var ärlig med vad ni inte gör – det gör resten mer trovärdigt.
-- Återgäldande och konsekvens: ge något verkligt användbart först – en checklista, ett råd, en kalkyl – utan dolda krav. Be sedan om ett litet, frivilligt steg som stämmer med det läsaren redan har sagt eller gjort, i stället för ett stort åtagande direkt.
+- Återgäldande och konsekvens: ge något verkligt användbart först (en checklista, ett råd, en kalkyl) utan dolda krav. Be sedan om ett litet, frivilligt steg som stämmer med det läsaren redan har sagt eller gjort, i stället för ett stort åtagande direkt.
 - Knapphet: berätta vad läsaren går miste om bara när begränsningen är verklig, och ange villkoret exakt – antal platser, sista dag, vad som händer sedan. Påhittad brådska river det förtroende ni försöker bygga.
+
+## Välj grepp efter läget
+
+- Läsaren undrar om ni är seriösa: Auktoritet.
+- Läsaren undrar om det passar någon som hen: Socialt bevis och Samhörighet.
+- Läsaren är rädd att ångra sig: Återgäldande och Åtagande och konsekvens: ett litet första steg.
+- Läsaren ser inget skäl att bestämma sig nu: Knapphet, bara om gränsen är verklig.
+- Läsaren litar inte på säljtext: Sympati: säg vad ni inte passar för.
+
+## Grepp
+
+- **Socialt bevis.** Visa kunder som liknar läsaren och säg vad de har gemensamt med hen. Siffror ska gå att kontrollera. ”38 företag har sitt kontor här. Hälften är enmansföretag.”
+- **Auktoritet.** Visa det som gör er kunniga i just den här frågan: utbildning, år i yrket eller vem som gör jobbet. ”Anna, som driver stället, har hyrt ut kontor i Malmö i elva år.”
+- **Sympati.** Skriv som en människa som förstår läsarens läge, och säg ärligt vad ni inte passar för. ”Behöver du ett eget låsbart rum är vi fel ställe. Här sitter alla i öppet landskap.”
+- **Återgäldande.** Ge något användbart först, utan villkor. ”Prova en dag gratis. Du behöver inte lämna några kortuppgifter.”
+- **Åtagande och konsekvens.** Be om ett litet, frivilligt steg som ligger i linje med det läsaren redan vill. ”Börja med ett klippkort på fem dagar innan du bestämmer dig för en fast plats.”
+- **Knapphet.** Säg vad som är begränsat, hur mycket och från när. ”Vi har 24 platser. Tre är lediga från 1 april.”
+- **Samhörighet.** Peka på en gemenskap bara när den finns och spelar roll för valet. ”Varje torsdag äter vi lunch ihop. Det är frivilligt, men de flesta kommer.”
 
 ## Frågor att ställa
 
@@ -32,6 +50,36 @@ Påhittat: tre redovisningsbyråer med två till åtta anställda har godkänt a
 - **Före:** Det självklara valet för alla framgångsrika byråer.
 - **Efter:** Så använder tre redovisningsbyråer med 2–8 anställda tjänsten i vardagen. Läs deras berättelser.
 - **Varför:** Verkliga kunder som liknar läsaren går att pröva, medan ”det självklara valet” bara är ett påstående.
+
+## Ett helt exempel
+
+Påhittat: kontorshotellet Kontoret Södra i Malmö. Fakta i underlaget: 24 platser i öppet landskap, 38 företag har sitt kontor här, hälften är enmansföretag (bland dem en översättare, två utvecklare och en revisor), ingen av dem kände någon annan när de kom, en gratis provdag utan kortuppgifter, klippkort på fem dagar, tre lediga platser från 1 april, gemensam lunch på torsdagar. Läsaren jobbar hemifrån och tvekar inför att sitta bland främlingar.
+
+> Jobbar du hemma och saknar folk omkring dig?
+>
+> Hälften av företagen hos oss är enmansföretag: en översättare, två utvecklare, en revisor. Ingen kände någon när de kom.
+>
+> Så här brukar det gå till. Du provar en dag gratis, utan att lämna kortuppgifter. Trivs du kan du köpa ett klippkort på fem dagar innan du bestämmer dig för en fast plats.
+>
+> På torsdagar äter vi lunch ihop. Det är frivilligt, men de flesta kommer.
+>
+> Behöver du ett eget låsbart rum är vi fel ställe. Här sitter alla i öppet landskap.
+>
+> Vi har 24 platser, och tre är lediga från 1 april.
+>
+> [Boka en provdag]
+
+**Det här gör exemplet:**
+
+- Tvivlet är ”kommer jag att passa in?”. Därför bär socialt bevis och samhörighet texten, och auktoritet behövs inte.
+- Provdagen och klippkortet är två små steg före det stora. Det är återgäldande och åtagande i praktiken.
+- Raden om vad stället inte passar för gör resten lättare att tro på.
+
+## Vanliga misstag
+
+- Att använda alla sju på en gång. Texten blir en lista av säljknep, och läsaren litar mindre på den.
+- Att visa bevis som inte svarar på tvivlet. Den som undrar om det passar ett enmansföretag blir inte lugnad av logotyper från storbolag.
+- Att skriva ”begränsat antal platser” utan siffra. Läsaren har sett det förut och tror inte på det.
 
 ## Källor
 

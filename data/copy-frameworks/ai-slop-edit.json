@@ -47,12 +47,77 @@
     "Vad i texten låter som skribenten själv, och hur skyddar vi det?",
     "Vilka påståenden saknar en namngiven källa eller ett konkret faktum?"
   ],
+  "choose": [
+    {
+      "when": "Texten är full av adjektiv",
+      "use": "Tomt ord blir sakuppgift och Tretal för rytmens skull."
+    },
+    {
+      "when": "Texten kommer aldrig till saken",
+      "use": "Harkling och Falsk kontrast."
+    },
+    {
+      "when": "Slutet låter som en föreläsning",
+      "use": "Slutrad som vill låta djup."
+    },
+    {
+      "when": "Du är osäker på om en mening är fyllnad",
+      "use": "Flyttbarhetstestet."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Tomt ord blir sakuppgift",
+      "how": "Fråga vad ordet skulle betyda om det vore sant, och skriv det.",
+      "example": "”En sömlös upplevelse” blir ”Du loggar in med BankID och är klar.”"
+    },
+    {
+      "name": "Falsk kontrast",
+      "how": "Stryk det ingen har påstått och säg det andra ledet direkt.",
+      "example": "”Det handlar inte om teknik, utan om människor” blir ”Vi utbildar personalen innan systemet tas i bruk.”"
+    },
+    {
+      "name": "Harkling",
+      "how": "Stryk inledningen och börja med meningen som kommer efter.",
+      "example": "”Här är grejen: de flesta formulär är för långa” blir ”De flesta formulär är för långa.”"
+    },
+    {
+      "name": "Tretal för rytmens skull",
+      "how": "Tre adjektiv i rad står ofta för att det låter bra. Behåll det som går att belägga.",
+      "example": "”Snabbt, enkelt och tryggt” blir ”Klart på två minuter.”"
+    },
+    {
+      "name": "Slutrad som vill låta djup",
+      "how": "Stryk den och sluta på den sista konkreta uppgiften eller på nästa steg.",
+      "example": "”För i slutändan handlar det om förtroende.” Stryk. Sista raden blir ”Boka en genomgång.”"
+    },
+    {
+      "name": "Flyttbarhetstestet",
+      "how": "Skulle meningen passa oförändrad hos en konkurrent? Då säger den inget om er.",
+      "example": "”Vi brinner för våra kunder” kan stå var som helst. ”Vi svarar på mejl inom en arbetsdag” kan bara stå där det är sant."
+    }
+  ],
   "example": {
     "context": "Påhittat: Räkna sköter löpande bokföring åt småföretag, och varje kund får en egen kontakt att mejla.",
     "before": "I dagens snabbrörliga värld handlar det inte bara om bokföring – det handlar om frihet. Räkna erbjuder en sömlös, skräddarsydd lösning som frigör din potential.",
     "after": "Räkna sköter din löpande bokföring, och du får en egen kontakt att mejla när något är oklart.",
     "explanation": "Flosklerna och den falska kontrasten är borta; kvar finns vad tjänsten gör och vem läsaren kan fråga."
   },
+  "worked": {
+    "context": "Påhittat: ett LinkedIn-inlägg från grundaren av Räkna, en bokföringsbyrå. Fakta i underlaget: byrån har börjat svara på kundmejl inom en arbetsdag, och varje kund har fått en namngiven kontakt med direktnummer. Skribenten skriver annars kort och lite torrt.",
+    "before": "I dagens snabbrörliga värld handlar bokföring inte bara om siffror. Det handlar om förtroende. Här är grejen: de flesta byråer ser dig som ett kundnummer. Vi på Räkna har tagit kundupplevelsen till nästa nivå med en sömlös, personlig och skräddarsydd tjänst. Det bästa av allt: du slipper vänta. För i slutändan är det relationen som räknas. 🚀",
+    "text": "Vi har ändrat två saker på Räkna.\n\nDu får svar på mejl inom en arbetsdag.\n\nDu har en egen kontakt, med namn och direktnummer. Samma person varje gång.\n\nDet borde vi ha gjort tidigare.",
+    "notes": [
+      "Sex mönster är borta: tomma ord, falsk kontrast, harkling, kolonavslöjande, djup slutrad och emoji.",
+      "Det som står kvar är de två sakuppgifterna. Ingenting har lagts till som inte fanns i underlaget.",
+      "Sista raden är skribentens egen torra ton. Den stod inte i utkastet, så den ska godkännas av skribenten."
+    ]
+  },
+  "mistakes": [
+    "Att byta ett tomt ord mot ett annat. ”Smidig” i stället för ”sömlös” säger lika lite.",
+    "Att slipa bort allt som sticker ut. En kantig mening med egen röst ska stå kvar.",
+    "Att tro att texten är bra för att kontrollen inte hittar något. Den hittar kända fraser, inte tomma tankar."
+  ],
   "sources": [
     {
       "title": "Peter Yang: no-ai-slop (skill på GitHub, MIT)",

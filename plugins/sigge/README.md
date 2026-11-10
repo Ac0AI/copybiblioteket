@@ -1,6 +1,6 @@
 # Sigge
 
-Sigge helps your AI assistant write copy that sounds like you, in Swedish or English. The plugin brings fourteen copy frameworks, a writing guide for each language and a check for AI-writing patterns. Your own assistant does the writing. It works right after installation, with no account and nothing to sign in to.
+Sigge helps your AI assistant write copy that sounds like you, in Swedish or English. The plugin brings thirteen copy frameworks, a writing guide for each language and a check for AI-writing patterns. Your own assistant does the writing. It works right after installation, with no account and nothing to sign in to.
 
 Sigge is a free service from [AC0](https://ac0.ai).
 
@@ -36,7 +36,7 @@ codex plugin add sigge@sigge
 
 ## What ships with the plugin
 
-- Fourteen frameworks as short applications with questions, a fictional before-and-after example and links to the original sources: Hormozi, Cialdini, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, Ogilvy, Hopkins, James Clear and more.
+- Thirteen frameworks, each with a table for choosing a move, named moves with example lines, a complete fictional worked example, common mistakes and links to the original sources: Hormozi, Cialdini, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, Ogilvy, Hopkins, James Clear and more.
 - A writing guide for natural Swedish and one for English.
 - A checker for AI-writing patterns in both languages. It needs Node.js; without it the assistant reads the text against the pattern list instead.
 - A copy chief checklist with 25 checks.

@@ -15,8 +15,25 @@ Positioning as April Dunford describes it: start with what customers would other
 - Competitive alternatives: list what customers would do if you didn't exist – pick a competitor, carry on with a spreadsheet, hire an intern or do nothing at all. That is what readers compare you with, not your own list of competitors.
 - Unique attributes: write down what you have or can do that the alternatives lack – features, ways of working, expertise, delivery model. Stick to facts, not adjectives.
 - Value: ask 'so what does that mean for the customer?' of each attribute until the answer is a concrete benefit, and note the evidence that shows the benefit is real.
-- Best-fit customers: describe what the customers who care most about that value have in common – their situation, needs or way of working, not just industry and size – and write for them.
+- Best-fit customers: describe what the customers who care most about that value have in common (their situation, needs or way of working, not just industry and size) and write for them.
 - Market category: choose the context that lets readers instantly understand what you are and why your value matters. Don't claim to be unique or the best without a comparison to back it up.
+
+## Choose a move for the situation
+
+- The reader asks what this actually is: A category that makes the value obvious.
+- The reader says they already have a system: Alternatives first and The feature the alternatives lack.
+- The copy lists features: Ask 'so what?'.
+- The page tries to suit everyone: The customers who care most.
+- The positioning exists but the home page is unclear: From positioning to home page.
+
+## Moves
+
+- **Alternatives first.** Write down what the customer chooses between today, including what isn't a competitor. 'Cafés today choose between a large till system built for shops and a card reader with an app.'
+- **The feature the alternatives lack.** Stick to something you can show, and check that the alternatives really lack it. 'Orders from the till and from the QR code on the tables land on the same screen in the kitchen.'
+- **Ask 'so what?'.** Ask what the feature leads to, until the answer is something the customer would say themselves. The same screen in the kitchen. So what? Nobody runs around with slips of paper. So what? Fewer forgotten orders when it's full.
+- **The customers who care most.** Describe the situation that makes the value large, and go beyond industry and size. 'Cafés with table service and a lunch rush. Not kiosks with a single queue.'
+- **A category that makes the value obvious.** Choose the context where your strength is what the reader expects to compare. 'A till for cafés with table service' says more than 'till system' or 'platform for the restaurant industry'.
+- **From positioning to home page.** Our application: the headline states the category and the value, the subheading says who it is for and compared with what, and the first section shows the feature that makes the difference. Headline: 'The till for cafés with table service.' Subheading: 'Orders from the till and the tables land on the same screen in the kitchen.'
 
 ## Questions to ask
 
@@ -32,6 +49,35 @@ Fictional: a scheduling tool holds the rota and lets staff request shift swaps i
 - **Before:** An innovative platform that takes your business to the next level.
 - **After:** Let staff request shift swaps right in the rota, instead of emailing and texting you.
 - **Why:** The copy sets the tool against what the reader actually uses today and highlights the difference that decides the comparison.
+
+## A complete example
+
+Fictional: the till system Brygga. Facts in the brief: orders from the till and from a QR code on the tables appear on the same kitchen screen, 490 kr a month per till, no minimum term. Customers today use a shop till system or a card reader with an app, and write orders on slips of paper.
+
+> The till for cafés with table service
+>
+> Orders from the till and from the tables land on the same screen in the kitchen.
+>
+> Do you have a till system built for shops? Then you probably write orders on slips of paper when it's full. With Brygga, the guest orders at the till or with the QR code on the table. The kitchen sees everything in the order it came in.
+>
+> For cafés with a rush
+> Brygga is made for places where twenty people want lunch at the same time. If you have a single queue and no tables, a card reader will do you fine.
+>
+> 490 kr a month per till. No minimum term.
+>
+> [See what the kitchen screen looks like]
+
+**What the example does:**
+
+- The headline is the category. The reader knows at once what it is and what to compare it with.
+- The copy names what the reader uses today, the shop till and the slips of paper, and sets the feature against exactly that.
+- The paragraph about who it isn't for marks out the customers who care most.
+
+## Common mistakes
+
+- Comparing yourself with the competitor management worries about, when customers choose between you and a spreadsheet.
+- Choosing a broad category so as not to close any doors. Then the copy has to explain everything from scratch.
+- Calling a feature unique without having checked what the alternatives do.
 
 ## Sources
 
