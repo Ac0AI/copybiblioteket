@@ -1256,7 +1256,7 @@
       "context": "Fictional: the service lets users photograph receipts and keeps them in one place. In an invented customer conversation, a business owner says: “Before I do the books, I’m hunting for receipts in my wallet and the car.”",
       "before": "Streamline your receipt management process.",
       "after": "Stop hunting for receipts in your wallet and the car. Snap each one as you get it, and they’re all in one place when it’s time to do the books.",
-      "explanation": "The customer’s own picture (the wallet, the car) makes the problem recognisable in a way “receipt management process” never could."
+      "explanation": "The customer’s own picture (the wallet, the car) makes the problem recognizable in a way “receipt management process” never could."
     },
     "worked": {
       "context": "Fictional: the dog daycare Wagmore. The quotes are invented for the example and come from invented reviews: “I could barely leave him the first time,” “what if he won’t eat,” “he’s asleep in the car on the way home.” Facts in the brief: a trial of three half days, a photo sent at lunchtime, no more than twelve dogs a day, dogs that won’t eat are fed in a quiet spot and the owner gets a call.",

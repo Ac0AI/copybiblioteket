@@ -43,7 +43,7 @@ test("worked examples are labelled fictional and belong to their own language", 
 });
 
 test("the English catalogue is spelled the American way", () => {
-  const british = /\b((recognis|organis|realis|apologis|prioritis|optimis|summaris|emphasis|localis|capitalis)(e|es|ed|ing|ation)\b|behaviour|colour|favour|humour|judgement|centre\b|programme|whilst|enquir|practis(e|es|ed|ing)\b|licence|removal firm|at the weekend)/i;
+  const british = /\b((recognis|organis|realis|apologis|prioritis|optimis|summaris|emphasis|localis|capitalis)(e|es|ed|ing|ation|able|ably)\b|behaviour|colour|favour|humour|judgement|centre\b|programme|whilst|enquir|practis(e|es|ed|ing)\b|licence|removal firm|at the weekend)/i;
   for (const f of sv.forLanguage("en").frameworks) {
     const { keywords: _keywords, ...rest } = f;
     assert.doesNotMatch(JSON.stringify(rest), british, f.id);

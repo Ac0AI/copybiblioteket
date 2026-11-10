@@ -47,7 +47,7 @@ Fictional: the service lets users photograph receipts and keeps them in one plac
 
 - **Before:** Streamline your receipt management process.
 - **After:** Stop hunting for receipts in your wallet and the car. Snap each one as you get it, and they’re all in one place when it’s time to do the books.
-- **Why:** The customer’s own picture (the wallet, the car) makes the problem recognisable in a way “receipt management process” never could.
+- **Why:** The customer’s own picture (the wallet, the car) makes the problem recognizable in a way “receipt management process” never could.
 
 ## A complete example
 
