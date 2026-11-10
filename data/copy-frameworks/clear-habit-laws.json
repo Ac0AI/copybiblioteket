@@ -34,7 +34,7 @@
   "principles": [
     "Gör det tydligt (signalen). Koppla handlingen till ett tillfälle läsaren redan har: ”När du har skickat din sista faktura för månaden, ladda upp kvittona.” En tid, en plats eller en befintlig vana fungerar bättre än ”när det passar”.",
     "Gör det lockande (begäret). Visa vad läsaren får direkt, eller koppla det nya till något hen redan vill göra. Tala gärna om vem läsaren blir: vanor som bekräftar en identitet håller längre än vanor som bara siktar på ett mål.",
-    "Gör det lätt (responsen). Beskriv en första version som tar under två minuter – Clears tvåminutersregel – och ta bort steg som står i vägen. ”Fota ett kvitto” är lättare att börja med än ”få ordning på bokföringen”.",
+    "Gör det lätt (responsen). Beskriv en första version som tar under två minuter (Clears tvåminutersregel) och ta bort steg som står i vägen. ”Fota ett kvitto” är lättare att börja med än ”få ordning på bokföringen”.",
     "Gör det tillfredsställande (belöningen). Bekräfta direkt när något är gjort och visa framstegen. Det som belönas med en gång blir lättare att upprepa.",
     "Vänd lagarna när läsaren vill sluta med något: gör det osynligt, oattraktivt, svårt och otillfredsställande – och beskriv bara hjälp som tjänsten faktiskt ger."
   ],
@@ -44,12 +44,76 @@
     "Vad får läsaren direkt när steget är gjort?",
     "Vem blir läsaren av att göra det här regelbundet?"
   ],
+  "choose": [
+    {
+      "when": "Kunden har registrerat sig men inte börjat",
+      "use": "Tvåminutersversionen."
+    },
+    {
+      "when": "Kunden börjar men glömmer",
+      "use": "Stapla på en vana och Tid och plats."
+    },
+    {
+      "when": "Kunden gör det några gånger och slutar",
+      "use": "Belöning direkt och Synliga framsteg."
+    },
+    {
+      "when": "Kunden har hållit i gång länge",
+      "use": "Vem läsaren blir."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Stapla på en vana",
+      "how": "Clear kallar det vanestapling: efter något läsaren redan gör kommer det nya.",
+      "example": "”När du har druckit morgonkaffet: öppna appen och gör dagens fem ord.”"
+    },
+    {
+      "name": "Tid och plats",
+      "how": "Be läsaren bestämma när och var. Ett tillfälle är lättare att hålla än en föresats.",
+      "example": "”Välj en tid. Vi påminner dig 07.30 på vardagar.”"
+    },
+    {
+      "name": "Tvåminutersversionen",
+      "how": "Clears tvåminutersregel: krymp det första steget tills det tar under två minuter.",
+      "example": "”Fem ord om dagen. Det tar två minuter.”"
+    },
+    {
+      "name": "Belöning direkt",
+      "how": "Säg vad läsaren just har klarat, i samma stund som det är gjort.",
+      "example": "”Fem ord klara. Nu kan du beställa kaffe på italienska.”"
+    },
+    {
+      "name": "Synliga framsteg",
+      "how": "Visa hur långt läsaren har kommit och vad nästa steg är.",
+      "example": "”Dag 4 av 7. Du har lärt dig 20 ord.”"
+    },
+    {
+      "name": "Vem läsaren blir",
+      "how": "Clear menar att vanor håller längre när de bekräftar en identitet. Beskriv personen, inte bara målet.",
+      "example": "”Sju dagar i rad. Du är en person som övar varje dag.”"
+    }
+  ],
   "example": {
     "context": "Påhittat: i Räknas app fotar kunden kvitton, som sedan bokförs av byrån.",
     "before": "Kom igång med smart kvittohantering och ta kontroll över din ekonomi!",
     "after": "Varje fredag när du stänger datorn: fota veckans kvitton. Det tar två minuter, och vi bokför dem åt dig.",
     "explanation": "Texten kopplar handlingen till ett tillfälle, gör den liten och säger vad läsaren får direkt, i stället för att lova kontroll."
   },
+  "worked": {
+    "context": "Påhittat: språkappen Parla lär ut italienska. Fakta i underlaget: fem ord per dag, ett pass tar ungefär två minuter, påminnelsen kan ställas in på valfri tid, första veckan täcker vardagsfraser för kafé och restaurang. Texten är välkomstmejlet efter registrering.",
+    "text": "Ämnesrad: Dina fem första ord\n\nHej!\n\nI dag lär du dig fem ord. Det tar två minuter.\n\nGör det efter något du redan gör varje morgon, till exempel när du har druckit kaffet. Välj en tid i appen, så påminner vi dig då.\n\nNär veckan är slut kan du beställa på ett kafé i Rom: kaffe, vatten, notan, tack.\n\n[Gör dagens fem ord]\n\nI morgon hör vi av oss vid samma tid.",
+    "notes": [
+      "Mejlet ber om en enda handling, och den tar två minuter.",
+      "Handlingen kopplas till morgonkaffet och till en tid som läsaren väljer själv.",
+      "Belöningen är konkret och nära: vad läsaren kan göra efter en vecka, inte flytande italienska."
+    ]
+  },
+  "mistakes": [
+    "Välkomstmejl som räknar upp alla funktioner i stället för att be om en enda liten handling.",
+    "Påminnelser utan tillfälle. ”Glöm inte att öva!” säger inte när.",
+    "Skuld som drivkraft. ”Du har missat tre dagar” ger läsaren ett skäl att stänga av påminnelserna."
+  ],
   "sources": [
     {
       "title": "James Clear: The 3 Steps to Habit Change (de fyra lagarna)",

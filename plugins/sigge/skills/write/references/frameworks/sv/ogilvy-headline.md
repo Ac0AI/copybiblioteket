@@ -18,6 +18,24 @@ David Ogilvy menade att betydligt fler läser rubriken än brödtexten. Lär dä
 - Låt brödtexten bevisa löftet med fakta, detaljer och villkor. En rubrik som texten inte kan leva upp till kostar mer förtroende än den vinner.
 - Pröva rubriken i sin kanal: en ämnesrad i ett nyhetsbrev, en annons och en webbsida läses olika. Kontrollera att den låter som avsändaren och att det framgår vem som talar när rubriken står ensam.
 
+## Välj grepp efter läget
+
+- Läsaren får något konkret: Nyttan.
+- Något har ändrats eller kommit till: Nyheten.
+- Läsaren vill veta hur man gör: Så gör du.
+- Påståendet är svårt att tro på: Sakuppgiften.
+- Texten vänder sig till en smal grupp: Peka ut läsaren.
+- Det är ett mejl: Ämnesraden.
+
+## Grepp
+
+- **Nyttan.** Säg vad läsaren får, konkret nog att se framför sig. ”Hyr en elcykel och se hela Visby på en dag.”
+- **Nyheten.** Har något ändrats ska rubriken säga det. Ogilvy räknade nyheter till det som läses mest. ”Nytt i år: lämna tillbaka cykeln i Slite.”
+- **Så gör du.** Lova en vägledning som texten sedan ger. ”Så tar du dig från färjan till Fårö utan bil.”
+- **Sakuppgiften.** En exakt uppgift är lättare att tro på än ett omdöme. ”65 km på en laddning. Det räcker till Tofta och tillbaka.”
+- **Peka ut läsaren.** Säg vem rubriken är till för, så att rätt person stannar. ”Till dig som kommer med morgonfärjan.”
+- **Ämnesraden.** Samma regler, men kortare. Säg ärendet och sluta där. ”Din cykel är bokad till 14 juli.”
+
 ## Frågor att ställa
 
 - Om läsaren bara ser rubriken – vad har hen då fått veta?
@@ -31,6 +49,37 @@ Påhittat: en matbutik på nätet låter kunden välja ett leveransfönster på 
 - **Före:** Leverans exakt när du vill. Varje gång.
 - **Efter:** Välj själv vilka två timmar matkassen ska komma.
 - **Varför:** Rubriken lovar en konkret och sann nytta som brödtexten kan backa upp, utan att göra valet till en garanti om exakt tid.
+
+## Ett helt exempel
+
+Påhittat: Gotlandscykel hyr ut elcyklar i Visby. Fakta i underlaget: uthämtning 200 meter från färjeterminalen, 65 km räckvidd per laddning, 450 kr per dygn, nytt för i år är att cykeln kan lämnas i Slite. Texten ska stå överst på startsidan.
+
+> Hämta elcykeln 200 meter från färjan
+>
+> Du går av båten, hämtar cykeln och är på väg. En laddning räcker 65 km, så du hinner till Tofta och tillbaka utan att tänka på batteriet.
+>
+> Nytt i år: du kan lämna cykeln i Slite i stället för att cykla tillbaka till Visby.
+>
+> 450 kr per dygn.
+>
+> [Boka cykel]
+>
+> Rubriker som valdes bort
+> ”Upplev Gotland på två hjul” passar vilken uthyrare som helst.
+> ”Frihet på riktigt” säger inte vad läsaren får.
+> ”Cykla smart” är en ordlek som kräver brödtexten för att betyda något.
+
+**Det här gör exemplet:**
+
+- Rubriken står på egna ben. Den som bara läser den vet vad som erbjuds och var.
+- Sakuppgiften 200 meter gör nyttan trovärdig, och brödtexten bevisar den med räckvidden.
+- De bortvalda rubrikerna visar testet: skulle raden kunna stå hos en konkurrent utan att ändras?
+
+## Vanliga misstag
+
+- Ordvitsar som kräver brödtexten för att bli begripliga. Många läser bara rubriken.
+- Rubriker som passar vilket företag som helst.
+- Att lova något i rubriken och aldrig komma tillbaka till det i texten.
 
 ## Källor
 

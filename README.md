@@ -2,7 +2,7 @@
 
 [sigge.si](https://sigge.si) – ramverk, exempel och källor för tydligare copy på svenska och engelska. En gratistjänst från [AC0](https://ac0.ai).
 
-En tvåspråkig skrivverkstad, 59 personprofiler och fjorton ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, James Clear (vanor och nyhetsbrevsformatet 3-2-1), Peter Yangs no-ai-slop, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna tillämpningar, frågor och fiktiva exempel på båda språken. Varumärkets röst styr skrivandet.
+En tvåspråkig skrivverkstad, 59 personprofiler och tretton ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, James Clear (vanor), Peter Yangs no-ai-slop, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Varje ramverk har principer, en tabell för att välja grepp efter läget, namngivna grepp med exempelrader, ett helt påhittat textexempel och vanliga misstag, på båda språken. Varumärkets röst styr skrivandet.
 
 Enklaste vägen är pluginet för Claude, Claude Code och Codex. Den som använder ChatGPT eller inte vill installera något lägger till adressen `https://sigge.si/mcp` i sin AI. Inget av det kräver konto eller inloggning. På webben kan du också skapa ett komplett skrivunderlag att klistra in i en AI-chatt och granska en text mot AI-floskler. Själva skrivandet sker alltid i din egen AI-klient. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
 
@@ -23,13 +23,13 @@ codex plugin marketplace add Ac0AI/sigge
 codex plugin add sigge@sigge
 ```
 
-Pluginet ligger i [plugins/sigge](plugins/sigge) och har fyra färdigheter: `write` (skriv eller skriv om copy), `check` (hitta och stryk AI-floskler), `review` (granska en befintlig text) och `start` (kort introduktion). De fjorton ramverken, skrivguiderna och flosklerkollen följer med. Pluginet ansluter också till `https://sigge.si/mcp`, som ger de 59 perspektiven, källsökningen och verktyget som väljer ramverk åt uppgiften. Se [pluginets README](plugins/sigge/README.md).
+Pluginet ligger i [plugins/sigge](plugins/sigge) och har fyra färdigheter: `write` (skriv eller skriv om copy), `check` (hitta och stryk AI-floskler), `review` (granska en befintlig text) och `start` (kort introduktion). De tretton ramverken, skrivguiderna och flosklerkollen följer med. Pluginet ansluter också till `https://sigge.si/mcp`, som ger de 59 perspektiven, källsökningen och verktyget som väljer ramverk åt uppgiften. Se [pluginets README](plugins/sigge/README.md).
 
 `plugins/sigge/skills/write/references/swedish.md` och `english.md` är skrivguidernas källa; servern läser dem därifrån. Ramverkssidorna, flosklerkollens skript och kopiorna i de andra färdigheterna genereras med `npm run build:plugin` från `data/copy-frameworks/` och `client/slop.js`. Redigera källorna, inte de genererade filerna. Ett test stoppar bygget om de inte stämmer överens.
 
 ## Design och filmer
 
-Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Filmen om att ansluta din AI (startsidan och anslutningssidan, `client/pages/_film-connect.html`) byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/` De visar fortfarande det gamla inloggningssteget och behöver exporteras om.
+Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Filmen om att installera Sigge och skriva en första text (startsidan och anslutningssidan, `client/pages/_film-connect.html`) byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/`, till exempel [så funkar Sigge](https://sigge.si/media/sigge-sa-funkar-det.mp4) och [installera Sigge](https://sigge.si/media/sigge-anslut-din-ai.mp4). Filmen om installationen exporteras bildruta för bildruta med `scripts/export-film.mjs`.
 
 Maskoten Sigge är en SVG-bläckplump i `client/pages/_mascot.html` som byggs in där `{{mascot}}` står i sidmallarna. Namnet är en kortform av Sigurd, Sigvard och Sigfrid (fornnordiska *sigr*, seger); se avsnittet Om namnet på startsidan.
 

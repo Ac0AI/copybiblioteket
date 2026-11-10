@@ -51,12 +51,77 @@
     "Låter det som den här avsändaren eller som en översatt mall?",
     "Kan ett substantiv bli ett verb, eller en lång mening bli två?"
   ],
+  "choose": [
+    {
+      "when": "Texten är översatt eller skriven via engelska",
+      "use": "Översättningsfraser och Rubriker på svenska."
+    },
+    {
+      "when": "Texten låter som en myndighet",
+      "use": "Verb i stället för substantiv."
+    },
+    {
+      "when": "Tilltalet vacklar mellan du, ni och Ni",
+      "use": "Du och ni."
+    },
+    {
+      "when": "Texten ska publiceras",
+      "use": "Sammansättningar och Tal, datum och pengar."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Översättningsfraser",
+      "how": "Byt frasen mot det ni menar.",
+      "example": "”Ta kontroll över” blir ”få ordning på”. ”På daglig basis” blir ”varje dag”. ”Adressera problemet” blir ”lösa problemet”. ”Leverera värde” blir vad kunden faktiskt får."
+    },
+    {
+      "name": "Verb i stället för substantiv",
+      "how": "Leta efter ord som slutar på -ning, -ande och -else och gör dem till verb.",
+      "example": "”Vid genomförande av beställning sker fakturering” blir ”När du beställer skickar vi en faktura.”"
+    },
+    {
+      "name": "Du och ni",
+      "how": "Du till en person, ni till ett företag eller en grupp. Skriv du med liten bokstav.",
+      "example": "”Vi hjälper Dig” blir ”Vi hjälper dig”."
+    },
+    {
+      "name": "Rubriker på svenska",
+      "how": "Stor bokstav bara på första ordet och på namn.",
+      "example": "”Så Fungerar Det” blir ”Så fungerar det”."
+    },
+    {
+      "name": "Sammansättningar",
+      "how": "Skriv ihop det som hör ihop. En särskrivning kan ändra betydelsen.",
+      "example": "”Kund tjänst” blir ”kundtjänst”. ”Rök fritt” betyder något annat än ”rökfritt”."
+    },
+    {
+      "name": "Tal, datum och pengar",
+      "how": "Följ svenska skrivregler. Ändra aldrig beloppet eller villkoret.",
+      "example": "”995 kr”, ”28 oktober 2026”, ”kl. 14.30”, ”20 %” med mellanrum och citattecken som ”så här”."
+    }
+  ],
   "example": {
     "context": "Påhittat: ett abonnemangsverktyg visar vad användarens abonnemang kostar varje månad. Ingen besparing är garanterad.",
     "before": "Lås upp besparingar och ta kontroll över din finansiella resa.",
     "after": "Se vad dina abonnemang kostar varje månad, samlat på ett ställe.",
     "explanation": "Översättningsfraserna ersätts med ett vardagligt verb och en konkret nytta. Isofs klarspråksråd gäller begriplighet, inte säljeffekt."
   },
+  "worked": {
+    "context": "Påhittat: startsidan för Koll, en app som visar hushållets abonnemang. Fakta i underlaget: visar vad abonnemangen kostar per månad, påminner sju dagar före förnyelse, 29 kr i månaden. Utkastet är skrivet på engelska och översatt.",
+    "before": "Ta Kontroll Över Dina Prenumerationer\n\nLås upp besparingar och håll koll på din finansiella resa på daglig basis. Vår lösning levererar insikter som hjälper Dig att adressera onödiga utgifter. Kom igång idag för endast 29 SEK/månad!",
+    "text": "Se vad dina abonnemang kostar\n\nKoll samlar dina abonnemang på ett ställe och visar vad de kostar varje månad. Sju dagar innan ett abonnemang förnyas får du en påminnelse, så att du hinner säga upp det du inte använder.\n\n29 kr i månaden.\n\n[Lägg till ditt första abonnemang]",
+    "notes": [
+      "Rubriken har svensk skrivning och säger vad läsaren får i stället för att lova kontroll.",
+      "”Lås upp besparingar”, ”finansiella resa”, ”på daglig basis” och ”adressera” är ersatta med vad appen gör.",
+      "Priset är detsamma. Bara skrivsättet har ändrats, från ”29 SEK/månad” till ”29 kr i månaden”."
+    ]
+  },
+  "mistakes": [
+    "Att rätta enstaka ord och låta den engelska meningsbyggnaden stå kvar.",
+    "Att göra texten försiktig för att den ska låta svensk. En rak rubrik är lika svensk som en lågmäld.",
+    "Att byta ut etablerade fackord som målgruppen själv använder."
+  ],
   "sources": [
     {
       "title": "Isof: Skriv klarspråk",

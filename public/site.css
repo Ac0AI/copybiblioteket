@@ -156,3 +156,28 @@ dialog p{font-size:14px;line-height:1.7;color:var(--ink-soft)}
 @keyframes rise{from{opacity:0;transform:translateY(24px)}}
 
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+/* Framework depth, shared by the library and the framework pages: named moves with a line of example copy, and a whole worked example. */
+.moves{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.move{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.move h3,.move h4{font:600 15px/1.35 var(--sans);letter-spacing:0;margin:0 0 6px;color:var(--ink)}
+.move p{margin:0;font-size:14.5px;line-height:1.6;color:var(--ink-soft)}
+.move .move-example{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line-strong);font:15.5px/1.5 var(--serif);color:var(--ink)}
+.worked{margin:30px 0;padding:28px;border-radius:24px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow)}
+.worked h2,.worked>h3{font:500 24px/1.25 var(--serif);letter-spacing:-.01em;margin:0 0 8px}
+.worked-context{font-size:13.5px;line-height:1.6;color:var(--muted);margin:0 0 18px;max-width:75ch}
+.worked-text{background:var(--paper);border-left:3px solid var(--blue);border-radius:0 14px 14px 0;padding:18px 22px;margin:0 0 20px;max-width:68ch}
+.worked-text p{font:17px/1.6 var(--serif);color:var(--ink);margin:0 0 12px}
+.worked-text p:last-child{margin-bottom:0}
+.worked-text.is-before{border-left-color:#c15539;background:#fbf1ee}
+.worked-text.is-before p{color:var(--ink-soft)}
+.worked h3:not(:first-child),.worked h4{font:600 12px/1.4 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.worked ul{margin:0;padding-left:20px;display:grid;gap:6px;font-size:14.5px;line-height:1.6;color:var(--ink-soft);max-width:75ch}
+.worked .example-label{margin-top:4px}
+.moves-section{margin:26px 0}
+@media(max-width:720px){.worked{padding:20px;margin:24px -6px}.worked-text{padding:14px 16px}}
+.choose{margin:0;display:grid;gap:8px}
+.choose>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:6px 20px;padding:12px 0;border-bottom:1px solid var(--line)}
+.choose>div:last-child{border-bottom:0}
+.choose dt{font-size:15px;line-height:1.55;color:var(--ink-soft)}
+.choose dd{margin:0;font-size:15px;line-height:1.55;font-weight:600;color:var(--ink)}
+@media(max-width:720px){.choose>div{grid-template-columns:1fr}}

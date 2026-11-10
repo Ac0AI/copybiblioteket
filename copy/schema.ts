@@ -25,6 +25,18 @@ export const frameworkSchema = z.object({
     after: z.string().min(1),
     explanation: z.string().min(1),
   }),
+  // Which move fits which situation, so a writer picks one or two instead of stacking them all.
+  choose: z.array(z.object({ when: z.string().min(1), use: z.string().min(1) }).strict()).min(3).max(6),
+  // Named techniques, each with one line of example copy. They are what sets one framework apart from the next.
+  moves: z.array(z.object({ name: z.string().min(1), how: z.string().min(1), example: z.string().min(1) }).strict()).min(4).max(8),
+  // A whole piece of copy written with the framework, so a reader sees more than a single improved sentence.
+  worked: z.object({
+    context: z.string().min(1),
+    before: z.string().min(1).optional(),
+    text: z.string().min(120),
+    notes: z.array(z.string().min(1)).min(2).max(4),
+  }).strict(),
+  mistakes: z.array(z.string().min(1)).min(2).max(4),
   sources: z.array(source).min(1),
   language: z.enum(["sv", "en"]),
   provenance: z.literal("original-application"),

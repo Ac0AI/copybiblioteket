@@ -18,6 +18,22 @@ BJ Fogg's Behavior Model (B=MAP) says a behaviour happens when motivation, abili
 - Match the prompt to the situation. When motivation is low, it needs to give a reason (a spark); when the step is hard, it needs to make it easier (a facilitator); when both are in place, a clear reminder is enough (a signal).
 - Place the prompt where and when the reader is ready, and separate what copy can solve from what needs to change in the service.
 
+## Choose a move for the situation
+
+- The reader wants to but does not act: Find what is missing. Most often it is ability: Remove fields.
+- The reader hesitates at the button: The line by the button.
+- The reader does not know what a click does: The button states the action and Say what happens next.
+- The reader is not interested enough: The right kind of prompt: give a reason. If that does not help, the problem is in the offer, not in the copy.
+
+## Moves
+
+- **Find what is missing.** Go through motivation, ability and prompt for this particular step. Fix what is missing, not what is already there. The reader wants solar panels but leaves the form. Ability is what fails: the form asks for too much.
+- **The button states the action.** Write what happens when the reader presses it. 'Get a price estimate' instead of 'Submit'.
+- **The line by the button.** Answer what makes the reader hesitate, right where they hesitate. 'Free of charge. Nobody calls you unless you ask.'
+- **Remove fields.** Ask only for what you need for the next step. The rest can wait. The address and which way the roof faces are enough for an estimate. A personal identity number isn't needed until there is a contract.
+- **Say what happens next.** Tell the reader what they get, how and when. 'You'll get an estimate by email within two working days.'
+- **The right kind of prompt.** Fogg distinguishes three: one that gives a reason when motivation is low, one that makes it easier when the step is hard, and a reminder when both motivation and ability are there. Low motivation: 'See what your roof could give.' Hard step: 'It takes two minutes.' Ready: 'Your estimate is ready.'
+
 ## Questions to ask
 
 - Which of motivation, ability and prompt is missing here?
@@ -32,6 +48,39 @@ Fictional: the form sends a free quote request. Nothing is ordered until the cus
 - **Before:** [Start your journey]
 - **After:** [Request a quote] It's free – you're not ordering anything until you accept the quote.
 - **Why:** The button says what happens and the line beneath removes the fear of committing, so the step gets easier without adding pressure.
+
+## A complete example
+
+Fictional: Soltak sells solar panels to house owners. Facts in the brief: the estimate is free, is based on the address and which way the roof faces, is sent by email within two working days, no salesperson calls unless the customer asks. The old form had nine fields and the button 'Submit'.
+
+> What would solar panels give on your roof?
+>
+> Enter the address and which way the roof slopes. We work out how much electricity the roof can give and what the installation would cost.
+>
+> Address
+> [                    ]
+>
+> The roof slopes towards
+> ( ) South  ( ) East  ( ) West  ( ) Don't know
+>
+> Email address
+> [                    ]
+>
+> [Get an estimate]
+>
+> Free of charge. You'll get the estimate by email within two working days, and nobody calls you unless you ask.
+
+**What the example does:**
+
+- Nine fields have become three. Ability was what was missing, not motivation.
+- The button says what the reader gets. The line underneath answers the three most common reasons to hesitate: price, waiting and sales calls.
+- 'Don't know' is an option, so nobody gets stuck on a question they can't answer.
+
+## Common mistakes
+
+- Trying to persuade harder when the problem is that the step is awkward.
+- Buttons that say 'Submit', 'Next' or 'Get started' without saying what happens.
+- Asking for everything at once to avoid asking later.
 
 ## Sources
 

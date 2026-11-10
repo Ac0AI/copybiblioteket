@@ -1,6 +1,6 @@
 [
   {
-    "claim": "Sigge har 14 ramverk (data/copy-frameworks/*.json). James Clear står för två, så 'Hormozi, Cialdini, Clear, Schwartz' + 9 till.",
+    "claim": "Sigge har 13 ramverk (data/copy-frameworks/*.json): 'Hormozi, Cialdini, Clear, Schwartz' + 9 till. Nyhetsbrevsramverket 3-2-1 togs bort 2026-11-10.",
     "paths": [
       "client/*.js",
       "client/pages/*.html",

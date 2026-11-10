@@ -1,5 +1,4 @@
 import type { CopyLibrary } from './library.js';
-import { selectPerspectives } from './brief.js';
 import type { Language } from './locale.js';
 
 // One call that hands an AI client everything it needs to start a writing task:
@@ -14,8 +13,6 @@ export type KitInput = { task: string; audience?: string; channel?: Channel; lan
 // The Swedish guide is always part of the kit, so the framework that summarises it would only repeat it.
 const COVERED_BY_GUIDE = 'swedish-original';
 const FALLBACK = ['schwartz-awareness', 'hormozi-offer', 'copy-structure'];
-// brief.ts keeps the channel ids the web workshop has always used.
-const briefChannel: Record<Channel, string> = { web: 'webb', email: 'mejl', ad: 'annons', linkedin: 'linkedin', product: 'produkt', other: '' };
 
 const text = {
   sv: {
@@ -37,6 +34,7 @@ const text = {
       product: 'Produkttext: säg vad produkten gör och för vem innan egenskaperna. Koppla varje egenskap till vad läsaren får ut av den. Villkor och begränsningar ska stå med.',
       other: '',
     },
+    examples: 'Greppens exempelrader och det hela exemplet är påhittade och visar arbetssättet. Skriv egna formuleringar från användarens fakta. Kopiera inte exemplens ord, siffror eller företag.',
     general: 'Inget ramverk matchade uppgiftens ordalydelse. De här tre är allmänna utgångspunkter, inte träffar.',
     perspectives: 'Perspektiven är våra egna tillämpningar. De är inte citat och inte godkända av personerna. Använd deras frågor, inte deras röst.',
     more: 'Mer finns: search_copy_knowledge och get_copy_framework för fler ramverk, search_copy_people och get_copy_person för perspektiv, search_copy_sources för originalkällor.',
@@ -60,6 +58,7 @@ const text = {
       product: 'Product copy: say what the product does and for whom before the features. Connect each feature to what the reader gets from it. Include terms and limits.',
       other: '',
     },
+    examples: 'The example lines in the moves and the complete example are fictional and show the way of working. Write your own wording from the user\'s facts. Do not copy the examples\' words, numbers or businesses.',
     general: 'No framework matched the wording of the task. These three are general starting points, not matches.',
     perspectives: 'Perspectives are our own applications. They are not quotes and are not endorsed by the people named. Use their questions, not their voice.',
     more: 'There is more: search_copy_knowledge and get_copy_framework for further frameworks, search_copy_people and get_copy_person for perspectives, search_copy_sources for original sources.',
@@ -72,10 +71,7 @@ export function buildCopyKit(library: CopyLibrary, input: KitInput) {
   const found = localized.search(query, localized.frameworks.length).results.filter(f => f.id !== COVERED_BY_GUIDE);
   const fallback = FALLBACK.map(id => localized.get(id)).filter(f => f !== null);
   const frameworks = [...found, ...fallback.filter(f => !found.includes(f))].slice(0, 3);
-  const people = selectPerspectives({
-    task: input.task, audience: input.audience ?? '', channel: briefChannel[input.channel ?? 'other'],
-    length: '', tone: '', voice: '', facts: '', mustKeep: '', language: input.language, perspective: input.person,
-  }, localized.people).slice(0, input.person ? 1 : 2);
+  const chosen = input.person ? localized.getPerson(input.person) : null, people = chosen ? [chosen] : [];
   const channel = input.channel ? t.channel[input.channel] : '';
   return {
     language: input.language,
@@ -83,11 +79,13 @@ export function buildCopyKit(library: CopyLibrary, input: KitInput) {
     askIfMissing: [...(input.audience ? [] : [t.askAudience]), t.askFacts, t.askVoice],
     ...(channel ? { channel } : {}),
     ...(found.length ? {} : { frameworksNote: t.general }),
-    frameworks: frameworks.map(({ id, title, author, useWhen, principles, questions, example }) =>
-      ({ id, title, author, useWhen, principles, questions, example: { before: example.before, after: example.after } })),
-    // Perspectives are a second opinion, so they come as questions. get_copy_person has the full profile.
-    perspectives: people.map(({ id, name, summary, questions }) => ({ id, name, summary, questions })),
-    perspectivesNotice: t.perspectives,
+    // Moves and mistakes are what a framework adds beyond the model's general knowledge. The best match also brings its
+    // whole worked example; the others have theirs in get_copy_framework, which keeps the kit short enough to read whole.
+    frameworks: frameworks.map(({ id, title, author, useWhen, principles, choose, moves, questions, mistakes, worked }, index) =>
+      ({ id, title, author, useWhen, principles, choose, moves, questions, mistakes, ...(index === 0 ? { worked } : {}) })),
+    examplesNotice: t.examples,
+    // A profile is two principles and two questions, too thin to pick by keyword. It comes along only when the user names the person.
+    ...(input.person ? { perspectives: people.map(({ id, name, summary, principles, questions }) => ({ id, name, summary, principles, questions })), perspectivesNotice: t.perspectives } : {}),
     writingGuide: localized.writingGuide,
     notice: localized.notice.native,
     more: t.more,

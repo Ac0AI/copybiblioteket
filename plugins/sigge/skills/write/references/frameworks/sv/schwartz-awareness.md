@@ -15,8 +15,26 @@ Eugene Schwartz beskriver fem nivåer av medvetenhet, från att inte se probleme
 - Bestäm nivån: omedveten (ser inte problemet eller behovet), problemmedveten (känner problemet men inte lösningen), lösningsmedveten (vet vilket resultat hen vill ha men inte att er produkt ger det), produktmedveten (känner till produkten men är inte övertygad) eller mest medveten (vill ha produkten och behöver bara rätt erbjudande).
 - Mest medveten och produktmedveten: gå rakt på sak. Nämn produkten, erbjudandet, priset och villkoren, eller visa hur ni skiljer er från alternativen och vad som styrker det.
 - Lösningsmedveten och problemmedveten: öppna med resultatet läsaren vill ha eller problemet hen känner, med hens egna ord, och visa sedan att lösningen finns och hur den fungerar.
-- Omedveten: börja inte med produkten. Öppna med något läsaren känner igen från sin egen vardag – en situation, en känsla, en identitet – och bygg vägen därifrån. Ju lägre medvetenhet, desto mer arbete måste texten göra innan erbjudandet kommer.
+- Omedveten: börja inte med produkten. Öppna med något läsaren känner igen från sin egen vardag (en situation, en känsla, en identitet) och bygg vägen därifrån. Ju lägre medvetenhet, desto mer arbete måste texten göra innan erbjudandet kommer.
 - Text kan inte skapa en önskan som inte finns, bara rikta en befintlig önskan mot erbjudandet – leta därför upp den först. Samma person kan befinna sig på olika nivåer i olika kanaler, så anpassa efter sammanhanget.
+
+## Välj grepp efter läget
+
+- Läsaren sökte på ert namn eller har köpt förut: Mest medveten.
+- Läsaren jämför er med andra: Produktmedveten.
+- Läsaren sökte på lösningen, till exempel ”påminnelse om avtal”: Lösningsmedveten.
+- Läsaren sökte på problemet eller klagar över det: Problemmedveten.
+- Läsaren möter texten i ett flöde utan att ha letat: Omedveten.
+- Alla i branschen lovar samma sak: Marknadens mognad: visa hur det går till.
+
+## Grepp
+
+- **Mest medveten.** Läsaren vill ha produkten. Ge erbjudandet och inget annat. ”Bevaka: 99 kr i månaden. Första månaden är gratis.”
+- **Produktmedveten.** Läsaren känner till er men tvekar. Visa skillnaden mot alternativen och det som styrker den. ”Bevaka läser in avtalen från din mejl. Du behöver inte fylla i något själv.”
+- **Lösningsmedveten.** Läsaren vet vad hen vill uppnå men inte att ni finns. Öppna med resultatet. ”Få en påminnelse 30 dagar innan ett avtal förlängs.”
+- **Problemmedveten.** Läsaren känner problemet men inte lösningen. Öppna med problemet så som hen själv skulle beskriva det. ”Förlängdes bredbandet ett år till för att du missade uppsägningstiden?”
+- **Omedveten.** Läsaren ser inget problem. Öppna med något hen känner igen och låt produkten vänta. ”Vet du vilket datum ditt elavtal går över till ett dyrare pris?”
+- **Marknadens mognad.** Schwartz beskriver också hur många liknande löften läsaren redan har hört. På en ny marknad räcker ett rakt löfte. När alla lovar samma sak behöver ni visa hur det går till, och till sist vem det är till för. Ny marknad: ”Missa aldrig en uppsägningstid.” Mättad marknad: ”Bevaka läser avtalet åt dig och räknar fram sista dagen att säga upp.”
 
 ## Frågor att ställa
 
@@ -31,6 +49,34 @@ Påhittat: läsaren vet att hen behöver en flyttfirma och jämför alternativ. 
 - **Före:** Att flytta kan vara stressigt. Visste du att det finns flyttfirmor som kan hjälpa till?
 - **Efter:** Jämför offerter från tre flyttfirmor – med en enda förfrågan.
 - **Varför:** Läsaren är redan lösningsmedveten, så öppningen går rakt på vad tjänsten gör för jämförelsen hen redan håller på med.
+
+## Ett helt exempel
+
+Påhittat: tjänsten Bevaka håller reda på när avtal löper ut. Fakta i underlaget: läser in avtal från mejlen, räknar ut sista uppsägningsdag, skickar sms 30 dagar innan, 99 kr i månaden, första månaden gratis. Läsaren är problemmedveten: hen har missat en uppsägningstid men vet inte att det finns tjänster för det.
+
+> Förlängdes bredbandet ett år till?
+>
+> Det är lätt hänt. Avtalet har tre månaders uppsägningstid, brevet kom i somras och nu sitter du fast i tolv månader till.
+>
+> Det går att slippa. Bevaka läser in dina avtal från mejlen och räknar ut sista dagen att säga upp vart och ett. Trettio dagar innan får du ett sms.
+>
+> Sedan väljer du själv: säga upp, förhandla om eller låta avtalet löpa.
+>
+> Bevaka kostar 99 kr i månaden, och den första månaden är gratis.
+>
+> [Lägg in ditt första avtal]
+
+**Det här gör exemplet:**
+
+- Öppningen är problemet med läsarens ord. Produkten nämns först i tredje stycket.
+- Meningen ”Det går att slippa” tar läsaren från problemmedveten till lösningsmedveten innan erbjudandet kommer.
+- För en läsare som redan jämför tjänster hade texten börjat med raden om att Bevaka läser in avtalen från mejlen.
+
+## Vanliga misstag
+
+- Att skriva samma öppning till alla. Den som redan vill köpa tröttnar på bakgrund, och den som inte ser problemet förstår inte erbjudandet.
+- Att börja med produkten i en annons till människor som inte har sökt efter den.
+- Att gissa nivån utan att titta på var läsaren kommer ifrån. En sökning på produktnamnet och ett inlägg i flödet är olika nivåer.
 
 ## Källor
 

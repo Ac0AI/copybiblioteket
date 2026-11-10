@@ -18,6 +18,22 @@ Joanna Wiebe och Copyhackers förespråkar att copy börjar i research: samla hu
 - Skilj på citat, omskrivning och egen tolkning. Ett fåtal röster är en hypotes – pröva budskapet på fler innan du bygger allt på det.
 - Låt kundernas ord forma texten utan att sudda ut avsändarens röst, och använd aldrig ett riktigt kundcitat i marknadsföring utan tillstånd.
 
+## Välj grepp efter läget
+
+- Ni har recensioner, supportärenden eller säljanteckningar: Läs recensionerna och Sortera i fyra högar.
+- Rubriken låter som en broschyr: Rubrik av ett citat.
+- Samma fråga kommer i varje säljsamtal: Invändning som mellanrubrik.
+- Ni har inget kundmaterial alls: Fråga om en händelse, innan ni skriver.
+
+## Grepp
+
+- **Läs recensionerna.** Läs recensioner av er och av konkurrenterna, och kopiera hela meningar om problem, resultat och tvekan. Ur en recension: ”Jag vågade knappt lämna honom första gången.”
+- **Sortera i fyra högar.** Problem, önskat resultat, invändningar och ord om tjänsten. Skriv källa vid varje citat. Problem: ”han förstör soffan när jag jobbar”. Invändning: ”tänk om han inte äter”. Resultat: ”han somnar i bilen hem”.
+- **Rubrik av ett citat.** Ta den formulering som flest känner igen sig i och gör den till rubrik, så nära kundens ord som möjligt. ”Jag vågade knappt lämna honom första gången” blir rubriken ”Första gången du lämnar honom”.
+- **Invändning som mellanrubrik.** Ställ kundens fråga som den ställdes och svara direkt under. Mellanrubrik: ”Tänk om han inte äter?” Svar: hur personalen gör och när ni hör av er.
+- **Fråga om en händelse.** I intervjuer och enkäter: fråga vad som hände, inte vad kunden tycker. ”Vad hände den dagen du började leta hunddagis?” ger mer än ”Vad är viktigt för dig?”
+- **Märk vad som är vad.** Håll isär citat, omskrivning och egen tolkning i underlaget, så att ingen gissning blir ett kundcitat. Citat: ”han somnar i bilen hem”. Omskrivning: hunden är trött efter dagen. Tolkning: ägaren vill ha en lugn kväll.
+
 ## Frågor att ställa
 
 - Hur beskriver kunden problemet innan hen känner till produkten?
@@ -31,7 +47,35 @@ Påhittat: tjänsten låter användaren fotografera kvitton och samlar dem på e
 
 - **Före:** Effektivisera din kvittohanteringsprocess.
 - **Efter:** Sluta leta kvitton i plånboken och bilen. Fota kvittot direkt, så ligger allt samlat när det är dags för bokföringen.
-- **Varför:** Kundens egen bild – plånboken och bilen – gör problemet igenkännbart på ett sätt som ”kvittohanteringsprocess” aldrig gör.
+- **Varför:** Kundens egen bild (plånboken och bilen) gör problemet igenkännbart på ett sätt som ”kvittohanteringsprocess” aldrig gör.
+
+## Ett helt exempel
+
+Påhittat: hunddagiset Tassen. Citaten är påhittade för exemplet och kommer från påhittade recensioner: ”jag vågade knappt lämna honom första gången”, ”tänk om han inte äter”, ”han somnar i bilen hem”. Fakta i underlaget: inskolning i tre halvdagar, en bild skickas vid lunch, högst tolv hundar per dag, hundar som inte äter får maten på en lugn plats och ägaren blir uppringd.
+
+> Första gången du lämnar honom
+>
+> Den är svårast. Därför börjar vi med tre halvdagar, och du får en bild vid lunch varje dag så att du ser hur han har det.
+>
+> Tänk om han inte äter?
+> Då ger vi honom maten på en lugn plats och provar igen efter en stund. Äter han inte ringer vi dig.
+>
+> Han somnar i bilen hem
+> Det säger flera av våra kunder. Vi tar emot högst tolv hundar per dag, så att det finns tid för både lek och vila.
+>
+> [Boka inskolning]
+
+**Det här gör exemplet:**
+
+- Rubriken och de två mellanrubrikerna är kundernas egna formuleringar, lätt bearbetade.
+- Varje invändning får ett svar med en sakuppgift: tre halvdagar, bild vid lunch, högst tolv hundar.
+- ”Han somnar i bilen hem” står kvar som något kunderna säger. Texten gör det inte till ett löfte.
+
+## Vanliga misstag
+
+- Att putsa kundens ord tills de låter som en broschyr. Det kantiga är det som känns äkta.
+- Att bygga hela budskapet på en enda pratglad kund.
+- Att använda ett riktigt citat i reklam utan att fråga den som sa det.
 
 ## Källor
 

@@ -4,7 +4,7 @@
 
 Christensen Institute / Jobs to Be Done · Kundinsikt · `jobs-to-be-done`
 
-Kunder ”anlitar” en produkt för att komma framåt i en viss situation. Ta reda på vad som hände när de började leta, vilken förändring de vill uppnå – praktiskt, socialt och känslomässigt – och vad som håller dem kvar i det gamla.
+Kunder ”anlitar” en produkt för att komma framåt i en viss situation. Ta reda på vad som hände när de började leta, vilken förändring de vill uppnå (praktiskt, socialt och känslomässigt) och vad som håller dem kvar i det gamla.
 
 **Använd när:** När målgruppen bara beskrivs med ålder, bransch eller bolagsstorlek, när ni inte vet varför kunderna köper eller när köparen tvekar inför att byta.
 
@@ -13,10 +13,27 @@ Kunder ”anlitar” en produkt för att komma framåt i en viss situation. Ta r
 ## Principer
 
 - Fråga om ett konkret tillfälle: när började kunden leta, vad hade just hänt, vad provade hen först och varför blev det viktigt just då? Fråga vad människor gjorde, inte vad de tror att de vill ha.
-- Beskriv jobbet som en förändring i en situation – ”när …, vill jag …, så att …” – i stället för som en produktegenskap eller en demografisk grupp.
+- Beskriv jobbet som en förändring i en situation (”när …, vill jag …, så att …”) i stället för som en produktegenskap eller en demografisk grupp.
 - Fånga jobbets alla tre sidor: den praktiska (få bokföringen gjord), den sociala (hur kunden vill uppfattas) och den känslomässiga (slippa oron).
 - Vår tillämpning: ett byte drivs av missnöje med det gamla och dragningskraften hos det nya, men bromsas av oro för det nya och vanan vid det gamla. Texten ska stärka de två första och minska de två sista, till exempel genom att visa hur flytten går till.
 - En kunds berättelse är en hypotes, inte en sanning om hela målgruppen. Leta efter mönster i flera intervjuer innan du bygger budskapet på dem.
+
+## Välj grepp efter läget
+
+- Läsaren ser inte varför hen ska byta: Det som knuffar.
+- Läsaren ser problemet men inte vad som blir bättre: Det som drar.
+- Läsaren är intresserad men drar sig för bytet: Oron för det nya.
+- Läsaren tycker om delar av det gamla: Vanan vid det gamla.
+- Ni vet inte varför kunderna köper: Jobbformuleringen, som hypotes tills ni har frågat dem.
+
+## Grepp
+
+- **Jobbformuleringen.** Skriv jobbet som en mening: När [situation] vill jag [förändring], så att [resultat]. ”När lagret i Excel inte stämmer med hyllan vill jag se rätt saldo direkt, så att jag slipper sälja varor som är slut.”
+- **Det som knuffar.** Vår tillämpning: beskriv det som skaver i det gamla, med en händelse läsaren känner igen. ”Sålde du en vara i helgen som redan var slut?”
+- **Det som drar.** Vår tillämpning: visa hur vardagen ser ut med det nya, konkret och utan superlativ. ”Saldot ändras när ordern läggs, inte när du hinner uppdatera arket.”
+- **Oron för det nya.** Vår tillämpning: svara på det som gör bytet läskigt, oftast flytten, inlärningen och risken att förlora data. ”Vi läser in ditt Excelark. Du behöver inte lägga upp varorna en gång till.”
+- **Vanan vid det gamla.** Vår tillämpning: låt läsaren behålla det hen tycker om i det gamla. ”Du kan fortsätta exportera till Excel varje fredag om du vill ha kvar dina egna listor.”
+- **Jobbets tre sidor.** Skriv en rad vardera för det praktiska, det sociala och det känslomässiga, och välj vilken texten ska bära. Praktiskt: rätt saldo. Socialt: slippa mejla kunder och be om ursäkt. Känslomässigt: kunna stänga datorn på fredagen.
 
 ## Frågor att ställa
 
@@ -31,7 +48,35 @@ Påhittat: en tjänst hjälper småföretag att flytta bokföringsunderlag från
 
 - **Före:** Vår lösning passar företag med 1–10 anställda.
 - **Efter:** Vill du byta bokföringsprogram men drar dig för flytten? Vi hjälper dig att föra över underlaget från systemet du använder i dag.
-- **Varför:** Texten möter läsaren i situationen – viljan att byta och oron för flytten – i stället för att sortera hen efter antal anställda.
+- **Varför:** Texten möter läsaren i situationen (viljan att byta och oron för flytten) i stället för att sortera hen efter antal anställda.
+
+## Ett helt exempel
+
+Påhittat: lagerprogrammet Hylla för små e-handlare som i dag har lagret i Excel. Fakta i underlaget: läser in befintligt Excelark, saldot uppdateras när en order läggs, export till Excel finns kvar, 290 kr i månaden, 30 dagars gratis provperiod. Exemplet bygger inte på verkliga intervjuer.
+
+> Sålde du en vara i helgen som redan var slut?
+>
+> Då vet du hur måndagen ser ut. Du mejlar kunden, ber om ursäkt och betalar tillbaka.
+>
+> Lagret i Excel stämmer så länge du hinner uppdatera det. Med Hylla ändras saldot i samma stund som ordern läggs.
+>
+> Du behöver inte börja om. Vi läser in arket du redan har, med artikelnummer och antal. Vill du ha kvar dina egna listor exporterar du till Excel när du vill.
+>
+> Prova i 30 dagar utan kostnad. Sedan kostar Hylla 290 kr i månaden.
+>
+> [Läs in ditt Excelark]
+
+**Det här gör exemplet:**
+
+- Öppningen är en händelse, inte en målgrupp. Den som känner igen sig läser vidare.
+- Tredje stycket är lockelsen. Fjärde stycket tar hand om oron för flytten och vanan vid Excel.
+- Knappen är första steget i bytet, så att läsaren ser att flytten börjar med något litet.
+
+## Vanliga misstag
+
+- Att beskriva målgruppen med ålder och bransch och tro att det förklarar varför någon köper.
+- Att bara stärka lockelsen och glömma oron. Den som är övertygad om nyttan kan ändå stanna kvar för att bytet verkar jobbigt.
+- Att presentera en gissning om kundens känslor som en insikt. Utan samtal är det en hypotes.
 
 ## Källor
 

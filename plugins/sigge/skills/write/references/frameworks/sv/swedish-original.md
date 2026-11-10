@@ -18,6 +18,22 @@ Skriv direkt på svenska utifrån mottagarens situation och avsändarens röst �
 - Välj tilltal, ton och fackord efter mottagaren. Anta inte att alla svenska målgrupper vill ha samma ton – en mäklare, en spelstudio och en myndighet låter olika.
 - Granska formen: skriv ihop sammansatta ord (”kundtjänst”, inte ”kund tjänst”), använd svenska citattecken (”…”), stor bokstav bara först i rubriker, belopp som ”995 kr” och datum som ”28 oktober 2026”. Ändra aldrig erbjudandets fakta, valuta eller villkor för att det ska låta bättre.
 
+## Välj grepp efter läget
+
+- Texten är översatt eller skriven via engelska: Översättningsfraser och Rubriker på svenska.
+- Texten låter som en myndighet: Verb i stället för substantiv.
+- Tilltalet vacklar mellan du, ni och Ni: Du och ni.
+- Texten ska publiceras: Sammansättningar och Tal, datum och pengar.
+
+## Grepp
+
+- **Översättningsfraser.** Byt frasen mot det ni menar. ”Ta kontroll över” blir ”få ordning på”. ”På daglig basis” blir ”varje dag”. ”Adressera problemet” blir ”lösa problemet”. ”Leverera värde” blir vad kunden faktiskt får.
+- **Verb i stället för substantiv.** Leta efter ord som slutar på -ning, -ande och -else och gör dem till verb. ”Vid genomförande av beställning sker fakturering” blir ”När du beställer skickar vi en faktura.”
+- **Du och ni.** Du till en person, ni till ett företag eller en grupp. Skriv du med liten bokstav. ”Vi hjälper Dig” blir ”Vi hjälper dig”.
+- **Rubriker på svenska.** Stor bokstav bara på första ordet och på namn. ”Så Fungerar Det” blir ”Så fungerar det”.
+- **Sammansättningar.** Skriv ihop det som hör ihop. En särskrivning kan ändra betydelsen. ”Kund tjänst” blir ”kundtjänst”. ”Rök fritt” betyder något annat än ”rökfritt”.
+- **Tal, datum och pengar.** Följ svenska skrivregler. Ändra aldrig beloppet eller villkoret. ”995 kr”, ”28 oktober 2026”, ”kl. 14.30”, ”20 %” med mellanrum och citattecken som ”så här”.
+
 ## Frågor att ställa
 
 - Skulle någon i målgruppen säga så här?
@@ -32,6 +48,38 @@ Påhittat: ett abonnemangsverktyg visar vad användarens abonnemang kostar varje
 - **Före:** Lås upp besparingar och ta kontroll över din finansiella resa.
 - **Efter:** Se vad dina abonnemang kostar varje månad, samlat på ett ställe.
 - **Varför:** Översättningsfraserna ersätts med ett vardagligt verb och en konkret nytta. Isofs klarspråksråd gäller begriplighet, inte säljeffekt.
+
+## Ett helt exempel
+
+Påhittat: startsidan för Koll, en app som visar hushållets abonnemang. Fakta i underlaget: visar vad abonnemangen kostar per månad, påminner sju dagar före förnyelse, 29 kr i månaden. Utkastet är skrivet på engelska och översatt.
+
+**Utkast:**
+
+> Ta Kontroll Över Dina Prenumerationer
+>
+> Lås upp besparingar och håll koll på din finansiella resa på daglig basis. Vår lösning levererar insikter som hjälper Dig att adressera onödiga utgifter. Kom igång idag för endast 29 SEK/månad!
+
+**Omarbetat:**
+
+> Se vad dina abonnemang kostar
+>
+> Koll samlar dina abonnemang på ett ställe och visar vad de kostar varje månad. Sju dagar innan ett abonnemang förnyas får du en påminnelse, så att du hinner säga upp det du inte använder.
+>
+> 29 kr i månaden.
+>
+> [Lägg till ditt första abonnemang]
+
+**Det här gör exemplet:**
+
+- Rubriken har svensk skrivning och säger vad läsaren får i stället för att lova kontroll.
+- ”Lås upp besparingar”, ”finansiella resa”, ”på daglig basis” och ”adressera” är ersatta med vad appen gör.
+- Priset är detsamma. Bara skrivsättet har ändrats, från ”29 SEK/månad” till ”29 kr i månaden”.
+
+## Vanliga misstag
+
+- Att rätta enstaka ord och låta den engelska meningsbyggnaden stå kvar.
+- Att göra texten försiktig för att den ska låta svensk. En rak rubrik är lika svensk som en lågmäld.
+- Att byta ut etablerade fackord som målgruppen själv använder.
 
 ## Källor
 

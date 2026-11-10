@@ -18,7 +18,7 @@ test("web app serves the library and validates search requests", async () => {
     const health = await (await fetch(base + "/api/health")).json();
     assert.equal(health.status, "ok");
     assert.equal(health.sourceMode, "links");
-    assert.equal(health.frameworks, 14);
+    assert.equal(health.frameworks, 13);
     assert.equal((await fetch(base + "/api/no-such-route")).status, 404);
     assert.equal((await fetch(base + "/studio.css")).status, 200);
     assert.equal((await fetch(base + "/library.js")).status, 200);
@@ -74,7 +74,13 @@ test("every person and framework has an indexable page in both languages", async
     const paul = await (await fetch(base + "/people/paul-graham")).text();
     assert.match(paul, /<title>Paul Graham – [^<]+ \| Sigge<\/title>/);
     assert.match(paul, /href="\/library\/[a-z0-9-]+"/);
-    assert.match(await (await fetch(base + "/en/library/clear-3-2-1")).text(), /<html lang="en">/);
+    assert.match(await (await fetch(base + "/en/library/clear-habit-laws")).text(), /<html lang="en">/);
+    // A framework that was removed sends its old address to the library instead of a dead end.
+    for (const [gone, target] of [["/library/clear-3-2-1", "/library"], ["/en/library/clear-3-2-1", "/en/library"]]) {
+      const moved = await fetch(base + gone, { redirect: "manual" });
+      assert.equal(moved.status, 301);
+      assert.equal(moved.headers.get("location"), target);
+    }
     assert.equal((await fetch(base + "/people/not-a-person")).status, 404);
     assert.equal((await fetch(base + "/library/..%2Fpackage.json")).status, 404);
     assert.match(await (await fetch(base + "/connect")).text(), /\/plugin install sigge --marketplace Ac0AI\/sigge/);

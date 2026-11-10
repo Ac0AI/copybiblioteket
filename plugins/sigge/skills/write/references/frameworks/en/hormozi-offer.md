@@ -18,6 +18,23 @@ Alex Hormozi's value equation: perceived value rises with the customer's dream o
 - Effort and sacrifice: spell out what you take off their plate and what they still need to do themselves. Asking less of the customer's time and attention is value too.
 - Bonuses should remove a real obstacle, and guarantees, discounts and deadlines need actual terms. Compare the price with the value and with what the problem costs today, not only with competitors' prices.
 
+## Choose a move for the situation
+
+- The customer says it costs too much: List the obstacles and Package the solutions. Make clear what the price covers before you touch the price.
+- The customer doubts it will work for them: A guarantee that moves the risk, together with proof from customers in the same position.
+- The customer wants it but keeps putting it off: Real scarcity, if there is a real limit. If there is none, make the first step smaller.
+- The customer wonders what happens after buying: A bonus that solves the next problem.
+- The offer cannot be explained in one line: A name that states the result and the time.
+
+## Moves
+
+- **List the obstacles.** Write down everything that stands between the customer and what they want: before they buy, while they wait and afterwards. Each obstacle becomes a part of the offer. Obstacle: 'I don't have time to pull together copy and photos.' Part of the offer: 'We interview you for 45 minutes and write the copy.'
+- **Package the solutions.** Group the solutions, cut what costs you a lot and matters little to the customer, and give each part a name the customer understands. 'What's included: the site, the copy, a photo shoot on site and a walkthrough of how to change your opening hours yourself.'
+- **A guarantee that moves the risk.** Hormozi describes four kinds: unconditional, conditional (it applies if the customer has done their part), anti-guarantee (the sale is final, with a reason) and implied (you get paid on results). Choose one the business can bear and spell out the condition. 'If the site isn't live three weeks after the interview, we take 20% off the price.'
+- **A bonus that solves the next problem.** Add something that removes the obstacle that comes after the purchase. Say what it does for the customer. Don't invent a value in kronor. 'We also list your business on Google Maps, so customers nearby can find you.'
+- **Real scarcity.** Limit only what really is limited, such as places, capacity or start dates, and say why. 'We build four sites a month. The next free start is 2 March.'
+- **A name that states the result and the time.** Hormozi suggests a name that says who the offer is for, what they achieve and how soon. 'The Tradesperson's Site: live in three weeks.'
+
 ## Questions to ask
 
 - What exactly does the customer get for the price – and what are they spared?
@@ -32,6 +49,43 @@ Fictional: an accounting firm handles ongoing bookkeeping, starts with an introd
 - **Before:** Unlock your financial potential with our irresistible solution.
 - **After:** We take care of your day-to-day bookkeeping, so you don't have to do it yourself. We start with an introductory call, and after that you can email us on weekdays whenever something comes up.
 - **Why:** The copy shows what the customer is spared, how it starts and what support they get, so the value is easy to judge without promising a financial result.
+
+## A complete example
+
+Fictional: a web agency builds websites for tradespeople. Facts in the brief: 24,000 kr excl. VAT, fixed price, live within three weeks of the interview, the agency writes the copy, a photo shoot is included, four projects a month.
+
+> The Tradesperson's Site: live in three weeks
+>
+> You have your hands full with jobs. The website never gets done, and someone searching for a carpenter nearby finds somebody else.
+>
+> We build the site for you for 24,000 kr excl. VAT. You need to set aside 45 minutes.
+>
+> How it works
+> 1. We interview you for 45 minutes and write all the copy.
+> 2. We photograph you and a job in progress.
+> 3. Three weeks after the interview, the site is live.
+>
+> What's included
+> The site, the copy, the photos and a walkthrough of how to change prices and opening hours yourself. We also list your business on Google Maps.
+>
+> If we're late
+> If the site isn't live three weeks after the interview, we take 20% off the price.
+>
+> We build four sites a month. The next free start is 2 March.
+>
+> [Book the interview]
+
+**What the example does:**
+
+- The opening describes today's situation in the customer's words. The offer promises the site, not more customers, because the agency doesn't control that.
+- Effort and waiting time are stated as numbers: 45 minutes and three weeks.
+- The guarantee and the limit have conditions the reader can check, and the limit comes with a reason.
+
+## Common mistakes
+
+- Cutting the price instead of making the value clear. A vague offer doesn't get easier to understand by being cheaper.
+- Stacking bonuses nobody asked for. Each part should remove an obstacle the customer really has.
+- Promising a result the customer controls, such as more customers or higher revenue. Promise what you deliver and show why it tends to help.
 
 ## Sources
 

@@ -49,12 +49,76 @@
     "Vilka ord använder kunderna som vi själva aldrig använder?",
     "Vad behöver bekräftas med fler kunder?"
   ],
+  "choose": [
+    {
+      "when": "Ni har recensioner, supportärenden eller säljanteckningar",
+      "use": "Läs recensionerna och Sortera i fyra högar."
+    },
+    {
+      "when": "Rubriken låter som en broschyr",
+      "use": "Rubrik av ett citat."
+    },
+    {
+      "when": "Samma fråga kommer i varje säljsamtal",
+      "use": "Invändning som mellanrubrik."
+    },
+    {
+      "when": "Ni har inget kundmaterial alls",
+      "use": "Fråga om en händelse, innan ni skriver."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Läs recensionerna",
+      "how": "Läs recensioner av er och av konkurrenterna, och kopiera hela meningar om problem, resultat och tvekan.",
+      "example": "Ur en recension: ”Jag vågade knappt lämna honom första gången.”"
+    },
+    {
+      "name": "Sortera i fyra högar",
+      "how": "Problem, önskat resultat, invändningar och ord om tjänsten. Skriv källa vid varje citat.",
+      "example": "Problem: ”han förstör soffan när jag jobbar”. Invändning: ”tänk om han inte äter”. Resultat: ”han somnar i bilen hem”."
+    },
+    {
+      "name": "Rubrik av ett citat",
+      "how": "Ta den formulering som flest känner igen sig i och gör den till rubrik, så nära kundens ord som möjligt.",
+      "example": "”Jag vågade knappt lämna honom första gången” blir rubriken ”Första gången du lämnar honom”."
+    },
+    {
+      "name": "Invändning som mellanrubrik",
+      "how": "Ställ kundens fråga som den ställdes och svara direkt under.",
+      "example": "Mellanrubrik: ”Tänk om han inte äter?” Svar: hur personalen gör och när ni hör av er."
+    },
+    {
+      "name": "Fråga om en händelse",
+      "how": "I intervjuer och enkäter: fråga vad som hände, inte vad kunden tycker.",
+      "example": "”Vad hände den dagen du började leta hunddagis?” ger mer än ”Vad är viktigt för dig?”"
+    },
+    {
+      "name": "Märk vad som är vad",
+      "how": "Håll isär citat, omskrivning och egen tolkning i underlaget, så att ingen gissning blir ett kundcitat.",
+      "example": "Citat: ”han somnar i bilen hem”. Omskrivning: hunden är trött efter dagen. Tolkning: ägaren vill ha en lugn kväll."
+    }
+  ],
   "example": {
     "context": "Påhittat: tjänsten låter användaren fotografera kvitton och samlar dem på ett ställe. I ett påhittat kundsamtal säger en företagare: ”Inför bokföringen sitter jag och letar kvitton i plånboken och i bilen.”",
     "before": "Effektivisera din kvittohanteringsprocess.",
     "after": "Sluta leta kvitton i plånboken och bilen. Fota kvittot direkt, så ligger allt samlat när det är dags för bokföringen.",
-    "explanation": "Kundens egen bild – plånboken och bilen – gör problemet igenkännbart på ett sätt som ”kvittohanteringsprocess” aldrig gör."
+    "explanation": "Kundens egen bild (plånboken och bilen) gör problemet igenkännbart på ett sätt som ”kvittohanteringsprocess” aldrig gör."
   },
+  "worked": {
+    "context": "Påhittat: hunddagiset Tassen. Citaten är påhittade för exemplet och kommer från påhittade recensioner: ”jag vågade knappt lämna honom första gången”, ”tänk om han inte äter”, ”han somnar i bilen hem”. Fakta i underlaget: inskolning i tre halvdagar, en bild skickas vid lunch, högst tolv hundar per dag, hundar som inte äter får maten på en lugn plats och ägaren blir uppringd.",
+    "text": "Första gången du lämnar honom\n\nDen är svårast. Därför börjar vi med tre halvdagar, och du får en bild vid lunch varje dag så att du ser hur han har det.\n\nTänk om han inte äter?\nDå ger vi honom maten på en lugn plats och provar igen efter en stund. Äter han inte ringer vi dig.\n\nHan somnar i bilen hem\nDet säger flera av våra kunder. Vi tar emot högst tolv hundar per dag, så att det finns tid för både lek och vila.\n\n[Boka inskolning]",
+    "notes": [
+      "Rubriken och de två mellanrubrikerna är kundernas egna formuleringar, lätt bearbetade.",
+      "Varje invändning får ett svar med en sakuppgift: tre halvdagar, bild vid lunch, högst tolv hundar.",
+      "”Han somnar i bilen hem” står kvar som något kunderna säger. Texten gör det inte till ett löfte."
+    ]
+  },
+  "mistakes": [
+    "Att putsa kundens ord tills de låter som en broschyr. Det kantiga är det som känns äkta.",
+    "Att bygga hela budskapet på en enda pratglad kund.",
+    "Att använda ett riktigt citat i reklam utan att fråga den som sa det."
+  ],
   "sources": [
     {
       "title": "Copyhackers: Conversion Copywriting Defined",

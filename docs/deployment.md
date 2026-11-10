@@ -23,7 +23,7 @@ För en manuell första release eller felsökning, välj alltid teamet `ac0` och
 
 ## Kontroll och återställning
 
-`GET /api/health` ska returnera `status: ok`, `frameworks: 14`, `people: 59`, `sourceMode: links`. Vid en dålig release: återställ till en tidigare verifierad produktionsdeployment med Vercels rollback, och kontrollera domänen igen. Efter rollback kan automatisk domäntilldelning behöva återaktiveras genom promotion.
+`GET /api/health` ska returnera `status: ok`, `frameworks: 13`, `people: 59`, `sourceMode: links`. Vid en dålig release: återställ till en tidigare verifierad produktionsdeployment med Vercels rollback, och kontrollera domänen igen. Efter rollback kan automatisk domäntilldelning behöva återaktiveras genom promotion.
 
 Det finns inga kontinuerliga externa syntetiska kontroller konfigurerade. Vercels byggstatus och driftsloggar används vid release och felsökning.
 

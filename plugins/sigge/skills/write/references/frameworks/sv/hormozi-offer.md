@@ -18,6 +18,23 @@ Alex Hormozis värdeekvation: upplevt värde ökar med det resultat kunden dröm
 - Ansträngning och uppoffring: skriv ut vad ni tar över och vad kunden fortfarande behöver göra själv. Att erbjudandet kräver mindre av kundens tid och engagemang är också värde.
 - Bonusar ska lösa ett verkligt hinder, och garantier, rabatter och tidsgränser kräver faktiska villkor. Jämför priset med värdet och med vad problemet kostar i dag, inte bara med konkurrenternas priser.
 
+## Välj grepp efter läget
+
+- Kunden säger att det är för dyrt: Lista hindren och Paketera lösningarna. Gör tydligt vad priset rymmer innan ni rör priset.
+- Kunden tror inte att det fungerar för just hen: Garanti som flyttar risken, tillsammans med belägg från kunder i samma läge.
+- Kunden vill men skjuter upp: Verklig knapphet, om det finns en verklig gräns. Finns ingen: gör första steget mindre.
+- Kunden undrar vad som händer efter köpet: Bonus som löser nästa problem.
+- Erbjudandet går inte att förklara på en rad: Namn som säger resultat och tid.
+
+## Grepp
+
+- **Lista hindren.** Skriv upp allt som står mellan kunden och målet, både före köpet, under tiden och efteråt. Varje hinder blir en del av erbjudandet. Hinder: ”Jag hinner inte ta fram texter och bilder.” Del i erbjudandet: ”Vi intervjuar dig i 45 minuter och skriver texterna.”
+- **Paketera lösningarna.** Gruppera lösningarna, stryk det som kostar er mycket och betyder lite för kunden, och ge varje del ett namn som kunden förstår. ”Det här ingår: sajten, texterna, fotografering på plats och en genomgång av hur du själv ändrar öppettider.”
+- **Garanti som flyttar risken.** Hormozi beskriver fyra slag: ovillkorlig, villkorad (gäller om kunden har gjort sin del), antigaranti (köpet är slutgiltigt, med ett skäl) och underförstådd (ni får betalt efter resultat). Välj en som verksamheten tål och skriv ut villkoret. ”Är sajten inte publicerad tre veckor efter intervjun drar vi 20 % av priset.”
+- **Bonus som löser nästa problem.** Lägg till något som tar bort hindret som kommer efter köpet. Säg vad det gör för kunden. Hitta inte på ett värde i kronor. ”Vi lägger också upp företaget på Google Maps, så att kunder i närheten hittar dig.”
+- **Verklig knapphet.** Begränsa bara det som faktiskt är begränsat, som platser, kapacitet eller startdatum, och säg varför. ”Vi bygger fyra sajter i månaden. Nästa lediga start är 2 mars.”
+- **Namn som säger resultat och tid.** Hormozi föreslår att namnet rymmer vem erbjudandet är till för, vad de uppnår och inom vilken tid. ”Hantverkarsajten: klar på tre veckor.”
+
 ## Frågor att ställa
 
 - Vad får kunden konkret för priset – och vad slipper hen?
@@ -32,6 +49,43 @@ Påhittat: en redovisningsbyrå sköter löpande bokföring, börjar med ett int
 - **Före:** Lås upp din ekonomiska potential med vår oemotståndliga lösning.
 - **Efter:** Vi sköter den löpande bokföringen, så slipper du kontera själv. Vi börjar med ett introduktionssamtal, och sedan mejlar du oss på vardagar när något dyker upp.
 - **Varför:** Texten visar vad kunden slipper, hur det börjar och vilket stöd som finns, så värdet går att bedöma utan löften om ekonomiskt resultat.
+
+## Ett helt exempel
+
+Påhittat: en webbyrå bygger hemsidor åt hantverkare. Fakta i underlaget: 24 000 kr exkl. moms, fast pris, publicerad inom tre veckor från intervjun, byrån skriver texterna, fotografering ingår, fyra projekt i månaden.
+
+> Hantverkarsajten: klar på tre veckor
+>
+> Du har fullt upp med jobben. Hemsidan blir aldrig av, och den som söker efter en snickare i närheten hittar någon annan.
+>
+> Vi bygger sajten åt dig för 24 000 kr exkl. moms. Du behöver avsätta 45 minuter.
+>
+> Så går det till
+> 1. Vi intervjuar dig i 45 minuter och skriver alla texter.
+> 2. Vi fotar dig och ett pågående jobb.
+> 3. Tre veckor efter intervjun ligger sajten ute.
+>
+> Det här ingår
+> Sajten, texterna, bilderna och en genomgång av hur du själv ändrar pris och öppettider. Vi lägger också upp företaget på Google Maps.
+>
+> Om vi blir sena
+> Är sajten inte publicerad tre veckor efter intervjun drar vi 20 % av priset.
+>
+> Vi bygger fyra sajter i månaden. Nästa lediga start är 2 mars.
+>
+> [Boka intervjun]
+
+**Det här gör exemplet:**
+
+- Öppningen beskriver läget i dag med kundens ord. Erbjudandet lovar sajten, inte fler kunder, eftersom byrån inte styr över det.
+- Ansträngningen och väntetiden står som siffror: 45 minuter och tre veckor.
+- Garantin och begränsningen har villkor som går att kontrollera, och begränsningen har ett skäl.
+
+## Vanliga misstag
+
+- Att sänka priset i stället för att göra värdet tydligt. Ett otydligt erbjudande blir inte lättare att förstå för att det är billigare.
+- Att stapla bonusar som ingen har bett om. Varje del ska ta bort ett hinder som kunden faktiskt har.
+- Att lova ett resultat som kunden själv styr över, som fler kunder eller högre omsättning. Lova det ni levererar och visa varför det brukar hjälpa.
 
 ## Källor
 

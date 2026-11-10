@@ -45,12 +45,84 @@
     "Hänger problem, erbjudande och nästa steg ihop utan hopp i logiken?",
     "Vilket stycke kan strykas utan att läsaren saknar något?"
   ],
+  "choose": [
+    {
+      "when": "En kort text till en läsare som känner problemet",
+      "use": "PAS i tre meningar."
+    },
+    {
+      "when": "Förändringen är lätt att se framför sig",
+      "use": "Före, efter, vägen dit."
+    },
+    {
+      "when": "En längre text till en ny läsare",
+      "use": "AIDA för en längre text."
+    },
+    {
+      "when": "En hel sida",
+      "use": "Landningssidans ordning."
+    },
+    {
+      "when": "Ett mejl",
+      "use": "Mejlets ordning."
+    },
+    {
+      "when": "Texten ber läsaren om flera saker",
+      "use": "Ett steg per text."
+    }
+  ],
+  "moves": [
+    {
+      "name": "PAS i tre meningar",
+      "how": "Problemet med läsarens ord, vad det kostar, lösningen. Passar annonser och korta mejl.",
+      "example": "”Regnar det in på altanen igen? Då blir sommarmöblerna stående i garaget. Vi glasar in altanen på två dagar.”"
+    },
+    {
+      "name": "Före, efter, vägen dit",
+      "how": "Läget i dag, ett rimligt läge efteråt, hur erbjudandet tar läsaren dit. Passar när förändringen är lätt att se framför sig.",
+      "example": "”I dag putsar du fönstren två gånger om året, om du hinner. Med abonnemang är de rena var sjätte vecka. Vi kommer på samma veckodag varje gång.”"
+    },
+    {
+      "name": "AIDA för en längre text",
+      "how": "Fånga rätt läsare, väck intresse med hur det fungerar, gör nyttan konkret, avsluta med ett steg.",
+      "example": "Rubrik som pekar ut läsaren. Ett stycke om hur det går till. Ett stycke om vad läsaren slipper. En knapp."
+    },
+    {
+      "name": "Landningssidans ordning",
+      "how": "Vår tillämpning: löftet, vad det är och för vem, hur det går till, belägg, pris och villkor, vanliga frågor, ett nästa steg. Stryk det som saknar innehåll.",
+      "example": "En sida utan kundomdömen hoppar över belägg och lägger mer vikt vid hur det går till."
+    },
+    {
+      "name": "Mejlets ordning",
+      "how": "Vår tillämpning: ämnesrad som säger ärendet, första raden med poängen, ett skäl, en uppmaning.",
+      "example": "Ämnesrad: ”Fönsterputs torsdag 14 maj”. Första raden: ”Vi kommer mellan 8 och 12.”"
+    },
+    {
+      "name": "Ett steg per text",
+      "how": "Bestäm vad läsaren ska göra, och låt allt annat leda dit.",
+      "example": "Ber sidan om tre saker vet läsaren inte vilken som är viktigast. Välj en och gör de andra till länkar längre ner."
+    }
+  ],
   "example": {
     "context": "Påhittat: en tjänst samlar arbetsgruppens uppgifter i en gemensam lista som alla i gruppen kan se.",
     "before": "Full kontroll. Maximal potential. Obegränsade möjligheter.",
     "after": "Vem gör vad den här veckan? När uppgifterna ligger utspridda i mejl, chatt och lappar är det lätt att något faller mellan stolarna. Samla dem i en lista som hela gruppen ser. [Se hur det fungerar]",
     "explanation": "Problem, följd och lösning i tre meningar (PAS): läsaren känner igen sig innan erbjudandet kommer, och superlativerna behövs inte."
   },
+  "worked": {
+    "context": "Påhittat: Klart Glas säljer fönsterputs i abonnemang till villaägare i Västerås. Fakta i underlaget: var sjätte vecka, samma veckodag, 395 kr per gång efter rutavdrag för en villa med upp till 15 fönster, ingen bindningstid, kunden behöver inte vara hemma, fakturan kommer månaden efter. Inga kundomdömen finns att visa.",
+    "text": "Rena fönster var sjätte vecka\n\nFönsterputs i abonnemang för villor i Västerås.\n\nSå går det till\nVi kommer samma veckodag var sjätte vecka och putsar utsidan. Du behöver inte vara hemma. Dagen innan får du ett sms.\n\nVad det kostar\n395 kr per gång efter rutavdrag, för en villa med upp till 15 fönster. Fakturan kommer månaden efter.\n\nIngen bindningstid\nDu avslutar när du vill, senast dagen före nästa besök.\n\nHar du fler än 15 fönster?\nSkicka adressen, så svarar vi med ett pris.\n\n[Välj veckodag]",
+    "notes": [
+      "Ordningen är löftet, vad det är och för vem, hur det går till, pris och villkor, en vanlig fråga, ett steg.",
+      "Belägg saknas i underlaget. Därför finns ingen sådan del, och texten låtsas inte ha kundomdömen.",
+      "Varje mellanrubrik är ett svar på något läsaren annars måste fråga om."
+    ]
+  },
+  "mistakes": [
+    "Att fylla i alla steg i en modell fast underlaget bara räcker till tre.",
+    "Att förstora problemet för att PAS ska kännas dramatiskt. Läsaren märker när det överdrivs.",
+    "Att avsluta med flera uppmaningar som konkurrerar med varandra."
+  ],
   "sources": [
     {
       "title": "Joanna Wiebe: Copywriting Formulas",

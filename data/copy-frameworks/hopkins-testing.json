@@ -1,10 +1,10 @@
 {
   "id": "hopkins-testing",
-  "title": "Pröva budskapet i verkligheten",
+  "title": "Ge ett skäl och pröva om det håller",
   "author": "Claude Hopkins / vår tillämpning för utvärdering",
   "category": "Utvärdering",
-  "summary": "Claude Hopkins menade att reklamens uppgift är att sälja och att den därför ska bedömas efter vad den får människor att göra, inte efter vad vi tycker om den. Skriv specifikt, pröva versioner mot spårbara svar och skilj det du tror från det mätningen faktiskt visar.",
-  "useWhen": "När ni ska välja mellan rubriker, erbjudanden eller versioner, eller vill veta om en ändring faktiskt hjälper läsaren och affären.",
+  "summary": "Claude Hopkins såg reklam som säljarbete. Den ska ge läsaren ett konkret skäl att köpa, och den ska bedömas efter vad den får människor att göra. Skriv specifikt, berätta hur det går till och pröva versioner mot spårbara svar.",
+  "useWhen": "När texten påstår saker utan att säga varför, när ni ska välja mellan rubriker, erbjudanden eller versioner, eller när ni vill veta om en ändring faktiskt hjälper läsaren och affären.",
   "avoidWhen": "När underlaget är för litet för att säga något, eller när mätningen blandar ihop texten med ändrad trafik, målgrupp, säsong eller pris. Då är resultatet en fingervisning, inte ett facit.",
   "keywords": [
     "hopkins",
@@ -37,7 +37,12 @@
     "measurement",
     "validation",
     "evidence",
-    "tracking"
+    "tracking",
+    "skäl",
+    "reason why",
+    "varför",
+    "prov",
+    "gratis prov"
   ],
   "principles": [
     "Döm texten efter vad den får läsaren att göra. Hopkins menade att reklamens uppgift är att sälja; att en text är snygg, rolig eller omtyckt internt säger ingenting om det.",
@@ -52,12 +57,80 @@
     "Kan mätningen skilja textens effekt från andra förändringar?",
     "Räcker underlaget för en slutsats, eller är det bara en fingervisning?"
   ],
+  "choose": [
+    {
+      "when": "Texten påstår saker utan att förklara",
+      "use": "Skälet."
+    },
+    {
+      "when": "Ni låter som konkurrenterna",
+      "use": "Det ni gör men aldrig berättar."
+    },
+    {
+      "when": "Läsaren tror inte på påståendet",
+      "use": "Exakt i stället för ungefär och Låt läsaren prova."
+    },
+    {
+      "when": "Fel personer svarar på annonsen",
+      "use": "Rubriken väljer läsare."
+    },
+    {
+      "when": "Ni ska välja mellan versioner",
+      "use": "Version med hypotes."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Skälet",
+      "how": "Följ varje påstående med ett skäl som läsaren kan pröva.",
+      "example": "”Brödet är varmt när det kommer, eftersom vi bakar klockan fem och kör ut klockan sex.”"
+    },
+    {
+      "name": "Det ni gör men aldrig berättar",
+      "how": "Hopkins byggde kampanjer på arbetssteg som hela branschen hade men ingen beskrev. Leta efter det som är självklart för er och okänt för kunden.",
+      "example": "”Degen jäser i 18 timmar innan den bakas.”"
+    },
+    {
+      "name": "Exakt i stället för ungefär",
+      "how": "Byt omdömen mot uppgifter. Hopkins menade att läsaren tror på det exakta och läser förbi det allmänna.",
+      "example": "”Framme före 07.30” i stället för ”tidig leverans”."
+    },
+    {
+      "name": "Låt läsaren prova",
+      "how": "Hopkins förespråkade prov framför övertalning. Ge läsaren ett sätt att pröva utan risk.",
+      "example": "”Den första frukosten bjuder vi på.”"
+    },
+    {
+      "name": "Rubriken väljer läsare",
+      "how": "Skriv rubriken så att rätt person känner sig utpekad och andra kan gå vidare.",
+      "example": "”Frukost till kontor med 10 till 40 personer.”"
+    },
+    {
+      "name": "Version med hypotes",
+      "how": "Vår tillämpning: när ni skriver varianter, säg vad som skiljer dem och vad ni väntar er.",
+      "example": "A: pris per person. B: pris per vecka. Hypotes: pris per person ger fler förfrågningar från små kontor."
+    }
+  ],
   "example": {
     "context": "Påhittat: ett städföretag ska pröva två rubriker på sin offertsida. Ingen av dem har testats ännu.",
     "before": "Den nya rubriken kommer att öka konverteringen.",
     "after": "Hypotes: en rubrik som säger vad som ingår i priset ger fler offertförfrågningar. Vi visar båda versionerna slumpvis och jämför antalet förfrågningar när underlaget räcker.",
     "explanation": "Ett löfte om effekt blir en prövbar hypotes med ett tydligt utfall – det är resultatet som avgör, inte magkänslan."
   },
+  "worked": {
+    "context": "Påhittat: bageriet Ugnen levererar frukost till kontor i Göteborg. Fakta i underlaget: bakar klockan fem, kör ut klockan sex, framme före 07.30, degen jäser i 18 timmar, 59 kr per person, minst tio personer, den första leveransen är gratis. Inget av påståendena har testats mot varandra.",
+    "text": "Frukost till kontor med 10 till 40 personer\n\nBrödet är varmt när det kommer. Vi bakar klockan fem och kör ut klockan sex, så frukosten står på ert bord före 07.30.\n\nDegen jäser i 18 timmar innan den bakas. Det är därför frallorna håller sig mjuka till lunch.\n\n59 kr per person. Ni beställer för minst tio.\n\nDen första frukosten bjuder vi på. Säg vilken dag och hur många ni är.\n\n[Beställ en gratis frukost]\n\nAtt pröva\nVersion A har rubriken ovan. Version B börjar med priset: ”Frukost till kontoret för 59 kr per person.” Hypotes: A ger fler förfrågningar, eftersom den pekar ut läsaren. Utfall: antal beställda provfrukostar per hundra besök.",
+    "notes": [
+      "Varje påstående har ett skäl: varmt eftersom det bakas klockan fem, mjukt eftersom degen jäser länge.",
+      "Jästiden är ett arbetssteg som många bagerier har men få berättar om.",
+      "Testet har en hypotes och ett utfall som bestäms i förväg. Texten påstår inte att någon version är bättre."
+    ]
+  },
+  "mistakes": [
+    "Superlativ utan skäl. ”Stans godaste frukost” går inte att pröva och blir därför inte trodd.",
+    "Att ändra rubrik, pris och bild samtidigt och sedan tro sig veta vad som gjorde skillnaden.",
+    "Att kalla en version för vinnare efter några få svar."
+  ],
   "sources": [
     {
       "title": "Library of Congress: Scientific Advertising (1923)",

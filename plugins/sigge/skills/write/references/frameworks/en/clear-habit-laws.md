@@ -14,9 +14,25 @@ In Atomic Habits, James Clear describes four laws of behaviour change, tied to t
 
 - Make it obvious (the cue). Tie the action to a moment the reader already has: 'After you send your last invoice of the month, upload your receipts.' A time, a place or an existing habit beats 'whenever suits you'.
 - Make it attractive (the craving). Show what the reader gets straight away, or pair the new habit with something they already want to do. Speak to who the reader becomes: habits that confirm an identity last longer than habits aimed only at a goal.
-- Make it easy (the response). Describe a first version that takes under two minutes – Clear's two-minute rule – and remove steps in the way. 'Snap one receipt' is easier to start than 'get your books in order'.
+- Make it easy (the response). Describe a first version that takes under two minutes (Clear's two-minute rule) and remove steps in the way. 'Snap one receipt' is easier to start than 'get your books in order'.
 - Make it satisfying (the reward). Confirm straight away when something is done and show progress. What is rewarded immediately is easier to repeat.
 - Invert the laws when the reader wants to stop something: make it invisible, unattractive, difficult and unsatisfying – and describe only help the product actually gives.
+
+## Choose a move for the situation
+
+- The customer has signed up but not started: The two-minute version.
+- The customer starts but forgets: Stack it on a habit and Time and place.
+- The customer does it a few times and stops: A reward straight away and Visible progress.
+- The customer has kept going for a long time: Who the reader becomes.
+
+## Moves
+
+- **Stack it on a habit.** Clear calls it habit stacking: the new thing comes after something the reader already does. 'When you've had your morning coffee, open the app and do today's five words.'
+- **Time and place.** Ask the reader to decide when and where. An occasion is easier to keep than a resolution. 'Choose a time. We'll remind you at 07.30 on weekdays.'
+- **The two-minute version.** Clear's two-minute rule: shrink the first step until it takes under two minutes. 'Five words a day. It takes two minutes.'
+- **A reward straight away.** Say what the reader has just managed, the moment it is done. 'Five words done. Now you can order a coffee in Italian.'
+- **Visible progress.** Show how far the reader has come and what the next step is. 'Day 4 of 7. You've learned 20 words.'
+- **Who the reader becomes.** Clear holds that habits last longer when they confirm an identity. Describe the person as well as the goal. 'Seven days in a row. You're someone who practises every day.'
 
 ## Questions to ask
 
@@ -32,6 +48,36 @@ Fictional: in Räkna's app, clients photograph receipts, which the firm then boo
 - **Before:** Get started with smart receipt management and take control of your finances!
 - **After:** Every Friday when you close your laptop: snap this week's receipts. It takes two minutes, and we'll book them for you.
 - **Why:** The copy ties the action to a moment, makes it small and says what the reader gets straight away, instead of promising control.
+
+## A complete example
+
+Fictional: the language app Parla teaches Italian. Facts in the brief: five words a day, a session takes about two minutes, the reminder can be set to any time, the first week covers everyday phrases for cafés and restaurants. The copy is the welcome email after sign-up.
+
+> Subject line: Your first five words
+>
+> Hi!
+>
+> Today you learn five words. It takes two minutes.
+>
+> Do it after something you already do every morning, for example once you've had your coffee. Choose a time in the app and we'll remind you then.
+>
+> By the end of the week you can order at a café in Rome: coffee, water, the bill, thank you.
+>
+> [Do today's five words]
+>
+> We'll be in touch tomorrow at the same time.
+
+**What the example does:**
+
+- The email asks for a single action, and it takes two minutes.
+- The action is tied to the morning coffee and to a time the reader chooses.
+- The reward is concrete and close: what the reader can do after a week, not fluent Italian.
+
+## Common mistakes
+
+- Welcome emails that list every feature instead of asking for one small action.
+- Reminders with no occasion. 'Don't forget to practise!' doesn't say when.
+- Guilt as the driver. 'You've missed three days' gives the reader a reason to switch the reminders off.
 
 ## Sources
 

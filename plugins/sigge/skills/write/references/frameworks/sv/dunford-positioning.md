@@ -15,8 +15,25 @@ Positionering enligt April Dunford: utgå från vad kunden annars skulle välja,
 - Konkurrerande alternativ: lista vad kunden skulle göra om ni inte fanns – välja en konkurrent, fortsätta med ett kalkylark, ta in en praktikant eller låta bli. Det är mot dem läsaren jämför er, inte mot er egen konkurrentlista.
 - Unika egenskaper: skriv upp vad ni har eller kan som alternativen saknar – funktioner, arbetssätt, kunskap, leveransmodell. Håll er till sakuppgifter, inte adjektiv.
 - Värde: fråga ”och vad betyder det för kunden?” om varje egenskap tills svaret är en konkret nytta, och notera vilket belägg som visar att nyttan är verklig.
-- Bästa kunderna: beskriv vad som kännetecknar de kunder som bryr sig mest om värdet – deras situation, behov eller arbetssätt, inte bara bransch och storlek – och skriv till dem.
+- Bästa kunderna: beskriv vad som kännetecknar de kunder som bryr sig mest om värdet (deras situation, behov eller arbetssätt, inte bara bransch och storlek) och skriv till dem.
 - Marknadskategori: välj det sammanhang som gör att läsaren direkt förstår vad ni är och varför värdet spelar roll. Påstå inte att ni är unika eller bäst utan jämförelseunderlag.
+
+## Välj grepp efter läget
+
+- Läsaren frågar vad det här är för något: Kategori som gör värdet självklart.
+- Läsaren säger att de redan har ett system: Alternativen först och Egenskapen som alternativen saknar.
+- Texten räknar upp funktioner: Fråga ”och då?”.
+- Sidan försöker passa alla: Kunderna som bryr sig mest.
+- Positioneringen finns men startsidan är otydlig: Från positionering till startsida.
+
+## Grepp
+
+- **Alternativen först.** Skriv upp vad kunden väljer mellan i dag, även det som inte är en konkurrent. ”Caféer väljer i dag mellan ett stort kassasystem byggt för butik och en kortläsare med en app.”
+- **Egenskapen som alternativen saknar.** Håll er till något som går att visa, och kontrollera att alternativen verkligen saknar det. ”Beställningar från kassan och från bordens QR-kod hamnar på samma skärm i köket.”
+- **Fråga ”och då?”.** Fråga vad egenskapen leder till, tills svaret är något kunden skulle säga själv. Samma skärm i köket. Och då? Ingen springer med lappar. Och då? Färre bortglömda beställningar när det är fullt.
+- **Kunderna som bryr sig mest.** Beskriv situationen som gör värdet stort, inte bara bransch och storlek. ”Caféer med servering vid borden och rusning vid lunch. Inte kiosker med en enda kö.”
+- **Kategori som gör värdet självklart.** Välj det sammanhang där er styrka är det läsaren väntar sig att jämföra. ”Kassa för caféer med bordsservering” säger mer än ”kassasystem” eller ”plattform för restaurangbranschen”.
+- **Från positionering till startsida.** Vår tillämpning: rubriken säger kategori och värde, underrubriken säger för vem och jämfört med vad, och första sektionen visar egenskapen som gör skillnaden. Rubrik: ”Kassan för caféer med bordsservering.” Underrubrik: ”Beställningar från kassan och borden hamnar på samma skärm i köket.”
 
 ## Frågor att ställa
 
@@ -32,6 +49,35 @@ Påhittat: ett schemaverktyg samlar arbetspassen och låter personalen ansöka o
 - **Före:** En innovativ plattform som tar din verksamhet till nästa nivå.
 - **Efter:** Låt personalen ansöka om passbyten direkt i schemat, i stället för via mejl och sms till dig.
 - **Varför:** Texten ställer verktyget mot det läsaren faktiskt använder i dag och lyfter fram den skillnad som avgör jämförelsen.
+
+## Ett helt exempel
+
+Påhittat: kassasystemet Brygga. Fakta i underlaget: beställningar från kassan och från QR-kod på borden visas på samma köksskärm, 490 kr i månaden per kassa, ingen bindningstid. Kunderna använder i dag ett butikskassasystem eller en kortläsare med app, och skriver beställningar på lappar.
+
+> Kassan för caféer med bordsservering
+>
+> Beställningar från kassan och från borden hamnar på samma skärm i köket.
+>
+> Har ni ett kassasystem byggt för butik? Då skriver ni förmodligen beställningarna på lappar när det är fullt. Med Brygga beställer gästen vid kassan eller med QR-koden på bordet. Köket ser allt i den ordning det kom in.
+>
+> För caféer med rusning
+> Brygga är gjort för ställen där tjugo personer vill ha lunch samtidigt. Har ni en enda kö och inga bord klarar ni er bra med en kortläsare.
+>
+> 490 kr i månaden per kassa. Ingen bindningstid.
+>
+> [Se hur köksskärmen ser ut]
+
+**Det här gör exemplet:**
+
+- Rubriken är kategorin. Läsaren vet direkt vad det är och vad hen ska jämföra med.
+- Texten nämner det läsaren använder i dag, butikskassan och lapparna, och ställer egenskapen mot just det.
+- Stycket om vem det inte är till för ringar in de kunder som bryr sig mest.
+
+## Vanliga misstag
+
+- Att jämföra sig med konkurrenten som ledningen oroar sig för, när kunderna väljer mellan er och ett kalkylark.
+- Att välja en bred kategori för att inte stänga några dörrar. Då måste texten förklara allt från början.
+- Att kalla en egenskap unik utan att ha kontrollerat vad alternativen gör.
 
 ## Källor
 

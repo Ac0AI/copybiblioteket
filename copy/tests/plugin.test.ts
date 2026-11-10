@@ -57,7 +57,7 @@ test("every bundled framework page is linked from its index", () => {
   for (const language of ["sv", "en"]) {
     const dir = join(plugin, "skills", "write", "references"), index = readFileSync(join(dir, `frameworks-${language}.md`), "utf8");
     const pages = readdirSync(join(dir, "frameworks", language));
-    assert.equal(pages.length, 14);
+    assert.equal(pages.length, 13);
     for (const page of pages) assert.ok(index.includes(`(frameworks/${language}/${page})`), page);
   }
 });

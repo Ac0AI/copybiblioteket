@@ -46,12 +46,84 @@
     "Vilken nytta eller nyhet lovar rubriken, och till vem?",
     "Var i texten bevisar vi löftet?"
   ],
+  "choose": [
+    {
+      "when": "Läsaren får något konkret",
+      "use": "Nyttan."
+    },
+    {
+      "when": "Något har ändrats eller kommit till",
+      "use": "Nyheten."
+    },
+    {
+      "when": "Läsaren vill veta hur man gör",
+      "use": "Så gör du."
+    },
+    {
+      "when": "Påståendet är svårt att tro på",
+      "use": "Sakuppgiften."
+    },
+    {
+      "when": "Texten vänder sig till en smal grupp",
+      "use": "Peka ut läsaren."
+    },
+    {
+      "when": "Det är ett mejl",
+      "use": "Ämnesraden."
+    }
+  ],
+  "moves": [
+    {
+      "name": "Nyttan",
+      "how": "Säg vad läsaren får, konkret nog att se framför sig.",
+      "example": "”Hyr en elcykel och se hela Visby på en dag.”"
+    },
+    {
+      "name": "Nyheten",
+      "how": "Har något ändrats ska rubriken säga det. Ogilvy räknade nyheter till det som läses mest.",
+      "example": "”Nytt i år: lämna tillbaka cykeln i Slite.”"
+    },
+    {
+      "name": "Så gör du",
+      "how": "Lova en vägledning som texten sedan ger.",
+      "example": "”Så tar du dig från färjan till Fårö utan bil.”"
+    },
+    {
+      "name": "Sakuppgiften",
+      "how": "En exakt uppgift är lättare att tro på än ett omdöme.",
+      "example": "”65 km på en laddning. Det räcker till Tofta och tillbaka.”"
+    },
+    {
+      "name": "Peka ut läsaren",
+      "how": "Säg vem rubriken är till för, så att rätt person stannar.",
+      "example": "”Till dig som kommer med morgonfärjan.”"
+    },
+    {
+      "name": "Ämnesraden",
+      "how": "Samma regler, men kortare. Säg ärendet och sluta där.",
+      "example": "”Din cykel är bokad till 14 juli.”"
+    }
+  ],
   "example": {
     "context": "Påhittat: en matbutik på nätet låter kunden välja ett leveransfönster på två timmar. Någon exakt leveranstid garanteras inte.",
     "before": "Leverans exakt när du vill. Varje gång.",
     "after": "Välj själv vilka två timmar matkassen ska komma.",
     "explanation": "Rubriken lovar en konkret och sann nytta som brödtexten kan backa upp, utan att göra valet till en garanti om exakt tid."
   },
+  "worked": {
+    "context": "Påhittat: Gotlandscykel hyr ut elcyklar i Visby. Fakta i underlaget: uthämtning 200 meter från färjeterminalen, 65 km räckvidd per laddning, 450 kr per dygn, nytt för i år är att cykeln kan lämnas i Slite. Texten ska stå överst på startsidan.",
+    "text": "Hämta elcykeln 200 meter från färjan\n\nDu går av båten, hämtar cykeln och är på väg. En laddning räcker 65 km, så du hinner till Tofta och tillbaka utan att tänka på batteriet.\n\nNytt i år: du kan lämna cykeln i Slite i stället för att cykla tillbaka till Visby.\n\n450 kr per dygn.\n\n[Boka cykel]\n\nRubriker som valdes bort\n”Upplev Gotland på två hjul” passar vilken uthyrare som helst.\n”Frihet på riktigt” säger inte vad läsaren får.\n”Cykla smart” är en ordlek som kräver brödtexten för att betyda något.",
+    "notes": [
+      "Rubriken står på egna ben. Den som bara läser den vet vad som erbjuds och var.",
+      "Sakuppgiften 200 meter gör nyttan trovärdig, och brödtexten bevisar den med räckvidden.",
+      "De bortvalda rubrikerna visar testet: skulle raden kunna stå hos en konkurrent utan att ändras?"
+    ]
+  },
+  "mistakes": [
+    "Ordvitsar som kräver brödtexten för att bli begripliga. Många läser bara rubriken.",
+    "Rubriker som passar vilket företag som helst.",
+    "Att lova något i rubriken och aldrig komma tillbaka till det i texten."
+  ],
   "sources": [
     {
       "title": "Ogilvy: Quotations of David Ogilvy",

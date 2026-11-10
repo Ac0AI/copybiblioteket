@@ -19,6 +19,22 @@ Peter Yang's no-ai-slop skill names the patterns that make writing sound machine
 - Show rather than tell the reader what to think. Cut 'this matters' and 'the interesting part is' and let facts, examples and consequences carry the point.
 - Name the source or cut the claim. 'Experts agree' and 'studies show' without a source should go; ask for the evidence rather than inventing it.
 
+## Choose a move for the situation
+
+- The text is full of adjectives: An empty word becomes a fact and A triplet for the rhythm.
+- The text never gets to the point: Throat-clearing and False contrast.
+- The ending sounds like a lecture: A closing line that tries to sound profound.
+- You are unsure whether a sentence is filler: The portability test.
+
+## Moves
+
+- **An empty word becomes a fact.** Ask what the word would mean if it were true, and write that. 'A seamless experience' becomes 'You log in with BankID and you're done.'
+- **False contrast.** Cut what nobody claimed and state the second half directly. 'It's not about technology, it's about people' becomes 'We train the staff before the system goes live.'
+- **Throat-clearing.** Cut the opener and start with the sentence that follows it. 'Here's the thing: most forms are too long' becomes 'Most forms are too long.'
+- **A triplet for the rhythm.** Three adjectives in a row are often there because they sound good. Keep what you can back up. 'Fast, simple and secure' becomes 'Done in two minutes.'
+- **A closing line that tries to sound profound.** Cut it and end on the last concrete fact or on the next step. 'Because at the end of the day, it's about trust.' Cut it. The last line becomes 'Book a walkthrough.'
+- **The portability test.** Would the sentence fit unchanged at a competitor? Then it says nothing about you. 'We're passionate about our customers' could stand anywhere. 'We reply to email within one working day' can only stand where it is true.
+
 ## Questions to ask
 
 - Which sentences would work just as well for a competitor?
@@ -32,6 +48,36 @@ Fictional: Räkna handles day-to-day bookkeeping for small businesses, and every
 - **Before:** In today's fast-paced world, it's not just about bookkeeping – it's about freedom. Räkna offers a seamless, tailored solution that unlocks your potential.
 - **After:** Räkna handles your day-to-day bookkeeping, and you get a dedicated contact to email whenever something is unclear.
 - **Why:** The buzzwords and the false contrast are gone; what remains is what the service does and who the reader can ask.
+
+## A complete example
+
+Fictional: a LinkedIn post by the founder of Räkna, a bookkeeping firm. Facts in the brief: the firm has started replying to customer emails within one working day, and every customer has been given a named contact with a direct number. The writer usually writes briefly and a little drily.
+
+**Draft:**
+
+> In today's fast-paced world, bookkeeping is not just about numbers. It's about trust. Here's the thing: most firms see you as a customer number. At Räkna we have taken the customer experience to the next level with a seamless, personal and tailored service. The best part: you never have to wait. Because at the end of the day, it's the relationship that counts. 🚀
+
+**Revised:**
+
+> We've changed two things at Räkna.
+>
+> You get a reply to your email within one working day.
+>
+> You have your own contact, with a name and a direct number. The same person every time.
+>
+> We should have done it sooner.
+
+**What the example does:**
+
+- Six patterns are gone: empty words, a false contrast, throat-clearing, a colon reveal, a profound closing line and an emoji.
+- What remains are the two facts. Nothing has been added that wasn't in the brief.
+- The last line is the writer's own dry tone. It wasn't in the draft, so the writer should approve it.
+
+## Common mistakes
+
+- Swapping one empty word for another. 'Smooth' instead of 'seamless' says just as little.
+- Sanding away everything that stands out. An awkward sentence with a voice of its own should stay.
+- Believing the text is good because the check finds nothing. It finds known phrases, not empty thoughts.
 
 ## Sources
 

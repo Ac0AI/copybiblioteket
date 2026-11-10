@@ -18,6 +18,22 @@ Enligt BJ Foggs beteendemodell (B=MAP) uppstår ett beteende när motivation, f�
 - Anpassa uppmaningen efter läget. Är motivationen låg behöver den ge ett skäl (spark), är steget svårt behöver den göra det enklare (facilitator), och när både vilja och förmåga finns räcker en tydlig påminnelse (signal).
 - Placera uppmaningen där och när läsaren är redo, och skilj det text kan lösa från det som behöver ändras i tjänsten.
 
+## Välj grepp efter läget
+
+- Läsaren vill men gör det inte: Hitta det som saknas. Oftast är det förmågan: Ta bort fält.
+- Läsaren tvekar vid knappen: Raden vid knappen.
+- Läsaren vet inte vad som händer vid klick: Knappen säger handlingen och Säg vad som händer sedan.
+- Läsaren är inte tillräckligt intresserad: Rätt sorts uppmaning: ge ett skäl. Hjälper inte det ligger problemet i erbjudandet, inte i texten.
+
+## Grepp
+
+- **Hitta det som saknas.** Gå igenom motivation, förmåga och uppmaning för just det här steget. Laga det som saknas, inte det som redan finns. Läsaren vill ha solceller men lämnar formuläret. Det är förmågan som brister: formuläret frågar efter för mycket.
+- **Knappen säger handlingen.** Skriv vad som händer när läsaren trycker. ”Få en prisuppgift” i stället för ”Skicka”.
+- **Raden vid knappen.** Svara på det som får läsaren att tveka, precis där hen tvekar. ”Kostnadsfritt. Ingen ringer dig om du inte ber om det.”
+- **Ta bort fält.** Fråga bara efter det ni behöver för nästa steg. Resten kan vänta. Adress och takets väderstreck räcker för en kalkyl. Personnummer behövs först vid avtal.
+- **Säg vad som händer sedan.** Tala om vad läsaren får, hur och när. ”Du får en kalkyl på mejl inom två arbetsdagar.”
+- **Rätt sorts uppmaning.** Fogg skiljer på tre: en som ger ett skäl när viljan är låg, en som gör det lättare när steget är svårt, och en påminnelse när både vilja och förmåga finns. Låg vilja: ”Se vad ditt tak kan ge.” Svårt steg: ”Det tar två minuter.” Redo: ”Din kalkyl är klar.”
+
 ## Frågor att ställa
 
 - Vad av motivation, förmåga och uppmaning saknas just här?
@@ -32,6 +48,39 @@ Påhittat: formuläret skickar en kostnadsfri offertförfrågan. Ingenting best�
 - **Före:** [Starta din resa]
 - **Efter:** [Be om offert] Kostnadsfritt – du beställer ingenting förrän du har godkänt offerten.
 - **Varför:** Knappen säger vad som händer och raden under tar bort oron för att binda sig, så steget blir lättare att ta utan att trycket ökar.
+
+## Ett helt exempel
+
+Påhittat: Soltak säljer solceller till villaägare. Fakta i underlaget: kalkylen är kostnadsfri, bygger på adress och takets väderstreck, skickas på mejl inom två arbetsdagar, ingen säljare ringer om kunden inte ber om det. Det gamla formuläret hade nio fält och knappen ”Skicka”.
+
+> Vad skulle solceller ge på ditt tak?
+>
+> Skriv adressen och åt vilket håll taket lutar. Vi räknar ut hur mycket el taket kan ge och vad anläggningen skulle kosta.
+>
+> Adress
+> [                    ]
+>
+> Taket lutar mot
+> ( ) Söder  ( ) Öster  ( ) Väster  ( ) Vet inte
+>
+> Mejladress
+> [                    ]
+>
+> [Få en kalkyl]
+>
+> Kostnadsfritt. Du får kalkylen på mejl inom två arbetsdagar, och ingen ringer dig om du inte ber om det.
+
+**Det här gör exemplet:**
+
+- Nio fält har blivit tre. Förmågan var det som saknades, inte viljan.
+- Knappen säger vad läsaren får. Raden under svarar på de tre vanligaste skälen att tveka: pris, väntan och säljsamtal.
+- ”Vet inte” finns som svar, så att ingen fastnar på en fråga hen inte kan svara på.
+
+## Vanliga misstag
+
+- Att försöka övertyga mer när problemet är att steget är krångligt.
+- Knappar som säger ”Skicka”, ”Nästa” eller ”Kom igång” utan att säga vad som händer.
+- Att be om allt på en gång för att slippa fråga senare.
 
 ## Källor
 
