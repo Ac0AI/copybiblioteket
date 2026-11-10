@@ -1,0 +1,3 @@
+interface:
+  display_name: "Check for AI patterns"
+  short_description: "Find AI tells and fix them with small edits"

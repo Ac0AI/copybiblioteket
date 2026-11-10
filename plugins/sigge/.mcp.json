@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "sigge": { "type": "http", "url": "https://sigge.si/mcp" }
+  }
+}

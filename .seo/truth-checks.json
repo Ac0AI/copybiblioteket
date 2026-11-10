@@ -6,7 +6,7 @@
       "client/pages/*.html",
       "README.md",
       "scripts/*.mjs",
-      "skills/copy-operator/SKILL.md"
+      "plugins/sigge/skills/*/SKILL.md"
     ],
     "must_not_match": [
       "och tio till",

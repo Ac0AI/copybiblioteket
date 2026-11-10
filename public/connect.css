@@ -59,3 +59,10 @@
 .consent-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
 @media(max-width:1020px){.client-cards{grid-template-columns:1fr 1fr}.client-cards .is-recommended{grid-column:1/-1}}
 @media(max-width:860px){.clients-head,.client-cards,.account-grid{grid-template-columns:1fr}.account-card,.client-card,.consent-card{padding:22px}}
+/* Field Notes signup: one narrow column, the form right under the pitch. */
+.notes-main{max-width:640px}
+.notes-intro{margin-bottom:28px}
+.notes-intro .display{font-size:clamp(34px,5vw,52px)}
+.notes-card form label:first-of-type{margin-top:6px}
+/* Two ways in: the plugin first, the address second. */
+.plugin-install{margin-bottom:clamp(48px,6vw,88px)}

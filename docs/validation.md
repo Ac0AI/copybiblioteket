@@ -58,3 +58,15 @@ Livekontrollen genomförde e-postinloggning i webbläsaren, godkännande av en r
 Resends skickade post hade rätt avsändare, mottagare och ämne. Testet använde en märkt `delivered@resend.dev`-adress: leverantörens leveransstatus är simulerad och bevisar inte leverans till en vanlig inkorg. Kontot gav ingen Field Notes-kontakt före tillval. Efter ett uttryckligt tillval verifierades kontakt, befintligt segment och sparat samtycke hos de riktiga leverantörerna. Testkontot, testklienten och testkontakten togs bort efteråt.
 
 Detta bevisar tjänstens publicerade protokollflöde. Anslutning från användarens faktiska Claude Code- eller ChatGPT-konto är inte provad. Tillgängligheten där beror även på klientens konto- och arbetsyteinställningar.
+
+## Plugin, skrivkit och borttagna konton, 10 november 2026
+
+Samma dag togs konton, inloggning med e-postkod och Field Notes-anmälan bort. Avsnitten ovan om konton, OAuth och Field Notes beskriver läget före det och gäller inte längre.
+
+Pluginet i `plugins/sigge` har fyra färdigheter. `npm run build` kör alla tester. De nya kontrollerar att pluginets genererade filer stämmer med `data/copy-frameworks` och `client/slop.js`, att de tre manifesten beskriver samma plugin, att varje färdighet bara använder `name` och `description` och att alla länkade filer finns, och att det medföljande skriptet hittar samma mönster som webben och MCP-verktyget. `claude plugin validate` (Claude Code 2.1.322) godkände både marketplace-filen och pluginet med `--strict`.
+
+Den öppna adressen testas med en riktig MCP-klient över HTTP utan inloggning: elva verktyg, skrivkit och 59 profiler. Testerna visar också att en klient med gammal token fortsätter fungera, att en tokenförnyelse får svar, att ingen OAuth-discovery finns kvar och att spärren ger 429 efter gränsen utan att påverka andra adresser. Spärren ligger i minnet per instans och är inget skydd mot en bred attack.
+
+Fyra riktiga körningar gjordes i Claude Code med pluginet laddat från katalogen, innan kontona togs bort: en svensk landningssida (`write`), en flosklerkoll på svenska (`check`), en granskning av ett engelskt säljmejl (`review`) och ett engelskt mejl via den lokala MCP-servern utan plugin. Rätt färdighet valdes varje gång, flosklerkollen kördes innan svaret och MCP-körningen gick `get_writing_kit` följt av `check_ai_patterns`. Körningarna tog 17–35 sekunder. Det här visar att flödet fungerar, inte att texterna är bra: fyra körningar är för få för att säga något om kvalitet, och ingen läsare utanför projektet har bedömt dem.
+
+Inte provat: installation från GitHub (kräver att ändringen ligger på huvudgrenen och att repot heter `Ac0AI/sigge`), Claude på webben och i Cowork, Codex och ChatGPT. Manifesten för Codex och ChatGPT följer OpenAI:s dokumentation från 10 november 2026 men har inte lästs in av någon OpenAI-klient. Att befintliga anslutningar i Claude och ChatGPT överlever borttagningen av inloggningen är testat med en SDK-klient, inte med de riktiga apparna. Filmerna i `public/media` visar fortfarande inloggningssteget.

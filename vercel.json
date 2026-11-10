@@ -5,7 +5,7 @@
   "installCommand": "npm ci --ignore-scripts",
   "functions": {
     "app.ts": {
-      "includeFiles": "{data/**,skills/copy-operator/references/**,public/**/*.html,public/*.js,public/sitemap.xml}",
+      "includeFiles": "{data/**,plugins/sigge/skills/write/references/*.md,public/**/*.html,public/*.js,public/sitemap.xml}",
       "maxDuration": 180
     }
   },

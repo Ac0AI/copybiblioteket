@@ -1,4 +1,4 @@
-name: Check Copybiblioteket
+name: Check Sigge
 on:
   push:
   pull_request:

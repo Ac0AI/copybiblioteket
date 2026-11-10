@@ -137,7 +137,7 @@ export async function loadCopyLibrary(root = ROOT, sourceDir: string | false = p
   const people = await Promise.all((await readdir(peopleDir)).filter(f=>f.endsWith('.json')).sort().map(async file=>profileSchema.parse(JSON.parse(await readFile(join(peopleDir,file),'utf8')))));
   const references = sourceDir ? await loadBrains(sourceDir, people.map(p=>p.id)) : new Map<string, Brain>();
   if (sourceDir && !references.size) throw new Error('No local reference libraries found');
-  const guide = await readFile(join(root, "skills", "copy-operator", "references", "swedish.md"), "utf8");
+  const guide = await readFile(join(root, "plugins", "sigge", "skills", "write", "references", "swedish.md"), "utf8");
   const library = new CopyLibrary(frameworks, references, guide, people);
   const translationsDir = join(root, 'data', 'translations', 'en');
   const frameworkTranslation = frameworkSchema.pick({title:true,author:true,summary:true,useWhen:true,avoidWhen:true,keywords:true,principles:true,questions:true,example:true});
@@ -150,7 +150,7 @@ export async function loadCopyLibrary(root = ROOT, sourceDir: string | false = p
   const english = new CopyLibrary(
     frameworks.map(f => frameworkSchema.parse({...f, ...translatedFrameworks[f.id], keywords:[...new Set([...f.keywords,...translatedFrameworks[f.id].keywords])], language:'en'})),
     references,
-    await readFile(join(root, 'skills', 'copy-operator', 'references', 'english.md'), 'utf8'),
+    await readFile(join(root, 'plugins', 'sigge', 'skills', 'write', 'references', 'english.md'), 'utf8'),
     people.map(p => profileSchema.parse({...p, ...translatedPeople[p.id]})),
     'en',
   );

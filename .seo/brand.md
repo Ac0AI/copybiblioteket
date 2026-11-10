@@ -4,12 +4,12 @@
 
 ## Product
 
-- **Name:** Sigge (sigge.si). Repo och MCP-namn: copybiblioteket / copy-brains.
+- **Name:** Sigge (sigge.si). Repo: Ac0AI/sigge. Plugin och MCP-server heter sigge.
 - **Positioning (bekräftad 2026-11-02, NY-1):** Sigge är en gratis skrivverkstad och copy-MCP för grundare och marknadsförare som skriver säljtext med Claude eller ChatGPT, på svenska och engelska. Den vinner för att din egen AI får beprövade ramverk och en flosklerkoll direkt i chatten och texten fortfarande låter som du. Den är inte för den som vill att ett verktyg skriver färdig text åt en.
 - **One-liner (≤20 words):** Gratis skrivverkstad och copy-MCP som ger din egen AI ramverk, perspektiv och en flosklerkoll, på svenska och engelska.
 - **What we do:** Sigge ansluts till Claude eller ChatGPT via MCP (https://sigge.si/mcp). Din AI slår då upp 14 copyramverk, 59 personperspektiv och skrivguider och kör `check_ai_patterns` innan den svarar. Utan konto bygger webben ett skrivunderlag att klistra in i valfri AI-chatt och granskar text mot AI-floskler. Sigge skriver inte texten själv på sajten.
 - **Pricing structure:** Gratis. Ingen betald plan.
-- **Free tier?** Ja, allt är gratis. Konto (e-postkod) behövs bara för MCP-anslutningen.
+- **Free tier?** Ja, allt är gratis. Sigge har inga konton och ingen inloggning (borttaget 2026-11-10). En gratistjänst från AC0 (ac0.ai).
 
 ## Audience
 

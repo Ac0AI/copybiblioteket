@@ -51,10 +51,10 @@ const frameworkList = language => sv.forLanguage(language).frameworks
 for (const language of ['sv','en']) {
   const directory = 'public' + (language === 'en' ? '/en' : '');
   await mkdir(directory,{recursive:true});
-  for (const page of ['index','library','people','connect','consent','privacy']) {
+  for (const page of ['index','library','people','connect','privacy']) {
     const path = page === 'index' ? '/' : '/' + page;
     const template = (await readFile(`client/pages/${page}.html`,'utf8')).replace('{{peopleList}}',()=>peopleList(language)).replace('{{frameworkList}}',()=>frameworkList(language));
-    await writeFile(`${directory}/${page}.html`,render(template,language,path,page === 'consent' ? '/connect' : path));
+    await writeFile(`${directory}/${page}.html`,render(template,language,path,path));
   }
 }
 
