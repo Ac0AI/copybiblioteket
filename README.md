@@ -1,39 +1,39 @@
-# Copybiblioteket
+# Sigge
 
-[sigge.si](https://sigge.si) – ramverk, exempel och källor för tydligare copy på svenska och engelska.
+[sigge.si](https://sigge.si) – ramverk, exempel och källor för tydligare copy på svenska och engelska. En gratistjänst från [AC0](https://ac0.ai).
 
 En tvåspråkig skrivverkstad, 59 personprofiler och fjorton ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, James Clear (vanor och nyhetsbrevsformatet 3-2-1), Peter Yangs no-ai-slop, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna tillämpningar, frågor och fiktiva exempel på båda språken. Varumärkets röst styr skrivandet.
 
-Enklaste vägen är pluginet: det fungerar direkt efter installation, utan konto, i Claude, Claude Code och Codex. Den som använder ChatGPT eller inte vill installera något ansluter i stället Sigge via MCP med ett konto. Utan vare sig plugin eller konto hjälper webben dig att skapa ett komplett skrivunderlag att klistra in i en AI-chatt och att granska en text mot AI-floskler. Själva skrivandet sker alltid i din egen AI-klient. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
+Enklaste vägen är pluginet för Claude, Claude Code och Codex. Den som använder ChatGPT eller inte vill installera något lägger till adressen `https://sigge.si/mcp` i sin AI. Inget av det kräver konto eller inloggning. På webben kan du också skapa ett komplett skrivunderlag att klistra in i en AI-chatt och granska en text mot AI-floskler. Själva skrivandet sker alltid i din egen AI-klient. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
 
 ## Installera pluginet
 
 Claude Code:
 
 ```
-/plugin install sigge --marketplace Ac0AI/copybiblioteket
+/plugin install sigge --marketplace Ac0AI/sigge
 ```
 
-Claude på webben, i datorn och i Cowork: öppna Customize, välj Plugins och Add marketplace, och ange `Ac0AI/copybiblioteket`.
+Claude på webben, i datorn och i Cowork: öppna Customize, välj Plugins och Add marketplace, och ange `Ac0AI/sigge`.
 
 Codex:
 
 ```sh
-codex plugin marketplace add Ac0AI/copybiblioteket
+codex plugin marketplace add Ac0AI/sigge
 codex plugin add sigge@sigge
 ```
 
-Pluginet ligger i [plugins/sigge](plugins/sigge) och har fyra färdigheter: `write` (skriv eller skriv om copy), `check` (hitta och stryk AI-floskler), `review` (granska en befintlig text) och `start` (kort introduktion). De fjorton ramverken, skrivguiderna och flosklerkollen följer med, så inget konto behövs. Ett Sigge-konto lägger till de 59 perspektiven, källsökningen och verktyget som väljer ramverk åt uppgiften. Se [pluginets README](plugins/sigge/README.md).
+Pluginet ligger i [plugins/sigge](plugins/sigge) och har fyra färdigheter: `write` (skriv eller skriv om copy), `check` (hitta och stryk AI-floskler), `review` (granska en befintlig text) och `start` (kort introduktion). De fjorton ramverken, skrivguiderna och flosklerkollen följer med. Pluginet ansluter också till `https://sigge.si/mcp`, som ger de 59 perspektiven, källsökningen och verktyget som väljer ramverk åt uppgiften. Se [pluginets README](plugins/sigge/README.md).
 
 `plugins/sigge/skills/write/references/swedish.md` och `english.md` är skrivguidernas källa; servern läser dem därifrån. Ramverkssidorna, flosklerkollens skript och kopiorna i de andra färdigheterna genereras med `npm run build:plugin` från `data/copy-frameworks/` och `client/slop.js`. Redigera källorna, inte de genererade filerna. Ett test stoppar bygget om de inte stämmer överens.
 
 ## Design och filmer
 
-Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Filmen om att ansluta din AI (startsidan och anslutningssidan, `client/pages/_film-connect.html`) byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/`, till exempel [så funkar Sigge](https://sigge.si/media/sigge-sa-funkar-det.mp4) och [anslut din AI](https://sigge.si/media/sigge-anslut-din-ai.mp4).
+Sidorna delar designsystemet i `public/site.css` (Fraunces och Inter, självhostade). Filmen om att ansluta din AI (startsidan och anslutningssidan, `client/pages/_film-connect.html`) byggs av vanliga DOM-scener i `client/film.js` och kan pausas; med reducerad rörelse visas stillbilder. MP4-versioner för delning finns i `public/media/` De visar fortfarande det gamla inloggningssteget och behöver exporteras om.
 
 Maskoten Sigge är en SVG-bläckplump i `client/pages/_mascot.html` som byggs in där `{{mascot}}` står i sidmallarna. Namnet är en kortform av Sigurd, Sigvard och Sigfrid (fornnordiska *sigr*, seger); se avsnittet Om namnet på startsidan.
 
-Integritetspolicyn finns på [sigge.si/privacy](https://sigge.si/privacy). Konton kan raderas av användaren själv på `/connect`.
+Integritetspolicyn finns på [sigge.si/privacy](https://sigge.si/privacy). Sigge har inga konton.
 
 ## Kör lokalt
 
@@ -62,7 +62,7 @@ Kör från repots rot:
 codex mcp add copy-brains -- node "$PWD/node_modules/tsx/dist/cli.mjs" "$PWD/copy/mcp.ts"
 ```
 
-Namnet `copy-brains` behålls för befintliga klientkopplingar. Detta kommando kör MCP lokalt via stdio; webbservern behöver inte vara igång. Publika anslutningar använder OAuth och https://sigge.si/mcp, se `/connect`. En ny chatt kan behövas efter registrering.
+Namnet `copy-brains` behålls för befintliga klientkopplingar. Detta kommando kör MCP lokalt via stdio; webbservern behöver inte vara igång. Den publika adressen är https://sigge.si/mcp och kräver ingen inloggning, se `/connect`. En ny chatt kan behövas efter registrering.
 
 | Verktyg | Funktion |
 | --- | --- |
@@ -80,7 +80,7 @@ Namnet `copy-brains` behålls för befintliga klientkopplingar. Detta kommando k
 
 Ange `language: "en"` för engelska svar i MCP; svenska är standard. `get_swedish_writing_guide` ger alltid svenska. CLI kan köras med `COPY_BRAINS_LANGUAGE=en`. Servern har också två färdiga prompter, `write` och `check`, för klienter som visar MCP-prompter.
 
-Alla verktyg är läsande och anropar ingen språkmodell; `check_ai_patterns` kör samma mönsterkoll som webben. Publik åtkomst kontrollerar inloggning och samtycke i kontodatabasen. Biblioteket sparar inte frågorna. Din AI-klients datahantering gäller separat. Webbhotellet behandlar normala trafikuppgifter; det finns ingen egen analys- eller spårningskod i appen.
+Alla verktyg är läsande och anropar ingen språkmodell; `check_ai_patterns` kör samma mönsterkoll som webben. Den publika adressen är öppen för alla och har en spärr per IP-adress mot överbelastning. Biblioteket sparar inte frågorna. Din AI-klients datahantering gäller separat. Webbhotellet behandlar normala trafikuppgifter; det finns ingen egen analys- eller spårningskod i appen.
 
 ## Valfria lokala fördjupningskällor
 
@@ -96,7 +96,7 @@ Samlingen distribueras inte i detta repo och laddas inte ner automatiskt. Urspru
 npm run build
 ```
 
-Det kör TypeScript-kontroll, tester av sökning, profiler, skrivunderlag, HTTP och en riktig MCP-klient samt bygger webbläsarkoden. Sidmallarna ligger i `client/pages/`, språktexterna i `client/messages.js` och webbläsarkoden i `client/`. Bygget skapar svenska och engelska HTML-sidor och JS-paket i `public/`; redigera källorna, inte de genererade filerna. Ramverken finns i `data/copy-frameworks/`, profilerna i `data/people/` och fullständiga engelska tillämpningar i `data/translations/en/`. Bygget stoppar om katalogöversättningar saknas. `app.ts` exporterar Express-appen för Vercel. `vercel.json` anger byggkontroll, inkluderade datafiler och säkerhetsheaders. Skrivverkstaden fungerar utan hemligheter. Konton och publik MCP kräver konfigurationen i `.env.example`; se `docs/accounts.md`.
+Det kör TypeScript-kontroll, tester av sökning, profiler, skrivunderlag, HTTP och en riktig MCP-klient samt bygger webbläsarkoden. Sidmallarna ligger i `client/pages/`, språktexterna i `client/messages.js` och webbläsarkoden i `client/`. Bygget skapar svenska och engelska HTML-sidor och JS-paket i `public/`; redigera källorna, inte de genererade filerna. Ramverken finns i `data/copy-frameworks/`, profilerna i `data/people/` och fullständiga engelska tillämpningar i `data/translations/en/`. Bygget stoppar om katalogöversättningar saknas. `app.ts` exporterar Express-appen för Vercel. `vercel.json` anger byggkontroll, inkluderade datafiler och säkerhetsheaders. Hela tjänsten fungerar utan hemligheter och utan databas.
 
 [Driftinstruktioner](docs/deployment.md), [ramverksurval och research](docs/framework-research.md), [skrivprov](examples/svenska-copyprov.md) och [valideringens gränser](docs/validation.md).
 
@@ -108,15 +108,15 @@ Upstreams webbapp, kontosystem, e-postkod, databas och textsamlingar ingår inte
 
 ## Content and takedowns
 
-Kod och egna tillämpningar är MIT-licensierade. Licensen omfattar inte de externa originalverk som källänkarna pekar på. Rapportera rättelser eller rättighetsfrågor via [repots issues](https://github.com/Ac0AI/copybiblioteket/issues). Fiktiva exempel är inte kundbevis; ramverken innebär ingen garanti om konvertering.
+Kod och egna tillämpningar är MIT-licensierade. Licensen omfattar inte de externa originalverk som källänkarna pekar på. Rapportera rättelser eller rättighetsfrågor via [repots issues](https://github.com/Ac0AI/sigge/issues). Fiktiva exempel är inte kundbevis; ramverken innebär ingen garanti om konvertering.
 
-## Skrivverkstaden utan konto
+## Skrivverkstaden på webben
 
 Börja med uppgift, mottagare och fakta. Under **Fler inställningar** finns textens språk, format, röstprov och personval. **Skapa skrivunderlag** sammanställer brief, högst tre ramverk, högst tre personperspektiv och skrivguiden för valt språk i webbläsaren. Kopiera det till din AI-chatt. Befintlig text kan bearbetas med ett separat ändringsunderlag. Textredigering, nedladdning och frivillig lokal lagring fungerar utan konto.
 
-**Fakta och villkor i en brief skickas inte till ett API av den publika skrivverkstaden.** Biblioteket laddas via läsande API:er. Kopiering till en annan AI-tjänst är användarens eget steg. Field Notes länkas till AC0:s befintliga engelska brev. Ett verifierat konto kan uttryckligen välja att prenumerera; inget läggs till automatiskt.
+**Fakta och villkor i en brief skickas inte till ett API av den publika skrivverkstaden.** Biblioteket laddas via läsande API:er. Kopiering till en annan AI-tjänst är användarens eget steg.
 
-[Svenska](https://sigge.si/) och [English](https://sigge.si/en/) har egna adresser för skrivverkstad, ramverk, profiler och kontoanslutning. Språkbytet sker på plats och behåller pågående arbete. Textens språk går att välja separat; utan ett uttryckligt val följer det gränssnittet. Lokal lagring är alltid frivillig. Exempelanteckningar är kommentarer till ett färdigskrivet, fiktivt exempel och granskar inte användarens text.
+[Svenska](https://sigge.si/) och [English](https://sigge.si/en/) har egna adresser för skrivverkstad, ramverk, profiler och anslutning. Språkbytet sker på plats och behåller pågående arbete. Textens språk går att välja separat; utan ett uttryckligt val följer det gränssnittet. Lokal lagring är alltid frivillig. Exempelanteckningar är kommentarer till ett färdigskrivet, fiktivt exempel och granskar inte användarens text.
 
 Läsande API:er väljer språk med `?lang=en` eller `?lang=sv`. Kategori- och person-id:n är stabila mellan språken.
 

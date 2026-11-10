@@ -1,6 +1,5 @@
 import express from 'express';
-import { mountAccounts } from './account-http.js';
-import type { AuthRuntime } from './auth.js';
+import { mountMcp } from './mcp-http.js';
 import { join } from 'node:path';
 import { z } from 'zod';
 import { ROOT, type CopyLibrary } from './library.js';
@@ -8,7 +7,7 @@ import { languageFrom } from './locale.js';
 import { studioRouter } from './studio-http.js';
 import { personSchema, searchInput } from './schema.js';
 
-export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
+export function createApp(library: CopyLibrary) {
   const app = express();
   const current = (req: express.Request) => library.forLanguage(languageFrom(req.query.lang));
   const message = (req: express.Request, sv: string, en: string) => req.query.lang === 'en' ? en : sv;
@@ -18,7 +17,7 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
     res.set('Content-Security-Policy', "default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'");
     next();
   });
-  mountAccounts(app,accounts,library);
+  mountMcp(app,library);
   app.use(express.json({ limit: '64kb' }));
   app.use('/api', (req, res, next) => {
     res.set('Cache-Control', 'no-store');
@@ -27,7 +26,7 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
     }
     next();
   });
-  app.use(studioRouter(library,!!accounts));
+  app.use(studioRouter(library));
   app.get('/api/health', (_req, res) => res.json({status:'ok',frameworks:library.frameworks.length,people:library.people.length,sourceMode:library.sourceMode}));
   app.get('/api/people', (req, res) => res.json({people:current(req).people,notice:current(req).notice.profile,language:current(req).language}));
   app.get('/api/people/:id', (req, res) => {
@@ -55,7 +54,7 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
   for (const language of ['sv','en']) {
     const prefix = language === 'en' ? '/en' : '';
     const dir = language === 'en' ? 'en' : '';
-    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html'],['/connect','connect.html'],['/consent','consent.html'],['/privacy','privacy.html'],['/notes','notes.html']]) {
+    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html'],['/connect','connect.html'],['/privacy','privacy.html']]) {
       app.get(prefix + route, (_req, res) => res.sendFile(join(ROOT,'public',dir,file)));
     }
     // Server-rendered entries: only known ids reach the file system.
@@ -63,7 +62,7 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
     app.get(prefix + '/library/:id', (req, res, next) => library.get(req.params.id) ? res.sendFile(join(ROOT,'public',dir,'frameworks',req.params.id+'.html')) : next());
   }
   app.get('/sitemap.xml', (_req, res) => res.type('application/xml').sendFile(join(ROOT,'public','sitemap.xml')));
-  for (const file of ['studio-app.js','library.js','people.js','connect.js','page.js','notes.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
+  for (const file of ['studio-app.js','library.js','people.js','connect.js','page.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
   app.use(express.static(join(ROOT,'public')));
   app.use('/api', (req, res) => {res.status(404).json({error:message(req,'Sidan finns inte.','Page not found.')});});
   app.use((err: unknown, req: express.Request, res: express.Response, _next: express.NextFunction) => {

@@ -27,7 +27,7 @@ test('editor failure never returns an unreviewed success',async()=>{
 test('brief validation rejects impossible formats, oversized data and empty revision sources',()=>{
   for(const change of [{mode:'revise',sourceText:''},{channel:'unknown'},{facts:'x'.repeat(5001)},{task:'short'},{unknown:'key'}])assert.equal(studioInput.safeParse({...brief,...change}).success,false);
 });
-test('public routes cannot invoke AI, create accounts or subscribe while access is deferred',async()=>{
+test('public routes cannot invoke AI, create accounts or subscribe',async()=>{
   const server=createApp(library).listen(0,'127.0.0.1');await once(server,'listening');
   const base='http://127.0.0.1:'+(server.address() as AddressInfo).port;
   try{
@@ -37,7 +37,7 @@ test('public routes cannot invoke AI, create accounts or subscribe while access 
     assert.equal((await post('/api/auth/sign-up/email',{email:'x@example.com',password:'password'})).status,404);
     assert.equal((await post('/api/fieldnotes',{consent:true})).status,404);
     assert.equal((await post('/api/fieldnotes',{consent:false})).status,404);
-    assert.deepEqual(await(await fetch(base+'/api/account')).json(),{user:null});
+    assert.equal((await post('/api/auth/email-otp/send-verification-otp',{email:'x@example.com',type:'sign-in'})).status,404);
     assert.equal((await fetch(base+'/library')).status,200);
     assert.equal((await fetch(base+'/people')).status,200);
     const kit=await (await fetch(base+'/api/writing-kit')).json();

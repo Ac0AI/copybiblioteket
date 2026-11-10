@@ -1,6 +1,6 @@
 # Sigge connected: the full library
 
-The skill works on its own. Connecting Sigge (https://sigge.si/connect, free, sign in with an email code) adds 59 perspectives, source search and a kit that picks frameworks for the task. The tools are read-only, call no language model and save no text.
+The skill works on its own. The plugin also connects to https://sigge.si/mcp, which adds 59 perspectives, source search and a kit that picks frameworks for the task. There is no account and nothing to sign in to. The tools are read-only, call no language model and save no text. If the connection is unavailable, carry on with the files in this skill.
 
 - `get_writing_kit`: start here. One call with the task returns the working order, up to three frameworks, up to two perspectives, channel guidance and the writing guide.
 - `check_ai_patterns`: the same pattern check as `scripts/check.mjs`.

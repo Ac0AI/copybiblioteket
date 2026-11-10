@@ -1,15 +1,15 @@
 {
-  "name": "copybiblioteket",
+  "name": "sigge",
   "version": "1.0.0",
   "description": "Sigge: a source-backed copy library, MCP server and plugin with original Swedish and English applications.",
   "license": "MIT",
   "homepage": "https://sigge.si",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ac0AI/copybiblioteket.git"
+    "url": "https://github.com/Ac0AI/sigge.git"
   },
   "bugs": {
-    "url": "https://github.com/Ac0AI/copybiblioteket/issues"
+    "url": "https://github.com/Ac0AI/sigge/issues"
   },
   "keywords": [
     "mcp",
@@ -33,19 +33,13 @@
     "test": "tsx --test copy/tests/*.test.ts",
     "smoke": "tsx --test copy/tests/http.test.ts copy/tests/mcp.test.ts",
     "build": "npm run typecheck && npm run build:client && npm test",
-    "build:client": "tsx scripts/build-pages.mjs && esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js && esbuild client/library.js client/people.js client/connect.js client/page.js client/notes.js --bundle --format=esm --target=es2022 --minify --outdir=public",
+    "build:client": "tsx scripts/build-pages.mjs && esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js && esbuild client/library.js client/people.js client/connect.js client/page.js --bundle --format=esm --target=es2022 --minify --outdir=public",
     "build:plugin": "tsx scripts/build-plugin.mjs"
   },
   "dependencies": {
-    "@better-auth/cimd": "1.7.14",
-    "@better-auth/mcp": "1.7.14",
-    "@libsql/kysely-libsql": "0.4.1",
     "@modelcontextprotocol/sdk": "^1.29.0",
     "@vercel/oidc": "^4.0.4",
-    "better-auth": "1.7.14",
     "express": "^4.21.2",
-    "kysely": "0.29.7",
-    "resend": "6.35.0",
     "tsx": "^4.19.2",
     "zod": "^4.4.3"
   },

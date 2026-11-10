@@ -1,45 +1,30 @@
-<!doctype html><html lang="{{language}}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f4ee"><title data-i18n="connectTitle"></title><meta name="description" data-i18n-content="connectDescription" content=""><meta property="og:title" data-i18n-content="connectTitle" content=""><meta property="og:description" data-i18n-content="connectDescription" content=""><meta property="og:url" content="{{canonical}}"><meta property="og:type" content="website"><meta property="og:image" content="https://sigge.si/og.png"><meta name="twitter:card" content="summary_large_image"><meta property="og:video" data-i18n-content="connectVideo" content=""><meta property="og:video:type" content="video/mp4"><link rel="canonical" href="{{canonical}}"><link rel="alternate" hreflang="sv" href="https://sigge.si/connect"><link rel="alternate" hreflang="en" href="https://sigge.si/en/connect"><link rel="alternate" hreflang="x-default" href="https://sigge.si/connect"><link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/navigation.css"><link rel="stylesheet" href="/film-connect.css"><link rel="stylesheet" href="/connect.css"><script src="/connect.js" type="module"></script></head><body><a class="skip" href="#account" data-i18n="skip"></a>
+<!doctype html><html lang="{{language}}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f4ee"><title data-i18n="connectTitle"></title><meta name="description" data-i18n-content="connectDescription" content=""><meta property="og:title" data-i18n-content="connectTitle" content=""><meta property="og:description" data-i18n-content="connectDescription" content=""><meta property="og:url" content="{{canonical}}"><meta property="og:type" content="website"><meta property="og:image" content="https://sigge.si/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="{{canonical}}"><link rel="alternate" hreflang="sv" href="https://sigge.si/connect"><link rel="alternate" hreflang="en" href="https://sigge.si/en/connect"><link rel="alternate" hreflang="x-default" href="https://sigge.si/connect"><link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/site.css"><link rel="stylesheet" href="/navigation.css"><link rel="stylesheet" href="/film-connect.css"><link rel="stylesheet" href="/connect.css"><script src="/connect.js" type="module"></script></head><body><a class="skip" href="#connect" data-i18n="skip"></a>
 {{header}}
-<main id="account" class="connect-main">
-  <div id="account-notice" class="notice" role="status" aria-live="polite" hidden></div>
+<main id="connect" class="connect-main">
+  <div id="connect-notice" class="notice" role="status" aria-live="polite" hidden></div>
   <section class="connect-hero">
     <div class="connect-intro"><p class="eyebrow" data-i18n="connectEyebrow"></p><h1 class="display" data-i18n="connectHeading"></h1><p class="lead" data-i18n="connectIntro"></p>
-      <ol class="connect-steps"><li data-i18n="connectStepOne"></li><li data-i18n="connectStepTwo"></li><li data-i18n="connectStepThree"></li></ol>
+      <ol class="connect-steps"><li data-i18n="connectStepOne"></li><li data-i18n="connectStepTwo"></li></ol>
     </div>
     {{filmConnect}}
   </section>
   <section class="clients plugin-install" aria-labelledby="plugin-heading">
     <div class="clients-head"><h2 id="plugin-heading" class="section-title" data-i18n="pluginHeading"></h2><p data-i18n="pluginIntro"></p></div>
     <div class="client-cards">
-      <section class="client-card is-recommended"><p class="client-badge" data-i18n="clientEasiest"></p><h3>Claude</h3><p class="client-where" data-i18n="pluginClaudeWhere"></p><p data-i18n="pluginClaudeSteps"></p><code id="plugin-repo">Ac0AI/copybiblioteket</code><button id="copy-plugin-repo" class="button primary full" data-i18n="pluginCopyRepo"></button></section>
-      <section class="client-card"><h3>Claude Code</h3><p class="client-where" data-i18n="claudeCodeWhere"></p><p data-i18n="pluginCodeSteps"></p><code id="plugin-claude-command">/plugin install sigge --marketplace Ac0AI/copybiblioteket</code><button id="copy-plugin-claude" class="button outlined" data-i18n="copyCommand"></button></section>
-      <section class="client-card"><h3>Codex</h3><p class="client-where" data-i18n="pluginCodexWhere"></p><p data-i18n="pluginCodexSteps"></p><code id="plugin-codex-command">codex plugin marketplace add Ac0AI/copybiblioteket &amp;&amp; codex plugin add sigge@sigge</code><button id="copy-plugin-codex" class="button outlined" data-i18n="copyCommand"></button></section>
+      <section class="client-card is-recommended"><p class="client-badge" data-i18n="clientEasiest"></p><h3>Claude</h3><p class="client-where" data-i18n="pluginClaudeWhere"></p><p data-i18n="pluginClaudeSteps"></p><code id="plugin-repo">Ac0AI/sigge</code><button id="copy-plugin-repo" class="button primary full" data-i18n="pluginCopyRepo"></button></section>
+      <section class="client-card"><h3>Claude Code</h3><p class="client-where" data-i18n="claudeCodeWhere"></p><p data-i18n="pluginCodeSteps"></p><code id="plugin-claude-command">/plugin install sigge --marketplace Ac0AI/sigge</code><button id="copy-plugin-claude" class="button outlined" data-i18n="copyCommand"></button></section>
+      <section class="client-card"><h3>Codex</h3><p class="client-where" data-i18n="pluginCodexWhere"></p><p data-i18n="pluginCodexSteps"></p><code id="plugin-codex-command">codex plugin marketplace add Ac0AI/sigge &amp;&amp; codex plugin add sigge@sigge</code><button id="copy-plugin-codex" class="button outlined" data-i18n="copyCommand"></button></section>
     </div>
     <div class="connect-example"><h2 data-i18n="firstPromptTitle"></h2><p class="first-prompt" data-i18n="pluginTry"></p><p class="connect-small" data-i18n="ownAI"></p></div>
   </section>
   <section class="clients" aria-labelledby="clients-heading">
     <div class="clients-head"><h2 id="clients-heading" class="section-title" data-i18n="clientsHeading"></h2><p data-i18n="clientsIntro"></p></div>
     <div class="client-cards">
-      <section class="client-card"><h3>Claude</h3><p class="client-where" data-i18n="claudeAppWhere"></p><ol class="client-steps"><li data-i18n="claudeAppStepOne"></li><li data-i18n="claudeAppStepTwo"></li><li data-i18n="claudeAppStepThree"></li></ol><code id="claude-url">https://sigge.si/mcp</code><button id="copy-claude-url" class="button outlined" data-i18n="copyAddress"></button></section>
+      <section class="client-card"><h3>Claude</h3><p class="client-where" data-i18n="claudeAppWhere"></p><ol class="client-steps"><li data-i18n="claudeAppStepOne"></li><li data-i18n="claudeAppStepTwo"></li></ol><code id="claude-url">https://sigge.si/mcp</code><button id="copy-claude-url" class="button outlined" data-i18n="copyAddress"></button></section>
       <section class="client-card"><h3>ChatGPT</h3><p class="client-where" data-i18n="chatgptWhere"></p><p data-i18n="chatgptInstructions"></p><code id="mcp-url">https://sigge.si/mcp</code><div class="client-actions"><button id="copy-mcp" class="button outlined" data-i18n="copyAddress"></button><a class="button subtle" href="https://chatgpt.com/plugins" target="_blank" rel="noopener noreferrer" data-i18n="openPlugins"></a></div></section>
       <section class="client-card"><h3>Claude Code</h3><p class="client-where" data-i18n="claudeCodeWhere"></p><p data-i18n="claudeInstructions"></p><code id="claude-command">claude mcp add --transport http --scope user sigge https://sigge.si/mcp</code><button id="copy-command" class="button outlined" data-i18n="copyCommand"></button></section>
     </div>
     <div class="connect-example"><h2 data-i18n="firstPromptTitle"></h2><p class="first-prompt" data-i18n="firstPrompt"></p><p class="connect-small" data-i18n="ownAI"></p></div>
-  </section>
-  <section class="account-area" aria-labelledby="account-area-heading">
-    <h1 class="oauth-heading" data-i18n="oauthHeading"></h1>
-    <div class="clients-head"><h2 id="account-area-heading" class="section-title" data-i18n="accountAreaHeading"></h2><p data-i18n="accountAreaIntro"></p></div>
-    <div class="account-grid">
-      <section class="account-card">
-        <div id="sign-in"><h2 data-i18n="accountHeading"></h2><p data-i18n="accountIntro"></p><form id="email-form"><label for="account-email-input" data-i18n="emailLabel"></label><input id="account-email-input" type="email" name="email" required autocomplete="email" maxlength="254" data-i18n-placeholder="emailPlaceholder" placeholder=""><button id="send-code" class="button primary large full" data-i18n="sendCode"></button></form><form id="code-form" hidden><p id="code-email"></p><label for="code" data-i18n="codeLabel"></label><input id="code" type="text" name="code" inputmode="numeric" pattern="[0-9]{6}" minlength="6" maxlength="6" required autocomplete="one-time-code" aria-describedby="code-help"><p id="code-help" class="connect-small" data-i18n="codeHelp"></p><label class="newsletter-label"><input id="newsletter" type="checkbox"><span data-i18n="newsletterChoice"></span></label><p class="connect-small" data-i18n="newsletterDetail"></p><button id="verify-code" class="button primary large full" data-i18n="verifyCode"></button><button id="change-email" class="text-button" type="button" data-i18n="changeEmail"></button></form></div>
-        <div id="signed-in" hidden><p class="card-step is-done">✓</p><h2 data-i18n="accountReady"></h2><p id="account-email"></p><div class="account-actions"><button id="sign-out" class="button outlined" data-i18n="signOut"></button><button id="delete-account" class="text-button danger" type="button" data-i18n="deleteAccount"></button></div></div>
-        <div class="account-privacy connect-small"><p data-i18n="accountPrivacy"></p><p><a data-route="/privacy" data-i18n="privacyFull"></a></p></div>
-      </section>
-      <div>
-        <section id="connections" class="account-card" hidden><h2 data-i18n="connectionsTitle"></h2><p id="no-connections" data-i18n="noConnections"></p><ul id="connection-list" class="connection-list"></ul></section>
-        <section id="newsletter-account" class="account-card" hidden><h2>AC0 Field Notes</h2><p id="notes-state"></p><button id="notes-join" class="button outlined" data-i18n="notesJoin"></button><p><a href="https://www.ac0.ai/en/field-notes" target="_blank" rel="noopener noreferrer" data-i18n="fieldNotesLink"></a></p></section>
-      </div>
-    </div>
   </section>
 </main>
 {{footer}}

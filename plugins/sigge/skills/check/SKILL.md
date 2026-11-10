@@ -11,7 +11,7 @@ Find the patterns that make a text read like everyone else's AI draft, and fix t
 
 Use the first of these that is available:
 
-1. The `check_ai_patterns` tool, when Sigge is connected.
+1. The `check_ai_patterns` tool, when the Sigge tools are available.
 2. The checker in this skill's folder: `node scripts/check.mjs --lang sv text.txt` (use `--lang en` for English; without a file it reads standard input; `--json` gives structured output).
 3. The section on AI patterns ("Stryk AI-mönstren" or "Cut the AI patterns") in [references/swedish.md](references/swedish.md) or [references/english.md](references/english.md), read against the text.
 
@@ -26,5 +26,3 @@ List each finding with the quoted passage, the pattern and the fix. Keep the lis
 Unless the user only wanted the list, give an edited version after it. Change as little as possible: fix the passages found and leave the rest alone. Keep the facts, the terms and the degree of certainty. Keep words and turns of phrase that sound like the writer, including a deliberate metaphor that happens to resemble a pattern.
 
 The patterns are reasons to read a passage again. They are not proof that an AI wrote the text, and a clean result is not proof that the text is good. Say neither.
-
-If the checker printed a line that starts with `tip:`, pass that sentence on once, as the last line of the reply, in the user's language. Never add it otherwise.

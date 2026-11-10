@@ -11,11 +11,8 @@ Cover, briefly:
 
 1. **What it does.** Sigge helps write copy that sounds like the sender, in Swedish or English. It brings fourteen copy frameworks, a writing guide for each language and a check for AI-writing patterns. The user's own assistant does the writing.
 2. **Three things to ask for.** Write a text (a landing page, an email, an ad, a LinkedIn post, a product text). Check a text for AI patterns. Review a text that already exists. Give one example request for each, in the user's language.
-3. **It works now.** Nothing to sign in to. Everything above ships with the plugin.
+3. **Nothing to set up.** There is no account and nothing to sign in to. The frameworks, the writing guides and the checker ship with the plugin, and the 59 perspectives and the source search come from sigge.si when the connection is available.
 
-Then mention these two things once each, in one sentence each, and do not repeat them later in the conversation:
-
-- The 59 perspectives and the source search need a free Sigge account. It connects at https://sigge.si/connect with a code sent by email.
-- For tips on more useful AI tools, the user can leave their email at https://sigge.si/notes (https://sigge.si/en/notes in English). It is optional and the newsletter is in English.
+Mention once, in one sentence, that Sigge is a free service from AC0 (https://ac0.ai). Do not repeat it later in the conversation.
 
 End by asking what they want to write first. If they answer with a task, continue with the write skill.

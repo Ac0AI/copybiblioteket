@@ -39,8 +39,7 @@ test('both languages work without account configuration and the public AI route 
     }
     assert.equal((await fetch(base+'/api/people?lang=de')).status,400);
     assert.equal((await fetch(base+'/api/people?lang=en&lang=sv')).status,400);
-    assert.deepEqual(await (await fetch(base+'/api/connection')).json(),{enabled:false,mcpURL:null});
-    assert.equal((await fetch(base+'/mcp',{method:'POST'})).status,503);
+    for(const gone of ['/consent','/en/consent','/notes','/api/connection','/api/account'])assert.equal((await fetch(base+gone)).status,404,gone);
     for(const asset of ['/studio-app.js','/library.js','/people.js','/connect.js','/connect.css','/navigation.css'])assert.equal((await fetch(base+asset)).status,200);
   }finally{await new Promise<void>((resolve,reject)=>server.close(error=>error?reject(error):resolve()));}
 });

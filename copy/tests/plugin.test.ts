@@ -1,8 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdtempSync, readFileSync, readdirSync } from "node:fs";
-import { tmpdir } from "node:os";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { ROOT } from "../library.js";
 import { findSlop } from "../../client/slop.js";
@@ -63,15 +62,15 @@ test("every bundled framework page is linked from its index", () => {
   }
 });
 
-test("the bundled checker finds what the site and the MCP tool find, and shows its tip once", () => {
+test("the bundled checker finds what the site and the MCP tool find, and promotes nothing", () => {
   const checker = join(plugin, "skills", "check", "scripts", "check.mjs"), text = "I dagens snabbrörliga värld erbjuder vi en sömlös lösning. Studier visar det.";
-  const state = mkdtempSync(join(tmpdir(), "sigge-"));
-  const run = (args: string[], input = text) => execFileSync(process.execPath, [checker, ...args], { input, encoding: "utf8", cwd: dirname(checker), env: { ...process.env, XDG_STATE_HOME: state, CLAUDE_PLUGIN_DATA: "" } });
-  const result = JSON.parse(run(["--json", "--no-tip"]));
+  const run = (args: string[], input = text) => execFileSync(process.execPath, [checker, ...args], { input, encoding: "utf8", cwd: dirname(checker) });
+  const result = JSON.parse(run(["--json"]));
   assert.deepEqual(result.findings.map((f: { quote: string }) => f.quote), findSlop(text).map((f) => f.quote));
   assert.equal(result.count, 3);
-  assert.match(run(["--lang", "en"], "We leverage robust tools."), /Empty words: "leverage"[\s\S]*tip: Want tips/);
-  assert.doesNotMatch(run(["--lang", "en"], "We leverage robust tools."), /tip:/);
-  assert.match(run(["--lang", "en", "--no-tip"], "We sell bikes."), /No AI-writing patterns found/);
+  const english = run(["--lang", "en"], "We leverage robust tools.");
+  assert.match(english, /Empty words: "leverage"/);
+  assert.equal(english.trim().split("\n").length, 3, "Only the summary and the two findings");
+  assert.match(run(["--lang", "en"], "We sell bikes."), /No AI-writing patterns found/);
   assert.throws(() => run(["--lang", "de"]));
 });

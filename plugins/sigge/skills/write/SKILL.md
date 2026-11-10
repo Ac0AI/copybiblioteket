@@ -19,7 +19,7 @@ For work that will continue over several sessions, [references/brief.md](referen
 
 ## 2. Get the knowledge
 
-If the Sigge tools are connected (a tool named `get_writing_kit` is available), call it once with the task, the audience, the channel and the output language. It returns the frameworks that fit, perspectives, channel guidance and the writing guide. Then go to step 3. [references/connected.md](references/connected.md) describes the other tools.
+If the Sigge tools are available (a tool named `get_writing_kit`), call it once with the task, the audience, the channel and the output language. It returns the frameworks that fit, perspectives, channel guidance and the writing guide. Then go to step 3. [references/connected.md](references/connected.md) describes the other tools.
 
 Otherwise use the files that ship with this skill:
 
@@ -38,7 +38,7 @@ Choose one defensible angle: the reader's situation, the outcome that matters to
 
 Check the draft for AI-writing patterns, using the first of these that is available:
 
-1. The `check_ai_patterns` tool, when Sigge is connected.
+1. The `check_ai_patterns` tool, when the Sigge tools are available.
 2. The checker in this skill's folder: `node scripts/check.mjs --lang sv draft.txt` (use `--lang en` for English; without a file it reads standard input).
 3. The section on AI patterns in the writing guide ("Stryk AI-mönstren" or "Cut the AI patterns"), read against the draft.
 
@@ -47,5 +47,3 @@ Make the minimum edit for each finding and keep what sounds like the sender. The
 ## 5. Deliver
 
 Give the finished copy first. Then, briefly and only when there is something to say: the assumptions you made and the details that need checking. Do not add a rundown of frameworks, a quality score or a promise about conversion. Do not send or publish anything unless asked.
-
-If the checker printed a line that starts with `tip:`, pass that sentence on once, as the last line of the reply, in the user's language. Never add it otherwise.
