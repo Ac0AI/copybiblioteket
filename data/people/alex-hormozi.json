@@ -2,21 +2,46 @@
   "id": "alex-hormozi",
   "name": "Alex Hormozi",
   "category": "Erbjudande",
-  "summary": "Ett erbjudande som går att förstå och värdera",
+  "summary": "Gör erbjudandet tydligt och hitta hindret för tillväxt",
   "topics": [
     "pris",
     "paketering",
     "nytta",
     "erbjudande",
-    "fokus"
+    "värdeekvation",
+    "kundanskaffning",
+    "försäljning",
+    "affärsmodell",
+    "flaskhals",
+    "fokus",
+    "rubriker",
+    "annonser",
+    "kundbevis",
+    "uppföljning",
+    "kundlojalitet"
   ],
   "principles": [
-    "Beskriv vad kunden får, vad det kräver och vilka belägg som finns.",
-    "Låt varje bonus lösa ett faktiskt hinder. Sätt inga tidsgränser som verksamheten inte har."
+    "Beskriv kundens önskade resultat och vad som gör det trovärdigt. Visa när nyttan börjar och vilket arbete kunden själv behöver göra.",
+    "Gör erbjudandet lätt att värdera: ange vad som ingår, vad det kostar och vilka belägg och villkor som finns. Låt varje bonus lösa ett faktiskt hinder.",
+    "Börja en annons eller text med en situation, fråga eller nytta som är relevant för rätt mottagare. Pröva olika öppningar och se vad som får människor att fortsätta läsa eller agera.",
+    "Välj belägg som svarar på köparens faktiska tvivel: en demonstration, ett relevant kundexempel eller verifierbara fakta. Beskriv sammanhang och begränsningar; hitta inte på resultat eller kundcitat.",
+    "Följ upp ett visat intresse med något mottagaren har nytta av och ett tydligt nästa steg. Anpassa innehåll och kanal efter relationen och ge möjlighet att tacka nej till fortsatta utskick.",
+    "Efter köpet: förklara hur kunden kommer igång, vad som händer härnäst och var hjälp finns. Undersök varför kunder stannar eller lämnar innan ni ändrar budskap eller arbetssätt.",
+    "Välj sätt att nå kunder utifrån resurser och den största begränsningen: kontakt med befintliga relationer, uppsökande kontakt, innehåll eller annonser. Mät vad som händer innan du breddar.",
+    "Undersök var tillväxten faktiskt stannar: efterfrågan, köpbeslut, leverans eller återköp. Börja med det hinder som underlaget pekar på, inte en färdig standardlösning.",
+    "Pröva pris och affärsmodell mot kundvärde, kostnader och leveranskapacitet. Engångsköp, återkommande intäkter och tillägg kan ge olika resultat; höj inte priset enbart för att en modell säger det.",
+    "Sätt inga tidsgränser, garantier eller resultatlöften som verksamheten inte kan hålla. Använd konkreta exempel och siffror bara när de har stöd i underlaget."
   ],
   "questions": [
-    "Vad ingår och vad ingår inte?",
-    "Vilken osäkerhet måste köparen få svar på?"
+    "Vilket resultat vill kunden uppnå, och varför skulle kunden tro att erbjudandet kan hjälpa?",
+    "Vad ingår och vad ingår inte? När kommer den första nyttan och vad behöver kunden göra själv?",
+    "Var tappar ni flest möjliga kunder: när de ska hitta, förstå, köpa eller fortsätta använda erbjudandet?",
+    "Vilken kanal går att prova med era resurser, och vad skulle ni mäta?",
+    "Hur påverkar pris, leveranskostnad och återköp möjligheten att leverera när försäljningen ökar?",
+    "Vilken öppning gör ämnet relevant för just den här mottagaren, och hur kan ni jämföra olika varianter?",
+    "Vilket verkligt belägg besvarar den viktigaste invändningen, och vad visar det inte?",
+    "Vad behöver mottagaren veta efter första kontakten och efter köpet för att kunna ta nästa steg?",
+    "När börjar kunden få nytta, och vad berättar kunder som stannar eller lämnar?"
   ],
   "sources": [
     {
@@ -30,6 +55,18 @@
     {
       "title": "13 Years of Brutal Business Truths: Priorities, Talent, Brand and Getting Better",
       "url": "https://www.youtube.com/watch?v=KhFlD54nQrY"
+    },
+    {
+      "title": "Alex Hormozi on Jay Shetty: first dollar, core four, closer, and money models",
+      "url": "https://www.youtube.com/watch?v=gEF67-G9MO0"
+    },
+    {
+      "title": "13 Years of Marketing Advice: Hormozi's 13 Rules for Scaling Ads, Offers and LTV to CAC",
+      "url": "https://www.youtube.com/watch?v=reisEL_D7xc"
+    },
+    {
+      "title": "Alex Hormozi: Learn Email Marketing in 39 Minutes!",
+      "url": "https://www.youtube.com/watch?v=pLhQOYMGa88"
     }
   ],
   "provenance": {

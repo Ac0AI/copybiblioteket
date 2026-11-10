@@ -17,21 +17,46 @@
     ]
   },
   "alex-hormozi": {
-    "summary": "An offer people can understand and assess",
+    "summary": "Make the offer clear and find the constraint on growth",
     "topics": [
       "price",
       "packaging",
       "value",
       "offer",
-      "focus"
+      "value equation",
+      "customer acquisition",
+      "sales",
+      "business model",
+      "bottleneck",
+      "focus",
+      "headlines",
+      "ads",
+      "customer proof",
+      "follow-up",
+      "retention"
     ],
     "principles": [
-      "Explain what the customer gets, what it takes and what evidence supports it.",
-      "Let each bonus address a real obstacle. Do not add deadlines the business does not have."
+      "Describe the outcome the customer wants and what makes it credible. Show when the benefit begins and what work the customer must still do.",
+      "Make the offer easy to assess: state what is included, what it costs, and what evidence and terms apply. Let each bonus address a real obstacle.",
+      "Open an ad or piece of copy with a situation, question, or benefit relevant to the intended reader. Try different openings and see which ones encourage people to keep reading or take action.",
+      "Choose evidence that answers the buyer’s actual concern: a demonstration, a relevant customer example, or verifiable facts. Explain the context and limits; do not invent results or testimonials.",
+      "Follow up expressed interest with something useful to the recipient and a clear next step. Match the message and channel to the relationship, and give people a way to opt out of further messages.",
+      "After purchase, explain how to get started, what happens next, and where to find help. Investigate why customers stay or leave before changing the message or process.",
+      "Choose how to reach customers based on resources and the main constraint: contact existing relationships, reach out to new prospects, publish content, or advertise. Measure what happens before expanding.",
+      "Examine where growth actually stalls: demand, the purchase decision, delivery, or repeat purchases. Start with the obstacle supported by the evidence, not a standard answer.",
+      "Assess pricing and the business model against customer value, costs, and delivery capacity. One-off purchases, recurring revenue, and add-ons can produce different results; do not raise prices solely because a framework suggests it.",
+      "Do not invent deadlines, guarantees, or promises the business cannot keep. Use concrete examples and numbers only when supported by the brief."
     ],
     "questions": [
-      "What is included, and what is not?",
-      "Which uncertainty does the buyer need resolved?"
+      "What outcome does the customer want, and why would they believe the offer can help?",
+      "What is included and excluded? When does the first benefit arrive, and what must the customer do?",
+      "Where are you losing the most potential customers: discovery, understanding, purchase, or continued use?",
+      "Which channel can you test with your resources, and what would you measure?",
+      "How do price, delivery costs, and repeat purchases affect your ability to deliver as sales grow?",
+      "Which opening makes the subject relevant to this reader, and how can you compare alternatives?",
+      "What real evidence addresses the main objection, and what does it not show?",
+      "What does the recipient need to know after first contact and after purchase to take the next step?",
+      "When does the customer begin to benefit, and what do customers who stay or leave tell you?"
     ]
   },
   "alex-slater": {

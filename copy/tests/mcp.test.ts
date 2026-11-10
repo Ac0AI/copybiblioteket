@@ -52,7 +52,15 @@ test("a real stdio MCP client can discover and use the Swedish copy tools", { ti
     const englishGuide=await client.callTool({name:'get_writing_guide',arguments:{language:'en'}});
     assert.match((englishGuide.structuredContent as {guide:string}).guide,/Write directly in English/);
     const englishPerson=await client.callTool({name:'get_copy_person',arguments:{id:'alex-hormozi',language:'en'}});
-    assert.equal((englishPerson.structuredContent as {person:{summary:string}}).person.summary,'An offer people can understand and assess');
+    const englishHormozi=(englishPerson.structuredContent as {person:{principles:string[]}}).person;
+    assert.ok(englishHormozi.principles.some(p=>p.includes('publish content') && p.includes('advertise')));
+    assert.ok(englishHormozi.principles.some(p=>p.includes('evidence') && p.includes('customer example')));
+    assert.ok(englishHormozi.principles.some(p=>p.includes('After purchase')));
+    const swedishPerson=await client.callTool({name:'get_copy_person',arguments:{id:'alex-hormozi'}});
+    const swedishHormozi=(swedishPerson.structuredContent as {person:{principles:string[]}}).person;
+    assert.ok(swedishHormozi.principles.some(p=>p.includes('innehåll') && p.includes('annonser')));
+    assert.ok(swedishHormozi.principles.some(p=>p.includes('belägg') && p.includes('kundexempel')));
+    assert.ok(swedishHormozi.principles.some(p=>p.includes('Efter köpet')));
     // Category ids stay stable; English clients also get an English label.
     const englishPeople=(await client.callTool({name:'list_copy_people',arguments:{language:'en'}})).structuredContent as {people:{id:string,category:string,categoryLabel:string}[]};
     const adam=englishPeople.people.find(p=>p.id==='adam-robinson')!;
