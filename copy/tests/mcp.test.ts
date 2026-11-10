@@ -59,6 +59,17 @@ test("a real stdio MCP client can discover and use the Swedish copy tools", { ti
     assert.deepEqual([adam.category,adam.categoryLabel],['Publik','Audience']);
     const englishList=(await client.callTool({name:'list_copy_frameworks',arguments:{language:'en'}})).structuredContent as {frameworks:{categoryLabel:string}[]};
     assert.ok(englishList.frameworks.every(f=>f.categoryLabel&&!/[åäö]/.test(f.categoryLabel)));
+    assert.ok(tools.every((t) => t.title), "Every tool needs a title for client directories");
+    assert.ok(!("keywords" in data.results[0]), "Search results leave out index keywords");
+    const kit = (await client.callTool({ name: "get_writing_kit", arguments: { task: "Kunderna tycker att priset är för högt, skriv om prissidan", channel: "web" } })).structuredContent as { steps: string[]; frameworks: { id: string }[]; writingGuide: string; channel: string };
+    assert.equal(kit.frameworks[0].id, "hormozi-offer");
+    assert.match(kit.steps.join(" "), /check_ai_patterns/);
+    assert.match(kit.writingGuide, /Självständig svensk copy/);
+    assert.match(kit.channel, /^Webbsida/);
+    const { prompts } = await client.listPrompts();
+    assert.deepEqual(prompts.map((p) => p.name).sort(), ["check", "write"]);
+    const prompt = await client.getPrompt({ name: "write", arguments: { task: "A landing page", language: "en" } });
+    assert.match((prompt.messages[0].content as { text: string }).text, /get_writing_kit with language en/);
     const invalid = await client.callTool({ name: "search_copy_knowledge", arguments: { query: "x" } });
     assert.equal(invalid.isError, true);
   } finally {

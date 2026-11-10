@@ -415,7 +415,7 @@ test("OAuth discovery, PKCE, consent, real remote MCP in both languages and imme
       },
     }),
   );
-  assert.equal((await connection.listTools()).tools.length, 10);
+  assert.equal((await connection.listTools()).tools.length, 11);
   for (const language of ["sv", "en"]) {
     const data = await connection.callTool({
       name: "get_writing_guide",
