@@ -47,7 +47,7 @@ The plugin also connects to `https://sigge.si/mcp`. It adds 59 perspectives, sou
 
 ## Privacy
 
-The skills run in your own assistant, and the checker runs on your computer. Queries sent to `sigge.si/mcp` are answered and not stored; the tools are read-only and call no language model. Sigge has no accounts and sets no cookies. Full policy: [sigge.si/privacy](https://sigge.si/privacy).
+The skills run in your own assistant, and the bundled checker runs wherever your assistant runs it. When the assistant uses the tools at `sigge.si/mcp` instead, the query or text is sent there, answered and not stored; the tools are read-only and call no language model. Sigge has no accounts and sets no cookies. Full policy: [sigge.si/privacy](https://sigge.si/privacy).
 
 ## Limits
 
