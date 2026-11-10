@@ -1,7 +1,7 @@
 {
   "name": "copybiblioteket",
   "version": "1.0.0",
-  "description": "A source-backed copy library with original Swedish applications, Hormozi, Cialdini and a Copy Operator skill.",
+  "description": "Sigge: a source-backed copy library, MCP server and plugin with original Swedish and English applications.",
   "license": "MIT",
   "homepage": "https://sigge.si",
   "repository": {
@@ -33,7 +33,8 @@
     "test": "tsx --test copy/tests/*.test.ts",
     "smoke": "tsx --test copy/tests/http.test.ts copy/tests/mcp.test.ts",
     "build": "npm run typecheck && npm run build:client && npm test",
-    "build:client": "tsx scripts/build-pages.mjs && esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js && esbuild client/library.js client/people.js client/connect.js client/page.js --bundle --format=esm --target=es2022 --minify --outdir=public"
+    "build:client": "tsx scripts/build-pages.mjs && esbuild client/studio.js --bundle --format=esm --target=es2022 --minify --outfile=public/studio-app.js && esbuild client/library.js client/people.js client/connect.js client/page.js client/notes.js --bundle --format=esm --target=es2022 --minify --outdir=public",
+    "build:plugin": "tsx scripts/build-plugin.mjs"
   },
   "dependencies": {
     "@better-auth/cimd": "1.7.14",

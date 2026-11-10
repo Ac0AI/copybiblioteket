@@ -7,10 +7,31 @@ export const connectMessages = {
   filmName: ["Namn", "Name"],
   filmAdd: ["Lägg till", "Add"],
   filmSignInApprove: ["Logga in och godkänn", "Sign in and approve"],
-  clientsHeading: ["Välj din AI", "Choose your AI"],
+  pluginHeading: ["Installera pluginet", "Install the plugin"],
+  pluginIntro: [
+    "Fungerar direkt och utan konto. Ramverken, skrivguiderna och flosklerkollen följer med, och din AI använder dem när du ber om en text.",
+    "Works right away, without an account. The frameworks, writing guides and AI-pattern check ship with it, and your AI uses them when you ask for a text.",
+  ],
+  pluginClaudeWhere: ["Claude på webben, i datorn och i Cowork", "Claude on the web, desktop and in Cowork"],
+  pluginClaudeSteps: [
+    "Öppna Customize och välj Plugins. Välj Add marketplace, klistra in namnet nedan och installera Sigge.",
+    "Open Customize and choose Plugins. Choose Add marketplace, paste the name below and install Sigge.",
+  ],
+  pluginCopyRepo: ["Kopiera namnet", "Copy the name"],
+  pluginCodeSteps: ["Klistra in kommandot i Claude Code.", "Paste the command into Claude Code."],
+  pluginCodexWhere: ["OpenAI:s Codex, i terminalen eller i ChatGPT-appen", "OpenAI’s Codex, in the terminal or the ChatGPT desktop app"],
+  pluginCodexSteps: [
+    "Kör kommandot i terminalen och starta sedan en ny session.",
+    "Run the command in your terminal, then start a new session.",
+  ],
+  pluginTry: [
+    "Skriv en landningssida för vår bokföringsbyrå. Fråga mig först om det du behöver veta.",
+    "Write a landing page for our bookkeeping firm. Ask me first for what you need to know.",
+  ],
+  clientsHeading: ["Eller anslut med en adress", "Or connect with one address"],
   clientsIntro: [
-    "Ingen installation och inget konto i förväg. Du lägger till en adress, och inloggningen dyker upp av sig själv.",
-    "Nothing to install and no account needed first. You add one address, and the sign-in appears by itself.",
+    "För dig som använder ChatGPT eller inte vill installera något. Du lägger till en adress och loggar in med en kod från mejlen. Med kontot får din AI också de 59 perspektiven och källsökningen.",
+    "For ChatGPT users and anyone who would rather not install anything. You add one address and sign in with a code from your email. The account also gives your AI the 59 perspectives and source search.",
   ],
   clientEasiest: ["Enklast", "Easiest"],
   claudeAppWhere: ["Claude på webben, i datorn eller mobilen", "Claude on the web, desktop or mobile"],
@@ -122,6 +143,34 @@ export const connectMessages = {
   notesFailed: [
     "Ditt Sigge-konto är klart, men Field Notes kunde inte aktiveras. Du kan försöka igen på din kontosida.",
     "Your Sigge account is ready, but Field Notes could not be activated. You can retry on your account page.",
+  ],
+  notesTitle: ["Sigge — tips om fler AI-verktyg", "Sigge — tips on more AI tools"],
+  notesDescription: [
+    "Få AC0 Field Notes, ett brev om användbara AI-verktyg. Fyll i din e-post och bekräfta med en kod.",
+    "Get AC0 Field Notes, a newsletter about useful AI tools. Enter your email and confirm with a code.",
+  ],
+  notesHeading: ["Tips om fler bra AI-verktyg.", "Tips on more useful AI tools."],
+  notesLead: [
+    "Field Notes är AC0:s brev om användbara AI-verktyg, från oss som gör Sigge. Brevet är på engelska och du avslutar det när du vill.",
+    "Field Notes is AC0’s newsletter about useful AI tools, from the people who make Sigge. Unsubscribe whenever you like.",
+  ],
+  notesEmailHeading: ["Vart ska vi skicka brevet?", "Where should we send it?"],
+  notesCodeHeading: ["Bekräfta att adressen är din", "Confirm the address is yours"],
+  notesConfirm: ["Bekräfta och prenumerera", "Confirm and subscribe"],
+  notesSignedInHeading: ["Du är redan inloggad", "You’re already signed in"],
+  notesDone: ["Klart. Du prenumererar på Field Notes.", "Done. You’re subscribed to Field Notes."],
+  notesDoneDetail: [
+    "Du avslutar prenumerationen via länken i varje brev.",
+    "Unsubscribe using the link in any issue.",
+  ],
+  notesBack: ["Till skrivverkstaden", "To the workshop"],
+  notesAccountNote: [
+    "När du bekräftar adressen skapas ett Sigge-konto för den. Där kan du se och radera dina uppgifter. Kontot lagras hos Turso, och koden och brevet skickas via Resend.",
+    "Confirming the address creates a Sigge account for it, where you can see and delete your data. Turso stores the account, and Resend delivers the code and the newsletter.",
+  ],
+  notesUnavailable: [
+    "Anmälan är inte öppen just nu. Försök igen senare.",
+    "Signup is not open right now. Please try again later.",
   ],
   notesJoin: ["Prenumerera på Field Notes", "Subscribe to Field Notes"],
   connectUnavailable: [

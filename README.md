@@ -4,7 +4,28 @@
 
 En tvåspråkig skrivverkstad, 59 personprofiler och fjorton ramverk i ett fristående Git-repo. Ramverken omfattar Hormozi, Cialdini, James Clear (vanor och nyhetsbrevsformatet 3-2-1), Peter Yangs no-ai-slop, Schwartz, Dunford, Jobs to Be Done, Wiebe, Fogg, AIDA/PAS/BAB, Hopkins, Ogilvy och svensk klarspråksbearbetning. Ramverken har egna tillämpningar, frågor och fiktiva exempel på båda språken. Varumärkets röst styr skrivandet.
 
-Huvudvägen är att ansluta Sigge till Claude eller ChatGPT via MCP, så att din AI hämtar kunskapen och kollar texten själv. Utan konto hjälper webben dig att skapa ett komplett skrivunderlag att klistra in i en AI-chatt och att granska en text mot AI-floskler. Själva skrivandet sker i din AI-klient, gärna med [Copy Operator](skills/copy-operator/SKILL.md). Konton med e-postkod används för anslutningar till egna AI-klienter. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
+Enklaste vägen är pluginet: det fungerar direkt efter installation, utan konto, i Claude, Claude Code och Codex. Den som använder ChatGPT eller inte vill installera något ansluter i stället Sigge via MCP med ett konto. Utan vare sig plugin eller konto hjälper webben dig att skapa ett komplett skrivunderlag att klistra in i en AI-chatt och att granska en text mot AI-floskler. Själva skrivandet sker alltid i din egen AI-klient. AI-skrivning direkt på sajten är avstängd. En tvåstegsskrivare med Vercel AI Gateway finns för lokala tester i `copy/studio.ts`; den nås inte från webben.
+
+## Installera pluginet
+
+Claude Code:
+
+```
+/plugin install sigge --marketplace Ac0AI/copybiblioteket
+```
+
+Claude på webben, i datorn och i Cowork: öppna Customize, välj Plugins och Add marketplace, och ange `Ac0AI/copybiblioteket`.
+
+Codex:
+
+```sh
+codex plugin marketplace add Ac0AI/copybiblioteket
+codex plugin add sigge@sigge
+```
+
+Pluginet ligger i [plugins/sigge](plugins/sigge) och har fyra färdigheter: `write` (skriv eller skriv om copy), `check` (hitta och stryk AI-floskler), `review` (granska en befintlig text) och `start` (kort introduktion). De fjorton ramverken, skrivguiderna och flosklerkollen följer med, så inget konto behövs. Ett Sigge-konto lägger till de 59 perspektiven, källsökningen och verktyget som väljer ramverk åt uppgiften. Se [pluginets README](plugins/sigge/README.md).
+
+`plugins/sigge/skills/write/references/swedish.md` och `english.md` är skrivguidernas källa; servern läser dem därifrån. Ramverkssidorna, flosklerkollens skript och kopiorna i de andra färdigheterna genereras med `npm run build:plugin` från `data/copy-frameworks/` och `client/slop.js`. Redigera källorna, inte de genererade filerna. Ett test stoppar bygget om de inte stämmer överens.
 
 ## Design och filmer
 
@@ -43,10 +64,9 @@ codex mcp add copy-brains -- node "$PWD/node_modules/tsx/dist/cli.mjs" "$PWD/cop
 
 Namnet `copy-brains` behålls för befintliga klientkopplingar. Detta kommando kör MCP lokalt via stdio; webbservern behöver inte vara igång. Publika anslutningar använder OAuth och https://sigge.si/mcp, se `/connect`. En ny chatt kan behövas efter registrering.
 
-Kopiera `skills/copy-operator` till din skill-katalog. Bevara egna ändringar om skillen redan finns. Lägg en lokal, ignorerad `copy-brains.local.json` i den installerade skillen med `repoPath` som pekar på denna checkout. Alternativt används `COPY_BRAINS_REPO`. Skillens hjälpskript fungerar även när MCP inte är tillgängligt.
-
 | Verktyg | Funktion |
 | --- | --- |
+| `get_writing_kit` | Börja här: arbetsordning, högst tre ramverk, perspektiv, kanalråd och skrivguide i ett svar |
 | `list_copy_frameworks` | Lista ramverken |
 | `search_copy_knowledge` | Hitta tillämpningar på valt språk |
 | `get_copy_framework` | Läs ramverk, exempel och källor |
@@ -58,17 +78,17 @@ Kopiera `skills/copy-operator` till din skill-katalog. Bevara egna ändringar om
 | `get_copy_person` | Läs tillämpningar och källhänvisningar |
 | `check_ai_patterns` | Granska en text mot vanliga AI-mönster, med citat och förslag |
 
-Ange `language: "en"` för engelska svar i MCP; svenska är standard. `get_swedish_writing_guide` ger alltid svenska. CLI och skillens hjälpskript kan köras med `COPY_BRAINS_LANGUAGE=en`.
+Ange `language: "en"` för engelska svar i MCP; svenska är standard. `get_swedish_writing_guide` ger alltid svenska. CLI kan köras med `COPY_BRAINS_LANGUAGE=en`. Servern har också två färdiga prompter, `write` och `check`, för klienter som visar MCP-prompter.
 
 Alla verktyg är läsande och anropar ingen språkmodell; `check_ai_patterns` kör samma mönsterkoll som webben. Publik åtkomst kontrollerar inloggning och samtycke i kontodatabasen. Biblioteket sparar inte frågorna. Din AI-klients datahantering gäller separat. Webbhotellet behandlar normala trafikuppgifter; det finns ingen egen analys- eller spårningskod i appen.
 
 ## Valfria lokala fördjupningskällor
 
-En befintlig lokal samling från The Brains kan användas genom `COPY_BRAINS_SOURCE_DIR`, som pekar på dess `data/brains`-katalog. Alla tillgängliga index för de 59 personerna läses. Saknade personindex faller tillbaka till de svenska profilernas källänkar. Skillens lokala konfiguration accepterar också `sourceDirectory`.
+En befintlig lokal samling från The Brains kan användas genom `COPY_BRAINS_SOURCE_DIR`, som pekar på dess `data/brains`-katalog. Alla tillgängliga index för de 59 personerna läses. Saknade personindex faller tillbaka till de svenska profilernas källänkar. 
 
 Utan denna inställning fungerar hela biblioteket fristående. Källsökningen visar egna svenska beskrivningar och länkar till originalen. Med samlingen aktiverad lokalt visas ärvda engelska avsnitt med tydlig proveniens. Den publika startpunkten `app.ts` laddar alltid endast de egna ramverken, personprofilerna och källänkarna, oavsett miljövariabler.
 
-Samlingen distribueras inte i detta repo och laddas inte ner automatiskt. Ursprungskällornas språk bestämmer inte sluttextens ton. Använd [skrivguiden](skills/copy-operator/references/swedish.md) och skriv direkt på svenska utifrån mottagare, situation och varumärke.
+Samlingen distribueras inte i detta repo och laddas inte ner automatiskt. Ursprungskällornas språk bestämmer inte sluttextens ton. Använd [skrivguiden](plugins/sigge/skills/write/references/swedish.md) och skriv direkt på svenska utifrån mottagare, situation och varumärke.
 
 ## Utveckling och drift
 
@@ -84,7 +104,7 @@ Det kör TypeScript-kontroll, tester av sökning, profiler, skrivunderlag, HTTP 
 
 Detta är ett självständigt repo byggt från vårt tidigare experiment [Ac0AI/copy-brains](https://github.com/Ac0AI/copy-brains), commit `ff5094a6844d3bc4ca23eb14ca57cea58531cb7e`. Sökningen och den valfria lokala källaddaren bygger på [VicPitic/the-brains](https://github.com/VicPitic/the-brains). Dess MIT-notis finns kvar i [LICENSE](LICENSE).
 
-Upstreams webbapp, kontosystem, e-postkod, databas och textsamlingar ingår inte. Alla 59 profiler finns med som egna svenska tillämpningar, med källhänvisningar ärvda från katalogen. Hänvisningarna är inte självständigt granskade mot hela originalen. Våra ramverkskort, svenska exempel, webbgränssnitt och skill är egna tillämpningar. Detta är inte författarnas officiella tjänst och innebär inget godkännande från dem.
+Upstreams webbapp, kontosystem, e-postkod, databas och textsamlingar ingår inte. Alla 59 profiler finns med som egna svenska tillämpningar, med källhänvisningar ärvda från katalogen. Hänvisningarna är inte självständigt granskade mot hela originalen. Våra ramverkskort, svenska exempel, webbgränssnitt och plugin är egna tillämpningar. Detta är inte författarnas officiella tjänst och innebär inget godkännande från dem.
 
 ## Content and takedowns
 

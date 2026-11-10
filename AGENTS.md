@@ -8,9 +8,13 @@ Sigge: a standalone Swedish and English copy workshop and library, deployed to s
 - A framework is not customer evidence or a conversion guarantee. Preserve facts, conditions and source uncertainty.
 - Write Swedish from the brief and brand voice, without assuming a single Swedish national tone.
 - Public deployment uses only our own framework applications and links to originals. Optional inherited source collections are local references, not part of this repository or deployment.
-- Keep personal briefs, customer data, credentials and machine paths out of the repository. copy-brains.local.json is local and ignored.
+- Keep personal briefs, customer data, credentials and machine paths out of the repository. 
 - app.ts is the Vercel entry. npm start binds to localhost. Local MCP uses stdio. Public /mcp uses Streamable HTTP and OAuth; knowledge tools do not call a model or save query text.
 - Person profiles live in data/people/. Keep all 59 catalogue identities, original Swedish applications and inherited-source provenance. Do not present profiles as endorsements.
 - Public brief generation stays in the browser. The owner has authorized email OTP accounts, remote MCP, optional verified-email Field Notes signup, Better Auth and Turso. No Sign in with ChatGPT.
 - Run npm run build (typecheck, tests and browser bundle). Verify deployment and HTTPS on sigge.si after release.
 - copy/studio.ts and copy/evaluate.ts are for local AI evaluation using the project's configured gateway only. Do not expose the model route. Neon is not used. Use Better Auth + Turso for accounts and Sigge <hej@sigge.si> through the verified Resend domain for login codes. Keep Field Notes opt-in separate and do not subscribe unverified addresses.
+- The plugin lives in plugins/sigge and must work without an account: frameworks, writing guides and the pattern checker ship with it, and the remote MCP connection is optional. One folder serves Claude (.claude-plugin), the portable Agent Plugins format (plugin.json, mcp.json) and Codex (.codex-plugin); keep the three manifests in step. Skills use only name and description in frontmatter and never name a specific assistant.
+- plugins/sigge/skills/write/references/swedish.md and english.md are the source of the writing guides and are read by the server. Framework pages, scripts/check.mjs and the reference copies in the other skills are generated: edit data/copy-frameworks or client/slop.js and run npm run build:plugin.
+- For any writing task the MCP entry point is get_writing_kit. Keep existing tool names; connected clients depend on them.
+- The Field Notes tip appears in two places only: the start skill and one line the checker prints once per computer. Do not add promotion elsewhere in skills or tool results. /notes subscribes only after the address is verified with a one-time code.

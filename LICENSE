@@ -26,7 +26,7 @@ The MIT License covers the code in this repository. Original source works linked
 and publishers. Optional local third-party collections are not distributed
 with this standalone repository. See "Content and takedowns" in README.md.
 
-Original additions in copy/, data/copy-frameworks/, data/people/ and skills/copy-operator/
+Original additions in copy/, data/copy-frameworks/, data/people/ and plugins/
 are copyright (c) 2026 AC0 AI and are provided under the MIT License above.
 This does not license the original third-party works linked as references.
 
@@ -39,7 +39,7 @@ https://creativecommons.org/licenses/by-sa/2.5/
 ---
 
 The AI-pattern checks in client/slop.js, the "Stryk AI-mönstren" / "Cut the AI
-patterns" sections of skills/copy-operator/references/ and the ai-slop-edit card
+patterns" sections of plugins/sigge/skills/write/references/ and the ai-slop-edit card
 adapt patterns from no-ai-slop (https://github.com/petergyang/no-ai-slop):
 
 MIT License

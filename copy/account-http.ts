@@ -23,6 +23,8 @@ export function mountAccounts(
       "/consent",
       "/en/connect",
       "/en/consent",
+      "/notes",
+      "/en/notes",
     ],
     (_req, res, next) => {
       res.set("Cache-Control", "no-store");

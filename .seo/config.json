@@ -273,7 +273,7 @@
       "server/**",
       "app.ts",
       "copy/mcp*.ts",
-      "skills/copy-operator/**",
+      "plugins/**",
       "README.md"
     ]
   },

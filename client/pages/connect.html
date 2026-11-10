@@ -8,10 +8,19 @@
     </div>
     {{filmConnect}}
   </section>
+  <section class="clients plugin-install" aria-labelledby="plugin-heading">
+    <div class="clients-head"><h2 id="plugin-heading" class="section-title" data-i18n="pluginHeading"></h2><p data-i18n="pluginIntro"></p></div>
+    <div class="client-cards">
+      <section class="client-card is-recommended"><p class="client-badge" data-i18n="clientEasiest"></p><h3>Claude</h3><p class="client-where" data-i18n="pluginClaudeWhere"></p><p data-i18n="pluginClaudeSteps"></p><code id="plugin-repo">Ac0AI/copybiblioteket</code><button id="copy-plugin-repo" class="button primary full" data-i18n="pluginCopyRepo"></button></section>
+      <section class="client-card"><h3>Claude Code</h3><p class="client-where" data-i18n="claudeCodeWhere"></p><p data-i18n="pluginCodeSteps"></p><code id="plugin-claude-command">/plugin install sigge --marketplace Ac0AI/copybiblioteket</code><button id="copy-plugin-claude" class="button outlined" data-i18n="copyCommand"></button></section>
+      <section class="client-card"><h3>Codex</h3><p class="client-where" data-i18n="pluginCodexWhere"></p><p data-i18n="pluginCodexSteps"></p><code id="plugin-codex-command">codex plugin marketplace add Ac0AI/copybiblioteket &amp;&amp; codex plugin add sigge@sigge</code><button id="copy-plugin-codex" class="button outlined" data-i18n="copyCommand"></button></section>
+    </div>
+    <div class="connect-example"><h2 data-i18n="firstPromptTitle"></h2><p class="first-prompt" data-i18n="pluginTry"></p><p class="connect-small" data-i18n="ownAI"></p></div>
+  </section>
   <section class="clients" aria-labelledby="clients-heading">
     <div class="clients-head"><h2 id="clients-heading" class="section-title" data-i18n="clientsHeading"></h2><p data-i18n="clientsIntro"></p></div>
     <div class="client-cards">
-      <section class="client-card is-recommended"><p class="client-badge" data-i18n="clientEasiest"></p><h3>Claude</h3><p class="client-where" data-i18n="claudeAppWhere"></p><ol class="client-steps"><li data-i18n="claudeAppStepOne"></li><li data-i18n="claudeAppStepTwo"></li><li data-i18n="claudeAppStepThree"></li></ol><code id="claude-url">https://sigge.si/mcp</code><button id="copy-claude-url" class="button primary full" data-i18n="copyAddress"></button></section>
+      <section class="client-card"><h3>Claude</h3><p class="client-where" data-i18n="claudeAppWhere"></p><ol class="client-steps"><li data-i18n="claudeAppStepOne"></li><li data-i18n="claudeAppStepTwo"></li><li data-i18n="claudeAppStepThree"></li></ol><code id="claude-url">https://sigge.si/mcp</code><button id="copy-claude-url" class="button outlined" data-i18n="copyAddress"></button></section>
       <section class="client-card"><h3>ChatGPT</h3><p class="client-where" data-i18n="chatgptWhere"></p><p data-i18n="chatgptInstructions"></p><code id="mcp-url">https://sigge.si/mcp</code><div class="client-actions"><button id="copy-mcp" class="button outlined" data-i18n="copyAddress"></button><a class="button subtle" href="https://chatgpt.com/plugins" target="_blank" rel="noopener noreferrer" data-i18n="openPlugins"></a></div></section>
       <section class="client-card"><h3>Claude Code</h3><p class="client-where" data-i18n="claudeCodeWhere"></p><p data-i18n="claudeInstructions"></p><code id="claude-command">claude mcp add --transport http --scope user sigge https://sigge.si/mcp</code><button id="copy-command" class="button outlined" data-i18n="copyCommand"></button></section>
     </div>

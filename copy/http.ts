@@ -55,7 +55,7 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
   for (const language of ['sv','en']) {
     const prefix = language === 'en' ? '/en' : '';
     const dir = language === 'en' ? 'en' : '';
-    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html'],['/connect','connect.html'],['/consent','consent.html'],['/privacy','privacy.html']]) {
+    for (const [route,file] of [['/','index.html'],['/library','library.html'],['/people','people.html'],['/connect','connect.html'],['/consent','consent.html'],['/privacy','privacy.html'],['/notes','notes.html']]) {
       app.get(prefix + route, (_req, res) => res.sendFile(join(ROOT,'public',dir,file)));
     }
     // Server-rendered entries: only known ids reach the file system.
@@ -63,7 +63,7 @@ export function createApp(library: CopyLibrary, accounts?: AuthRuntime) {
     app.get(prefix + '/library/:id', (req, res, next) => library.get(req.params.id) ? res.sendFile(join(ROOT,'public',dir,'frameworks',req.params.id+'.html')) : next());
   }
   app.get('/sitemap.xml', (_req, res) => res.type('application/xml').sendFile(join(ROOT,'public','sitemap.xml')));
-  for (const file of ['studio-app.js','library.js','people.js','connect.js','page.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
+  for (const file of ['studio-app.js','library.js','people.js','connect.js','page.js','notes.js']) app.get('/'+file, (_req,res) => res.sendFile(join(ROOT,'public',file)));
   app.use(express.static(join(ROOT,'public')));
   app.use('/api', (req, res) => {res.status(404).json({error:message(req,'Sidan finns inte.','Page not found.')});});
   app.use((err: unknown, req: express.Request, res: express.Response, _next: express.NextFunction) => {

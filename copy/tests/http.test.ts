@@ -77,6 +77,12 @@ test("every person and framework has an indexable page in both languages", async
     assert.match(await (await fetch(base + "/en/library/clear-3-2-1")).text(), /<html lang="en">/);
     assert.equal((await fetch(base + "/people/not-a-person")).status, 404);
     assert.equal((await fetch(base + "/library/..%2Fpackage.json")).status, 404);
+    for (const [path, heading] of [["/notes", "Tips om fler bra AI-verktyg."], ["/en/notes", "Tips on more useful AI tools."]]) {
+      const page = await fetch(base + path);
+      assert.equal(page.status, 200);
+      assert.ok((await page.text()).includes(heading), path);
+    }
+    assert.match(await (await fetch(base + "/connect")).text(), /\/plugin install sigge --marketplace Ac0AI\/copybiblioteket/);
     const sitemapResponse = await fetch(base + "/sitemap.xml");
     assert.match(sitemapResponse.headers.get("content-type") ?? "", /xml/);
     const sitemap = await sitemapResponse.text();

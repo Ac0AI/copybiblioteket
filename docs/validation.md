@@ -58,3 +58,13 @@ Livekontrollen genomförde e-postinloggning i webbläsaren, godkännande av en r
 Resends skickade post hade rätt avsändare, mottagare och ämne. Testet använde en märkt `delivered@resend.dev`-adress: leverantörens leveransstatus är simulerad och bevisar inte leverans till en vanlig inkorg. Kontot gav ingen Field Notes-kontakt före tillval. Efter ett uttryckligt tillval verifierades kontakt, befintligt segment och sparat samtycke hos de riktiga leverantörerna. Testkontot, testklienten och testkontakten togs bort efteråt.
 
 Detta bevisar tjänstens publicerade protokollflöde. Anslutning från användarens faktiska Claude Code- eller ChatGPT-konto är inte provad. Tillgängligheten där beror även på klientens konto- och arbetsyteinställningar.
+
+## Plugin, skrivkit och e-postanmälan, 10 november 2026
+
+Pluginet i `plugins/sigge` har fyra färdigheter och fungerar utan konto. `npm run build` kör 49 tester. De nya kontrollerar att pluginets genererade filer stämmer med `data/copy-frameworks` och `client/slop.js`, att de tre manifesten beskriver samma plugin, att varje färdighet bara använder `name` och `description` och att alla länkade filer finns, att det medföljande skriptet hittar samma mönster som webben och MCP-verktyget och att tipsraden visas en enda gång. `claude plugin validate` (Claude Code 2.1.322) godkände både marketplace-filen och pluginet med `--strict`.
+
+Fyra riktiga körningar gjordes i Claude Code med pluginet laddat från katalogen: en svensk landningssida (`write`), en flosklerkoll på svenska (`check`), en granskning av ett engelskt säljmejl (`review`) och ett engelskt mejl via den lokala MCP-servern utan plugin. Rätt färdighet valdes varje gång, flosklerkollen kördes innan svaret och MCP-körningen gick `get_writing_kit` följt av `check_ai_patterns`. Körningarna tog 17–35 sekunder. Det här visar att flödet fungerar, inte att texterna är bra: fyra körningar är för få för att säga något om kvalitet, och ingen läsare utanför projektet har bedömt dem.
+
+`/notes` provades i en riktig webbläsare mot en lokal server med simulerad mejl- och prenumerationsleverantör: fel kod gav felmeddelande, rätt kod gav prenumeration, och ett nytt besök visade att anmälan redan var gjord. Riktig leverans via Resend är inte provad för den här sidan.
+
+Inte provat: installation från GitHub (kräver att ändringen ligger på huvudgrenen), Claude på webben och i Cowork, Codex och ChatGPT. Manifesten för Codex och ChatGPT följer OpenAI:s dokumentation från 10 november 2026 men har inte lästs in av någon OpenAI-klient. Hur en klient hanterar pluginets MCP-anslutning innan användaren har loggat in är inte heller provat.

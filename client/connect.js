@@ -231,6 +231,9 @@ if (!consentPage) {
     ["copy-command", "claude-command"],
     ["copy-mcp", "mcp-url"],
     ["copy-claude-url", "claude-url"],
+    ["copy-plugin-repo", "plugin-repo"],
+    ["copy-plugin-claude", "plugin-claude-command"],
+    ["copy-plugin-codex", "plugin-codex-command"],
   ])
     $(id).addEventListener("click", async () => {
       try {
