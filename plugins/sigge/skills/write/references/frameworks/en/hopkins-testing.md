@@ -6,17 +6,17 @@ Claude Hopkins / our application for evaluation · Evaluation · `hopkins-testin
 
 Claude Hopkins saw advertising as salesmanship. It should give the reader a concrete reason to buy, and it should be judged by what it gets people to do. Be specific, say how it is done and test versions against traceable responses.
 
-**Use when:** When the copy makes claims without saying why, when you're choosing between headlines, offers or versions, or when you want to know whether a change actually helps the reader and the business.
+**Use when:** When the copy makes claims without saying why, when you’re choosing between headlines, offers or versions, or when you want to know whether a change actually helps the reader and the business.
 
 **Keep in mind:** When the sample is too small to say anything, or the measurement mixes the copy up with changes in traffic, audience, season or price. The result is then a hint, not a verdict.
 
 ## Principles
 
-- Judge copy by what it gets the reader to do. Hopkins argued that advertising's job is to sell; whether copy is polished, witty or popular internally tells you nothing about that.
-- Be specific. Hopkins observed that people believe exact statements but skim past generalities and superlatives. State what's included, what it costs and how it works, using facts you can stand behind.
+- Judge copy by what it gets the reader to do. Hopkins argued that advertising’s job is to sell; whether copy is polished, witty or popular internally tells you nothing about that.
+- Be specific. Hopkins observed that people believe exact statements but skim past generalities and superlatives. State what’s included, what it costs and how it works, using facts you can stand behind.
 - Make responses traceable. Hopkins used keyed coupons to see which ad brought replies; today that means separate links, codes or test groups for each version. Decide in advance what counts as an outcome.
-- Change one thing at a time and write the hypothesis down: what you're changing, why, for whom and which outcome you expect.
-- Report honestly. Your own judgement or a small sample is not a measured improvement, and a result from one channel or audience doesn't automatically apply to others. The modern measurement rules here are our application, not quotations from Hopkins.
+- Change one thing at a time and write the hypothesis down: what you’re changing, why, for whom and which outcome you expect.
+- Report honestly. Your own judgment or a small sample is not a measured improvement, and a result from one channel or audience doesn’t automatically apply to others. The modern measurement rules here are our application, not quotations from Hopkins.
 
 ## Choose a move for the situation
 
@@ -28,18 +28,18 @@ Claude Hopkins saw advertising as salesmanship. It should give the reader a conc
 
 ## Moves
 
-- **The reason.** Follow each claim with a reason the reader can test. 'The bread is warm when it arrives, because we bake at five and drive out at six.'
-- **What you do but never mention.** Hopkins built campaigns on working steps the whole industry had and nobody described. Look for what is obvious to you and unknown to the customer. 'The dough rises for 18 hours before it is baked.'
-- **Exact, not roughly.** Swap judgements for facts. Hopkins held that readers believe the exact and read past the general. 'There before 07.30' instead of 'early delivery'.
-- **Let the reader try.** Hopkins argued for samples over persuasion. Give the reader a way to try without risk. 'The first breakfast is on us.'
-- **The headline chooses the reader.** Write the headline so the right person feels singled out and others can move on. 'Breakfast for offices of 10 to 40 people.'
-- **A version with a hypothesis.** Our application: when you write variants, say what separates them and what you expect. A: price per person. B: price per week. Hypothesis: price per person brings more enquiries from small offices.
+- **The reason.** Follow each claim with a reason the reader can test. “The bread is warm when it arrives, because we bake at five and are out the door at six.”
+- **What you do but never mention.** Hopkins built campaigns on working steps the whole industry had and nobody described. Look for what is obvious to you and unknown to the customer. “The dough rises for 18 hours before it’s baked.”
+- **Exact, not roughly.** Swap judgments for facts. Hopkins held that readers believe the exact and read past the general. “There by 7:30 a.m.” instead of “early delivery.”
+- **Let the reader try.** Hopkins argued for samples over persuasion. Give the reader a way to try without risk. “The first breakfast is on us.”
+- **The headline chooses the reader.** Write the headline so the right person feels singled out and others can move on. “Breakfast for offices of 10 to 40 people.”
+- **A version with a hypothesis.** Our application: when you write variants, say what separates them and what you expect. A: price per person. B: price per week. Hypothesis: price per person brings in more inquiries from small offices.
 
 ## Questions to ask
 
-- What is the hypothesis, and what would show it's wrong?
-- Which behaviour counts as the outcome – a click, an enquiry or a purchase?
-- Can the measurement separate the copy's effect from other changes?
+- What is the hypothesis, and what would show it’s wrong?
+- Which behavior counts as the outcome – a click, an inquiry or a purchase?
+- Can the measurement separate the copy’s effect from other changes?
 - Is there enough data for a conclusion, or is this only a hint?
 
 ## Fictional example
@@ -47,37 +47,37 @@ Claude Hopkins saw advertising as salesmanship. It should give the reader a conc
 Fictional: a cleaning company wants to test two headlines on its quote page. Neither has been tested yet.
 
 - **Before:** The new headline will increase conversion.
-- **After:** Hypothesis: a headline that says what the price includes will bring in more quote requests. We'll show both versions at random and compare requests once we have enough data.
+- **After:** Hypothesis: a headline that says what the price includes will bring in more quote requests. We’ll show both versions at random and compare requests once we have enough data.
 - **Why:** A promised effect becomes a testable hypothesis with a clear outcome – the results decide, not a hunch.
 
 ## A complete example
 
-Fictional: the bakery Ugnen delivers breakfast to offices in Gothenburg. Facts in the brief: bakes at five, drives out at six, there before 07.30, the dough rises for 18 hours, 59 kr per person, at least ten people, the first delivery is free. None of the claims have been tested against each other.
+Fictional: the bakery The Oven delivers breakfast to offices in Minneapolis. Facts in the brief: bakes at five, out the door at six, there by 7:30 a.m., the dough rises for 18 hours, $7 per person, a minimum of ten people, the first delivery is free. None of the claims have been tested against each other.
 
 > Breakfast for offices of 10 to 40 people
 >
-> The bread is warm when it arrives. We bake at five and drive out at six, so breakfast is on your table before 07.30.
+> The bread is warm when it arrives. We bake at five and are out the door at six, so breakfast is on your table by 7:30 a.m.
 >
-> The dough rises for 18 hours before it is baked. That is why the rolls stay soft until lunch.
+> The dough rises for 18 hours before it’s baked. That’s why the rolls stay soft until lunch.
 >
-> 59 kr per person. You order for at least ten.
+> $7 per person. You order for at least ten.
 >
-> The first breakfast is on us. Tell us which day and how many you are.
+> The first breakfast is on us. Tell us which day and how many of you there are.
 >
 > [Order a free breakfast]
 >
 > To test
-> Version A has the headline above. Version B opens with the price: 'Breakfast for the office at 59 kr per person.' Hypothesis: A brings more enquiries, because it singles out the reader. Outcome: the number of trial breakfasts ordered per hundred visits.
+> Version A has the headline above. Version B opens with the price: “Breakfast for the office at $7 per person.” Hypothesis: A brings in more requests, because it singles out the reader. Outcome: free breakfasts ordered per hundred visits.
 
 **What the example does:**
 
-- Every claim has a reason: warm because it is baked at five, soft because the dough rises for a long time.
-- The rising time is a working step many bakeries have but few talk about.
-- The test has a hypothesis and an outcome decided in advance. The copy doesn't claim that either version is better.
+- Every claim has a reason: warm because it’s baked at five, soft because the dough rises a long time.
+- The rise time is a step many bakeries take and few mention.
+- The test has a hypothesis and an outcome set in advance. The copy doesn’t claim that either version is better.
 
 ## Common mistakes
 
-- Superlatives without a reason. 'The best breakfast in town' can't be tested, so it isn't believed.
+- Superlatives without a reason. “The best breakfast in town” can’t be tested, so it isn’t believed.
 - Changing the headline, the price and the image at once and then believing you know what made the difference.
 - Calling a version the winner after a handful of responses.
 

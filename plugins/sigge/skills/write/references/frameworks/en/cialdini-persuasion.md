@@ -4,19 +4,19 @@
 
 Robert Cialdini · Messaging · `cialdini-persuasion`
 
-Choose the evidence that answers the reader's doubt (other customers, expertise, a generous first step or a genuine condition) and present it so readers can judge it for themselves. Robert Cialdini describes seven principles of influence; use them to make a good decision easier, never to push someone into one.
+Choose the evidence that answers the reader’s doubt (other customers, expertise, a generous first step or a genuine condition) and present it so readers can judge it for themselves. Robert Cialdini describes seven principles of influence; use them to make a good decision easier, never to push someone into one.
 
 **Use when:** When readers wonder who you are, whether the offer fits them or whether anyone like them has benefited – on a homepage, in a case study or next to the price.
 
-**Keep in mind:** When the evidence isn't there: never invent testimonials, customer numbers, credentials, a shared identity or 'only three places left'.
+**Keep in mind:** When the evidence isn’t there: never invent testimonials, customer numbers, credentials, a shared identity or “only three places left.”
 
 ## Principles
 
 - Start with the doubt. Ask what is holding the reader back right now (are they legitimate, is this for me, has it worked for others?) and pick the one or two principles that answer it. Cramming in all seven makes copy pushy, not credible.
-- Social proof and unity: show that people like the reader have already chosen you – same industry, size or situation. A named case study outweighs 'happy customers'. Only appeal to a shared identity ('fellow founders') when it is real.
-- Authority and liking: establish relevant expertise before you ask for anything – training, track record, who actually does the work. Write like a knowledgeable person who understands the reader, and be honest about what you don't do; it makes everything else more believable.
+- Social proof and unity: show that people like the reader have already chosen you – same industry, size or situation. A named case study outweighs “happy customers.” Only appeal to a shared identity (“fellow founders”) when it is real.
+- Authority and liking: establish relevant expertise before you ask for anything – training, track record, who actually does the work. Write like a knowledgeable person who understands the reader, and be honest about what you don’t do; it makes everything else more believable.
 - Reciprocity and consistency: give something genuinely useful first (a checklist, advice, a calculator) with no strings attached. Then ask for a small, voluntary step that fits what the reader has already said or done, rather than a big commitment straight away.
-- Scarcity: point out what the reader stands to miss only when the limit is real, and state the condition precisely – number of places, closing date, what happens afterwards. Fake urgency destroys the trust you are trying to build.
+- Scarcity: point out what the reader stands to miss only when the limit is real, and state the condition precisely – number of places, closing date, what happens afterward. Fake urgency destroys the trust you are trying to build.
 
 ## Choose a move for the situation
 
@@ -28,58 +28,58 @@ Choose the evidence that answers the reader's doubt (other customers, expertise,
 
 ## Moves
 
-- **Social proof.** Show customers who resemble the reader and say what they have in common. Numbers should be checkable. '38 companies have their office here. Half are one-person businesses.'
-- **Authority.** Show what makes you knowledgeable on this particular question: training, years in the trade or who does the work. 'Anna, who runs the place, has let office space in Malmö for eleven years.'
-- **Liking.** Write as a person who understands the reader's situation, and say honestly what you are not right for. 'If you need a lockable room of your own, we're the wrong place. Everyone here sits in an open-plan room.'
-- **Reciprocity.** Give something useful first, with no strings attached. 'Try a day for free. You don't need to give any card details.'
-- **Commitment and consistency.** Ask for a small, voluntary step in line with what the reader already wants. 'Start with a five-day pass before you decide on a permanent desk.'
-- **Scarcity.** Say what is limited, how much and from when. 'We have 24 desks. Three are free from 1 April.'
-- **Unity.** Point to a community only when it exists and matters to the choice. 'Every Thursday we eat lunch together. It's optional, but most people come.'
+- **Social proof.** Show customers who resemble the reader and say what they have in common. Numbers should be checkable. “38 businesses work out of this space. Half are one-person shops.”
+- **Authority.** Show what makes you knowledgeable on this particular question: training, years in the trade or who does the work. “Anna, who runs the place, has rented out office space in Portland for eleven years.”
+- **Liking.** Write as a person who understands the reader’s situation, and say honestly what you are not right for. “If you need a private office with a door that locks, we’re the wrong place. Everyone here works in one open room.”
+- **Reciprocity.** Give something useful first, with no strings attached. “Try a day for free. No credit card needed.”
+- **Commitment and consistency.** Ask for a small, voluntary step in line with what the reader already wants. “Start with a five-day pass before you commit to a permanent desk.”
+- **Scarcity.** Say what is limited, how much and from when. “We have 24 desks. Three open up on April 1.”
+- **Unity.** Point to a community only when it exists and matters to the choice. “Every Thursday we eat lunch together. It’s optional, but most people come.”
 
 ## Questions to ask
 
 - What does the reader doubt just before deciding?
 - What evidence do we actually have – and are we allowed to show it?
-- Will the reader recognise themselves in the customers or experts we show?
+- Will the reader recognize themselves in the customers or experts we show?
 - Is the limit or offer real, with terms we can stand behind?
 
 ## Fictional example
 
-Fictional: three accounting firms with two to eight staff have agreed to publish their interviews about the service.
+Fictional: three accounting firms with two to eight employees have agreed to publish their interviews about the service.
 
 - **Before:** The obvious choice for every successful firm.
-- **After:** How three accounting firms with 2–8 staff use the service day to day. Read their stories.
-- **Why:** Real customers who resemble the reader can be checked; 'the obvious choice' is just an assertion.
+- **After:** How three accounting firms with 2–8 employees use the service day to day. Read their stories.
+- **Why:** Real customers who resemble the reader can be checked; “the obvious choice” is just an assertion.
 
 ## A complete example
 
-Fictional: Kontoret Södra, a shared office in Malmö. Facts in the brief: 24 desks in an open-plan room, 38 companies have their office here, half are one-person businesses (among them a translator, two developers and an accountant), none of them knew anyone else when they arrived, a free trial day with no card details, a five-day pass, three free desks from 1 April, a shared lunch on Thursdays. The reader works from home and is hesitant about sitting among strangers.
+Fictional: Alder Street Coworking in Portland, Oregon. Facts in the brief: 24 desks in one open room, 38 businesses work here, half are one-person businesses (among them a translator, two developers and an accountant), none of them knew anyone else when they arrived, a free trial day with no credit card, a five-day pass, three desks open up on April 1, a shared lunch on Thursdays. The reader works from home and hesitates to sit among strangers.
 
 > Working from home and missing having people around?
 >
-> Half the companies here are one-person businesses: a translator, two developers, an accountant. None of them knew anyone when they arrived.
+> Half the businesses here are one-person shops: a translator, two developers, an accountant. Nobody knew anybody when they showed up.
 >
-> This is how it usually goes. You try a day for free, without giving any card details. If you like it, you can buy a five-day pass before you decide on a permanent desk.
+> This is how it usually goes. You try a day for free, no credit card needed. If you like it, you can buy a five-day pass before you commit to a permanent desk.
 >
-> On Thursdays we eat lunch together. It's optional, but most people come.
+> On Thursdays we eat lunch together. It’s optional, but most people come.
 >
-> If you need a lockable room of your own, we're the wrong place. Everyone here sits in an open-plan room.
+> If you need a private office with a door that locks, we’re the wrong place. Everyone here works in one open room.
 >
-> We have 24 desks, and three are free from 1 April.
+> We have 24 desks, and three open up on April 1.
 >
 > [Book a trial day]
 
 **What the example does:**
 
-- The doubt is 'will I fit in?'. That is why social proof and unity carry the copy, and authority isn't needed.
+- The doubt is “will I fit in?” So social proof and unity carry the copy, and authority isn’t needed.
 - The trial day and the five-day pass are two small steps before the big one. That is reciprocity and commitment in practice.
-- The line about who the place doesn't suit makes the rest easier to believe.
+- The line about who the space is wrong for makes the rest easier to believe.
 
 ## Common mistakes
 
 - Using all seven at once. The copy turns into a list of sales tricks, and the reader trusts it less.
-- Showing proof that doesn't answer the doubt. Someone wondering whether it suits a one-person business isn't reassured by logos from large corporations.
-- Writing 'limited number of places' without a number. The reader has seen it before and doesn't believe it.
+- Showing proof that doesn’t answer the doubt. Someone wondering whether it suits a one-person business isn’t reassured by logos from large corporations.
+- Writing “limited number of places” without a number. The reader has seen it before and doesn’t believe it.
 
 ## Sources
 

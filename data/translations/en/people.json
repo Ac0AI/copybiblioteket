@@ -213,8 +213,8 @@
       "newsletter"
     ],
     "principles": [
-      "Check that the customer group, offer and message fit together before optimising a channel.",
-      "Give the content a natural next step towards a relationship you can maintain."
+      "Check that the customer group, offer and message fit together before optimizing a channel.",
+      "Give the content a natural next step toward a relationship you can maintain."
     ],
     "questions": [
       "Is the message unclear, or is it the offer?",
@@ -222,7 +222,7 @@
     ]
   },
   "cris-pop": {
-    "summary": "Show culture and values through behaviour",
+    "summary": "Show culture and values through behavior",
     "topics": [
       "culture",
       "recruitment",
@@ -243,17 +243,17 @@
     "summary": "Build a voice through real conversations",
     "topics": [
       "social media",
-      "humour",
+      "humor",
       "founders",
       "distribution",
       "audience"
     ],
     "principles": [
       "Start with recognisable problems and answer other people's questions.",
-      "Use humour when it suits the writer. Do not confuse popular posts with demand for the product."
+      "Use humor when it suits the writer. Do not confuse popular posts with demand for the product."
     ],
     "questions": [
-      "Which everyday frustration does the audience recognise?",
+      "Which everyday frustration does the audience recognize?",
       "What do we want to learn from the replies?"
     ]
   },
@@ -272,7 +272,7 @@
     ],
     "questions": [
       "What has the customer already tried?",
-      "Which behaviour would show that the offer helps?"
+      "Which behavior would show that the offer helps?"
     ]
   },
   "damon-chen": {
@@ -394,7 +394,7 @@
     ],
     "principles": [
       "Make it clear who the product is for and what they can do with it.",
-      "Look for behaviour and use to support the message, rather than polite reactions alone."
+      "Look for behavior and use to support the message, rather than polite reactions alone."
     ],
     "questions": [
       "What should visitors understand on the first screen?",
@@ -555,7 +555,7 @@
       "differentiation"
     ],
     "principles": [
-      "Investigate which benefits the customer prioritises and show how the offer contributes to them.",
+      "Investigate which benefits the customer prioritizes and show how the offer contributes to them.",
       "Describe your deliberate trade-offs so the difference from alternatives is understandable."
     ],
     "questions": [
@@ -618,12 +618,12 @@
     ]
   },
   "naval-ravikant": {
-    "summary": "Show your own knowledge and judgement",
+    "summary": "Show your own knowledge and judgment",
     "topics": [
       "own voice",
       "specialist knowledge",
       "media",
-      "judgement",
+      "judgment",
       "long term"
     ],
     "principles": [
@@ -664,7 +664,7 @@
     ],
     "principles": [
       "Look for the problem behind a feature request and describe the value at that level.",
-      "Prioritise the small group that needs the product most when explaining the offer."
+      "Prioritize the small group that needs the product most when explaining the offer."
     ],
     "questions": [
       "Which request hides a different problem?",
@@ -833,12 +833,12 @@
     ]
   },
   "ruben-hassid": {
-    "summary": "Useful AI copy needs human judgement",
+    "summary": "Useful AI copy needs human judgment",
     "topics": [
       "AI",
       "LinkedIn",
       "editing",
-      "judgement",
+      "judgment",
       "prompt"
     ],
     "principles": [
@@ -865,7 +865,7 @@
     ],
     "questions": [
       "What does someone gain from participating for the first time?",
-      "Which behaviour shows that the value is real?"
+      "Which behavior shows that the value is real?"
     ]
   },
   "sam-altman": {
@@ -875,7 +875,7 @@
       "focus",
       "iteration",
       "early users",
-      "prioritisation"
+      "prioritization"
     ],
     "principles": [
       "Write for users with the strongest need instead of trying to appeal to everyone.",
@@ -954,7 +954,7 @@
       "Show details that make the experience understandable instead of piling up features."
     ],
     "questions": [
-      "What should the audience remember afterwards?",
+      "What should the audience remember afterward?",
       "Which demonstration explains the idea best?"
     ]
   },
@@ -968,7 +968,7 @@
       "technical choices"
     ],
     "principles": [
-      "Start with a problem users recognise and show how the tool solves it.",
+      "Start with a problem users recognize and show how the tool solves it.",
       "Be specific about limitations and costs when the audience needs them to choose."
     ],
     "questions": [

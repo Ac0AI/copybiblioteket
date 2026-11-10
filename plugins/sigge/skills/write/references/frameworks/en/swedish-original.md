@@ -4,19 +4,19 @@
 
 Isof / our Swedish writing guide · Swedish writing · `swedish-original`
 
-Write Swedish copy directly in Swedish, from the reader's situation and the sender's voice – not by way of English. Choose concrete words, verbs over nouns, natural word order and the most important point first.
+Write Swedish copy directly in Swedish, from the reader’s situation and the sender’s voice – not by way of English. Choose concrete words, verbs over nouns, natural word order and the most important point first.
 
-**Use when:** When Swedish copy sounds translated, impersonal or stiff, or is full of anglicisms and sweeping sales promises such as 'lås upp' (unlock), 'ta kontroll över' (take control of) and 'nästa nivå' (next level).
+**Use when:** When Swedish copy sounds translated, impersonal or stiff, or is full of anglicisms and sweeping sales promises such as “lås upp” (unlock), “ta kontroll över” (take control of) and “nästa nivå” (next level).
 
-**Keep in mind:** When an expressive voice is deliberately right for the brand. Swedish copy doesn't have to be cautious, stiff or sound the same for everyone.
+**Keep in mind:** When an expressive voice is deliberately right for the brand. Swedish copy doesn’t have to be cautious, stiff or sound the same for everyone.
 
 ## Principles
 
-- Write directly in Swedish from the facts and purpose. Keep the message but rebuild the sentence when English is dictating the rhythm, and replace calques such as 'ta kontroll över', 'på daglig basis', 'adressera' and 'leverera värde' with what you actually mean.
-- Prefer verbs to nouns and the active voice: 'vi skickar fakturan' (we send the invoice) rather than 'fakturering sker' (invoicing takes place). Address the reader as 'du' unless the sender has a reason not to.
-- Put the most important point first and make it concrete: what the reader gets, what they need to do and what it costs. Keep humour, emotion and energy when they help.
-- Choose the form of address, tone and terminology for the reader. Don't assume every Swedish audience wants the same tone – an estate agent, a games studio and a government agency all sound different.
-- Check the form: write compounds as one word ('kundtjänst', not 'kund tjänst'), use Swedish quotation marks (”…”), sentence case in headings, amounts as '995 kr' and dates as '28 oktober 2026'. Never change the offer's facts, currency or terms to make it sound better.
+- Write directly in Swedish from the facts and purpose. Keep the message but rebuild the sentence when English is dictating the rhythm, and replace calques such as “ta kontroll över,” “på daglig basis,” “adressera” and “leverera värde” with what you actually mean.
+- Prefer verbs to nouns and the active voice: “vi skickar fakturan” (we send the invoice) rather than “fakturering sker” (invoicing takes place). Address the reader as “du” unless the sender has a reason not to.
+- Put the most important point first and make it concrete: what the reader gets, what they need to do and what it costs. Keep humor, emotion and energy when they help.
+- Choose the form of address, tone and terminology for the reader. Don’t assume every Swedish audience wants the same tone – an estate agent, a games studio and a government agency all sound different.
+- Check the form: write compounds as one word (“kundtjänst,” not “kund tjänst”), use Swedish quotation marks (”…”), sentence case in headings, amounts as “995 kr” and dates as “28 oktober 2026.” Never change the offer’s facts, currency or terms to make it sound better.
 
 ## Choose a move for the situation
 
@@ -71,7 +71,7 @@ Fictional: the home page for Koll, an app that shows a household's subscriptions
 
 **What the example does:**
 
-- The headline follows Swedish capitalisation and says what the reader gets ('See what your subscriptions cost') instead of promising control.
+- The headline follows Swedish capitalization and says what the reader gets ('See what your subscriptions cost') instead of promising control.
 - 'Lås upp besparingar' (unlock savings), 'finansiella resa' (financial journey), 'på daglig basis' (on a daily basis) and 'adressera' (address) are replaced with what the app does.
 - The price is the same. Only the way it is written has changed, from '29 SEK/månad' to '29 kr i månaden'.
 

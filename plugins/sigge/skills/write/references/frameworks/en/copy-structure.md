@@ -4,7 +4,7 @@
 
 Copyhackers / established writing models · Messaging · `copy-structure`
 
-Use AIDA, PAS or Before–After–Bridge as a checklist for the order in which readers need to learn things, once the facts and main argument are settled. The model arranges the content – it doesn't replace it.
+Use AIDA, PAS or Before–After–Bridge as a checklist for the order in which readers need to learn things, once the facts and main argument are settled. The model arranges the content – it doesn’t replace it.
 
 **Use when:** When the material is good but the copy jumps around, starts at the wrong end or finishes without a clear next step – in emails, on landing pages and in ads.
 
@@ -13,9 +13,9 @@ Use AIDA, PAS or Before–After–Bridge as a checklist for the order in which r
 ## Principles
 
 - Pick the model that fits the reader: PAS when they already feel the problem, Before–After–Bridge when the change is easy to picture, and AIDA when a longer piece has to take a new reader all the way to action.
-- AIDA (Attention, Interest, Desire, Action): catch the right reader with something relevant, not merely loud. Build interest with detail about how it works, make the benefit concrete in the reader's day and end with a single clear step.
-- PAS (Problem, Agitate, Solve): name the problem in the reader's words, show what it really costs in time, money or hassle, then present the solution. Sharpen the problem with concrete consequences, not fear or exaggeration.
-- Before–After–Bridge: describe where the reader is now, show a realistic 'after' and explain concretely how the offer gets them there. The 'after' must not promise more than you can deliver.
+- AIDA (Attention, Interest, Desire, Action): catch the right reader with something relevant, not merely loud. Build interest with detail about how it works, make the benefit concrete in the reader’s day and end with a single clear step.
+- PAS (Problem, Agitate, Solve): name the problem in the reader’s words, show what it really costs in time, money or hassle, then present the solution. Sharpen the problem with concrete consequences, not fear or exaggeration.
+- Before–After–Bridge: describe where the reader is now, show a realistic “after” and explain concretely how the offer gets them there. The “after” must not promise more than you can deliver.
 - Treat the model as a checklist, not a fill-in-the-blanks template: cut any step that adds nothing and check that each paragraph leads on to the next.
 
 ## Choose a move for the situation
@@ -29,12 +29,12 @@ Use AIDA, PAS or Before–After–Bridge as a checklist for the order in which r
 
 ## Moves
 
-- **PAS in three sentences.** The problem in the reader's words, what it costs, the solution. Suits ads and short emails. 'Rain coming in on the patio again? Then the garden furniture stays in the garage. We glaze the patio in two days.'
-- **Before, after, bridge.** Today's situation, a reasonable situation afterwards, how the offer takes the reader there. Suits cases where the change is easy to picture. 'Today you clean the windows twice a year, if you get round to it. With a subscription they are clean every six weeks. We come on the same weekday each time.'
+- **PAS in three sentences.** The problem in the reader’s words, what it costs, the solution. Suits ads and short emails. “Rain blowing in on the porch again? Then the patio furniture stays in the garage. We enclose the porch in two days.”
+- **Before, after, bridge.** Today’s situation, a reasonable situation afterward, how the offer takes the reader there. Suits cases where the change is easy to picture. “Today you wash the windows twice a year, if you get around to it. On a plan, they’re clean every six weeks. We come on the same weekday every time.”
 - **AIDA for a longer text.** Catch the right reader, build interest with how it works, make the benefit concrete, end with one step. A headline that singles out the reader. A paragraph on how it works. A paragraph on what the reader is spared. A button.
 - **The order of a landing page.** Our application: the promise, what it is and who it is for, how it works, proof, price and terms, common questions, one next step. Cut whatever has no content. A page without customer reviews skips proof and puts more weight on how it works.
-- **The order of an email.** Our application: a subject line that states the purpose, a first line with the point, one reason, one call to action. Subject line: 'Window cleaning Thursday 14 May'. First line: 'We'll arrive between 8 and 12.'
-- **One step per text.** Decide what the reader should do, and let everything else lead there. If the page asks for three things, the reader doesn't know which matters most. Choose one and turn the others into links further down.
+- **The order of an email.** Our application: a subject line that states the purpose, a first line with the point, one reason, one call to action. Subject line: “Window cleaning Thursday, May 14.” First line: “We’ll be there between 8 and noon.”
+- **One step per text.** Decide what the reader should do, and let everything else lead there. If the page asks for three things, the reader doesn’t know which matters most. Choose one and turn the others into links further down.
 
 ## Questions to ask
 
@@ -44,39 +44,39 @@ Use AIDA, PAS or Before–After–Bridge as a checklist for the order in which r
 
 ## Fictional example
 
-Fictional: a service gathers a team's tasks into one shared list that everyone in the team can see.
+Fictional: a service gathers a team’s tasks into one shared list that everyone in the team can see.
 
 - **Before:** Total control. Maximum potential. Unlimited possibilities.
-- **After:** Who's doing what this week? When tasks are scattered across email, chat and sticky notes, things slip through the cracks. Put them in one list the whole team can see. [See how it works]
-- **Why:** Problem, consequence and solution in three sentences (PAS): the reader recognises the situation before the offer appears, so the superlatives aren't needed.
+- **After:** Who’s doing what this week? When tasks are scattered across email, chat and sticky notes, things slip through the cracks. Put them in one list the whole team can see. [See how it works]
+- **Why:** Problem, consequence and solution in three sentences (PAS): the reader recognizes the situation before the offer appears, so the superlatives aren’t needed.
 
 ## A complete example
 
-Fictional: Klart Glas sells window cleaning on subscription to house owners in Västerås. Facts in the brief: every six weeks, the same weekday, 395 kr per visit after the RUT tax deduction for a house with up to 15 windows, no minimum term, the customer doesn't need to be at home, the invoice comes the following month. There are no customer reviews to show.
+Fictional: Clear Pane sells window cleaning on a plan to homeowners in Boise. Facts in the brief: every six weeks, the same weekday, $45 per visit for a house with up to 15 windows, no contract, the customer doesn’t need to be home, a text the day before, billed the following month. There are no customer reviews to show.
 
 > Clean windows every six weeks
 >
-> Window cleaning on subscription for houses in Västerås.
+> Window cleaning on a plan for homes in Boise.
 >
 > How it works
-> We come on the same weekday every six weeks and clean the outside. You don't need to be at home. The day before, you get a text.
+> We come on the same weekday every six weeks and clean the outside. You don’t need to be home. The day before, you get a text.
 >
 > What it costs
-> 395 kr per visit after the RUT tax deduction, for a house with up to 15 windows. The invoice comes the following month.
+> $45 per visit, for a house with up to 15 windows. We bill you the following month.
 >
-> No minimum term
-> You can cancel whenever you like, up to the day before the next visit.
+> No contract
+> Cancel whenever you like, up to the day before the next visit.
 >
 > More than 15 windows?
-> Send us the address and we'll reply with a price.
+> Send us your address and we’ll reply with a price.
 >
-> [Choose a weekday]
+> [Pick a weekday]
 
 **What the example does:**
 
-- The order is the promise, what it is and who it is for, how it works, price and terms, a common question, one step.
-- The brief has no proof. So there is no such section, and the copy doesn't pretend to have customer reviews.
-- Every subheading answers something the reader would otherwise have to ask.
+- The order is the promise, what it is and who it’s for, how it works, price and terms, a common question, one step.
+- The brief has no proof. So there is no such section, and the copy doesn’t pretend to have customer reviews.
+- Each subhead answers something the reader would otherwise have to ask.
 
 ## Common mistakes
 

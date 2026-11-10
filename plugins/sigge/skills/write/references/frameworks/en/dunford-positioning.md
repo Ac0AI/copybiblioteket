@@ -4,74 +4,74 @@
 
 April Dunford · Offer · `dunford-positioning`
 
-Positioning as April Dunford describes it: start with what customers would otherwise choose, identify what you can do that those alternatives can't, translate it into value, define the customers who care most and pick the market category that makes that value obvious.
+Positioning as April Dunford describes it: start with what customers would otherwise choose, identify what you can do that those alternatives can’t, translate it into value, define the customers who care most and pick the market category that makes that value obvious.
 
-**Use when:** When readers can't tell what you sell, who it's for or why they should choose you over what they already do – or when you keep being compared with the wrong competitors.
+**Use when:** When readers can’t tell what you sell, who it’s for or why they should choose you over what they already do – or when you keep being compared with the wrong competitors.
 
-**Keep in mind:** When the only differences you can name are words like innovative, seamless or leading, or when you don't yet know which alternatives customers actually weigh you against. Find out first.
+**Keep in mind:** When the only differences you can name are words like innovative, seamless or leading, or when you don’t yet know which alternatives customers actually weigh you against. Find out first.
 
 ## Principles
 
-- Competitive alternatives: list what customers would do if you didn't exist – pick a competitor, carry on with a spreadsheet, hire an intern or do nothing at all. That is what readers compare you with, not your own list of competitors.
+- Competitive alternatives: list what customers would do if you didn’t exist – pick a competitor, carry on with a spreadsheet, hire an intern or do nothing at all. That is what readers compare you with, not your own list of competitors.
 - Unique attributes: write down what you have or can do that the alternatives lack – features, ways of working, expertise, delivery model. Stick to facts, not adjectives.
-- Value: ask 'so what does that mean for the customer?' of each attribute until the answer is a concrete benefit, and note the evidence that shows the benefit is real.
+- Value: ask “so what does that mean for the customer?” of each attribute until the answer is a concrete benefit, and note the evidence that shows the benefit is real.
 - Best-fit customers: describe what the customers who care most about that value have in common (their situation, needs or way of working, not just industry and size) and write for them.
-- Market category: choose the context that lets readers instantly understand what you are and why your value matters. Don't claim to be unique or the best without a comparison to back it up.
+- Market category: choose the context that lets readers instantly understand what you are and why your value matters. Don’t claim to be unique or the best without a comparison to back it up.
 
 ## Choose a move for the situation
 
 - The reader asks what this actually is: A category that makes the value obvious.
 - The reader says they already have a system: Alternatives first and The feature the alternatives lack.
-- The copy lists features: Ask 'so what?'.
+- The copy lists features: Ask “so what?”
 - The page tries to suit everyone: The customers who care most.
 - The positioning exists but the home page is unclear: From positioning to home page.
 
 ## Moves
 
-- **Alternatives first.** Write down what the customer chooses between today, including what isn't a competitor. 'Cafés today choose between a large till system built for shops and a card reader with an app.'
-- **The feature the alternatives lack.** Stick to something you can show, and check that the alternatives really lack it. 'Orders from the till and from the QR code on the tables land on the same screen in the kitchen.'
-- **Ask 'so what?'.** Ask what the feature leads to, until the answer is something the customer would say themselves. The same screen in the kitchen. So what? Nobody runs around with slips of paper. So what? Fewer forgotten orders when it's full.
-- **The customers who care most.** Describe the situation that makes the value large, and go beyond industry and size. 'Cafés with table service and a lunch rush. Not kiosks with a single queue.'
-- **A category that makes the value obvious.** Choose the context where your strength is what the reader expects to compare. 'A till for cafés with table service' says more than 'till system' or 'platform for the restaurant industry'.
-- **From positioning to home page.** Our application: the headline states the category and the value, the subheading says who it is for and compared with what, and the first section shows the feature that makes the difference. Headline: 'The till for cafés with table service.' Subheading: 'Orders from the till and the tables land on the same screen in the kitchen.'
+- **Alternatives first.** Write down what the customer chooses between today, including what isn’t a competitor. “Coffee shops today choose between a big POS system built for retail and a card reader with an app.”
+- **The feature the alternatives lack.** Stick to something you can show, and check that the alternatives really lack it. “Orders from the register and from the QR code on the tables show up on the same screen in the kitchen.”
+- **Ask “so what?”.** Ask what the feature leads to, until the answer is something the customer would say themselves. The same screen in the kitchen. So what? Nobody runs around with paper tickets. So what? Fewer forgotten orders when the place is packed.
+- **The customers who care most.** Describe the situation that makes the value large, and go beyond industry and size. “Coffee shops with table service and a lunch rush. Not kiosks with a single line.”
+- **A category that makes the value obvious.** Choose the context where your strength is what the reader expects to compare. “A POS for coffee shops with table service” says more than “POS system” or “platform for the restaurant industry.”
+- **From positioning to home page.** Our application: the headline states the category and the value, the subheading says who it is for and compared with what, and the first section shows the feature that makes the difference. Headline: “The POS for coffee shops with table service.” Subhead: “Orders from the register and the tables show up on the same screen in the kitchen.”
 
 ## Questions to ask
 
-- What would customers use if we didn't exist?
-- What can we do that those alternatives can't – and how do we show it?
+- What would customers use if we didn’t exist?
+- What can we do that those alternatives can’t – and how do we show it?
 - Who cares most about that difference, and what do they have in common?
 - In what context does our value become obvious to the reader?
 
 ## Fictional example
 
-Fictional: a scheduling tool holds the rota and lets staff request shift swaps inside the tool. Today, customers keep the rota in a spreadsheet and handle swaps by email and text.
+Fictional: a scheduling tool holds the staff schedule and lets employees request shift swaps inside the tool. Today, customers keep the schedule in a spreadsheet and handle swaps by email and text.
 
 - **Before:** An innovative platform that takes your business to the next level.
-- **After:** Let staff request shift swaps right in the rota, instead of emailing and texting you.
+- **After:** Let staff request shift swaps right in the schedule, instead of emailing and texting you.
 - **Why:** The copy sets the tool against what the reader actually uses today and highlights the difference that decides the comparison.
 
 ## A complete example
 
-Fictional: the till system Brygga. Facts in the brief: orders from the till and from a QR code on the tables appear on the same kitchen screen, 490 kr a month per till, no minimum term. Customers today use a shop till system or a card reader with an app, and write orders on slips of paper.
+Fictional: the point-of-sale system Counterline. Facts in the brief: orders from the register and from a QR code on the tables appear on the same kitchen screen, $49 a month per register, no contract. Customers today use a retail POS system or a card reader with an app, and write orders on paper tickets.
 
-> The till for cafés with table service
+> The POS for coffee shops with table service
 >
-> Orders from the till and from the tables land on the same screen in the kitchen.
+> Orders from the register and from the tables show up on the same screen in the kitchen.
 >
-> Do you have a till system built for shops? Then you probably write orders on slips of paper when it's full. With Brygga, the guest orders at the till or with the QR code on the table. The kitchen sees everything in the order it came in.
+> Is your POS built for retail? Then you’re probably writing orders on paper tickets when the place is packed. With Counterline, guests order at the register or with the QR code on the table. The kitchen sees everything in the order it came in.
 >
-> For cafés with a rush
-> Brygga is made for places where twenty people want lunch at the same time. If you have a single queue and no tables, a card reader will do you fine.
+> For coffee shops with a rush
+> Counterline is made for places where twenty people want lunch at the same time. If you have one line and no tables, a card reader will do fine.
 >
-> 490 kr a month per till. No minimum term.
+> $49 a month per register. No contract.
 >
 > [See what the kitchen screen looks like]
 
 **What the example does:**
 
-- The headline is the category. The reader knows at once what it is and what to compare it with.
-- The copy names what the reader uses today, the shop till and the slips of paper, and sets the feature against exactly that.
-- The paragraph about who it isn't for marks out the customers who care most.
+- The headline is the category. The reader knows right away what this is and what to compare it with.
+- The copy names what the reader uses today, the retail POS and the paper tickets, and sets the feature against exactly that.
+- The paragraph about who it isn’t for narrows in on the customers who care most.
 
 ## Common mistakes
 

@@ -14,7 +14,7 @@ export const notices = {
   en: {
     profile: 'Our own applications, translated from our Swedish profiles. Source references are inherited from The Brains and have not been independently checked against the complete originals. Profiles are not official or endorsed by the people featured.',
     native: 'Our own application with source references. Examples are fictional and illustrate writing choices, not measured results.',
-    source: 'Material inherited from The Brains. Longer sources were summarised by that project and have not been verified here against the complete originals. Check important claims in the linked source.',
+    source: 'Material inherited from The Brains. Longer sources were summarized by that project and have not been verified here against the complete originals. Check important claims in the linked source.',
     link: 'Original sources for further reading. Descriptions are our own applications; open the links to read the authors\' material.',
     found: 'Choose frameworks that help the task. Write directly in English from the brand\'s brief and evidence.',
     empty: 'No relevant match. Try a specific concept such as price, testimonials or positioning, or browse all frameworks. Do not invent supporting sources.',
