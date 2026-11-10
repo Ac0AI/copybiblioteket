@@ -8,15 +8,15 @@ David Ogilvy held that far more people read the headline than the body copy. So 
 
 **Use when:** When the headline, email subject line or intro is interchangeable, overloaded or promises more than the copy shows – or when nobody reads on, opens the newsletter or stays on the page.
 
-**Keep in mind:** When a headline rule is treated as a guarantee of results, or when the headline would promise something the product doesn't deliver.
+**Keep in mind:** When a headline rule is treated as a guarantee of results, or when the headline would promise something the product doesn’t deliver.
 
 ## Principles
 
-- Write the headline as if it's the only thing the reader will see. It should stand on its own and still tell them what they'll get from reading on.
-- Promise a specific benefit or share real news, and make it clear who the headline is for. Ogilvy preferred plain, specific headlines to puns and riddles that only make sense once you've read the body copy.
+- Write the headline as if it’s the only thing the reader will see. It should stand on its own and still tell them what they’ll get from reading on.
+- Promise a specific benefit or share real news, and make it clear who the headline is for. Ogilvy preferred plain, specific headlines to puns and riddles that only make sense once you’ve read the body copy.
 - Find the idea in product knowledge: do your homework, use the product and talk to customers until you find what is genuinely interesting. Ogilvy believed that is where the best ideas come from.
-- Let the body copy prove the promise with facts, detail and terms. A headline the copy can't live up to costs more trust than it earns.
-- Test the headline in its channel: a newsletter subject line, an ad and a web page are read differently. Check that it sounds like the sender and that it's clear who is speaking when the headline stands alone.
+- Let the body copy prove the promise with facts, detail and terms. A headline the copy can’t live up to costs more trust than it earns.
+- Test the headline in its channel: a newsletter subject line, an ad and a web page are read differently. Check that it sounds like the sender and that it’s clear who is speaking when the headline stands alone.
 
 ## Choose a move for the situation
 
@@ -29,12 +29,12 @@ David Ogilvy held that far more people read the headline than the body copy. So 
 
 ## Moves
 
-- **The benefit.** Say what the reader gets, concretely enough to picture. 'Hire an e-bike and see all of Visby in a day.'
-- **The news.** If something has changed, the headline should say so. Ogilvy counted news among the things that get read most. 'New this year: return the bike in Slite.'
-- **How to.** Promise guidance that the copy then gives. 'How to get from the ferry to Fårö without a car.'
-- **The fact.** An exact detail is easier to believe than a judgement. '65 km on one charge. Enough to get to Tofta and back.'
-- **Single out the reader.** Say who the headline is for, so the right person stops. 'For those arriving on the morning ferry.'
-- **The subject line.** The same rules, only shorter. State the purpose and stop there. 'Your bike is booked for 14 July.'
+- **The benefit.** Say what the reader gets, concretely enough to picture. “Rent an e-bike and ride to Edgartown for lunch.”
+- **The news.** If something has changed, the headline should say so. Ogilvy counted news among the things that get read most. “New this year: drop the bike off in Oak Bluffs.”
+- **How to.** Promise guidance that the copy then gives. “How to get from the ferry to Aquinnah without a car.”
+- **The fact.** An exact detail is easier to believe than a judgment. “40 miles on one charge. Enough for Edgartown and back.”
+- **Single out the reader.** Say who the headline is for, so the right person stops. “For anyone coming in on the morning ferry.”
+- **The subject line.** The same rules, only shorter. State the purpose and stop there. “Your bike is reserved for July 14.”
 
 ## Questions to ask
 
@@ -44,36 +44,36 @@ David Ogilvy held that far more people read the headline than the body copy. So 
 
 ## Fictional example
 
-Fictional: an online grocer lets customers choose a two-hour delivery slot. No exact delivery time is guaranteed.
+Fictional: an online grocery store lets customers pick a two-hour delivery window. No exact delivery time is guaranteed.
 
 - **Before:** Delivery exactly when you want it. Every time.
-- **After:** You choose the two hours your groceries arrive.
+- **After:** You pick the two-hour window when your groceries arrive.
 - **Why:** The headline promises a specific, true benefit the body copy can back up, without turning the choice into a guarantee of an exact time.
 
 ## A complete example
 
-Fictional: Gotlandscykel hires out e-bikes in Visby. Facts in the brief: pick-up 200 metres from the ferry terminal, 65 km range per charge, 450 kr per 24 hours, new this year is that the bike can be returned in Slite. The copy will sit at the top of the home page.
+Fictional: Vineyard Wheels rents e-bikes in Vineyard Haven on Martha’s Vineyard. Facts in the brief: pickup 200 yards from the ferry terminal, 40 miles of range per charge, $65 a day, new this year is that the bike can be dropped off in Oak Bluffs. The copy goes at the top of the home page.
 
-> Pick up your e-bike 200 metres from the ferry
+> Pick up your e-bike 200 yards from the ferry
 >
-> You step off the boat, collect the bike and you're on your way. One charge lasts 65 km, so you can get to Tofta and back without thinking about the battery.
+> You step off the boat, grab the bike and go. One charge lasts 40 miles, so you can ride to Edgartown and back without thinking about the battery.
 >
-> New this year: you can return the bike in Slite instead of cycling back to Visby.
+> New this year: you can drop the bike off in Oak Bluffs instead of riding back to Vineyard Haven.
 >
-> 450 kr per 24 hours.
+> $65 a day.
 >
-> [Book a bike]
+> [Reserve a bike]
 >
-> Headlines that were rejected
-> 'Experience Gotland on two wheels' fits any hire firm.
-> 'Real freedom' doesn't say what the reader gets.
-> 'Cycle smart' is wordplay that needs the body copy to mean anything.
+> Headlines we rejected
+> “Experience the Vineyard on two wheels” fits any rental shop.
+> “Real freedom” doesn’t say what the reader gets.
+> “Ride smart” is wordplay that needs the body copy to mean anything.
 
 **What the example does:**
 
-- The headline stands on its own. Someone who reads only that knows what is on offer and where.
-- The fact, 200 metres, makes the benefit credible, and the body copy proves it with the range.
-- The rejected headlines show the test: could the line sit on a competitor's site without being changed?
+- The headline stands on its own. Someone who reads only that knows what is offered and where.
+- The 200 yards makes the benefit believable, and the body copy backs it up with the range.
+- The rejected headlines show the test: could the line run at a competitor’s without a change?
 
 ## Common mistakes
 

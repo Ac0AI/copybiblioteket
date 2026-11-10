@@ -25,11 +25,30 @@ test("the chooser points at moves that exist", () => {
   }
 });
 
-test("worked examples are labelled fictional and keep to prices in kronor", () => {
-  for (const language of languages) for (const f of sv.forLanguage(language).frameworks) {
-    assert.match(f.worked.context, language === "sv" ? /^Påhittat:/ : /^Fictional:/, `${language} ${f.id}`);
-    assert.doesNotMatch(f.worked.text + f.worked.context, /[$€£]|\bSEK\b|\bEUR\b|\bUSD\b/, `${language} ${f.id} changes the currency`);
+test("worked examples are labelled fictional and belong to their own language", () => {
+  for (const f of sv.frameworks) {
+    assert.match(f.worked.context, /^Påhittat:/, f.id);
+    assert.doesNotMatch(f.worked.text + f.worked.context, /[$€£]|\bSEK\b|\bEUR\b|\bUSD\b/, `sv ${f.id} leaves kronor`);
   }
+  // The English examples are written for an American reader, not translated: dollars, US places, no Swedish setting.
+  const swedishSetting = /\bkr\b|[£€]|\bSEK\b|Räkna|Bevaka|Brygga|Hylla|Tassen|Klart Glas|Gotlandscykel|Soltak|Ugnen|Malmö|Visby|Västerås|Göteborg|Gothenburg|BankID|\bRUT\b|\bVAT\b/;
+  for (const f of sv.forLanguage("en").frameworks) {
+    assert.match(f.worked.context, /^Fictional:/, f.id);
+    // The card about writing Swedish quotes Swedish copy on purpose.
+    if (f.id === "swedish-original") continue;
+    const text = [f.worked.context, f.worked.before ?? "", f.worked.text, ...f.worked.notes, ...f.moves.map((move) => move.example), f.example.context, f.example.before, f.example.after].join("\n");
+    assert.doesNotMatch(text, swedishSetting, `en ${f.id} still has a Swedish setting`);
+    assert.doesNotMatch(text, /'/, `en ${f.id} uses a straight quote`);
+  }
+});
+
+test("the English catalogue is spelled the American way", () => {
+  const british = /\b((recognis|organis|realis|apologis|prioritis|optimis|summaris|emphasis|localis|capitalis)(e|es|ed|ing|ation)\b|behaviour|colour|favour|humour|judgement|centre\b|programme|whilst|enquir|practis(e|es|ed|ing)\b|licence|removal firm|at the weekend)/i;
+  for (const f of sv.forLanguage("en").frameworks) {
+    const { keywords: _keywords, ...rest } = f;
+    assert.doesNotMatch(JSON.stringify(rest), british, f.id);
+  }
+  for (const person of sv.forLanguage("en").people) assert.doesNotMatch(JSON.stringify([person.summary, person.principles, person.questions, person.topics]), british, person.id);
 });
 
 test("our own framework text passes the pattern check we ask others to pass", () => {

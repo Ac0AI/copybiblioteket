@@ -82,3 +82,12 @@ Sakinnehållet är kontrollerat mot vad vi vet om originalen, inte mot de länka
 En jämförelse gjordes med samma uppgift (en prissida för löneadministration, med en prisinvändning): med pluginet och verktyget, med pluginets medföljande filer, och helt utan Sigge. Texterna från de tre körningarna var ungefär lika bra. Körningarna med Sigge satte priset i rubriken, skilde på vad byrån gör och vad kunden gör, och listade antaganden som behöver kontrolleras. Körningen utan Sigge hade en pristabell som de andra saknade och ingen lista över antaganden. Ingen formulering eller uppgift ur ramverkens exempel läckte in i texterna. Det här är en uppgift och en modell; det visar inte att ramverken gör texterna bättre, och det visar inte motsatsen.
 
 Filmen på start- och anslutningssidan har tre scener: installera pluginet, be om en text, och hur utkastet kollas innan läsaren ser det. Scenerna är kontrollerade i webbläsare i dator- och mobilbredd på båda språken. MP4-filerna `sigge-anslut-din-ai.mp4` och `sigge-connect-your-ai.mp4` är exporterade på nytt med `scripts/export-film.mjs` och har kvar det tidigare slutkortet. Filmen om skrivverkstaden är oförändrad.
+
+
+## Fristående engelska, 10 november 2026
+
+Den engelska katalogen var skriven från den svenska och hade svenska företag, kronor och svenska orter i exemplen. Exemplen i tolv ramverk är nu skrivna för amerikanska läsare, med egna påhittade företag, dollar och amerikanska orter. Kortet om att skriva svenska citerar fortfarande svensk text, eftersom det är vad det handlar om. Stavning, datum, klockslag och citattecken följer amerikansk engelska i ramverken, profilerna, skrivguiden och skrivverkstadens engelska exempel.
+
+Två tester håller det på plats: de engelska exemplen får inte innehålla kronor, svenska företagsnamn eller svenska orter, och den engelska katalogen får inte innehålla brittisk stavning. Citattecknen konverterades med ett skript och kontrollerades för obalanserade par; åtta slumpvis valda meningar lästes.
+
+De amerikanska sakuppgifterna i exemplen är påhittade men ska vara rimliga: en färja till Vineyard Haven på Martha’s Vineyard, kampanjpriser på internetabonnemang som löper ut, personnummer ersatt med Social Security-nummer vid finansiering. Ingen amerikansk läsare har granskat dem.

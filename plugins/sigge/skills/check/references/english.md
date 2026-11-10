@@ -4,7 +4,7 @@ Write directly in English from the task, facts and audience. Use frameworks to r
 
 ## Find the voice
 
-Use approved brand examples to identify rhythm, vocabulary, warmth, humour and how directly the brand sells. They are style references, not product facts or sentences to copy. Without examples, choose clear, human language appropriate to the situation.
+Use approved brand examples to identify rhythm, vocabulary, warmth, humor and how directly the brand sells. They are style references, not product facts or sentences to copy. Without examples, choose clear, human language appropriate to the situation.
 
 Use the audience's English variety where specified. Do not assume that English means a US audience, aggressive sales language or a particular currency. If the market materially changes the wording and is unknown, ask. Keep regional spelling consistent.
 
@@ -14,7 +14,7 @@ Use the audience's English variety where specified. Do not assume that English m
 - Prefer concrete verbs and details over abstract claims. Keep personality when it helps the reader.
 - Write natural sentences rather than translating Swedish word order or idioms literally.
 - Use established industry terms when the audience uses them. Explain unfamiliar terms where needed.
-- Preserve prices, currency, tax treatment, dates, units, deadlines, guarantees and other terms. Never convert currency or silently alter a condition to localise the copy.
+- Preserve prices, currency, tax treatment, dates, units, deadlines, guarantees and other terms. Never convert currency or silently alter a condition to localize the copy.
 - Preserve required wording exactly, even when it is in another language. Flag the language mismatch and ask before translating legally or commercially significant terms.
 - Keep quotations, translations and paraphrases distinct. Do not invent customer language, testimonials, evidence or urgency.
 

@@ -53,6 +53,6 @@ The skills run in your own assistant, and the bundled checker runs wherever your
 
 The frameworks and perspectives are our own applications of public material. They are not the authors' official services and are not endorsed by them. A framework is a way to think, not evidence about your product and not a promise about conversion. The pattern check finds known phrases; a clean result does not prove the text is good, and a finding does not prove an AI wrote it.
 
-## Licence
+## License
 
-MIT. See [LICENSE](LICENSE). The licence does not cover the original works the sources link to. Corrections and rights questions: [issues](https://github.com/Ac0AI/sigge/issues) or hej@sigge.si.
+MIT. See [LICENSE](LICENSE). The license does not cover the original works the sources link to. Corrections and rights questions: [issues](https://github.com/Ac0AI/sigge/issues) or hej@sigge.si.

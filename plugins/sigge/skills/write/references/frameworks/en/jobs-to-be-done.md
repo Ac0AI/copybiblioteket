@@ -4,19 +4,19 @@
 
 Christensen Institute / Jobs to Be Done · Customer insight · `jobs-to-be-done`
 
-Customers 'hire' a product to make progress in a particular situation. Find out what happened when they started looking, what change they want (practical, social and emotional) and what keeps them tied to the old way.
+Customers “hire” a product to make progress in a particular situation. Find out what happened when they started looking, what change they want (practical, social and emotional) and what keeps them tied to the old way.
 
-**Use when:** When the audience is described only by age, industry or company size, when you don't know why customers buy, or when buyers hesitate to switch.
+**Use when:** When the audience is described only by age, industry or company size, when you don’t know why customers buy, or when buyers hesitate to switch.
 
-**Keep in mind:** When you haven't talked to customers: write questions and hypotheses, not claims about what customers really feel.
+**Keep in mind:** When you haven’t talked to customers: write questions and hypotheses, not claims about what customers really feel.
 
 ## Principles
 
 - Ask about a specific occasion: when did the customer start looking, what had just happened, what did they try first and why did it matter right then? Ask what people did, not what they think they want.
-- Describe the job as progress in a situation ('When …, I want to …, so I can …') rather than as a product feature or a demographic.
+- Describe the job as progress in a situation (“When …, I want to …, so I can …”) rather than as a product feature or a demographic.
 - Capture all three sides of the job: the practical (getting the books done), the social (how the customer wants to be seen) and the emotional (no longer having to worry).
 - Our application: a switch is driven by frustration with the old way and the pull of the new, and held back by anxiety about the new and habits tied to the old. Copy should strengthen the first two and ease the last two – for example by showing how the move works.
-- One customer's story is a hypothesis, not a truth about the whole audience. Look for patterns across several interviews before you build the message on them.
+- One customer’s story is a hypothesis, not a truth about the whole audience. Look for patterns across several interviews before you build the message on them.
 
 ## Choose a move for the situation
 
@@ -28,18 +28,18 @@ Customers 'hire' a product to make progress in a particular situation. Find out 
 
 ## Moves
 
-- **The job statement.** Write the job as one sentence: When [situation], I want to [change], so that [result]. 'When the stock in Excel doesn't match the shelf, I want to see the right stock level straight away, so that I don't sell items that have run out.'
-- **What pushes.** Our application: describe what chafes in the old way, with an event the reader recognises. 'Did you sell an item at the weekend that had already run out?'
-- **What pulls.** Our application: show what everyday life looks like with the new way, concretely and without superlatives. 'The stock level changes when the order is placed, not when you get round to updating the sheet.'
-- **The worry about the new.** Our application: answer what makes the switch daunting, usually the move, the learning and the risk of losing data. 'We import your Excel sheet. You don't have to add the products all over again.'
-- **The habit of the old.** Our application: let the reader keep what they like about the old way. 'You can keep exporting to Excel every Friday if you want to hold on to your own lists.'
-- **The three sides of the job.** Write one line each for the practical, the social and the emotional side, and choose which one the copy should carry. Practical: the right stock level. Social: not having to email customers and apologise. Emotional: being able to shut the laptop on Friday.
+- **The job statement.** Write the job as one sentence: When [situation], I want to [change], so that [result]. “When my inventory spreadsheet doesn’t match the shelf, I want to see the right count right away, so I don’t sell items that are out of stock.”
+- **What pushes.** Our application: describe what chafes in the old way, with an event the reader recognizes. “Did you sell something over the weekend that was already out of stock?”
+- **What pulls.** Our application: show what everyday life looks like with the new way, concretely and without superlatives. “The count changes when the order comes in, not when you get around to updating the spreadsheet.”
+- **The worry about the new.** Our application: answer what makes the switch daunting, usually the move, the learning and the risk of losing data. “We import your spreadsheet. You don’t have to enter your products all over again.”
+- **The habit of the old.** Our application: let the reader keep what they like about the old way. “You can keep exporting to a spreadsheet every Friday if you want to hang on to your own lists.”
+- **The three sides of the job.** Write one line each for the practical, the social and the emotional side, and choose which one the copy should carry. Practical: the right count. Social: not having to email customers and apologize. Emotional: being able to close the laptop on Friday.
 
 ## Questions to ask
 
 - What happened just before the customer started looking for a solution?
 - What works poorly with what they use today?
-- What do they want to be able to do, feel or show afterwards?
+- What do they want to be able to do, feel or show afterward?
 - What makes switching difficult or uncertain?
 
 ## Fictional example
@@ -47,36 +47,36 @@ Customers 'hire' a product to make progress in a particular situation. Find out 
 Fictional: a service helps small businesses move bookkeeping records from another system. This is not based on a real interview.
 
 - **Before:** Our solution suits businesses with 1–10 employees.
-- **After:** Want to switch accounting software but dreading the move? We'll help you transfer your records from the system you use today.
+- **After:** Want to switch accounting software but dreading the move? We’ll help you transfer your records from the system you use today.
 - **Why:** The copy meets readers in their situation (wanting to switch and worrying about the move) instead of sorting them by headcount.
 
 ## A complete example
 
-Fictional: the stock program Hylla for small online shops that keep their stock in Excel today. Facts in the brief: imports the existing Excel sheet, the stock level updates when an order is placed, export to Excel remains, 290 kr a month, a 30-day free trial. The example is not based on real interviews.
+Fictional: the inventory software Shelfwise, for small online stores that keep inventory in a spreadsheet today. Facts in the brief: imports the existing spreadsheet, the count updates when an order is placed, spreadsheet export stays available, $29 a month, a 30-day free trial. The example is not based on real interviews.
 
-> Did you sell an item at the weekend that had already run out?
+> Did you sell something over the weekend that was already out of stock?
 >
-> Then you know what Monday looks like. You email the customer, apologise and pay the money back.
+> Then you know what Monday looks like. You email the customer, apologize and issue a refund.
 >
-> The stock in Excel is right for as long as you have time to update it. With Hylla, the stock level changes the moment the order is placed.
+> A spreadsheet is right as long as you keep up with it. With Shelfwise, the count changes the moment the order comes in.
 >
-> You don't have to start again. We import the sheet you already have, with item numbers and quantities. If you want to keep your own lists, you export to Excel whenever you like.
+> You don’t have to start over. We import the spreadsheet you already have, with SKUs and quantities. If you want to keep your own lists, you can export to a spreadsheet whenever you like.
 >
-> Try it for 30 days at no cost. After that Hylla costs 290 kr a month.
+> Try it free for 30 days. After that, Shelfwise is $29 a month.
 >
-> [Import your Excel sheet]
+> [Import your spreadsheet]
 
 **What the example does:**
 
-- The opening is an event, not a target group. Whoever recognises it reads on.
-- The third paragraph is the pull. The fourth deals with the worry about the move and the habit of Excel.
-- The button is the first step of the switch, so the reader can see that the move starts with something small.
+- The opening is an event, not an audience. Anyone who recognizes it keeps reading.
+- The third paragraph is the pull. The fourth takes care of the worry about the move and the habit of the spreadsheet.
+- The button is the first step of the switch, so the reader sees that the move starts with something small.
 
 ## Common mistakes
 
 - Describing the target group by age and industry and believing that explains why anyone buys.
 - Strengthening only the pull and forgetting the worry. Someone convinced of the benefit may still stay put because the switch looks like hard work.
-- Presenting a guess about the customer's feelings as an insight. Without conversations it is a hypothesis.
+- Presenting a guess about the customer’s feelings as an insight. Without conversations it is a hypothesis.
 
 ## Sources
 
