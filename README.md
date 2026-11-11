@@ -23,7 +23,9 @@ codex plugin marketplace add Ac0AI/sigge
 codex plugin add sigge@sigge
 ```
 
-Pluginet ligger i [plugins/sigge](plugins/sigge) och har fyra färdigheter: `write` (skriv eller skriv om copy), `check` (hitta och stryk AI-floskler), `review` (granska en befintlig text) och `start` (kort introduktion). De tretton ramverken, skrivguiderna och flosklerkollen följer med. Pluginet ansluter också till `https://sigge.si/mcp`, som ger de 59 perspektiven, källsökningen och verktyget som väljer ramverk åt uppgiften. Se [pluginets README](plugins/sigge/README.md).
+Pluginet ligger i [plugins/sigge](plugins/sigge) och har fem färdigheter: `brand` (sätt upp en varumärkesfil för företaget), `write` (skriv eller skriv om copy), `check` (hitta och stryk AI-floskler), `review` (granska en befintlig text) och `start` (kort introduktion). De tretton ramverken, skrivguiderna och flosklerkollen följer med. Pluginet ansluter också till `https://sigge.si/mcp`, som ger de 59 perspektiven, källsökningen och verktyget som väljer ramverk åt uppgiften. Se [pluginets README](plugins/sigge/README.md).
+
+Det som avgör en text är det bara företaget vet: vad som säljs och på vilka villkor, vad kunden tvekar inför, vad kunder faktiskt har sagt och hur avsändaren låter. Därför frågar `write` efter det som saknas innan den skriver, bestämmer läsare, tvekan och svar före utkastet och går igenom utkastet som en redaktör innan du får det. `brand` samlar samma saker en gång i filen `sigge-brand.md`, som alla färdigheter läser sedan. Formatet står i [brand-file.md](plugins/sigge/skills/write/references/brand-file.md).
 
 `plugins/sigge/skills/write/references/swedish.md` och `english.md` är skrivguidernas källa; servern läser dem därifrån. Ramverkssidorna, flosklerkollens skript och kopiorna i de andra färdigheterna genereras med `npm run build:plugin` från `data/copy-frameworks/` och `client/slop.js`. Redigera källorna, inte de genererade filerna. Ett test stoppar bygget om de inte stämmer överens.
 
@@ -66,7 +68,8 @@ Namnet `copy-brains` behålls för befintliga klientkopplingar. Detta kommando k
 
 | Verktyg | Funktion |
 | --- | --- |
-| `get_writing_kit` | Börja här: arbetsordning, högst tre ramverk, perspektiv, kanalråd och skrivguide i ett svar |
+| `get_writing_kit` | Börja här: vad som ska frågas före utkastet, arbetsordning, högst tre ramverk, kanalråd och skrivguide i ett svar |
+| `get_brand_file` | Sätt upp en varumärkesfil: intervjufrågorna och filens format |
 | `list_copy_frameworks` | Lista ramverken |
 | `search_copy_knowledge` | Hitta tillämpningar på valt språk |
 | `get_copy_framework` | Läs ramverk, exempel och källor |
@@ -119,6 +122,10 @@ Börja med uppgift, mottagare och fakta. Under **Fler inställningar** finns tex
 [Svenska](https://sigge.si/) och [English](https://sigge.si/en/) har egna adresser för skrivverkstad, ramverk, profiler och anslutning. Språkbytet sker på plats och behåller pågående arbete. Textens språk går att välja separat; utan ett uttryckligt val följer det gränssnittet. Lokal lagring är alltid frivillig. Exempelanteckningar är kommentarer till ett färdigskrivet, fiktivt exempel och granskar inte användarens text.
 
 Läsande API:er väljer språk med `?lang=en` eller `?lang=sv`. Kategori- och person-id:n är stabila mellan språken.
+
+## Jämförelse med och utan Sigge
+
+`evaluations/compare` spelar upp sex uppgifter som samtal mellan en skribent och en simulerad företagare som vet mer än den säger, och låter en domare jämföra texterna parvis utan att veta vilken version som skrev vilken. Se [README:n där](evaluations/compare/README.md) och resultaten i [docs/validation.md](docs/validation.md). Kör den efter ändringar i färdigheterna, skrivkitet eller skrivguiderna. Den kräver Claude Code och kostar pengar per körning.
 
 ## Lokal AI-utvärdering
 

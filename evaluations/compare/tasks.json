@@ -1,0 +1,110 @@
+[
+  {
+    "id": "stad-landningssida",
+    "language": "sv",
+    "prompt": "Skriv en landningssida för min städfirma i Uppsala.",
+    "reader": "En person i Uppsala med jobb och barn som funderar på hemstäd för första gången. Tvekar mest över att släppa in en främling i hemmet och undrar om det blir samma person varje gång.",
+    "truth": [
+      "Firman heter Rent Hus Uppsala. Ägaren heter Maria. Hon städar själv tillsammans med två anställda, Lina och Amir.",
+      "Hemstäd varje vecka eller varannan vecka. 420 kr per timme efter rutavdrag. Ett vanligt hem tar tre timmar.",
+      "Samma städare kommer varje gång. Maria gör alltid det första besöket själv och går igenom hemmet med kunden.",
+      "43 fasta kunder. De flesta har varit kunder i över två år.",
+      "Nyckeln förvaras i ett låst skåp på kontoret och är märkt med en kod, inte med adress.",
+      "Blir något inte bra kommer de tillbaka inom 48 timmar utan kostnad.",
+      "Ingen bindningstid. En månads uppsägning.",
+      "Kan starta inom två veckor. Tar bara kunder inom Uppsala tätort.",
+      "Kundomdömen som får användas med förnamn. Karin: ”Det bästa är att det är Lina varje gång. Hon vet var allt står.” Johan: ”Jag var nervös för att lämna ut nyckeln. Nu tänker jag inte på det.”",
+      "Så här skriver Maria själv på firmans Facebooksida: ”Vi städar hemma hos folk i Uppsala. Inget konstigt. Samma person kommer varje gång, och blir det inte bra kommer vi tillbaka.”",
+      "Man bokar genom att ringa 018-555 01 42 eller mejla hej@renthusuppsala.example.",
+      "Finns inte: pris per kvadratmeter, bokning på nätet, fönsterputs, flyttstäd, certifieringar."
+    ]
+  },
+  {
+    "id": "faktura-saljmejl",
+    "language": "sv",
+    "prompt": "Skriv ett säljmejl till ekonomichefer om vårt verktyg för leverantörsfakturor.",
+    "reader": "Ekonomichef på ett svenskt bolag med 20–100 anställda. Får många säljmejl och raderar de flesta. Tvekar över att införa ännu ett system, över tiden det tar och över om det fungerar med deras ekonomisystem.",
+    "truth": [
+      "Verktyget heter Tolka. Det läser leverantörsfakturor i PDF och föreslår kontering och attestant.",
+      "Fungerar med Fortnox och Visma eEkonomi. Inte med andra ekonomisystem ännu.",
+      "1 900 kr per månad för upp till 300 fakturor, därefter 4 kr per faktura. Ingen startavgift.",
+      "Man är i gång på en eftermiddag: koppla ekonomisystemet och vidarebefordra fakturamejlen.",
+      "En pilotkund, redovisningsansvarig på ett byggföretag med 60 anställda, sa: ”Vi lägger ungefär två dagar mindre i månaden på leverantörsfakturor.” Får citeras, men utan namn på person eller företag.",
+      "30 dagar gratis. Inget kort behövs.",
+      "Klarar inte utländska fakturor och inte handskrivna.",
+      "Avsändare är Sara Lind, medgrundare. Så här skriver hon: ”Hej Anders, kort fråga. Hur många timmar lägger ni på leverantörsfakturor en vanlig månad?”",
+      "14 betalande kunder.",
+      "Finns inte: kända kundlogotyper, ISO-certifiering, mobilapp, siffror på genomsnittlig besparing."
+    ]
+  },
+  {
+    "id": "cykel-omskrivning",
+    "language": "sv",
+    "prompt": "Kan du göra den här texten bättre? Den ska stå på vår hemsida.\n\n”Välkommen till Cykelkliniken – din partner för en sömlös cykelupplevelse! I dagens snabbrörliga värld är det viktigare än någonsin att din cykel håller högsta kvalitet. Vi erbjuder skräddarsydda lösningar som tar din cykling till nästa nivå. Våra passionerade experter brinner för att leverera service i världsklass. Kontakta oss idag och upplev skillnaden!”",
+    "reader": "En cykelpendlare i Göteborg vars cykel behöver service. Undrar hur länge hen blir utan cykel och vad det kostar.",
+    "truth": [
+      "Cykelkliniken ligger i Majorna i Göteborg. Två mekaniker, Jonas och Elsa.",
+      "De hämtar cykeln hemma hos kunden och lämnar tillbaka den nästa vardag. Hämtning och lämning ingår inom Göteborgs kommun.",
+      "Grundservice kostar 795 kr: växlar, bromsar, kedja och lufttryck. Delar tillkommer. De ringer alltid innan de byter något som kostar över 200 kr.",
+      "Ingen lånecykel.",
+      "Man bokar med sms till 070-555 01 23 eller på hemsidan.",
+      "De har servat ungefär 1 400 cyklar sedan starten 2022.",
+      "Elcyklar servar de, men inte fel på motor eller batteri.",
+      "Googlerecension som får användas: ”De hämtade cykeln på måndagen och på tisdagen stod den i cykelrummet igen.”",
+      "De skriver enkelt och lite torrt. Skylten i verkstaden: ”Vi lagar cyklar. Det är det enda vi gör.”",
+      "Finns inte: butik med cykelförsäljning, garanti på arbetet, abonnemang."
+    ]
+  },
+  {
+    "id": "byra-linkedin",
+    "language": "sv",
+    "prompt": "Skriv ett LinkedIn-inlägg om att vi har slutat ta betalt per timme.",
+    "reader": "Andra småföretagare och marknadsansvariga på mindre bolag som kan tänkas anlita en designbyrå. Misstänker att fast pris bara är ett sätt att höja priset.",
+    "truth": [
+      "Avsändare är Petra Holm, som driver designbyrån Studio Holm i Malmö med fyra personer.",
+      "Från den 1 januari tar de fast pris per projekt i stället för per timme.",
+      "Skälet: tre kunder under hösten ifrågasatte fakturor med timmar de inte förstod. Petra tyckte att de hade rätt.",
+      "En logotyp kostar nu 38 000 kr och en hemsida på upp till tio sidor 85 000 kr. Två korrekturrundor ingår. Mer arbete offereras innan det görs.",
+      "En gång har de förlorat på det: en hemsida tog dubbelt så lång tid som de räknat med. De stod för det.",
+      "Så här skriver Petra i tidigare inlägg: ”Vi gjorde en logga förra veckan som kunden hatade. Vi gjorde om den. Den nya är bättre. Ibland har kunden rätt, det är irriterande.” Och: ”Jag har haft byrå i nio år. Jag förstår fortfarande inte moms.”",
+      "Hon använder aldrig emojier och aldrig hashtaggar. Korta meningar.",
+      "Finns inte: siffror på kundnöjdhet, kundcitat om det nya priset."
+    ]
+  },
+  {
+    "id": "dental-landing",
+    "language": "en",
+    "prompt": "Write a landing page for our appointment reminder tool for dental offices.",
+    "reader": "The office manager at an independent dental practice in the United States with two to five dentists. Wonders whether it works with their scheduling software and whether patients will find the texts annoying.",
+    "truth": [
+      "The product is called Chairfill. It texts patients three days and one day before an appointment. Patients confirm or reschedule by replying.",
+      "It works with Dentrix and Open Dental. Not with Eaglesoft yet.",
+      "$129 a month per location. No setup fee. Month to month.",
+      "Setup takes about 20 minutes on a call with the Chairfill team.",
+      "One customer, Maple Grove Dental in Minnesota (three dentists), went from about nine no-shows a week to four in the first two months. Their office manager, Dana, agreed to be quoted: “The front desk stopped making reminder calls on Mondays.”",
+      "When a patient cancels, Chairfill texts the next people on the practice’s waitlist.",
+      "Patients can opt out by replying STOP. Chairfill signs a BAA for HIPAA.",
+      "14-day free trial. No credit card.",
+      "62 practices use it.",
+      "The voice is plain and a little warm, no hype. From the site footer: “Built by two people who used to answer phones at a dental office.”",
+      "Not available: voice calls, email reminders, Spanish-language texts."
+    ]
+  },
+  {
+    "id": "budget-welcome-email",
+    "language": "en",
+    "prompt": "Write the welcome email people get after signing up for our budgeting app.",
+    "reader": "Someone around thirty who signed up after a stressful month. Has tried budgeting apps before and quit within a week.",
+    "truth": [
+      "The app is called Penny Jar. You log spending by texting the amount to the app’s number, or in the app.",
+      "The first week asks for one thing: log what you spend on food. Nothing else.",
+      "An entry takes about ten seconds.",
+      "On Sunday you get one message with the week’s total.",
+      "Free for the first 30 days, then $4 a month.",
+      "No bank connection is required. Linking an account is optional and comes later.",
+      "The founder is Ray, and he signs the emails himself. This is how he writes: “I built this because every budgeting app I tried wanted me to categorize 300 transactions on day one. I quit all of them.”",
+      "About 8,000 people have signed up. They do not share retention numbers.",
+      "Not available: investment tracking, shared budgets."
+    ]
+  }
+]

@@ -8,7 +8,8 @@ Sigge is a free service from [AC0](https://ac0.ai).
 
 | Ask | What happens |
 | --- | --- |
-| "Write a landing page for our bookkeeping firm." | `write` gathers the brief, picks the frameworks that fit, writes in your voice and checks the draft before you see it. |
+| "Set Sigge up for my business." | `brand` asks what only you know, once, and saves it as a brand file: what you sell, what customers say, what you can prove and how you sound. |
+| "Write a landing page for our bookkeeping firm." | `write` reads the brand file, asks for what is missing, decides on one angle, writes in your voice, edits the draft as a copy chief would and checks it before you see it. |
 | "Check this text for AI patterns." | `check` quotes each empty buzzword, false contrast and throat-clearing opener, and fixes them with the smallest possible edits. |
 | "Review my sales email before I send it." | `review` reads the text as a copy chief would and points to the passages that need work. |
 | "What can Sigge do?" | `start` gives a short introduction. |
@@ -33,6 +34,10 @@ codex plugin add sigge@sigge
 ```
 
 **ChatGPT:** add `https://sigge.si/mcp` as a custom MCP server under Plugins, without sign-in. This gives the tools; the skills need Codex or a workspace that has imported the marketplace.
+
+## The brand file
+
+Copy gets good when it is built from things only your business knows. The first time, Sigge asks for them: your offer and terms, what people hesitate over, what customers have said word for word, and something you wrote yourself. It saves the answers as `sigge-brand.md` in your project folder, or gives you the file to keep in a chat project. Every later text starts from that file, so you are not asked again and the copy sounds like you. The file is yours; edit it whenever you like.
 
 ## What ships with the plugin
 

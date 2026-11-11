@@ -23,7 +23,7 @@ test("anyone can connect to /mcp without an account and use every tool", async (
   await client.connect(new StreamableHTTPClientTransport(new URL(base + "/mcp")));
   t.after(() => client.close());
   const { tools } = await client.listTools();
-  assert.equal(tools.length, 11);
+  assert.equal(tools.length, 12);
   assert.ok(tools.every((tool) => tool.annotations?.readOnlyHint === true));
   const kit = (await client.callTool({ name: "get_writing_kit", arguments: { task: "Write a cold email about our log monitoring tool", channel: "email", language: "en" } })).structuredContent as { frameworks: unknown[]; writingGuide: string };
   assert.ok(kit.frameworks.length > 0);
@@ -38,7 +38,7 @@ test("clients that signed in before the accounts were removed keep working", asy
   const client = new Client({ name: "sigge-legacy-test", version: "1.0.0" });
   await client.connect(new StreamableHTTPClientTransport(new URL(base + "/mcp"), { requestInit: { headers: { Authorization: "Bearer a-token-from-october" } } }));
   t.after(() => client.close());
-  assert.equal((await client.listTools()).tools.length, 11);
+  assert.equal((await client.listTools()).tools.length, 12);
   // A client that renews its token on a timer gets an answer.
   const renewal = await fetch(base + "/api/auth/oauth2/token", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: "grant_type=refresh_token&refresh_token=old" });
   assert.equal(renewal.status, 200);

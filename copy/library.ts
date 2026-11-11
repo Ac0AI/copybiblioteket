@@ -27,6 +27,8 @@ export class CopyLibrary {
     readonly writingGuide: string,
     readonly people: Profile[] = [],
     readonly language: Language = "sv",
+    /** The brand file format, shared by both languages. */
+    readonly brandFile = "",
   ) {
     if (new Set(frameworks.map((f) => f.id)).size !== frameworks.length) throw new Error("Duplicate framework id");
     this.index = new Bm25(frameworks.map((f, id) => ({
@@ -138,7 +140,8 @@ export async function loadCopyLibrary(root = ROOT, sourceDir: string | false = p
   const references = sourceDir ? await loadBrains(sourceDir, people.map(p=>p.id)) : new Map<string, Brain>();
   if (sourceDir && !references.size) throw new Error('No local reference libraries found');
   const guide = await readFile(join(root, "plugins", "sigge", "skills", "write", "references", "swedish.md"), "utf8");
-  const library = new CopyLibrary(frameworks, references, guide, people);
+  const brandFile = await readFile(join(root, "plugins", "sigge", "skills", "write", "references", "brand-file.md"), "utf8");
+  const library = new CopyLibrary(frameworks, references, guide, people, "sv", brandFile);
   const translationsDir = join(root, 'data', 'translations', 'en');
   const frameworkTranslation = frameworkSchema.pick({title:true,author:true,summary:true,useWhen:true,avoidWhen:true,keywords:true,principles:true,questions:true,example:true,choose:true,moves:true,worked:true,mistakes:true});
   const personTranslation = profileSchema.pick({summary:true,topics:true,principles:true,questions:true});
@@ -153,6 +156,7 @@ export async function loadCopyLibrary(root = ROOT, sourceDir: string | false = p
     await readFile(join(root, 'plugins', 'sigge', 'skills', 'write', 'references', 'english.md'), 'utf8'),
     people.map(p => profileSchema.parse({...p, ...translatedPeople[p.id]})),
     'en',
+    brandFile,
   );
   library.setTranslation(english);
   return library;
