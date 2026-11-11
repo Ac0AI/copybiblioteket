@@ -83,13 +83,13 @@ async function owner(task, assistantText) {
         '1. Ställer assistenten frågor: svara kort och vardagligt på just de frågorna, med sådant som står i det du vet. Ber den om ett röstprov, ett kundomdöme eller en befintlig text, klistra in det ordagrant. Vet du inte, säg det.',
         '2. Har assistenten lämnat luckor som [pris]: fyll i dem du kan, och inget annat.',
         '3. Påstår texten något som är fel eller som ni inte erbjuder: säg vad som är fel, en rad per sak, med rätt uppgift om det är en uppgift som är fel. Lägg inte till något annat.',
-        '4. Annars: svara med exakt ordet KLAR och inget annat.',
+        '4. Annars: svara med exakt ordet KLAR och inget annat. Ett erbjudande om mer hjälp (fler versioner, att spara en fil, att sätta upp något) är ingen fråga du behöver svara på; då är du också KLAR.',
         'Bjud aldrig på uppgifter, omdömen eller röstprov som ingen har frågat efter. Du svarar som en människa skulle göra i en chatt, inte med en lista över allt du vet.'].join('\n')
       : ['Rules, in this order:',
         '1. If the assistant asks questions: answer those questions briefly and plainly, with what is in your knowledge. If it asks for a voice sample, a customer review or an existing text, paste it word for word. If you do not know, say so.',
         '2. If the assistant left gaps such as [price]: fill the ones you can, and nothing else.',
         '3. If the copy states something that is wrong or that you do not offer: say what is wrong, one line each, with the right fact if a fact is wrong. Add nothing else.',
-        '4. Otherwise: reply with exactly the word DONE and nothing else.',
+        '4. Otherwise: reply with exactly the word DONE and nothing else. An offer of more help (more versions, saving a file, setting something up) is not a question you need to answer; then you are DONE too.',
         'Never volunteer facts, reviews or voice samples that nobody asked for. You answer the way a person would in a chat, not with a list of everything you know.'].join('\n'),
     (swedish ? 'DET DU VET:\n' : 'WHAT YOU KNOW:\n') + task.truth.map((line) => `- ${line}`).join('\n'),
     (swedish ? 'DIN URSPRUNGLIGA BESTÄLLNING:\n' : 'YOUR ORIGINAL REQUEST:\n') + task.prompt,
@@ -100,9 +100,16 @@ async function owner(task, assistantText) {
   return { text, done: /^(KLAR|DONE)\b/i.test(text) || !text, cost: reply.cost };
 }
 
-async function converse(task, condition, cwd, firstPrompt, flags) {
+// A call that returns nothing is tried once more before the conversation is given up.
+async function say(prompt, options) {
+  const reply = await claude(prompt, options);
+  return reply.failed ? claude(prompt, options) : reply;
+}
+
+async function converse(task, condition, cwd, firstPrompt, flags, { finish = true } = {}) {
+  const swedish = task.language === 'sv';
   const turns = [{ role: 'owner', text: firstPrompt }], tools = []; let cost = 0, seconds = 0, session, rounds = 0, failed = false;
-  let reply = await claude(firstPrompt, { cwd, extra: flags });
+  let reply = await say(firstPrompt, { cwd, extra: flags });
   for (;;) {
     session = reply.session ?? session; cost += reply.cost; seconds += reply.seconds; tools.push(...reply.tools); failed ||= reply.failed;
     turns.push({ role: 'assistant', text: reply.text });
@@ -110,9 +117,18 @@ async function converse(task, condition, cwd, firstPrompt, flags) {
     const answer = await owner(task, reply.text); cost += answer.cost;
     if (answer.done) break;
     rounds += 1; turns.push({ role: 'owner', text: answer.text });
-    reply = await claude(answer.text, { cwd, extra: flags, resume: session });
+    reply = await say(answer.text, { cwd, extra: flags, resume: session });
   }
-  return { turns, tools, cost, seconds, rounds, failed, final: turns.at(-1).text };
+  // The last message of a conversation is often a remark about the latest change, not the text. Every version is
+  // asked the same closing question, so that what gets compared is the copy and nothing else.
+  let copy = turns.at(-1).text;
+  if (finish && !failed) {
+    const ask = swedish ? 'Tack. Skriv ut den slutliga texten i sin helhet, exakt som den ska publiceras, utan kommentarer före eller efter.' : 'Thanks. Print the final copy in full, exactly as it should be published, with no comments before or after.';
+    const last = await say(ask, { cwd, extra: flags, resume: session });
+    cost += last.cost; seconds += last.seconds; failed ||= last.failed; copy = last.text;
+    turns.push({ role: 'owner', text: ask }, { role: 'assistant', text: last.text });
+  }
+  return { turns, tools, cost, seconds, rounds, failed, final: copy };
 }
 
 async function run(task, condition) {
@@ -124,9 +140,11 @@ async function run(task, condition) {
   let setup = null;
   if (condition.endsWith('+brand')) {
     // The owner sets Sigge up once, in an earlier conversation. The task then starts in a folder that already has the brand file.
-    setup = await converse(task, condition, cwd, task.language === 'sv' ? 'Sätt upp Sigge för mitt företag, så att den vet hur vi låter och vad vi säljer.' : 'Set Sigge up for my business, so it knows how we sound and what we sell.', await writerFlags(condition, { files: true }));
+    setup = await converse(task, condition, cwd, task.language === 'sv' ? 'Sätt upp Sigge för mitt företag, så att den vet hur vi låter och vad vi säljer.' : 'Set Sigge up for my business, so it knows how we sound and what we sell.', await writerFlags(condition, { files: true }), { finish: false });
   }
-  const result = { task: task.id, condition, model, ...(await converse(task, condition, cwd, task.prompt, flags)), ...(setup ? { setup } : {}) };
+  // Said the same way to every version: without it, an assistant with file tools builds a web page instead of writing the copy.
+  const request = task.prompt + (task.language === 'sv' ? '\n\nGe mig texten här i chatten, inte som en fil.' : '\n\nGive me the copy here in the chat, not as a file.');
+  const result = { task: task.id, condition, model, ...(await converse(task, condition, cwd, request, flags)), ...(setup ? { setup } : {}) };
   await writeFile(file, JSON.stringify(result, null, 2));
   return result;
 }
