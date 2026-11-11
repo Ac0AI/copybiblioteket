@@ -32,8 +32,10 @@ const tasks = JSON.parse(await readFile(join(HERE, 'tasks.json'), 'utf8')).filte
 
 function claude(prompt, { cwd, extra = [], resume }) {
   return new Promise((done) => {
-    const argv = ['-p', prompt, '--model', model, '--output-format', 'stream-json', '--verbose', ...(settings ? ['--settings', settings] : []), ...(resume ? ['--resume', resume] : []), ...extra];
-    const child = spawn('claude', argv, { cwd, env: { ...process.env, CLAUDE_CONFIG_DIR: configDir }, stdio: ['ignore', 'pipe', 'pipe'] });
+    // The prompt goes in on standard input. As an argument, an answer that starts with a dash is read as an option.
+    const argv = ['-p', '--model', model, '--output-format', 'stream-json', '--verbose', ...(settings ? ['--settings', settings] : []), ...(resume ? ['--resume', resume] : []), ...extra];
+    const child = spawn('claude', argv, { cwd, env: { ...process.env, CLAUDE_CONFIG_DIR: configDir }, stdio: ['pipe', 'pipe', 'pipe'] });
+    child.stdin.end(prompt);
     let buffer = '';
     const timer = setTimeout(() => child.kill('SIGKILL'), 420000);
     child.stdout.on('data', (chunk) => { buffer += chunk; });

@@ -27,9 +27,10 @@ const tasks = JSON.parse(await readFile(join(HERE, 'tasks.json'), 'utf8')).filte
 
 function ask(prompt) {
   return new Promise((done) => {
-    const argv = ['-p', prompt, '--model', model, '--output-format', 'json', ...(settings ? ['--settings', settings] : []), '--strict-mcp-config', '--mcp-config', join(out, 'mcp-none.json'),
+    const argv = ['-p', '--model', model, '--output-format', 'json', ...(settings ? ['--settings', settings] : []), '--strict-mcp-config', '--mcp-config', join(out, 'mcp-none.json'),
       '--disallowedTools', 'Skill', 'Bash', 'Read', 'Write', 'Edit', 'Glob', 'Grep', 'WebSearch', 'WebFetch', 'Agent'];
-    const child = spawn('claude', argv, { cwd: out, env: { ...process.env, CLAUDE_CONFIG_DIR: configDir }, stdio: ['ignore', 'pipe', 'pipe'] });
+    const child = spawn('claude', argv, { cwd: out, env: { ...process.env, CLAUDE_CONFIG_DIR: configDir }, stdio: ['pipe', 'pipe', 'pipe'] });
+    child.stdin.end(prompt);
     let buffer = '';
     child.stdout.on('data', (chunk) => { buffer += chunk; });
     child.on('close', () => {

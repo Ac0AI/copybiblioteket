@@ -1,6 +1,6 @@
 ---
 name: write
-description: Write or rewrite marketing copy that sounds like the brand, in Swedish or English. Use when the user asks for a landing page, sales page, email, newsletter, ad, LinkedIn post, product text, headline or a rewrite of existing copy for a specific reader. Finds out what only the business knows, picks one angle from proven copy frameworks, writes in the sender's voice, then edits the draft the way a copy chief would and checks it for AI-writing patterns. Do not use for code, documentation or legal text.
+description: Write, rewrite or improve any marketing or sales text so that it sounds like the brand, in Swedish or English. Use whenever the user asks for copy or asks to make a text better: a landing page, website text, sales page, sales email, welcome or onboarding email, newsletter, ad, LinkedIn post, product text or headline. Finds out what only the business knows before drafting, picks one angle from proven copy frameworks, writes in the sender's voice, then edits the draft the way a copy chief would and checks it for AI-writing patterns. Do not use for code, documentation or legal text.
 ---
 
 # Write copy with Sigge
@@ -20,9 +20,11 @@ Four things decide the copy. If the brand file and the conversation already answ
 3. **The proof.** What customers have said, word for word, and numbers the business can stand behind.
 4. **The voice.** Something the sender wrote themselves.
 
-Ask for the ones that are missing in one message, at most four short questions, worded for this task. Ask for the thing itself: "paste a review" gets more than "describe your customers." Then wait for the answers. Ask a second time only if something that decides the copy is still missing. If the user wants a draft without answering, write one and mark each gap with a visible placeholder such as `[price]`.
+Ask for the ones that are missing in one message, at most four questions of a line or two each, worded for this task. Ask for the thing itself: "paste a review" gets more than "describe your customers." Then stop and wait for the answers. Do not draft first: a draft full of placeholders gets the gaps filled in and nothing more, and the customers' words and the sender's voice never arrive. Ask a second time only if something that decides the copy is still missing.
 
-A request for one headline or a small edit does not need questions.
+This holds for rewrites too. When the text you are asked to improve contains no facts, the questions are the job.
+
+Write a draft with visible placeholders such as `[price]` only when the user has declined to answer. A request for one headline or a small edit to a text that already has its facts does not need questions.
 
 Never invent proof, testimonials, numbers, prices, scarcity, guarantees, deadlines or customer quotes. What the user has not said or shown does not exist.
 
@@ -52,12 +54,13 @@ Write directly in the output language; do not draft in one language and translat
 
 Go through the draft line by line before anyone sees it.
 
-1. **Facts.** Is every number, name, quote and promise in the material? Cut or mark what is not.
-2. **Portability.** Would this sentence fit unchanged at a competitor? Replace it with something only this business can say, or cut it.
-3. **Doubt.** Is the main doubt answered before the action, with the proof beside it?
-4. **Cut.** Remove warm-up openings, points made twice and adjectives that carry no fact. A draft usually loses a tenth or more.
-5. **Voice.** Read it against the sample. Would the sender say this?
-6. **Patterns.** Check for AI-writing patterns with the first of these that is available: the `check_ai_patterns` tool, `node scripts/check.mjs --lang sv draft.txt` in this skill's folder (`--lang en` for English; it also reads standard input), or the section on AI patterns in the writing guide. Make the minimum edit for each finding.
+1. **Facts.** Is every number, name, quote and promise in the material? Cut or mark what is not. Look hardest at the small claims that slip in while writing: words of scope such as all, every, always, never and everything, generalisations such as "most people worry about this," and details such as whether a customer said something or wrote it. Keep them only if the material says exactly that.
+2. **Used what you were given.** Is the strongest proof in the copy, and are the customers' own words there, next to the doubt they answer? If the user gave you a quote, a number or a voice sample and it is not used, put it in or have a reason.
+3. **Portability.** Would this sentence fit unchanged at a competitor? Replace it with something only this business can say, or cut it.
+4. **Doubt.** Is the main doubt answered before the action, with the proof beside it?
+5. **Cut.** Remove warm-up openings, points made twice and adjectives that carry no fact. A draft usually loses a tenth or more.
+6. **Voice.** Read it against the sample. Would the sender say this?
+7. **Patterns.** Check for AI-writing patterns with the first of these that is available: the `check_ai_patterns` tool, `node scripts/check.mjs --lang sv draft.txt` in this skill's folder (`--lang en` for English; it also reads standard input), or the section on AI patterns in the writing guide. Make the minimum edit for each finding.
 
 For a long or important piece, also apply the relevant checks in [references/chief.md](references/chief.md).
 

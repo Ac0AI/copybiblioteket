@@ -10,6 +10,9 @@ test("a kit gives the working order, at most three fitting frameworks with their
   assert.equal(kit.frameworks[0].id, "hormozi-offer");
   assert.ok(kit.frameworks.length <= 3);
   for (const framework of kit.frameworks) assert.ok(framework.moves.length >= 4 && framework.mistakes.length >= 2, framework.id);
+  // The instruction to ask before drafting comes first, where a client reads it before anything else.
+  assert.equal(Object.keys(kit)[1], "first");
+  assert.match(kit.first, /Skriv inget utkast ännu/);
   assert.equal(kit.steps.length, 6);
   assert.match(kit.steps[0], /Hitta inte på/);
   assert.match(kit.steps[1], /Bestäm dig innan du skriver/);
