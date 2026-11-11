@@ -38,7 +38,7 @@ test("the three manifests describe the same plugin and the same connection", () 
 });
 
 test("every skill is complete on its own and uses only portable frontmatter", () => {
-  assert.deepEqual(skills.sort(), ["check", "review", "start", "write"]);
+  assert.deepEqual(skills.sort(), ["brand", "check", "review", "start", "write"]);
   for (const skill of skills) {
     const dir = join(plugin, "skills", skill), text = readFileSync(join(dir, "SKILL.md"), "utf8");
     const frontmatter = text.match(/^---\n([\s\S]*?)\n---\n/)?.[1] ?? "";

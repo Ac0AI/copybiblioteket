@@ -11,21 +11,28 @@ export type Channel = (typeof channels)[number];
 export type KitInput = { task: string; audience?: string; channel?: Channel; language: Language; person?: string };
 
 // The Swedish guide is always part of the kit, so the framework that summarises it would only repeat it.
-const COVERED_BY_GUIDE = 'swedish-original';
+// The writing guide and the pattern check are always part of the work, so the two cards that describe them would only repeat it.
+const COVERED_BY_GUIDE = new Set(['swedish-original', 'ai-slop-edit']);
 const FALLBACK = ['schwartz-awareness', 'hormozi-offer', 'copy-structure'];
 
 const text = {
   sv: {
     steps: [
-      'Samla underlaget ur samtalet: vem som läser, vad som erbjuds, vad läsaren ska göra härnäst, vilka fakta och villkor som gäller och hur avsändaren låter. Saknas något som avgör texten, ställ högst tre korta frågor och vänta på svar. Är underlaget tillräckligt, skriv direkt.',
-      'Välj en vinkel med hjälp av ramverken nedan: läsarens situation, resultatet som spelar roll, skälet att tro på det och nästa steg. Ramverken styr resonemanget och nämns inte i texten.',
-      'Skriv direkt på svenska enligt skrivguiden, i avsändarens egen röst. Använd bara fakta som användaren har gett. Hitta inte på siffror, kundomdömen, garantier eller tidsgränser.',
-      'Kör check_ai_patterns på utkastet och gör minsta möjliga ändring där något hittas.',
-      'Lämna den färdiga texten först. Lägg sedan till, kort: antaganden du gjort och uppgifter som behöver kontrolleras. Hoppa över den delen om den är tom.',
+      'Läs det som finns: en varumärkesfil i samtalet eller projektet, den nuvarande texten och annat som användaren har pekat på. Fyra saker avgör texten: erbjudandet och villkoren, vad läsaren tvekar över, beläggen (kundernas egna ord och siffror företaget står för) och avsändarens röst. Saknas något av dem, ställ frågorna i ask i ett enda meddelande, högst fyra, och vänta på svar. Be om själva saken: ”klistra in ett omdöme” ger mer än ”beskriv era kunder”. Det användaren inte har sagt eller visat finns inte. Hitta inte på belägg, siffror, omdömen, garantier eller tidsgränser. Vill användaren ha ett utkast utan att svara, märk varje lucka med en synlig platshållare som [pris].',
+      'Bestäm dig innan du skriver, en rad vardera: vem läsaren är och i vilket läge, vad hen redan vet, det enda tvivel som mest sannolikt stoppar hen, vilken uppgift i underlaget som svarar på tvivlet (finns ingen: lova mindre) och den enda handling texten ska leda till. Välj sedan ett eller två grepp ur ramverken nedan med hjälp av tabellen choose. Ramverken nämns inte i texten.',
+      'Skriv. Börja med minst fem rubriker eller öppningar som använder olika grepp, och behåll den som en läsare som skummar skulle stanna vid och som säger något sant och konkret. Ordna resten efter läsarens frågor: vad är det, är det för mig, varför ska jag tro på det, vad kostar det, vad gör jag nu. Lägg belägget intill tvivlet det svarar på, och återge kundernas ord exakt. Skriv direkt på svenska enligt skrivguiden och i avsändarens röst: samma meningslängd, rakhet och humor som i röstprovet, utan att kopiera dess meningar.',
+      'Redigera som en redaktör, rad för rad. Står varje siffra, namn, citat och löfte i underlaget? Skulle meningen passa oförändrad hos en konkurrent? Byt den då mot något bara den här avsändaren kan säga, eller stryk den. Besvaras tvivlet före uppmaningen? Stryk uppvärmning, upprepningar och adjektiv utan fakta. Låter det som avsändaren?',
+      'Kör check_ai_patterns på texten och gör minsta möjliga ändring där något hittas.',
+      'Lämna den färdiga texten först. Lägg sedan till, kort: vinkeln i en mening (vem texten är till för, vilket tvivel den svarar på och med vad) och det användaren behöver kontrollera. Har du lärt dig sådant om företaget som inte står i en varumärkesfil, erbjud en gång att spara det med get_brand_file, så att frågorna inte behöver ställas igen.',
     ],
-    askAudience: 'Vem läser texten, och i vilken situation?',
-    askFacts: 'Vilka fakta och villkor gäller: pris, vad som ingår, tider, belägg? Fråga bara om det inte redan står i samtalet.',
-    askVoice: 'Finns det en text som låter som avsändaren? Be om ett exempel om rösten är oklar.',
+    askAudience: 'Vem läser texten, och i vilket läge är hen?',
+    ask: [
+      'Vad säljer ni, vad kostar det och vad ingår? Vad händer när läsaren har klickat eller hört av sig?',
+      'Vad tvekar folk över innan de köper, och vad frågar de alltid om?',
+      'Vad säger era kunder? Klistra in ett omdöme, ett mejl eller en recension ordagrant. Finns det siffror ni står för, som antal kunder eller år i branschen?',
+      'Klistra in något ni har skrivit själva som låter som ni: ett inlägg, ett mejl eller en skylt.',
+    ],
+    askNote: 'Ställ bara de frågor som samtalet eller varumärkesfilen inte redan har besvarat, högst fyra, och anpassa ordalydelsen till uppgiften.',
     channel: {
       web: 'Webbsida: gör erbjudandet och vem det är till för begripligt högst upp. En huvudhandling. Belägg intill påståendet det stöder. Knappen säger vad som händer vid klick.',
       email: 'Mejl: ämnesrad och brödtext. Ett ärende per mejl och ett tydligt skäl att svara eller klicka. Antyd aldrig en relation eller ett samtal som inte har funnits.',
@@ -41,15 +48,21 @@ const text = {
   },
   en: {
     steps: [
-      'Gather the brief from the conversation: who reads it, what is offered, what the reader should do next, which facts and terms apply, and how the sender sounds. If something that decides the copy is missing, ask at most three short questions and wait. If the brief is enough, write.',
-      'Choose an angle with the frameworks below: the reader\'s situation, the outcome that matters, the reason to believe it and the next step. Frameworks guide the reasoning and are not named in the copy.',
-      'Write directly in English following the writing guide, in the sender\'s own voice. Use only facts the user has given. Do not invent numbers, testimonials, guarantees or deadlines.',
-      'Run check_ai_patterns on the draft and make the minimum edit wherever it finds something.',
-      'Give the finished copy first. Then add, briefly: assumptions you made and details that need checking. Skip that part if it is empty.',
+      'Read what there is: a brand file in the conversation or the project, the current text and anything else the user pointed to. Four things decide the copy: the offer and its terms, what the reader hesitates over, the proof (customers\' own words and numbers the business stands behind) and the sender\'s voice. If any of them is missing, ask the questions in ask in a single message, at most four, and wait for the answers. Ask for the thing itself: “paste a review” gets more than “describe your customers.” What the user has not said or shown does not exist. Do not invent proof, numbers, testimonials, guarantees or deadlines. If the user wants a draft without answering, mark each gap with a visible placeholder such as [price].',
+      'Decide before you draft, one line each: who the reader is and what situation they are in, what they already know, the one doubt most likely to stop them, which fact in the material answers that doubt (if there is none, promise less) and the one action the copy should lead to. Then pick one or two moves from the frameworks below, using the choose table. Frameworks are not named in the copy.',
+      'Draft. Start with at least five headlines or openings that use different moves, and keep the one a skimming reader would stop for and that says something true and specific. Order the rest by the reader\'s questions: what is it, is it for me, why should I believe it, what does it cost, what do I do now. Put the proof next to the doubt it answers, and give customers\' words exactly. Write directly in English following the writing guide and in the sender\'s voice: the same sentence length, directness and humor as the sample, without copying its sentences.',
+      'Edit as a copy chief, line by line. Is every number, name, quote and promise in the material? Would the sentence fit unchanged at a competitor? Then replace it with something only this sender can say, or cut it. Is the doubt answered before the call to action? Cut warm-up openings, repeated points and adjectives that carry no fact. Does it sound like the sender?',
+      'Run check_ai_patterns on the copy and make the minimum edit wherever it finds something.',
+      'Give the finished copy first. Then add, briefly: the angle in one sentence (who the copy is for, which doubt it answers and with what) and what the user needs to check. If you learned things about the business that are not in a brand file, offer once to save them with get_brand_file, so the questions do not have to be asked again.',
     ],
-    askAudience: 'Who reads this, and in what situation?',
-    askFacts: 'Which facts and terms apply: price, what is included, timings, proof? Ask only if they are not already in the conversation.',
-    askVoice: 'Is there a text that sounds like the sender? Ask for a sample if the voice is unclear.',
+    askAudience: 'Who reads this, and what situation are they in?',
+    ask: [
+      'What do you sell, what does it cost and what is included? What happens after the reader clicks or gets in touch?',
+      'What do people hesitate over before they buy, and what do they always ask?',
+      'What do your customers say? Paste a review, an email or a testimonial word for word. Are there numbers you stand behind, such as how many customers you have or how long you have been doing this?',
+      'Paste something you wrote yourselves that sounds like you: a post, an email or a sign.',
+    ],
+    askNote: 'Ask only the questions the conversation or the brand file has not already answered, at most four, and word them for the task.',
     channel: {
       web: 'Web page: make the offer and who it is for clear at the top. One primary action. Proof next to the claim it supports. The button says what happens on click.',
       email: 'Email: subject line and body. One purpose per email and a clear reason to reply or click. Never imply a relationship or conversation that did not happen.',
@@ -68,7 +81,7 @@ const text = {
 export function buildCopyKit(library: CopyLibrary, input: KitInput) {
   const localized = library.forLanguage(input.language), t = text[input.language];
   const query = [input.task, input.audience ?? ''].join(' ');
-  const found = localized.search(query, localized.frameworks.length).results.filter(f => f.id !== COVERED_BY_GUIDE);
+  const found = localized.search(query, localized.frameworks.length).results.filter(f => !COVERED_BY_GUIDE.has(f.id));
   const fallback = FALLBACK.map(id => localized.get(id)).filter(f => f !== null);
   const frameworks = [...found, ...fallback.filter(f => !found.includes(f))].slice(0, 3);
   const chosen = input.person ? localized.getPerson(input.person) : null, people = chosen ? [chosen] : [];
@@ -76,7 +89,8 @@ export function buildCopyKit(library: CopyLibrary, input: KitInput) {
   return {
     language: input.language,
     steps: t.steps,
-    askIfMissing: [...(input.audience ? [] : [t.askAudience]), t.askFacts, t.askVoice],
+    ask: [...(input.audience ? [] : [t.askAudience]), ...t.ask],
+    askNote: t.askNote,
     ...(channel ? { channel } : {}),
     ...(found.length ? {} : { frameworksNote: t.general }),
     // Moves and mistakes are what a framework adds beyond the model's general knowledge. The best match also brings its
@@ -90,4 +104,44 @@ export function buildCopyKit(library: CopyLibrary, input: KitInput) {
     notice: localized.notice.native,
     more: t.more,
   };
+}
+
+// The interview behind a brand file: what only the business knows, asked once and kept by the user.
+const brandInterview = {
+  sv: [
+    'Vad säljer ni, vad kostar det och vad ingår?',
+    'Vad hade oftast just hänt när en kund hörde av sig, och vad oroar sig folk för innan de köper?',
+    'Klistra in två eller tre saker kunder har sagt eller skrivit, ordagrant. Får de citeras, med eller utan namn?',
+    'Vilka siffror står ni för: antal kunder, år i branschen, resultat?',
+    'Vad skulle kunden välja om ni inte fanns, och vad gör ni annorlunda?',
+    'Vad kan ni inte lova, och vad erbjuder ni inte?',
+    'Klistra in två eller tre texter ni har skrivit själva som låter som ni: ett inlägg, ett mejl, en skylt.',
+  ],
+  en: [
+    'What do you sell, what does it cost and what is included?',
+    'What had usually just happened when a customer got in touch, and what do people worry about before they buy?',
+    'Paste two or three things customers have said or written, word for word. May they be quoted, with or without a name?',
+    'What numbers can you stand behind: customers, years, results?',
+    'What would the customer choose if you did not exist, and what do you do differently?',
+    'What can you not promise, and what do you not offer?',
+    'Paste two or three texts you wrote yourselves that sound like you: a post, an email, a sign.',
+  ],
+};
+const brandSteps = {
+  sv: [
+    'Läs först det användaren redan har: webbplatsens text, tidigare texter, omdömen. Be hen klistra in material hellre än beskriva det.',
+    'Ställ frågorna i interview i ett meddelande, bara de som materialet inte besvarar. Följ upp en gång om två eller tre avgörande saker saknas.',
+    'Skriv varumärkesfilen enligt format, på användarens språk och med översatta rubriker. Behåll citat och röstprov ordagrant med källa. Märk antaganden som antaganden. Hitta inte på kunder, siffror eller citat; lämna hellre en rubrik tom och skriv vad som saknas under den sista rubriken.',
+    'Ge hela filen i ett block och säg att användaren ska spara den i projektets kunskap eller instruktioner, eller klistra in den i början av ett samtal. Sigge sparar ingenting.',
+  ],
+  en: [
+    'First read what the user already has: the website copy, earlier texts, reviews. Ask them to paste material rather than describe it.',
+    'Ask the questions in interview in one message, only those the material does not answer. Follow up once if two or three decisive things are missing.',
+    'Write the brand file in the given format, in the user\'s language with translated headings. Keep quotes and voice samples word for word, with their source. Mark assumptions as assumptions. Do not invent customers, numbers or quotes; leave a heading empty and list what is missing under the last heading.',
+    'Give the whole file in one block and tell the user to keep it in the project\'s knowledge or instructions, or to paste it at the start of a conversation. Sigge stores nothing.',
+  ],
+};
+
+export function buildBrandFileKit(library: CopyLibrary, language: Language) {
+  return { language, steps: brandSteps[language], interview: brandInterview[language], format: library.brandFile };
 }

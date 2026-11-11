@@ -74,6 +74,11 @@ test("a real stdio MCP client can discover and use the Swedish copy tools", { ti
     assert.match(kit.steps.join(" "), /check_ai_patterns/);
     assert.match(kit.writingGuide, /Självständig svensk copy/);
     assert.match(kit.channel, /^Webbsida/);
+    const brand = (await client.callTool({ name: "get_brand_file", arguments: { language: "en" } })).structuredContent as { interview: string[]; format: string; steps: string[] };
+    assert.equal(brand.interview.length, 7);
+    assert.match(brand.format, /# Sigge brand file/);
+    assert.match(brand.steps.join(" "), /Sigge stores nothing/);
+    assert.match(kit.steps.join(" "), /get_brand_file/);
     const { prompts } = await client.listPrompts();
     assert.deepEqual(prompts.map((p) => p.name).sort(), ["check", "write"]);
     const prompt = await client.getPrompt({ name: "write", arguments: { task: "A landing page", language: "en" } });

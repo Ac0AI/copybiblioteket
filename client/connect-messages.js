@@ -31,8 +31,8 @@ export const connectMessages = {
   ],
   pluginHeading: ["Installera pluginet", "Install the plugin"],
   pluginIntro: [
-    "Det enklaste sättet. Din AI får färdiga arbetssätt för att skriva, kolla floskler och granska text, och använder dem när du ber om en text.",
-    "The easiest way. Your AI gets ready-made ways of working for writing, checking for AI tells and reviewing copy, and uses them when you ask for a text.",
+    "Det enklaste sättet. Sigge frågar en gång vad ni säljer, vad era kunder säger och hur ni låter, och sparar det. Sedan skriver din AI utifrån det, redigerar som en redaktör och kollar floskler innan du ser texten.",
+    "The easiest way. Sigge asks once what you sell, what your customers say and how you sound, and saves it. After that your AI writes from it, edits like a copy chief and checks for AI tells before you see the text.",
   ],
   clientEasiest: ["Enklast", "Easiest"],
   pluginClaudeWhere: ["Claude på webben, i datorn och i Cowork", "Claude on the web, desktop and in Cowork"],
@@ -49,8 +49,8 @@ export const connectMessages = {
     "Run the command in your terminal, then start a new session.",
   ],
   pluginTry: [
-    "Skriv en landningssida för vår bokföringsbyrå. Fråga mig först om det du behöver veta.",
-    "Write a landing page for our bookkeeping firm. Ask me first for what you need to know.",
+    "Sätt upp Sigge för mitt företag. Skriv sedan en landningssida.",
+    "Set Sigge up for my business. Then write a landing page.",
   ],
   clientsHeading: ["Eller anslut med en adress", "Or connect with one address"],
   clientsIntro: [
