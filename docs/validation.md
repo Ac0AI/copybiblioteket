@@ -91,3 +91,49 @@ Den engelska katalogen var skriven från den svenska och hade svenska företag, 
 Två tester håller det på plats: de engelska exemplen får inte innehålla kronor, svenska företagsnamn eller svenska orter, och den engelska katalogen får inte innehålla brittisk stavning. Citattecknen konverterades med ett skript och kontrollerades för obalanserade par; åtta slumpvis valda meningar lästes.
 
 De amerikanska sakuppgifterna i exemplen är påhittade men ska vara rimliga: en färja till Vineyard Haven på Martha’s Vineyard, kampanjpriser på internetabonnemang som löper ut, personnummer ersatt med Social Security-nummer vid finansiering. Ingen amerikansk läsare har granskat dem.
+
+## Varumärkesfil, frågor före utkast och redigering, 11 november 2026
+
+Jämförelsen från den 10 november visade att ramverken inte gjorde texterna märkbart bättre. Den jämförelsen var dessutom orättvis åt andra hållet: uppgiften sa åt skribenten att inte ställa frågor, och det är frågorna som visade sig göra skillnaden. Det som avgör en text är det bara företaget vet. Därför ändrades arbetsordningen: `write` och `get_writing_kit` frågar efter erbjudande, tvivel, belägg och röst innan första utkastet, bestämmer läsare, tvivel och svar före skrivandet och redigerar utkastet som en redaktör. Färdigheten `brand` och verktyget `get_brand_file` samlar samma saker en gång i `sigge-brand.md`. Pluginet har nu fem färdigheter och servern tolv verktyg.
+
+### Hur det mättes
+
+`evaluations/compare` spelar upp sex uppgifter som samtal: fyra svenska (landningssida för en städfirma, säljmejl för en fakturatjänst, omskrivning av en floskeltext för en cykelverkstad, LinkedIn-inlägg för en byrå) och två amerikanska (landningssida för ett påminnelseverktyg för tandläkare, välkomstmejl för en budgetapp). Varje uppgift är en kort förfrågan, så som folk skriver, plus det ägaren vet men inte har sagt: priser, gränser, kundomdömen ordagrant och hur ägaren själv skriver. En simulerad ägare svarar på frågor ur den kunskapen, rättar fel och säger inget självmant. Alla versioner får samma avslutande begäran om den färdiga texten.
+
+En domare (en starkare modell än skribenten) jämför texterna två och två utan att veta vilken version som skrev vilken, två gånger med omvänd ordning. En version vinner en uppgift bara om båda ordningarna är överens. Domaren får veta vad ägaren vet och listar varje uppgift i texten som saknar stöd där.
+
+### Resultat
+
+Skribent `sonnet`, domare `opus`, sex uppgifter, slutlig version av färdigheterna.
+
+| Jämförelse | Vinster | Påhittade uppgifter per text |
+| --- | --- | --- |
+| Ny Sigge mot ingen Sigge | 6–0 | 0–3 mot 2–11 |
+| Ny Sigge mot Sigge från den 10 november | 5–0, en oavgjord | 0–2 mot 0–7 |
+| Ny Sigge med varumärkesfil mot ingen Sigge | 6–0 | 0–1 mot 2–9 |
+| Ny Sigge med varumärkesfil mot Sigge från den 10 november | 6–0 | 0–1 mot 0–6 |
+| Otålig ägare som vägrar svara på frågor: ny Sigge mot ingen Sigge | 6–0 | 0–1 mot 0–14 |
+| Starkare skribent (`opus`), tre uppgifter: ny Sigge mot ingen Sigge | 3–0 | 2–5 mot 4–16 |
+
+Domarens betyg (1–5, medel över uppgifterna) för ny Sigge mot ingen Sigge: svarar på läsarens tvivel 4,6 mot 2,8, konkret 4,9 mot 2,9, trovärdig 4,8 mot 3,0, låter som avsändaren 4,8 mot 2,0, naturligt språk 4,0 mot 2,4. Raderna med varumärkesfil och raden med starkare skribent kommer från körningar före de sista justeringarna; de övriga från den slutliga versionen.
+
+Sigge från den 10 november slog ingen Sigge i fyra av sex uppgifter. Vinsten med den nya versionen kommer alltså mest från frågorna, besluten och redigeringen, inte från ramverken.
+
+### Det som gick fel på vägen
+
+Tre fel hittades genom att läsa de förlorade texterna, och de lagades innan resultaten ovan:
+
+- Modellen hoppade över färdigheten, anropade verktyget direkt och skrev ett utkast med platshållare. Då fylldes luckorna i och kundernas ord kom aldrig med. Skrivkitet börjar nu med en spärr mot utkast innan frågorna är ställda.
+- När ägaren vägrade svara hittade Sigge på hur företaget arbetar ("lämna in cykeln hos oss" för en verkstad som hämtar hemma) och produktfunktioner som inte finns. Luckor skrivs nu som frågor inom hakparentes, och det som ingen har sagt beskrivs inte. Före lagningen: 5–1 och upp till tio påhittade uppgifter i en text. Efter: 6–0 och högst en.
+- När ägaren inte visste vad kunderna tvekar över lät Sigge frågan falla och texten svarade inte på något tvivel. Sigge föreslår nu de troliga tvivlen och frågar vad som gäller.
+
+### Vad resultatet inte visar
+
+- Domaren är en språkmodell som läser som en redaktör. Den vet inte vilken text som säljer mer. Ingen riktig läsare har agerat på texterna.
+- Sex uppgifter är få, och färdigheterna har justerats efter just de här uppgifterna. Det finns ingen uppsättning uppgifter som hållits undan, så siffrorna är troligen något för bra.
+- Ägaren är simulerad och har alltid bra material: ett omdöme, en siffra, ett röstprov. Ett företag utan kunder eller omdömen har mindre att ge, och då blir skillnaden mindre.
+- Skribenten och domaren kommer från samma leverantör. Andra assistenter är inte provade i jämförelsen.
+- De små påhitten som finns kvar är mest formuleringar som gör en uppgift lite starkare än underlaget, till exempel "från 795 kr" när priset är 795 kr. Listan **Kontrollera** efter texten finns för dem, men den ersätter inte att ägaren läser texten.
+- Frågorna kostar användaren ett svar till. Den som bara vill ha en text direkt får den, men den blir kortare och har frågor inom hakparentes.
+
+`claude plugin validate` godkände marketplace-filen och pluginet med `--strict` efter ändringarna, och `npm run build` kör 55 tester.

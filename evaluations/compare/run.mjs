@@ -26,6 +26,9 @@ const conditions = String(args.conditions ?? 'bare,new').split(',');
 const model = String(args.model ?? 'sonnet');
 const parallel = Number(args.parallel ?? 6);
 const maxRounds = Number(args.rounds ?? 2);
+// --owner impatient: the owner will not answer questions, only fill gaps and correct mistakes. It shows what a
+// version that asks is worth when the person on the other side refuses to be interviewed.
+const impatient = args.owner === 'impatient';
 const configDir = args.config ? resolve(String(args.config)) : join(out, 'claude-config');
 const settings = args.settings ? resolve(String(args.settings)) : null;
 const tasks = JSON.parse(await readFile(join(HERE, 'tasks.json'), 'utf8')).filter((task) => !args.tasks || String(args.tasks).split(',').includes(task.id));
@@ -82,13 +85,13 @@ async function owner(task, assistantText) {
       : 'You are playing a business owner who asked an AI assistant for a piece of copy. You are short on time. Below is everything you know about your business, followed by the assistant’s latest reply.',
     swedish
       ? ['Regler, i den här ordningen:',
-        '1. Ställer assistenten frågor: svara kort och vardagligt på just de frågorna, med sådant som står i det du vet. Ber den om ett röstprov, ett kundomdöme eller en befintlig text, klistra in det ordagrant. Vet du inte, säg det.',
+        impatient ? '1. Ställer assistenten frågor utan att ha lämnat någon text: svara bara ”Jag har inte tid med frågor. Skriv något jag kan använda.” och inget annat.' : '1. Ställer assistenten frågor: svara kort och vardagligt på just de frågorna, med sådant som står i det du vet. Ber den om ett röstprov, ett kundomdöme eller en befintlig text, klistra in det ordagrant. Vet du inte, säg det.',
         '2. Har assistenten lämnat luckor som [pris]: fyll i dem du kan, och inget annat.',
         '3. Påstår texten något som är fel eller som ni inte erbjuder: säg vad som är fel, en rad per sak, med rätt uppgift om det är en uppgift som är fel. Lägg inte till något annat.',
         '4. Annars: svara med exakt ordet KLAR och inget annat. Ett erbjudande om mer hjälp (fler versioner, att spara en fil, att sätta upp något) är ingen fråga du behöver svara på; då är du också KLAR.',
         'Bjud aldrig på uppgifter, omdömen eller röstprov som ingen har frågat efter. Du svarar som en människa skulle göra i en chatt, inte med en lista över allt du vet.'].join('\n')
       : ['Rules, in this order:',
-        '1. If the assistant asks questions: answer those questions briefly and plainly, with what is in your knowledge. If it asks for a voice sample, a customer review or an existing text, paste it word for word. If you do not know, say so.',
+        impatient ? '1. If the assistant asks questions without having delivered any copy: reply only “I don’t have time for questions. Write something I can use.” and nothing else.' : '1. If the assistant asks questions: answer those questions briefly and plainly, with what is in your knowledge. If it asks for a voice sample, a customer review or an existing text, paste it word for word. If you do not know, say so.',
         '2. If the assistant left gaps such as [price]: fill the ones you can, and nothing else.',
         '3. If the copy states something that is wrong or that you do not offer: say what is wrong, one line each, with the right fact if a fact is wrong. Add nothing else.',
         '4. Otherwise: reply with exactly the word DONE and nothing else. An offer of more help (more versions, saving a file, setting something up) is not a question you need to answer; then you are DONE too.',

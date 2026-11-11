@@ -22,11 +22,24 @@ Four things decide the copy. If the brand file and the conversation already answ
 
 Ask for the ones that are missing in one message, at most four questions of a line or two each, worded for this task. Ask for the thing itself: "paste a review" gets more than "describe your customers." Then stop and wait for the answers. Do not draft first: a draft full of placeholders gets the gaps filled in and nothing more, and the customers' words and the sender's voice never arrive. Ask a second time only if something that decides the copy is still missing.
 
+If the user does not know what the reader doubts, do not let it drop. Name the two or three doubts a reader of this kind usually has and ask what is true about each: "Offices tend to ask about HIPAA and whether patients can opt out. What is the case for you?" You can guess the doubts. Only the business has the answers.
+
 This holds for rewrites too. When the text you are asked to improve contains no facts, the questions are the job.
 
-Write a draft with visible placeholders such as `[price]` only when the user has declined to answer. A request for one headline or a small edit to a text that already has its facts does not need questions.
+A request for one headline or a small edit to a text that already has its facts does not need questions.
 
-Never invent proof, testimonials, numbers, prices, scarcity, guarantees, deadlines or customer quotes. What the user has not said or shown does not exist.
+Never invent proof, testimonials, numbers, prices, scarcity, guarantees, deadlines or customer quotes. What the user has not said or shown does not exist. That includes how the business works: what the product does, which features it has, how a customer orders, gets served or pays. A sentence such as "bring it in and we will quote before we start" is a claim about the business, as much as a price is.
+
+### When the user will not answer
+
+Write the draft anyway, from what you have been told and nothing else.
+
+- **Keep it short.** A draft without the facts cannot carry a long page. Write the parts the material supports and leave the rest out.
+- **A gap is a question in brackets.** Write `[How does a customer get the bike to you?]`, not a guess with a note to delete it if it is wrong. People fill in brackets and read past sentences, so a guess stays in the copy.
+- **Do not describe what you do not know.** No steps, features, opening hours or "how it works" section unless the user has said how it works.
+- **Say what would help most.** Under "To check," name the two missing things that would improve the copy most. Usually that is one customer quote and one thing the sender wrote.
+
+When the user fills the gaps in, treat the answers as new material and not as values to paste. Go through steps 3 to 5 again: the answers often change the offer the draft assumed, and every sentence around a filled gap has to be true with the answer in it.
 
 ## 3. Decide before you draft
 
@@ -54,10 +67,10 @@ Write directly in the output language; do not draft in one language and translat
 
 Go through the draft line by line before anyone sees it.
 
-1. **Facts.** Is every number, name, quote and promise in the material? Cut or mark what is not. Look hardest at the small claims that slip in while writing: words of scope such as all, every, always, never and everything, generalisations such as "most people worry about this," and details such as whether a customer said something or wrote it. Keep them only if the material says exactly that.
+1. **Facts.** Is every number, name, quote and promise in the material, and every statement about what the product does and how the business works? Cut or mark what is not. Look hardest at the small claims that slip in while writing: words of scope such as all, every, always, never and everything, generalisations such as "most people worry about this," and details such as whether a customer said something or wrote it. Keep them only if the material says exactly that.
 2. **Used what you were given.** Is the strongest proof in the copy, and are the customers' own words there, next to the doubt they answer? If the user gave you a quote, a number or a voice sample and it is not used, put it in or have a reason.
 3. **Portability.** Would this sentence fit unchanged at a competitor? Replace it with something only this business can say, or cut it.
-4. **Doubt.** Is the main doubt answered before the action, with the proof beside it?
+4. **Doubt.** Is the main doubt answered before the action, with the proof beside it? If the material holds no answer to it, ask the user for that one fact before you deliver.
 5. **Cut.** Remove warm-up openings, points made twice and adjectives that carry no fact. A draft usually loses a tenth or more.
 6. **Voice.** Read it against the sample. Would the sender say this?
 7. **Patterns.** Check for AI-writing patterns with the first of these that is available: the `check_ai_patterns` tool, `node scripts/check.mjs --lang sv draft.txt` in this skill's folder (`--lang en` for English; it also reads standard input), or the section on AI patterns in the writing guide. Make the minimum edit for each finding.

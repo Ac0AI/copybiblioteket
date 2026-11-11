@@ -1,6 +1,6 @@
 {
   "name": "sigge",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Write copy that sounds like you, in Swedish or English. Thirteen copy frameworks, writing guides and a check for AI-writing patterns. No account needed.",
   "author": { "name": "AC0 AI", "email": "hej@sigge.si", "url": "https://ac0.ai" },
   "homepage": "https://sigge.si",

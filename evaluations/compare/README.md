@@ -16,6 +16,8 @@ Conditions: `bare` is the assistant without Sigge, `current` is the plugin and s
 
 Both scripts need the `claude` CLI. `--model` chooses the writer (default `sonnet`) and the judge (default `opus`). `--settings` takes a settings file, which is how other installed plugins are switched off so that they do not write the text instead. Finished conversations are kept; pass `--force` to run them again.
 
+`--owner impatient` makes the owner refuse to be interviewed: they answer questions with “I don’t have time for questions” and only fill gaps in a draft or correct mistakes. Run it too. A version that depends on getting answers looks better than it is with a cooperative owner, and this is where it shows.
+
 ## What the result means
 
 The judge is a language model reading as a copy chief. It is told what the owner knows, so it can list invented facts, and it scores how well the text answers the reader's doubt, how specific and believable it is, and whether it sounds like the sender. It does not know which text sells more, and neither do we until a real reader has acted on it. Six tasks are also few: treat a result of four wins to two as a hint and five or six to nothing as a finding. Read the texts and the judge's reasons in the output folder before changing anything because of the numbers.
